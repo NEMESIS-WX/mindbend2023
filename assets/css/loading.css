@@ -1,0 +1,95 @@
+.loading-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #0e0e0e;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease-in-out;
+}
+.loading {
+  position: relative;
+  transform: rotate(-60deg);
+  scale: 5;
+}
+.loading span {
+  position: absolute;
+  border: solid 10px transparent;
+  border-top-width: 6px;
+  border-bottom-width: 6px;
+  display: block;
+  transform: translate(-50%, -50%);
+}
+.loading .outer span {
+  width: 50px;
+  height: 26px;
+  animation: loading 3000ms infinite;
+}
+.loading .outer span:nth-child(1) {
+  animation-delay: 0s;
+}
+.loading .outer span:nth-child(2) {
+  transform: translate(-50%, -50%) rotate(60deg);
+  animation-delay: 500ms;
+}
+.loading .outer span:nth-child(3) {
+  transform: translate(-50%, -50%) rotate(120deg);
+  animation-delay: 1000ms;
+}
+.loading .inner span {
+  width: 24px;
+  height: 11px;
+  animation: loading 1500ms infinite;
+}
+.loading .inner span:nth-child(1) {
+  animation-delay: 500ms;
+}
+.loading .inner span:nth-child(2) {
+  transform: translate(-50%, -50%) rotate(60deg);
+  animation-delay: 250ms;
+}
+.loading .inner span:nth-child(3) {
+  transform: translate(-50%, -50%) rotate(120deg);
+  animation-delay: 0s;
+}
+
+@keyframes loading {
+  0% {
+    border-left-color: transparent;
+    border-right-color: white;
+  }
+  30% {
+    border-left-color: transparent;
+    border-right-color: transparent;
+  }
+  50% {
+    border-left-color: transparent;
+    border-right-color: transparent;
+  }
+  50.00001% {
+    border-left-color: white;
+    border-right-color: transparent;
+  }
+  80% {
+    border-left-color: transparent;
+    border-right-color: transparent;
+  }
+  100% {
+    border-left-color: transparent;
+    border-right-color: transparent;
+  }
+}
+
+.welcome {
+  font-family: Tenika, sans-serif;
+  font-size: 1rem;
+  position: fixed;
+  bottom: 5rem;
+  color: #fff;
+  z-index: 100;
+}

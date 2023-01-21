@@ -1,0 +1,393 @@
+@font-face {
+  font-family: Ethnocentric;
+  src: url("/fonts/ethnocentric\ rg.otf");
+}
+
+@font-face {
+  font-family: Knowyour;
+  src: url("/fonts/knowyour.ttf");
+}
+
+@font-face {
+  font-family: Tenika;
+  src: url("/fonts/Tenika.ttf");
+}
+
+@font-face {
+  font-family: Mechanismo;
+  src: url("/fonts/Mechanismo.otf");
+}
+
+@font-face {
+  font-family: major_shift;
+  src: url("/fonts/major_shift.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Tenika;
+  position: relative;
+}
+
+* a {
+  text-decoration: none;
+  color: #fff;
+}
+
+html {
+  overflow-x: hidden;
+  position: relative;
+}
+
+body {
+  width: 100vw;
+  min-height: 100vh;
+  height: auto;
+  background: #0e0e0e;
+  /* background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%); */
+  position: relative;
+  overflow-x: hidden !important;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5rem;
+  background: #000;
+  background-size: 50% auto;
+  border-radius: 0 0 20px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  z-index: 100;
+  opacity: 0;
+}
+.appear {
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
+
+.navbar {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: 700;
+  font-family: Tenika;
+  /* height: 80%; */
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.9rem;
+  margin: 0 0.5rem;
+  /* background: rgba(255, 255, 255, 0.118); */
+  background-image: url("/images/bgs/metal-net.jpg");
+  background-size: auto 200%;
+}
+.left-nav,
+.right-nav,
+#mindbend {
+  height: 100%;
+  width: 33.33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left-nav a {
+  position: absolute;
+  background: transparent;
+  left: -5%;
+  margin: 0;
+  padding: 0;
+}
+
+.left-nav img {
+  margin: 0 2rem;
+  height: 105%;
+  object-fit: cover;
+  object-position: center;
+}
+
+#mindbend {
+  font-size: 2rem;
+  font-family: Mechanismo;
+  background: linear-gradient(
+    to right,
+    #fff 20%,
+    #33d8f4 40%,
+    #33d8f4 60%,
+    #fff 80%
+  );
+  background-size: 200% auto;
+  color: #000;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 3s linear infinite;
+}
+@keyframes shine {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.right-nav {
+  justify-content: flex-end;
+  padding: 1rem;
+}
+
+.right-nav a {
+  box-shadow: 2px 2px 0px 1.5px rgba(255, 255, 255, 0.358);
+}
+
+.right-nav a:hover {
+  background: #fff;
+  color: #111111;
+  box-shadow: 0 0 20px 2px #33d8f4;
+}
+
+.mini-nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 5rem 0;
+  padding-left: 1rem;
+  background: #111111cd;
+  backdrop-filter: blur(5px);
+  transform: translateX(100%);
+  transition: all 0.2s ease-in-out;
+}
+
+.active {
+  transform: translateX(0);
+}
+
+.mini-nav a {
+  width: min(100%, 40rem);
+  height: 3rem;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 1rem;
+  margin: 1rem 0;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 200;
+  background: #fff;
+  color: #111111;
+  border-radius: 0px;
+  clip-path: polygon(
+    0 0,
+    0 100%,
+    80% 100%,
+    72% 0,
+    74% 0,
+    82% 100%,
+    90% 100%,
+    82% 0,
+    84% 0,
+    92% 100%,
+    100% 100%,
+    92% 0
+  );
+}
+
+.mini-nav a:hover {
+  background: #33d8f4;
+}
+
+.mini-nav #campamb {
+  height: auto;
+  font-size: 1.3rem;
+  padding: 0.5rem 1rem;
+}
+
+.burger {
+  height: 3rem;
+  width: 3rem;
+  margin: 0 2rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 200;
+}
+
+.burger svg {
+  height: 3rem;
+  fill: #fff;
+}
+
+canvas {
+  position: absolute;
+  top: 100vh;
+  left: 0;
+  z-index: 0;
+  height: 100vh;
+  pointer-events: none;
+}
+
+#snow-mountain {
+  position: absolute;
+  bottom: 0 !important;
+  left: 0;
+  width: 100%;
+  z-index: 0;
+  pointer-events: none;
+}
+
+footer {
+  position: absolute;
+  bottom: 0rem;
+  left: 0;
+  width: 100%;
+  height: 10rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 1rem;
+  z-index: 25;
+  background: linear-gradient(
+    to top,
+    #000 0%,
+    #000 20%,
+    rgba(17, 17, 17, 0) 70%
+  );
+}
+
+footer div {
+  width: 33.33% !important;
+}
+
+.powered {
+  height: 5rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.powered p {
+  color: white;
+}
+
+.powered img {
+  height: 2rem;
+  margin: 0 0.5rem;
+  border-radius: 10px;
+}
+
+.copy-rights {
+  height: 5rem;
+  font-size: 1rem;
+  color: #33d8f4;
+  font-weight: 400;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.copy-rights p {
+  font-size: 1rem;
+  color: #33d8f4;
+  font-weight: 400;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.copy-rights p:hover {
+  color: #fff;
+}
+
+.social {
+  height: 3rem;
+  width: 15rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.social a {
+  margin: 0 1rem;
+}
+
+.social svg {
+  transform: scale(1.5);
+  fill: white;
+  transition: all 0.2s ease-in-out;
+}
+
+.social svg:hover {
+  transform: scale(2);
+  fill: #33d8f4;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* button */
+::-webkit-scrollbar-button {
+  background: #222;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #333;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #33d8f4;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #000;
+}
+
+/* Corner */
+::-webkit-scrollbar-corner {
+  background: #999;
+}
+
+/* Resizer */
+::-webkit-resizer {
+  background: #111;
+}
+
+.scrollmagic-pin-spacer {
+  pointer-events: none;
+}
+
+::-moz-selection {
+  color: rgb(255, 255, 255);
+  background: #33d8f4;
+}
+
+::selection {
+  color: rgb(255, 255, 255);
+  background: #33d8f4;
+}

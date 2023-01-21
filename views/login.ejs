@@ -1,0 +1,39 @@
+<%- include('partials/header') %>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <img 
+                    src="/images/campAmb1.jpg" 
+                    alt="Campus ambassador: courtesy freepik"
+                    style="object-fit: contain; width: 100%; height: auto;" /> 
+            </div>
+            <div class="col-md-4">
+                <br>
+                <h2 class="text-center mt-md-5">Login</h2>
+                <% if(error) { %>
+                    <div class="alert alert-danger"><%= error %></div>
+                <% } %>
+                <form action="/campusAmbassador/login" method="post">
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-5">
+                        <label for="exampleInputPassword1" class="form-label">Password</label>
+                        <input type="password" name="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                      <button type="submit" class="btn btn-primary container">Login</button>
+                      <br />
+                      <br />
+                      <div class="text-center">
+                          Don't have an account ? <a href="/campusAmbassador/signUp" class="text-primary">Sign Up</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+<footer style="position: absolute; bottom: 10px; left: 10px;">
+    Powered by <a href="https://www.wictronix.com">WictroniX</a>
+</footer>
+</html>

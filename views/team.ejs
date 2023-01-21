@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('partials/head', {description:`MINDBEND is Gujarat's largest
+  Techno-Managerial Fest, which is entirely organized by the SVNIT student body
+  and serves as the perfect rocket launch-pad for all the tech-enthusiasts out
+  there!`, keywords: `MINDBEND, TECHNO-FEST, SVNIT, NIT-SURAT, NATIONAL-EVENT`,
+  style: `team`, title: `MINDBEND 2023 | TEAM`, });%>
+
+  <body>
+    <img id="bg" src="/images/bgs/team.png" alt="" />
+
+    <%- include(`partials/loading`)%> <%- include(`partials/nav`,
+    {appear:`appear`})%>
+    <div class="bg-cover"></div>
+    <main>
+      <div class="heading">
+        <p>TEAM</p>
+        <p>TEAM</p>
+        TEAM
+        <p>TEAM</p>
+        <p>TEAM</p>
+      </div>
+
+      <!-- Commitees -->
+      <!-- Faculty Advisors -->
+      <div class="commitee">
+        <h1>Faculty Advisors</h1>
+        <div class="team-cards-container">
+          <% team.forEach(function(e){ %> <% if(e.position === "chairman"){ %>
+          <div class="card-container">
+            <div class="card">
+              <div
+                class="cardBg"
+                style="background-image: url('<%= e.photo%>')"
+              ></div>
+              <div class="cardInfo">
+                <h3 class="cardTitle"><%= e.name%></h3>
+                <h4 id="commitee"><%= e.position%></h4>
+                <p id="mail"><%= e.mail%></p>
+                <p id="phone"><%= e.phone%></p>
+              </div>
+            </div>
+          </div>
+          <%}%> <%});%>
+        </div>
+        <div class="team-cards-container">
+          <% team.forEach(function(e){ %> <% if(e.commitee ===
+          "Faculty-Advisors" && e.position!="chairman"){ %>
+          <div class="card-container">
+            <div class="card">
+              <div
+                class="cardBg"
+                style="background-image: url('<%= e.photo%>')"
+              ></div>
+              <div class="cardInfo">
+                <h3 class="cardTitle"><%= e.name%></h3>
+                <h4 id="commitee"><%= e.position%></h4>
+                <p id="mail"><%= e.mail%></p>
+                <p id="phone"><%= e.phone%></p>
+              </div>
+            </div>
+          </div>
+          <%}%> <%});%>
+        </div>
+      </div>
+
+      <!-- CCAS -->
+      <div class="commitee">
+        <h1>CCAS</h1>
+        <div class="team-cards-container">
+          <% team.forEach(function(e){ %> <% if(e.commitee === "CCAS"){ %>
+          <div class="card-container">
+            <div class="card">
+              <div
+                class="cardBg"
+                style="background-image: url('<%= e.photo%>')"
+              ></div>
+              <div class="cardInfo">
+                <h3 class="cardTitle"><%= e.name%></h3>
+                <p id="mail"><%= e.mail%></p>
+                <p id="phone"><%= e.phone%></p>
+              </div>
+            </div>
+          </div>
+          <%}%> <%});%>
+        </div>
+      </div>
+
+      <!-- Joint CCAS -->
+      <div class="commitee">
+        <h1>Joint CCAS</h1>
+        <div class="team-cards-container">
+          <% team.forEach(function(e){ %> <% if(e.commitee === "Joint CCAS"){ %>
+          <div class="card-container">
+            <div class="card">
+              <div
+                class="cardBg"
+                style="background-image: url('<%= e.photo%>')"
+              ></div>
+              <div class="cardInfo">
+                <h3 class="cardTitle"><%= e.name%></h3>
+                <p id="mail"><%= e.mail%></p>
+                <p id="phone"><%= e.phone%></p>
+              </div>
+            </div>
+          </div>
+          <%}%> <%});%>
+        </div>
+      </div>
+
+      <!-- Conveners -->
+      <div class="commitee">
+        <h1>Conveners</h1>
+        <div class="team-cards-container">
+          <% team.forEach(function(e){ %> <% if(e.commitee === "Conveners"){ %>
+          <div class="card-container">
+            <div class="card">
+              <div
+                class="cardBg"
+                style="background-image: url('<%= e.photo%>')"
+              ></div>
+              <div class="cardInfo">
+                <h3 class="cardTitle"><%= e.name%></h3>
+                <p id="mail"><%= e.mail%></p>
+                <p id="phone"><%= e.phone%></p>
+              </div>
+            </div>
+          </div>
+          <%}%> <%});%>
+        </div>
+      </div>
+
+      <!-- Managers -->
+      <div class="commitee">
+        <h1>Managers</h1>
+        <div class="team-cards-container">
+          <% let i=15;%> <% while(i!=team.length){ %>
+          <div class="card-container">
+            <div class="card">
+              <div
+                class="cardBg"
+                style="background-image: url('<%= team[i].photo%>')"
+              ></div>
+              <div class="cardInfo">
+                <h3 class="cardTitle"><%= team[i].name%></h3>
+                <h4 id="commitee"><%= team[i].commitee%></h4>
+                <p id="mail"><%= team[i].mail%></p>
+                <p id="phone"><%= team[i].phone%></p>
+              </div>
+            </div>
+          </div>
+          <%i++;%> <%};%>
+        </div>
+      </div>
+    </main>
+    <%- include(`partials/footer`)%> <%- include(`partials/scripts`)%>
+  </body>
+</html>

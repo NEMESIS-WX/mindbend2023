@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('partials/head', {description:`MINDBEND is Gujarat's largest
+  Techno-Managerial Fest, which is entirely organized by the SVNIT student body
+  and serves as the perfect rocket launch-pad for all the tech-enthusiasts out
+  there!`, keywords: `MINDBEND, TECHNO-FEST, SVNIT, NIT-SURAT, NATIONAL-EVENT`,
+  style: `event`, title: `MINDBEND 2023 | ${event.name.toUpperCase()}`, });%>
+  <body>
+    <%- include(`partials/loading`)%>
+    <%- include(`partials/nav`, {appear:`appear`})%>
+        
+    <main>
+     <!-- write here -->
+     <img id="bg" src="/images/bgs/filewall.png" alt="" />
+
+     <div id="event_container" class="container">
+      <div class="sub-container-1">
+        <div class="img-container">
+          <img src="<%= event.image %>" alt="">
+        </div>
+        <div class="about">
+          <h2 class="name"><%= event.name  %></h2>
+          <p ><%= event.about  %></p>
+          <div class="prize">
+            <p>PRIZES</p>
+            <ul>
+              <li>
+                <p>1st : <%= event.prize[0]%></p>
+              </li>
+              <li>
+                <p>2nd : <%= event.prize[1]%></p>
+              </li>
+              <li>
+                <p>3rd : <%= event.prize[2]%></p>
+              </li>
+            </ul>
+          </div>
+            <a href="#">Register Here</a>
+        </div>
+      </div>
+      <div class="sub-container-2">
+        <input type="radio" name="tabs" id="tab_3"/>
+        <label for="tab_3">
+          <div class="content">
+            <div class="contacts">
+              <% event.contacts.forEach(function(e,id){ %>
+                <div class="contact">
+                  <h2><%=e.name%></h2>
+                  <p><%=e.email%></>
+                  <p><%=e.phone%></>
+                </div>
+                <% }); %>
+            </div>
+          </div>
+        </label>
+        <input type="radio" name="tabs" id="tab_2"/>
+        <label for="tab_2">
+          <div class="content">
+            <div class="acc-container">
+              <% event.faqs.forEach(function(e,id){ %>
+              <button class="acc-btn"><%=id+1%>. <%=e.q%></button>
+              <div class="acc-content">
+                <p>
+                  A. <%=e.a%>
+                </p>
+              </div>
+              <% }); %>
+            </div>
+          </div>
+        </label>
+        <input type="radio" name="tabs" id="tab_1"/>
+        <label for="tab_1">
+          <div class="content">
+            <ul class="rules">
+              <% event.rules.forEach(function(e,id){ %>
+                <li><p><%=e%></p></li>
+                <% }); %>
+            </ul>
+          </div>
+        </label>
+        <input type="radio" name="tabs" id="tab_0"/>
+        <label for="tab_0">
+          <div class="content"><%- event.details  %>
+            <p><%= event.timeline  %></p></div>
+        </label>
+      </div>
+     </div>
+     
+    </div>
+  </main>
+    <%- include(`partials/footer`)%>
+
+    <%- include(`partials/scripts`)%>
+<script>
+  const btns = document.querySelectorAll(".acc-btn");
+  function accordion() {
+    this.classList.toggle("is-open");
+    const content = this.nextElementSibling;
+    if (content.style.maxHeight) content.style.maxHeight = null;
+    else content.style.maxHeight = content.scrollHeight + "px";
+  }
+btns.forEach((el) => el.addEventListener("click", accordion));
+</script>
+  </body>
+</html>

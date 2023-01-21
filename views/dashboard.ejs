@@ -1,0 +1,73 @@
+<%- include("partials/header.ejs") %>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <br>
+          <h2>Hello, <%= user.name %></h2>
+          <p>Welcome to you dashboard</p>
+          <br>
+          <div class="bg-primary shadow rounded text-white p-3 p-md-4">
+            <div>
+              <h3>You have been referred</h3>
+              <h2 class="fw-bold my-2"><%= user.nReferred %></h2>
+              times so far
+            </div>
+          </div>
+          <br>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+
+              <h4>Your referral code is:</h4>
+              <h3 class="text-primary mt-2"><%= user.referralCode %></h3>
+              <br>
+              <div class="text-muted">
+                Share it with your friends to get more referrals <br> and climb up the leaderboard.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-8">
+          <div class="mt-2">
+            Welcome to the campus ambassador portal of MindBend. 
+            Here, you'll see all your stastics, and your code that 
+            you can share that other people will enter while 
+            regestring for various mindbend events. 
+          </div>
+          <form action="/campusAmbassador/logout" class="mt-4">
+            <button class="btn btn-outline-danger">Logout</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <footer style="position: absolute; bottom: 10px; left: 10px;">
+      Powered by <a href="https://www.wictronix.com">WictroniX</a>
+  </footer>
+  </body>
+  </html>
+  <!-- <br />
+  <h1>Hello, <%= user.name %></h1>
+  <br>
+  <div class="row">
+      <div class="col-md-8">
+          <div class="card">
+              <div class="card-header">Statistics</div>
+              <div class="card-body">
+                  <h5>You have been referred <span class="text-success"><%= user.nReferred %></span> times so far</h5></div>
+          </div>
+      </div>
+      <div class="col-md-4">
+          <div class="card">
+              <div class="card-header">Your referral code:</div>
+              <div class="card-body">
+                  <%= user.referralCode %>
+              </div>
+          </div>
+      </div>
+  </div>
+  <form action="/logout" class="mt-5">
+      <button class="btn btn-danger">Logout</button>
+  </form> -->

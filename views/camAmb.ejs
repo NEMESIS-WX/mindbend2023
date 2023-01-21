@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('partials/head', {description:`MINDBEND is Gujarat's largest
+  Techno-Managerial Fest, which is entirely organized by the SVNIT student body
+  and serves as the perfect rocket launch-pad for all the tech-enthusiasts out
+  there!`, keywords: `MINDBEND, TECHNO-FEST, SVNIT, NIT-SURAT, NATIONAL-EVENT`,
+  style: `camAmb`, title: `MINDBEND 2023 | CAMPUS AMBASSADOR`, });%>
+  <body>
+    <div class="bg-stars">
+      <div id="stars"></div>
+      <div id="stars2"></div>
+      <div id="stars3"></div>
+    </div>
+    <%- include(`partials/loading`)%> <%- include(`partials/nav`,
+    {appear:"appear"})%>
+    <main>
+      <div id="ca" class="heading">
+        <p>CAMPUS AMBASSADOR</p>
+        CAMPUS AMBASSADOR
+        <p>CAMPUS AMBASSADOR</p>
+      </div>
+      <div class="ca-container">
+        <!-- <h2>Campus Ambassador Program</h2> -->
+        <div class="ca-desc">
+          <h3>Who are Campus Ambassadors?</h3>
+          <ul>
+            <li>
+              The CA Programme consists of a series of challenges and linked
+              rewards. Over the course of the programme, PCAs will be able to
+              rack up scores to take over the leaderboard and develop their
+              interpersonal soft skills. But that's not all!
+            </li>
+          </ul>
+          <h3>Incentives</h3>
+          <br />
+          <ul>
+            <li>
+              <strong>Exclusive Merchandise </strong>The top-performers will get
+              exclusive Mindbend merchandise and exciting goodies.
+            </li>
+            <li>
+              <strong>Certifications </strong>Certificate on successful
+              execution of Ambassador role by SVNIT, Surat.
+            </li>
+            <li>
+              <strong>Free Entry To Events </strong>Top 10 ambassadors will get
+              a chance to get free entry in various workshops organized under
+              Mindbend. This workshop will be organised by famous tech
+              companies. (e.g. SolidWorks)
+            </li>
+            <li>
+              <strong>Social Media Shoutouts </strong>Ambassadors will get
+              shoutouts on official social media handles of Mindbend.
+            </li>
+          </ul>
+          <br />
+          <br />
+          <div style="width: 100%; display: flex; justify-content: center">
+            <a href="/campusAmbassador" class="ca-btn" target="_blank"
+              >Go to CA Portal</a
+            >
+          </div>
+          <br />
+          <br />
+        </div>
+      </div>
+    </main>
+    <img id="snow-mountain" src="/images/extras/snow-mountain.png" alt="" />
+    <%- include(`partials/footer`)%> <%- include(`partials/scripts`)%>
+  </body>
+</html>

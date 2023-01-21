@@ -1,0 +1,1098 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta
+      name="description"
+      content="Futuristic spaceship HUD / Made only with HTML / CSS / VANILLA JS"
+    />
+    <link rel="icon" type="image/png" href="icon.png" />
+    <!-- Icon made by https://www.flaticon.com/authors/smashicons -->
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet" />
+    <title>Futuristic HUD</title>
+  </head>
+  <style>
+    body {
+      box-sizing: border-box;
+      padding: 10px;
+      background: black;
+      color: #41f525;
+      font-family: "Exo", sans-serif;
+    }
+    /* -------------------------------------------------------- */
+    .stars,
+    .twinkling {
+      position: absolute;
+      display: block;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    .stars {
+      z-index: 0;
+      background: #000 url("https://i.imgur.com/YKY28eT.png") repeat top center;
+    }
+
+    .twinkling {
+      z-index: 1;
+      background: transparent url("https://i.imgur.com/XYMF4ca.png") repeat top
+        center;
+      animation: move-twink-back 200s linear infinite;
+    }
+    @keyframes move-twink-back {
+      from {
+        background-position: 0 0;
+      }
+      to {
+        background-position: -10000px 5000px;
+      }
+    }
+
+    .click-here {
+      margin: auto;
+      margin-top: 2rem;
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 10;
+      font-size: 1.3rem;
+      font-weight: 400;
+      color: #41f525;
+      animation: breath 2s ease-in-out infinite;
+    }
+
+    @keyframes breath {
+      0% {
+        opacity: 0;
+      }
+      50% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+      }
+    }
+
+    /* -------------------------------------------------------- */
+    ul li {
+      list-style: none;
+    }
+    #container {
+      position: absolute;
+      top: 2rem;
+      /* transform: translateX(25%); */
+      width: 100vw;
+      height: 100vh;
+      z-index: 10;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .dimension-3d {
+      perspective: 400px;
+      transform-style: preserve-3d;
+      will-change: transform;
+    }
+    /* Multiple scaling bars up right*/
+
+    .multiple-bars {
+      display: flex;
+      align-items: center;
+    }
+
+    .multiple-bars .multiple-bar {
+      position: relative;
+      border: 1px solid #41f525;
+      overflow: hidden;
+    }
+
+    .multiple-bars .multiple-bar .vertical-bar {
+      transform: translateY(calc(100% + 2px));
+      will-change: transform;
+
+      animation: vertical-inner-bar-appear 25s;
+      animation-fill-mode: forwards;
+      animation-timing-function: steps(10, end);
+    }
+
+    .multiple-bars .vertical-bar .inner-bar {
+      width: 20px;
+      height: 4px;
+      margin: 2px;
+      background: #41f525;
+    }
+
+    .multiple-bars .multiple-bar .vertical-bar-1 {
+      animation-delay: 8s;
+    }
+    .multiple-bars .multiple-bar .vertical-bar-2 {
+      animation-delay: 0s;
+    }
+    .multiple-bars .multiple-bar .vertical-bar-3 {
+      animation-delay: 2s;
+    }
+    .multiple-bars .multiple-bar .vertical-bar-4 {
+      animation-delay: 5s;
+    }
+    .multiple-bars .multiple-bar .vertical-bar-5 {
+      animation-delay: 17s;
+    }
+
+    .multiple-bars ul {
+      height: 60px;
+      margin: 0 0 0 10px;
+      padding: 0;
+    }
+
+    .multiple-bars ul li {
+      list-style: none;
+      color: #41f525;
+      font-size: 9px;
+      text-shadow: 0 0 4px #41f525;
+      opacity: 0.2;
+      will-change: opacity;
+
+      animation: steps-animated 0s;
+      animation-fill-mode: forwards;
+    }
+    .multiple-bars ul li:nth-child(1) {
+      animation-delay: 33s;
+    }
+    .multiple-bars ul li:nth-child(2) {
+      animation-delay: 25s;
+    }
+    .multiple-bars ul li:nth-child(3) {
+      animation-delay: 27s;
+    }
+    .multiple-bars ul li:nth-child(4) {
+      animation-delay: 30s;
+    }
+    .multiple-bars ul li:nth-child(5) {
+      animation-delay: 42s;
+    }
+
+    @keyframes steps-animated {
+      100% {
+        opacity: 1;
+      }
+    }
+    @keyframes vertical-inner-bar-appear {
+      100% {
+        transform: translateY(0%);
+      }
+    }
+
+    /* TEXT BUBBLE */
+
+    .text-bubble {
+      width: 290px;
+      margin-top: 20px;
+      padding: 15px;
+      border: 1px solid #41f525;
+      font-size: 0.6rem;
+    }
+
+    .text-bubble p {
+      margin: 0;
+    }
+
+    /* GAZ LIST */
+
+    ul.gazes {
+      padding: 0;
+    }
+
+    ul.gazes li {
+      position: relative;
+      margin: 20px 0;
+      width: 300px;
+      padding: 10px;
+      border: 1px solid #41f525;
+      background-image: repeating-linear-gradient(
+        100deg,
+        rgba(0, 0, 0, 0),
+        rgba(0, 0, 0, 0) 10px,
+        #333333 5px,
+        #333333 13px
+      );
+      color: white;
+      text-shadow: 0 0 0 transparent;
+      overflow: hidden;
+    }
+
+    ul.gazes li .charge {
+      position: absolute;
+      width: 100%;
+      height: 50px;
+      background: #41f525;
+      opacity: 0.6;
+      will-change: transform;
+      transform-origin: -10px;
+
+      animation-name: gaz-level-show;
+      animation-iteration-count: infinite;
+      animation-fill-mode: forwards;
+    }
+
+    ul.gazes li .charge-1 {
+      transform: scaleX(0.8) translateY(-15px) translateX(-10px);
+      animation-duration: 266s;
+    }
+    ul.gazes li .charge-2 {
+      transform: scaleX(0) translateY(-15px) translateX(-10px);
+      animation-duration: 193s;
+    }
+    ul.gazes li .charge-3 {
+      transform: scaleX(0.2) translateY(-15px) translateX(-10px);
+      animation-duration: 277s;
+    }
+    ul.gazes li .charge-4 {
+      transform: scaleX(0.1) translateY(-15px) translateX(-10px);
+      animation-duration: 119s;
+    }
+    ul.gazes li .charge-5 {
+      transform: scaleX(0.6) translateY(-15px) translateX(-10px);
+      animation-duration: 180s;
+    }
+
+    ul.gazes li .li-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    ul.gazes li .li-content div {
+      position: relative;
+      z-index: 2;
+    }
+
+    ul.gazes li .li-content .cube {
+      position: relative;
+      width: 20px;
+      height: 20px;
+      border: 1px solid #41f525;
+      box-shadow: 0 0 4px #41f525;
+      cursor: pointer;
+    }
+
+    ul.gazes li .li-content .cube .dot {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+      background: #41f525;
+      transform: translateX(-50%) translateY(-50%);
+      opacity: 0;
+    }
+    ul.gazes li .li-content .cube .dot.checked {
+      opacity: 1;
+    }
+    .gazes-information {
+      width: 300px;
+      height: 100px;
+      margin-top: 40px;
+      text-align: center;
+      text-shadow: 0 0 4px #41f525;
+      font-size: 14px;
+      opacity: 0;
+      will-change: opacity;
+    }
+    .gazes-information.popping {
+      animation-name: popping-gaz-info;
+      animation-duration: 1s;
+      animation-iteration-count: 3;
+      animation-timing-function: ease-in-out;
+    }
+    @keyframes popping-gaz-info {
+      0% {
+        opacity: 0;
+      }
+      50% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+      }
+    }
+    @keyframes gaz-level-show {
+      10% {
+        transform: scaleX(0.6) translateY(-15px) translateX(-10px);
+      }
+      20% {
+        transform: scaleX(0.2) translateY(-15px) translateX(-10px);
+      }
+      40% {
+        transform: scaleX(0.5) translateY(-15px) translateX(-10px);
+      }
+      80% {
+        transform: scaleX(0.8) translateY(-15px) translateX(-10px);
+      }
+      90% {
+        transform: scaleX(0.3) translateY(-15px) translateX(-10px);
+      }
+      100% {
+        transform: scaleX(0.6) translateY(-15px) translateX(-10px);
+      }
+    }
+
+    /* AIMER */
+
+    .aimer {
+      position: relative;
+      height: 100px;
+      width: 100px;
+      background: none;
+
+      border-radius: 100px;
+      border-top: 15px solid #41f525;
+      border-bottom: 15px solid #41f525;
+      border-left: 15px solid transparent;
+      border-right: 15px solid transparent;
+
+      backface-visibility: hidden;
+      filter: drop-shadow(0 0 4px #41f525);
+
+      animation-name: rotated;
+      animation-duration: 10s;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+    }
+
+    .aimer:before {
+      position: relative;
+      top: -30px;
+      left: -30px;
+      z-index: -1;
+      content: "";
+      display: block;
+      width: 100%;
+      height: 100%;
+      padding: 15px;
+      background: none;
+
+      border-radius: 115px;
+      border: 15px solid #41f525;
+      border-top: 15px solid transparent;
+      border-bottom: 15px solid transparent;
+
+      animation-name: rotation;
+      animation-duration: 5s;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+    }
+
+    .aimer:after {
+      position: relative;
+      top: -205px;
+      left: -45px;
+      z-index: -2;
+      content: "";
+      display: block;
+      width: 100%;
+      height: 100%;
+      padding: 30px;
+      background: none;
+
+      border-radius: 130px;
+      border: 15px solid #41f525;
+      border-left: 15px solid transparent;
+      border-bottom: 15px solid transparent;
+
+      animation-name: rotated;
+      animation-duration: 10s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease;
+      animation-fill-mode: both;
+    }
+    .targeting {
+      position: relative;
+    }
+    .targeting .glow {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      z-index: -1;
+      width: 5px;
+      height: 5px;
+      background: white;
+      transform: translate(-50%, -50%);
+      border-radius: 50%;
+      box-shadow: 0 0 60px 15px #fff, 0 0 100px 40px #41f525,
+        0 0 140px 60px #b9f111;
+    }
+    .targeting .target {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      z-index: 1;
+      background: #41f525;
+    }
+    .targeting .target.x-axis {
+      width: 80px;
+      height: 1px;
+      transform: translate(-50%, -50%);
+      box-shadow: 0 0 4px #41f525;
+    }
+    .targeting .target.y-axis {
+      width: 1px;
+      height: 300px;
+      transform: translate(-50%, -50%);
+      box-shadow: 0 0 4px #41f525;
+    }
+    .targeting .target.y-axis .target-scale {
+      position: absolute;
+      background: #41f525;
+      box-shadow: 0 0 4px #41f525;
+    }
+
+    .targeting .target.y-axis .target-scale-1 {
+      transform: translateX(-50%) translateY(0);
+      width: 20px;
+      height: 3px;
+    }
+    .targeting .target.y-axis .target-scale-2 {
+      transform: translateX(-50%) translateY(50px);
+      width: 15px;
+      height: 3px;
+    }
+    .targeting .target.y-axis .target-scale-3 {
+      transform: translateX(-50%) translateY(100px);
+      width: 10px;
+      height: 2px;
+    }
+    .targeting .target.y-axis .target-scale-4 {
+      transform: translateX(-50%) translateY(140px);
+      width: 5px;
+      height: 1px;
+    }
+    .targeting .target.y-axis .target-scale-5 {
+      transform: translateX(-50%) translateY(160px);
+      width: 5px;
+      height: 1px;
+    }
+    .targeting .target.y-axis .target-scale-6 {
+      transform: translateX(-50%) translateY(197px);
+      width: 10px;
+      height: 2px;
+    }
+    .targeting .target.y-axis .target-scale-6 {
+      transform: translateX(-50%) translateY(247px);
+      width: 15px;
+      height: 3px;
+    }
+    .targeting .target.y-axis .target-scale-6 {
+      transform: translateX(-50%) translateY(297px);
+      width: 20px;
+      height: 3px;
+    }
+
+    @keyframes rotated {
+      0% {
+        transform: rotate(360deg);
+      }
+      100% {
+        transform: rotate(0deg);
+      }
+    }
+
+    @keyframes rotation {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+
+    /* PILOTE INFORMATION */
+    .right-part {
+      display: flex;
+      flex-direction: column;
+    }
+    .right-part ul {
+      width: 75%;
+      padding: 10px;
+      margin: 0 auto;
+      border: 1px solid #41f525;
+      text-shadow: 0 0 4px #41f525;
+      border-bottom: 0px;
+      font-size: 14px;
+    }
+    .right-part ul li {
+    }
+
+    /* ANGLE SCALE */
+
+    .angle {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 140px;
+      height: 500px;
+      padding: 20px 50px;
+      border: 1px solid #41f525;
+      border-left-width: 0;
+    }
+
+    .angle .angle-meter {
+      position: absolute;
+      right: 65%;
+      padding: 15px;
+      color: #41f525;
+      text-shadow: 0 0 4px #41f525;
+      will-change: transform;
+    }
+
+    .angle-meter .triangle {
+      position: absolute;
+      right: 0;
+      top: 50%;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 5px 0 5px 8.7px;
+      border-color: transparent transparent transparent #41f525;
+      filter: drop-shadow(0 0 2px #41f525);
+      will-change: transform;
+      transform: translateY(-50%);
+    }
+
+    .angle .angle-inner-pattern .center-rect {
+      position: relative;
+      width: 20px;
+      margin: 10px 0;
+      height: 4px;
+      background: #41f525;
+      box-shadow: 0 0 2px #41f525;
+    }
+
+    .small-rect {
+      position: absolute;
+      width: 5px;
+      height: 2px;
+      background: #41f525;
+      box-shadow: 0 0 2px #41f525;
+    }
+
+    .center-rect .left-top-rect {
+      top: -5px;
+      left: -10px;
+    }
+
+    .center-rect .left-bottom-rect {
+      bottom: -5px;
+      left: -10px;
+    }
+
+    .center-rect .right-bottom-rect {
+      bottom: -5px;
+      right: -10px;
+    }
+
+    .center-rect .right-top-rect {
+      top: -5px;
+      right: -10px;
+    }
+
+    @media screen and (max-width: 960px) {
+      body {
+        padding: 0;
+      }
+      #container {
+        flex-direction: column;
+      }
+      .right-part {
+        margin-top: 140px;
+      }
+      .angle {
+        border-left-width: 1px;
+      }
+    }
+  </style>
+  <body scroll="no">
+    <div class="stars"></div>
+    <div class="twinkling"></div>
+    <div class="click-here">>>&nbsp; PRESS HERE TO ENTER &nbsp; <<<</div>
+    <div id="container">
+      <div class="left-part dimension-3d">
+        <div class="multiple-bars">
+          <div class="multiple-bar">
+            <div class="vertical-bar vertical-bar-1">
+              <div class="inner-bar inner-bar-1"></div>
+              <div class="inner-bar inner-bar-2"></div>
+              <div class="inner-bar inner-bar-3"></div>
+              <div class="inner-bar inner-bar-4"></div>
+              <div class="inner-bar inner-bar-5"></div>
+              <div class="inner-bar inner-bar-6"></div>
+              <div class="inner-bar inner-bar-7"></div>
+              <div class="inner-bar inner-bar-8"></div>
+              <div class="inner-bar inner-bar-9"></div>
+              <div class="inner-bar inner-bar-10"></div>
+            </div>
+          </div>
+          <div class="multiple-bar">
+            <div class="vertical-bar vertical-bar-2">
+              <div class="inner-bar inner-bar-1"></div>
+              <div class="inner-bar inner-bar-2"></div>
+              <div class="inner-bar inner-bar-3"></div>
+              <div class="inner-bar inner-bar-4"></div>
+              <div class="inner-bar inner-bar-5"></div>
+              <div class="inner-bar inner-bar-6"></div>
+              <div class="inner-bar inner-bar-7"></div>
+              <div class="inner-bar inner-bar-8"></div>
+              <div class="inner-bar inner-bar-9"></div>
+              <div class="inner-bar inner-bar-10"></div>
+            </div>
+          </div>
+          <div class="multiple-bar">
+            <div class="vertical-bar vertical-bar-3">
+              <div class="inner-bar inner-bar-1"></div>
+              <div class="inner-bar inner-bar-2"></div>
+              <div class="inner-bar inner-bar-3"></div>
+              <div class="inner-bar inner-bar-4"></div>
+              <div class="inner-bar inner-bar-5"></div>
+              <div class="inner-bar inner-bar-6"></div>
+              <div class="inner-bar inner-bar-7"></div>
+              <div class="inner-bar inner-bar-8"></div>
+              <div class="inner-bar inner-bar-9"></div>
+              <div class="inner-bar inner-bar-10"></div>
+            </div>
+          </div>
+          <div class="multiple-bar">
+            <div class="vertical-bar vertical-bar-4">
+              <div class="inner-bar inner-bar-1"></div>
+              <div class="inner-bar inner-bar-2"></div>
+              <div class="inner-bar inner-bar-3"></div>
+              <div class="inner-bar inner-bar-4"></div>
+              <div class="inner-bar inner-bar-5"></div>
+              <div class="inner-bar inner-bar-6"></div>
+              <div class="inner-bar inner-bar-7"></div>
+              <div class="inner-bar inner-bar-8"></div>
+              <div class="inner-bar inner-bar-9"></div>
+              <div class="inner-bar inner-bar-10"></div>
+            </div>
+          </div>
+          <div class="multiple-bar">
+            <div class="vertical-bar vertical-bar-5">
+              <div class="inner-bar inner-bar-1"></div>
+              <div class="inner-bar inner-bar-2"></div>
+              <div class="inner-bar inner-bar-3"></div>
+              <div class="inner-bar inner-bar-4"></div>
+              <div class="inner-bar inner-bar-5"></div>
+              <div class="inner-bar inner-bar-6"></div>
+              <div class="inner-bar inner-bar-7"></div>
+              <div class="inner-bar inner-bar-8"></div>
+              <div class="inner-bar inner-bar-9"></div>
+              <div class="inner-bar inner-bar-10"></div>
+            </div>
+          </div>
+          <ul>
+            <li>POWER</li>
+            <li>REAR ENGINE</li>
+            <li>FRONT ENGINE</li>
+            <li>SHIELD</li>
+            <li>WEAPONS</li>
+          </ul>
+        </div>
+        <div class="text-bubble">
+          <p>
+            Gellix was given to the krogran after the Rachni Wars, but bitterly
+            contested in the Krogan Rebellions and reconquered by the turians.
+            This left the turians as caretakers to a levo-amino-acid-based world
+            that they could not inhabit themselves but were unwilling to give
+            up. In cooperation with the Vol Protectorate, the turians attempted
+            to rent the planet out for colonization. Between the high price and
+            a surface littered with unexploded ordnance, however, Gellix found
+            few reputable tenants. Its most notable inhabitants were penal
+            colonies.
+          </p>
+        </div>
+        <ul class="gazes">
+          <li>
+            <div class="charge charge-1"></div>
+            <div class="li-content">
+              <div>OXYGEN</div>
+              <div class="cube">
+                <div class="dot"></div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="charge charge-2"></div>
+            <div class="li-content">
+              <div>RADIATION</div>
+              <div class="cube">
+                <div class="dot"></div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="charge charge-3"></div>
+            <div class="li-content">
+              <div>OZONE</div>
+              <div class="cube">
+                <div class="dot"></div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="charge charge-4"></div>
+            <div class="li-content">
+              <div>HUMIDITY</div>
+              <div class="cube">
+                <div class="dot"></div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="charge charge-5"></div>
+            <div class="li-content">
+              <div>AZOTE</div>
+              <div class="cube">
+                <div class="dot"></div>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <div class="gazes-information"></div>
+      </div>
+      <div class="targeting dimension-3d">
+        <div class="target x-axis"></div>
+        <div class="glow"></div>
+        <div class="target y-axis">
+          <div class="target-scale target-scale-1"></div>
+          <div class="target-scale target-scale-2"></div>
+          <div class="target-scale target-scale-3"></div>
+          <div class="target-scale target-scale-4"></div>
+          <div class="target-scale target-scale-5"></div>
+          <div class="target-scale target-scale-6"></div>
+          <div class="target-scale target-scale-7"></div>
+          <div class="target-scale target-scale-8"></div>
+        </div>
+        <div class="aimer"></div>
+      </div>
+      <div class="right-part dimension-3d">
+        <ul class="pilote-info">
+          <li><span>PILOTE: THEDAMICRAZY</span></li>
+          <li><span>SIZE: 6 FT</span></li>
+          <li><span>TEAM: SECTION 501</span></li>
+          <li><span>RANK: OFFICIER</span></li>
+        </ul>
+        <div class="angle">
+          <div class="angle-meter">
+            <div class="triangle"></div>
+            <span>0°</span>
+          </div>
+          <div class="angle-inner-pattern">
+            <div class="center-rect">
+              <div class="small-rect right-top-rect"></div>
+              <div class="small-rect right-bottom-rect"></div>
+              <div class="small-rect left-top-rect"></div>
+              <div class="small-rect left-bottom-rect"></div>
+            </div>
+          </div>
+          <div class="angle-inner-pattern">
+            <div class="center-rect">
+              <div class="small-rect right-top-rect"></div>
+              <div class="small-rect right-bottom-rect"></div>
+              <div class="small-rect left-top-rect"></div>
+              <div class="small-rect left-bottom-rect"></div>
+            </div>
+          </div>
+          <div class="angle-inner-pattern">
+            <div class="center-rect">
+              <div class="small-rect right-top-rect"></div>
+              <div class="small-rect right-bottom-rect"></div>
+              <div class="small-rect left-top-rect"></div>
+              <div class="small-rect left-bottom-rect"></div>
+            </div>
+          </div>
+          <div class="angle-inner-pattern">
+            <div class="center-rect">
+              <div class="small-rect right-top-rect"></div>
+              <div class="small-rect right-bottom-rect"></div>
+              <div class="small-rect left-top-rect"></div>
+              <div class="small-rect left-bottom-rect"></div>
+            </div>
+          </div>
+          <div class="angle-inner-pattern">
+            <div class="center-rect">
+              <div class="small-rect right-top-rect"></div>
+              <div class="small-rect right-bottom-rect"></div>
+              <div class="small-rect left-top-rect"></div>
+              <div class="small-rect left-bottom-rect"></div>
+            </div>
+          </div>
+          <div class="angle-inner-pattern">
+            <div class="center-rect">
+              <div class="small-rect right-top-rect"></div>
+              <div class="small-rect right-bottom-rect"></div>
+              <div class="small-rect left-top-rect"></div>
+              <div class="small-rect left-bottom-rect"></div>
+            </div>
+          </div>
+          <div class="angle-inner-pattern">
+            <div class="center-rect">
+              <div class="small-rect right-top-rect"></div>
+              <div class="small-rect right-bottom-rect"></div>
+              <div class="small-rect left-top-rect"></div>
+              <div class="small-rect left-bottom-rect"></div>
+            </div>
+          </div>
+          <div class="angle-inner-pattern">
+            <div class="center-rect">
+              <div class="small-rect right-top-rect"></div>
+              <div class="small-rect right-bottom-rect"></div>
+              <div class="small-rect left-top-rect"></div>
+              <div class="small-rect left-bottom-rect"></div>
+            </div>
+          </div>
+          <div class="angle-inner-pattern">
+            <div class="center-rect">
+              <div class="small-rect right-top-rect"></div>
+              <div class="small-rect right-bottom-rect"></div>
+              <div class="small-rect left-top-rect"></div>
+              <div class="small-rect left-bottom-rect"></div>
+            </div>
+          </div>
+          <div class="angle-inner-pattern">
+            <div class="center-rect">
+              <div class="small-rect right-top-rect"></div>
+              <div class="small-rect right-bottom-rect"></div>
+              <div class="small-rect left-top-rect"></div>
+              <div class="small-rect left-bottom-rect"></div>
+            </div>
+          </div>
+          <div class="angle-inner-pattern">
+            <div class="center-rect">
+              <div class="small-rect right-top-rect"></div>
+              <div class="small-rect right-bottom-rect"></div>
+              <div class="small-rect left-top-rect"></div>
+              <div class="small-rect left-bottom-rect"></div>
+            </div>
+          </div>
+          <div class="angle-inner-pattern">
+            <div class="center-rect">
+              <div class="small-rect right-top-rect"></div>
+              <div class="small-rect right-bottom-rect"></div>
+              <div class="small-rect left-top-rect"></div>
+              <div class="small-rect left-bottom-rect"></div>
+            </div>
+          </div>
+          <div class="angle-inner-pattern">
+            <div class="center-rect">
+              <div class="small-rect right-top-rect"></div>
+              <div class="small-rect right-bottom-rect"></div>
+              <div class="small-rect left-top-rect"></div>
+              <div class="small-rect left-bottom-rect"></div>
+            </div>
+          </div>
+          <div class="angle-inner-pattern">
+            <div class="center-rect">
+              <div class="small-rect right-top-rect"></div>
+              <div class="small-rect right-bottom-rect"></div>
+              <div class="small-rect left-top-rect"></div>
+              <div class="small-rect left-bottom-rect"></div>
+            </div>
+          </div>
+          <div class="angle-inner-pattern">
+            <div class="center-rect">
+              <div class="small-rect right-top-rect"></div>
+              <div class="small-rect right-bottom-rect"></div>
+              <div class="small-rect left-top-rect"></div>
+              <div class="small-rect left-bottom-rect"></div>
+            </div>
+          </div>
+          <div class="angle-inner-pattern">
+            <div class="center-rect">
+              <div class="small-rect right-top-rect"></div>
+              <div class="small-rect right-bottom-rect"></div>
+              <div class="small-rect left-top-rect"></div>
+              <div class="small-rect left-bottom-rect"></div>
+            </div>
+          </div>
+          <div class="angle-inner-pattern">
+            <div class="center-rect">
+              <div class="small-rect right-top-rect"></div>
+              <div class="small-rect right-bottom-rect"></div>
+              <div class="small-rect left-top-rect"></div>
+              <div class="small-rect left-bottom-rect"></div>
+            </div>
+          </div>
+          <div class="angle-inner-pattern">
+            <div class="center-rect">
+              <div class="small-rect right-top-rect"></div>
+              <div class="small-rect right-bottom-rect"></div>
+              <div class="small-rect left-top-rect"></div>
+              <div class="small-rect left-bottom-rect"></div>
+            </div>
+          </div>
+          <div class="angle-inner-pattern">
+            <div class="center-rect">
+              <div class="small-rect right-top-rect"></div>
+              <div class="small-rect right-bottom-rect"></div>
+              <div class="small-rect left-top-rect"></div>
+              <div class="small-rect left-bottom-rect"></div>
+            </div>
+          </div>
+          <div class="angle-inner-pattern">
+            <div class="center-rect">
+              <div class="small-rect right-top-rect"></div>
+              <div class="small-rect right-bottom-rect"></div>
+              <div class="small-rect left-top-rect"></div>
+              <div class="small-rect left-bottom-rect"></div>
+            </div>
+          </div>
+
+          <div class="angle-inner-pattern">
+            <div class="center-rect">
+              <div class="small-rect right-top-rect"></div>
+              <div class="small-rect right-bottom-rect"></div>
+              <div class="small-rect left-top-rect"></div>
+              <div class="small-rect left-bottom-rect"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      //GAZES INFORMATIONS AND CLICK VARIABLES
+      const cubes = document.querySelectorAll(".cube");
+      const dots = document.querySelectorAll(".dot");
+      const gazInformation = document.querySelector(".gazes-information");
+      let checkedGaz = 0;
+      //ROTATE MOUSEMOUVE VARIABLES
+      const elements = document.querySelectorAll(".dimension-3d");
+
+      //ANGLE METER VARIABLES
+      const angleMeter = document.querySelector(".angle-meter");
+      const angle = angleMeter.querySelector(".angle-meter span");
+
+      let windowWidth = window.innerWidth;
+      let windowHeight = window.innerHeight;
+
+      for (let i = 0; i < cubes.length; i++) {
+        //CONDITIONS FOR GAZ INFORMATION
+        cubes[i].addEventListener("click", () => {
+          gazInformation.classList.remove("popping");
+          dots[checkedGaz].classList.remove("checked");
+          checkedGaz = i;
+          dots[checkedGaz].classList.add("checked");
+
+          setTimeout(function () {
+            dots[checkedGaz].classList.remove("checked");
+          }, 3000);
+
+          if (checkedGaz == 0) {
+            const chargeSize = document
+              .querySelector(".charge-1")
+              .getBoundingClientRect();
+            if (chargeSize.width > 70) {
+              gazInformation.innerHTML =
+                "OXYGEN level is OK : " +
+                Math.floor(chargeSize.width / 3.2) +
+                "%";
+            } else {
+              gazInformation.innerHTML =
+                "WARNING ! OXYGEN LEVEL IS ANORMAL : " +
+                Math.floor(chargeSize.width / 3.2) +
+                "%";
+            }
+          } else if (checkedGaz == 1) {
+            const chargeSize = document
+              .querySelector(".charge-2")
+              .getBoundingClientRect();
+            if (chargeSize.width < 100) {
+              gazInformation.innerHTML =
+                "RADIATION level is OK : " +
+                Math.floor(chargeSize.width / 3.2) +
+                "%";
+            } else {
+              gazInformation.innerHTML =
+                "WARNING ! RADIATION ANORMAL : " +
+                Math.floor(chargeSize.width / 3.2) +
+                "%";
+            }
+          } else if (checkedGaz == 2) {
+            const chargeSize = document
+              .querySelector(".charge-3")
+              .getBoundingClientRect();
+            if (chargeSize.width > 240) {
+              gazInformation.innerHTML =
+                "OZONE level is OK : " +
+                Math.floor(chargeSize.width / 3.2) +
+                "%";
+            } else {
+              gazInformation.innerHTML =
+                "WARNING ! OZONE TOO LOW : " +
+                Math.floor(chargeSize.width / 3.2) +
+                "%";
+            }
+          } else if (checkedGaz == 3) {
+            const chargeSize = document
+              .querySelector(".charge-4")
+              .getBoundingClientRect();
+            if (chargeSize.width < 280) {
+              gazInformation.innerHTML =
+                "HUMIDITY level is OK : " +
+                Math.floor(chargeSize.width / 3.2) +
+                "%";
+            } else {
+              gazInformation.innerHTML =
+                "DID YOU SANK ?! HUMIDITY IS : " +
+                Math.floor(chargeSize.width / 3.2) +
+                "%";
+            }
+          } else {
+            const chargeSize = document
+              .querySelector(".charge-5")
+              .getBoundingClientRect();
+            if (chargeSize.width > 260) {
+              gazInformation.innerHTML =
+                "AZOTE level is OK : " +
+                Math.floor(chargeSize.width / 3.2) +
+                "%";
+            } else {
+              gazInformation.innerHTML =
+                "WARNING ! AZOTE TOO LOW : " +
+                Math.floor(chargeSize.width / 3.2) +
+                "%";
+            }
+          }
+          gazInformation.classList.add("popping");
+        });
+      }
+      //ROTATE MOUSEMOUVE & ANGLE METER
+      window.addEventListener("resize", () => {
+        windowWidth = window.innerWidth;
+        windowHeight = window.innerHeight;
+      });
+
+      for (const element of elements) {
+        window.addEventListener("mousemove", (_event) => {
+          const x = (_event.clientX / window.innerWidth - 0.5) * 20;
+          const y = (_event.clientY / window.innerHeight - 0.5) * 20;
+          element.style.transform = `rotateY(${-x}deg) rotateX(${-y}deg) translateX(${x}px) translateY(${y}px`;
+        });
+      }
+      window.addEventListener("mousemove", (_event) => {
+        const x = (_event.clientX / window.innerWidth - 0.5) * 20;
+        const y = (_event.clientY / window.innerHeight - 0.5) * 20;
+        angleMeter.style.transform = `translateY(${y * 45}%)`;
+        angle.innerHTML = Math.floor(-y * 5) + "°";
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,62 @@
+<%- include("partials/header.ejs") %>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <img 
+                    src="/images/podium.webp" 
+                    alt="Podium, courtesy dribbble"
+                    style="width: 100%; height: auto;" />
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="mb-3">Top 3</h4>
+                        <% for(let i = 0; i < ranks.length; i++) { %>
+                            <div class="mb-2"><%= i+1 %>. <%= ranks[i].name %></div>
+                            <% if(i == 2) break; %>
+                        <% } %>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8">
+                    <h3 class="mb-4 m-2">Complete leaderboard</h3>
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Reffered</th>
+                            </tr>  
+                        </thead>
+                        <tbody>
+                            <% for(let i = 0; i < ranks.length; i++) { %>
+                            <tr>
+                                <td><%= ranks[i].name %></td>
+                                <td><%= ranks[i].nReferred %></td>
+                            </tr>
+                            <% } %>
+                        </tbody>
+                    </table>
+            </div>
+        </div>
+    </div>
+    <footer style="position: absolute; bottom: 10px; left: 10px;">
+        Powered by <a href="https://www.wictronix.com">WictroniX</a>
+    </footer>
+</body>
+</html>
+<!-- <div class="card mt-5">
+    <table class="table table-striped">
+        <thead>
+        <tr>
+            <th>Name</th>
+            <th>Reffered</th>
+        </tr>  
+    </thead>
+    <tbody>
+        <% for(let i = 0; i < ranks.length; i++) { %>
+        <tr>
+            <td><%= ranks[i].name %></td>
+            <td><%= ranks[i].nReferred %></td>
+        </tr>
+        <% } %>
+    </tbody>
+</table>
+</div> -->

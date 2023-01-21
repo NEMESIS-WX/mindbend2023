@@ -1,0 +1,63 @@
+<%- include('partials/header') %>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <img 
+                src="/images/campAmb1.jpg" 
+                alt="Campus ambassador: courtesy freepik"
+                style="object-fit: contain; width: 100%; height: auto;" /> 
+            </div>
+            <div class="col-md-6">
+                <h2 class="text-center mt-3 mt-md-3 mb-md-5">Sign Up</h2>
+                <% if(error) { %>
+                    <div class="alert alert-danger"><%= error %></div>
+                <% } %>
+                <form action="/campusAmbassador/signUp" method="post">
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label for="name" class="form-label">Name </label>
+                            <input type="text" name="name" class="form-control" id="name" aria-describedby="emailHelp">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-12">
+                            <label for="college" class="form-label">College name </label>
+                            <input type="text" name="college" class="form-control" id="name" aria-describedby="emailHelp">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" name="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Confirm password</label>
+                            <input type="password" name="confPassword" class="form-control" id="exampleInputPassword1">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-12">
+                            <label for="college" class="form-label">Referral Code </label>
+                            <input type="text" name="refCode" class="form-control" id="name" aria-describedby="emailHelp"  placeholder="Enter one if you have" />
+                        </div>
+                    </div>
+                    <br>
+                    <button type="submit" class="btn btn-primary container">Sign up</button>
+                    <br />
+                    <br />
+                    <div class="text-center">
+                        Already have an account ? <a href="/campusAmbassador/" class="text-primary">Login</a>
+                    </div>
+                </form>
+            </div>
+    </div>
+</div>
+<footer style="position: absolute; bottom: 10px; left: 10px;">
+    Powered by <a href="https://www.wictronix.com">WictroniX</a>
+</footer>
+</body>
+</html>
