@@ -292,11 +292,17 @@ main {
 }
 
 .box .content p {
+  width: 100%;
   font-size: 1.2rem;
   font-weight: 300;
   margin-bottom: 2rem;
   text-align: justify;
   /* color: #5c4827; */
+}
+
+.box .content p span {
+  font-weight: 700;
+  color: #33d8f4;
 }
 @keyframes animate {
   from {
@@ -319,12 +325,12 @@ main {
 }
 
 #box-2 {
-  top: 80rem;
+  top: 85rem;
 }
 
 .submarine-back {
   position: absolute;
-  top: 130rem;
+  top: 140rem;
   right: 50%;
   transform: translate(50%, -50%);
   height: 75rem;
