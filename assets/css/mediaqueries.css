@@ -45,14 +45,14 @@
     transform: translateY(10rem);
   }
   .box .content {
-    padding: 3rem 1.5rem 1.5rem 1.5rem;
+    padding: 3rem 1rem 1rem 1rem;
   }
   .heading,
   .heading p {
     font-size: 3rem;
   }
   .submarine-back {
-    top: calc(150rem - 50vw);
+    top: calc(170rem - 50vw);
     height: calc(100rem - 20vw);
   }
 
@@ -121,11 +121,14 @@
   #missiles-launcher {
     transform: scale(2);
   }
+  .box .content p {
+    font-size: 1rem;
+  }
   #box-1 {
-    top: 25rem;
+    top: calc(23rem - 10vw);
   }
   #box-2 {
-    top: 75rem;
+    top: calc(85rem - 10vw);
   }
 
   .list {
@@ -160,5 +163,9 @@
     width: 100% !important;
     align-items: center !important;
     justify-content: center !important;
+  }
+  .content .contacts {
+    flex-direction: column;
+    align-items: center;
   }
 }
