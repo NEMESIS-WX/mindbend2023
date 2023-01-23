@@ -1488,8 +1488,8 @@ investments and how you apply and get good returns.
     name: "ROBOWARS",
     image: "/images/events/ROBOWARS.png",
     prize: [
-      `<h3>For 15kg Category</h3> <ul> <li>1st prize: Rs. 40,000 </li> <li>2nd Prize: Rs 25,000</li> <li>3rd Prize: Rs. 15,000</li></ul>`,
-      `<h3>For 60kg Category</h3> <ul> <li>1st prize: Rs. 60,000 </li> <li>2nd Prize: Rs 35,000</li> <li>3rd Prize: Rs. 25,000</li></ul>`,
+      `15kg Category; 1st prize: Rs. 40,000, 2nd Prize: Rs 25,000, 3rd Prize: Rs. 15,000`,
+      `60kg Category; 1st prize: Rs. 60,000, 2nd Prize: Rs 35,000, 3rd Prize: Rs. 25,000`,
     ],
     about: "Beat, Defeat, Win, Repeat  ",
     // ----------------------------------------------------------------
