@@ -407,3 +407,182 @@ main {
   font-size: 0.8rem;
   margin: 0.2rem 0;
 }
+
+/* Registration form -------------------------------------------------------------- */
+.registration-form-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+  background: rgba(0, 0, 0, 0.71);
+}
+
+.form-dissappear {
+  z-index: -100;
+}
+
+.z-index {
+  z-index: -100 !important;
+}
+
+.mbimg-container {
+  height: 10rem;
+  width: 10rem;
+  border: 0.1rem solid #33d8f4;
+  border-radius: 50%;
+  z-index: 1;
+  box-shadow: 5px 10px 10px 5px #000000;
+  overflow: hidden;
+}
+
+.mbimg-container img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.registration-form {
+  margin-top: -5rem;
+  padding: 2rem;
+  padding-top: 6rem;
+  height: auto;
+  min-height: 30rem;
+  width: 90vw;
+  max-width: 55rem;
+  background-image: url("/images/bgs/camo.png");
+  box-shadow: 15px 15px 50px 0px rgba(0, 0, 0, 0.545);
+  background-size: 80% auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  position: relative;
+}
+
+.close-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 2rem;
+  width: 2rem;
+  margin: 1rem;
+}
+
+.close-button svg {
+  height: 100%;
+  width: 100%;
+  fill: #33d8f4;
+}
+
+.close-button svg:hover {
+  fill: #fff;
+}
+
+.registration-form form {
+  min-height: 20rem;
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.left-form,
+.right-form {
+  height: 100%;
+  min-width: 50%;
+  width: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.input-container,
+.svnitian {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+.input-container label,
+.svnitian label,
+.is-svnitian label {
+  color: #33d8f4;
+  font-size: 1.2rem;
+  margin-right: 1rem;
+  min-width: 5rem;
+  width: auto;
+  font-weight: 600;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="tel"],
+input[type="email"] {
+  border: none;
+  border-radius: 5px;
+  height: 2.5rem;
+  padding: 0.7rem;
+  width: 15rem;
+  background: #b9b9b9;
+  font-size: 1rem;
+}
+
+input[type="text"]:focus,
+input[type="tel"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus {
+  outline: none;
+  background: #fff;
+}
+
+input[type="radio"] {
+  height: 1.5rem;
+  width: 1.5rem;
+  outline: none;
+  accent-color: #33d8f4;
+}
+
+.other {
+  flex-direction: column;
+}
+
+.is-svnitian,
+.other {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.buttons {
+  margin-top: 1rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.buttons input {
+  border: 0;
+  height: 2.5rem;
+  padding: 0.7rem;
+  width: 5rem;
+  margin: 0 2rem;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.buttons input:hover {
+  background: #33d8f4;
+}

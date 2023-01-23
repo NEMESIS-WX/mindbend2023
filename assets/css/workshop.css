@@ -1,0 +1,55 @@
+main {
+  width: 100%;
+  margin-top: 4rem;
+  min-height: 90vh;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 5rem;
+}
+
+.img-container {
+  margin: 0 2rem;
+  height: 25rem;
+  width: 25rem;
+  background: #fff;
+  box-shadow: 0px 0px 100px 0px #33d8f4;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.img-container img {
+  height: 100%;
+}
+
+.details {
+  border: 2px solid #33d8f4;
+  border-radius: 20px;
+  margin: 0 3rem;
+  min-height: 25rem;
+  width: calc(100vw - 50rem);
+  color: #fff;
+  padding: 1rem 2rem;
+}
+
+.details h1 {
+  font-size: 2rem;
+  color: #33d8f4;
+  margin: 1rem 0;
+}
+
+.details .about {
+  color: #33d8f4;
+  font-weight: 600;
+  padding: 1rem 0;
+}
+
+.details .register {
+  margin: 1rem 0;
+  font-size: 1rem;
+  font-weight: 600;
+  position: absolute;
+  bottom: 0;
+  color: #33d8f4;
+}

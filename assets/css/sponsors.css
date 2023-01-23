@@ -1,0 +1,17 @@
+body {
+  height: 100vh;
+  overflow: hidden;
+}
+
+main {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.comming {
+  color: #33d8f4;
+  font-size: 3rem;
+  text-align: center;
+}

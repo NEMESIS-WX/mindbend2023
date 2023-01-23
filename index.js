@@ -6,7 +6,7 @@ const cp = require("cookie-parser");
 const PORT = process.env.PORT || 8080;
 
 // import events from data.js
-const { events, team } = require("./assets/js/data.js");
+const { events, workshops, team } = require("./assets/js/data.js");
 
 app.set("view engine", "ejs");
 app.use(express.urlencoded({ extended: true }));
@@ -34,27 +34,8 @@ app.get("/", (req, res) => {
   res.render("index");
 });
 
-app.get("/team", (req, res) => {
-  res.render("team", { team: team });
-});
-
 app.get("/events", (req, res) => {
   res.render("events", { events: events });
-});
-
-app.get("/workshops", (req, res) => {
-  res.render("workshops");
-});
-
-app.get("/sponsors", (req, res) => {
-  res.render("sponsors");
-});
-
-app.get("/camAmb", (req, res) => {
-  res.render("camAmb");
-});
-app.get("/dashboard", (req, res) => {
-  res.render("dashboard");
 });
 
 app.get("/events/:ename", (req, res) => {
@@ -65,6 +46,36 @@ app.get("/events/:ename", (req, res) => {
       }
     })[0],
   });
+});
+
+app.get("/workshops", (req, res) => {
+  res.render("workshops", { workshops: workshops });
+});
+
+app.get("/workshops/:wname", (req, res) => {
+  res.render("workshop", {
+    workshop: workshops.filter(function (e) {
+      if (e.name === req.params.wname) {
+        return e;
+      }
+    })[0],
+  });
+});
+
+app.get("/camAmb", (req, res) => {
+  res.render("camAmb");
+});
+
+app.get("/dashboard", (req, res) => {
+  res.render("dashboard");
+});
+
+app.get("/team", (req, res) => {
+  res.render("team", { team: team });
+});
+
+app.get("/sponsors", (req, res) => {
+  res.render("sponsors");
 });
 
 app.get("/test", (req, res) => {
