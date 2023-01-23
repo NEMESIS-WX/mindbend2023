@@ -2422,7 +2422,7 @@ investments and how you apply and get good returns.
   // chem e car
   {
     name: "CHEM E CAR",
-    image: "/images/events/botmainia.png",
+    image: "/images/events/chem-e-car.png",
     prize: ["1st Prize: Rs 8000", "2nd Prize: Rs 5000", "3rd Prize: Rs 3000"],
     about: `Voraciously Chem-E-Engineered Car`,
     // ----------------------------------------------------------------
