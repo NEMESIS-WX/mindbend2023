@@ -6,7 +6,7 @@
   there!`, keywords: `MINDBEND, TECHNO-FEST, SVNIT, NIT-SURAT, NATIONAL-EVENT`,
   style: `events`, title: `MINDBEND 2023 | EVENTS`, });%>
   <body>
-    <img id="bg" src="/images/bgs/filewall.png" alt="" />
+    <img id="bg" src="/images/bgs/filewall.webp" alt="" />
     <%- include(`partials/loading`)%> <%- include(`partials/nav`,
     {appear:`appear`})%>
 
@@ -34,6 +34,14 @@
 
         <%}});%>
       </div>
+      <div class="download-file">
+        <a
+          href="/docs/Mindbend Technical Rulebook 2023.pdf"
+          download="Mindbend Technical Rulebook 2023"
+          >Technical Rulebook &#8595;</a
+        >
+      </div>
+
       <h1 class="catagory">Managerial</h1>
       <div class="events-container">
         <% events.forEach(function(e){ %> <%if(e.catagory === "managerial"){%>
@@ -50,7 +58,15 @@
 
         <%}});%>
       </div>
+      <div class="download-file">
+        <a
+          href="/docs/Mindbend Managerial Rulebook 2023.pdf"
+          download="Mindbend Managerial Rulebook 2023"
+          >Managerial Rulebookl &#8595;</a
+        >
+      </div>
     </main>
-    <%- include(`partials/footer`)%> <%- include(`partials/scripts`)%>
+    <%- include(`partials/footer`)%>
+    <script src="/js/global.js"></script>
   </body>
 </html>

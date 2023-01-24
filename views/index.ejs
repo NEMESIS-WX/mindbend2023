@@ -6,17 +6,12 @@
   there!`, keywords: `MINDBEND, TECHNO-FEST, SVNIT, NIT-SURAT, NATIONAL-EVENT`,
   style: `index`, title: `MINDBEND 2023`, });%>
   <body>
-    <div class="bg-stars">
-      <div id="stars"></div>
-      <div id="stars2"></div>
-      <div id="stars3"></div>
-    </div>
-    <%- include(`partials/loading`)%> <%- include(`partials/nav`, {appear:``})%>
+    <%- include(`partials/stars`)%> <%- include(`partials/loading`)%> <%-
+    include(`partials/nav`, {appear:``})%>
     <div class="main-bg">
-      <img id="bg" src="/images/bgs/best_bg.png" alt="background" />
-      <img id="plane" src="/images/bgs/rain.png" alt="rain" />
-      <img id="fg" src="/images/bgs/best_fg.png" alt="foreground" />
-      <!-- <img src="/images/bgs/dust.png" alt="" /> -->
+      <img id="bg" src="/images/bgs/best_bg.webp" alt="background" />
+      <img id="plane" src="/images/bgs/rain.webp" alt="rain" />
+      <img id="fg" src="/images/bgs/best_fg.webp" alt="foreground" />
       <div title="Scroll Down SLOWLY !!!" class="tooltip">
         <svg
           width="84"
@@ -71,8 +66,7 @@
         </svg>
       </div>
     </div>
-    <!-- <img id="bg-clouds" src="/images/extras/Long_Clouds.png" alt="" /> -->
-    <img id="planes" src="/images/extras/group-of-planes.png" alt="planes" />
+    <img id="planes" src="/images/extras/group-of-planes.webp" alt="planes" />
     <div class="hero-texts">
       <div id="main-title">
         <p>MIN</p>
@@ -92,7 +86,7 @@
       </div>
     </div>
     <main>
-      <img id="tank" src="/images/extras/tank.png" alt="tank" />
+      <img id="tank" src="/images/extras/tank.webp" alt="tank" />
       <div id="box-1" class="box">
         <!-- <img src="/images/extras/yellow-black-stripes.jpg" alt="stripes" /> -->
         <div class="content">
@@ -112,7 +106,7 @@
       </div>
       <img
         id="missiles-launcher"
-        src="/images/extras/missiles-launcher.png"
+        src="/images/extras/missiles-launcher.webp"
         alt="missiles-launcher"
       />
       <div id="box-2" class="box">
@@ -175,10 +169,10 @@
             </div>
           </div>
         </div>
-        <!-- <img id="submarine" src="/images/extras/submarine.png" alt="boat" /> -->
         <div class="container map-container">
           <div class="cover"></div>
           <iframe
+            title="SVNIT-Map"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7441.524319142679!2d72.7826374469413!3d21.161861443429334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04dee0c3c5311%3A0x7bd4e2f1cdf25f26!2sSVNIT%20Campus%2C%20Athwa%2C%20Surat%2C%20Gujarat%20395007!5e0!3m2!1sen!2sin!4v1666945344106!5m2!1sen!2sin"
             style="border: 0"
             allowfullscreen=""
@@ -194,7 +188,11 @@
         <%- include(`partials/footer`)%>
       </div>
     </main>
-    <%- include(`partials/scripts`)%>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"></script>
+    <script src="js/index.js"></script>
     <script src="/js/countTo.js"></script>
+    <script src="/js/global.js"></script>
   </body>
 </html>

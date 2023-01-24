@@ -8,15 +8,10 @@
   });%>
   <body>
     <%- include(`partials/loading`)%> <%- include(`partials/nav`,
-    {appear:`appear`})%>
-    <div class="bg-stars">
-      <div id="stars"></div>
-      <div id="stars2"></div>
-      <div id="stars3"></div>
-    </div>
+    {appear:`appear`})%> <%- include(`partials/stars`)%>
     <main class="workshop-main">
       <div class="img-container">
-        <img src="<%= workshop.image%>" alt="" />
+        <img src="<%= workshop.image_hq%>" alt="" />
       </div>
       <div class="details">
         <h1><%=workshop.name%></h1>
@@ -25,6 +20,7 @@
         <p class="register">Registrations will start soon . . .</p>
       </div>
     </main>
-    <%- include(`partials/footer`)%> <%- include(`partials/scripts`)%>
+    <%- include(`partials/footer`)%>
+    <script src="/js/global.js"></script>
   </body>
 </html>

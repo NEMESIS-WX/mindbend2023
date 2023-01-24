@@ -6,12 +6,12 @@
   there!`, keywords: `MINDBEND, TECHNO-FEST, SVNIT, NIT-SURAT, NATIONAL-EVENT`,
   style: `events`, title: `MINDBEND 2023 | WORKSHOPS`, });%>
   <body>
-    <img id="bg" src="/images/bgs/workshop.png" alt="" />
+    <img id="bg" src="/images/bgs/workshop.webp" alt="" />
     <%- include(`partials/loading`)%> <%- include(`partials/nav`,
     {appear:`appear`})%>
 
     <main>
-      <div class="heading">
+      <div class="heading" id="workshop-heading">
         <p>WORKSHOPS</p>
         <p>WORKSHOPS</p>
         WORKSHOPS
@@ -34,6 +34,7 @@
         <%});%>
       </div>
     </main>
-    <%- include(`partials/footer`)%> <%- include(`partials/scripts`)%>
+    <%- include(`partials/footer`)%>
+    <script src="/js/global.js"></script>
   </body>
 </html>

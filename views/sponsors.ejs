@@ -6,13 +6,8 @@
   there!`, keywords: `MINDBEND, TECHNO-FEST, SVNIT, NIT-SURAT, NATIONAL-EVENT`,
   style: `sponsors`, title: `MINDBEND 2023 | SPONSORS`, });%>
   <body>
-    <div class="bg-stars">
-      <div id="stars"></div>
-      <div id="stars2"></div>
-      <div id="stars3"></div>
-    </div>
-    <%- include(`partials/loading`)%> <%- include(`partials/nav`,
-    {appear:"appear"})%>
+    <%- include(`partials/stars`)%> <%- include(`partials/loading`)%> <%-
+    include(`partials/nav`, {appear:"appear"})%>
     <main>
       <!-- <div class="team-container">
         <h2>SPONSORS and PARTNERS!</h2>
@@ -35,6 +30,7 @@
       </h1>
     </main>
     <img id="snow-mountain" src="/images/extras/snow-mountain.png" alt="" />
-    <%- include(`partials/footer`)%> <%- include(`partials/scripts`)%>
+    <%- include(`partials/footer`)%>
+    <script src="/js/global.js"></script>
   </body>
 </html>

@@ -586,3 +586,88 @@ input[type="radio"] {
 .buttons input:hover {
   background: #33d8f4;
 }
+
+@media screen and (max-width: 860px) {
+  #event_container {
+    width: auto;
+    padding: 1.2rem;
+  }
+
+  .sub-container-1 {
+    width: auto;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sub-container-1 .about {
+    margin: 3rem 0;
+    width: 100%;
+  }
+
+  .sub-container-1 a {
+    position: relative;
+    margin: 1rem 0;
+  }
+
+  .sub-container-1 .img-container {
+    height: 100%;
+    width: 100%;
+    margin: 1rem 0;
+  }
+
+  .sub-container-2 {
+    min-height: 35rem;
+    margin: 1rem;
+    margin-right: 2.3rem;
+  }
+
+  .sub-container-2 input[type="radio"] + label .content {
+    padding: 1rem;
+    padding-left: 2rem;
+    text-align: justify;
+  }
+
+  .sub-container-2 li,
+  .sub-container-2 p,
+  .sub-container-2 .acc-btn {
+    font-size: 0.8rem !important;
+  }
+
+  .mbimg-container {
+    height: 7rem;
+    width: 7rem;
+  }
+  .registration-form {
+    margin-top: -3.5rem;
+    padding: 1rem;
+    padding-top: 4.5rem;
+  }
+  .left-form,
+  .right-form {
+    align-items: center;
+  }
+
+  .input-container,
+  .svnitian {
+    margin: 0.5rem;
+  }
+  .input-container label,
+  .svnitian label,
+  .is-svnitian label {
+    font-size: 1rem;
+    margin-right: 0.5rem;
+  }
+  input[type="text"],
+  input[type="number"],
+  input[type="tel"],
+  input[type="email"] {
+    width: 13rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .content .contacts {
+    flex-direction: column;
+    align-items: center;
+  }
+}

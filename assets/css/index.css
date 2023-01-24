@@ -397,7 +397,7 @@ main {
   width: 100%;
   background: #13172089;
   opacity: 0.6;
-  background-image: url("/images/bgs/glass.png");
+  background-image: url("/images/bgs/glass.webp");
   background-size: 100% auto;
   background-repeat: no-repeat;
   z-index: 20;
@@ -439,4 +439,81 @@ main {
 .map iframe {
   height: 25rem;
   width: 100%;
+}
+
+@media screen and (max-width: 860px) {
+  #planes {
+    left: -13%;
+  }
+  #plane {
+    scale: 1.5;
+    transform: translateX(-10%);
+  }
+  #fg {
+    scale: 0.8;
+    top: 20%;
+    overflow: auto;
+    width: auto;
+  }
+  #about {
+    transform: translateY(10rem);
+  }
+  .box .content {
+    padding: 3rem 1rem 1rem 1rem;
+  }
+  .heading,
+  .heading p {
+    font-size: 3rem;
+  }
+  .submarine-back {
+    top: calc(170rem - 50vw);
+    height: calc(100rem - 20vw);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #main-bg {
+    transform: translate(0);
+  }
+
+  #tank {
+    transform: scale(1.5);
+  }
+  #missiles-launcher {
+    transform: scale(2);
+  }
+  .box .content p {
+    font-size: 1rem;
+  }
+  #box-1 {
+    top: calc(23rem - 10vw);
+  }
+  #box-2 {
+    top: calc(85rem - 10vw);
+  }
+
+  .list {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .figures {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  #submarine {
+    top: 50%;
+  }
+  #fg {
+    transform: translateX(-25%);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover {
+    background-size: auto !important;
+  }
 }

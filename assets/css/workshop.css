@@ -9,6 +9,13 @@ main {
   padding: 2rem 5rem;
 }
 
+#bg {
+  position: fixed;
+  height: 100%;
+  top: 0;
+  filter: blur(6px);
+}
+
 .img-container {
   margin: 0 2rem;
   height: 25rem;
@@ -52,4 +59,44 @@ main {
   position: absolute;
   bottom: 0;
   color: #33d8f4;
+}
+
+@media screen and (max-width: 1000px) {
+  .workshop-main {
+    flex-wrap: wrap;
+    padding: 0.5rem;
+    padding-bottom: 15rem;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .workshop-main .details {
+    width: 25rem;
+  }
+  .workshop-main .img-container,
+  .workshop-main .details {
+    margin: 2rem auto 1rem auto;
+  }
+  .workshop-main .details .register {
+    position: relative;
+    margin-top: 5rem;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  #workshop-heading,
+  #workshop-heading p {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .workshop-main .img-container {
+    width: 80vw;
+    height: 80vw;
+  }
+
+  .workshop-main .details {
+    width: 90vw;
+  }
 }

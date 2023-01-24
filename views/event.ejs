@@ -15,7 +15,7 @@
       <div id="event_container" class="container">
         <div class="sub-container-1">
           <div class="img-container">
-            <img src="<%= event.image %>" alt="" />
+            <img src="<%= event.image_hq %>" alt="" />
           </div>
           <div class="about">
             <h2 class="name"><%= event.name %></h2>
@@ -77,8 +77,10 @@
           <input type="radio" name="tabs" id="tab_0" />
           <label for="tab_0">
             <div class="content">
-              <%- event.details %>
-              <p><%= event.timeline %></p>
+              <%- event.details %> <% event.timeline.forEach((ev) => {%>
+              <p><%= ev %></p>
+
+              <%})%>
             </div>
           </label>
         </div>
@@ -251,7 +253,9 @@
         </div>
       </div> -->
     </main>
-    <%- include(`partials/footer`)%> <%- include(`partials/scripts`)%>
+    <%- include(`partials/footer`)%>
+    <script src="/js/global.js"></script>
+
     <script>
       const form_container = document.querySelector(
         ".registration-form-container"
