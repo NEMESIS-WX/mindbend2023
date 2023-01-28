@@ -7,7 +7,7 @@
   style: `team`, title: `MINDBEND 2023 | TEAM`, });%>
 
   <body>
-    <img id="bg" src="/images/bgs/team.png" alt="" />
+    <img id="bg" src="/images/bgs/team.webp" alt="" />
 
     <%- include(`partials/loading`)%> <%- include(`partials/nav`,
     {appear:`appear`})%>
@@ -26,7 +26,8 @@
       <div class="commitee">
         <h1>Faculty Advisors</h1>
         <div class="team-cards-container">
-          <% team.forEach(function(e){ %> <% if(e.position === "chairman"){ %>
+          <% team.forEach(function(e){ %> <% if(e.position === "chairperson"){
+          %>
           <div class="card-container">
             <div class="card">
               <div
@@ -45,7 +46,7 @@
         </div>
         <div class="team-cards-container">
           <% team.forEach(function(e){ %> <% if(e.commitee ===
-          "Faculty-Advisors" && e.position!="chairman"){ %>
+          "Faculty-Advisors" && e.position!="chairperson"){ %>
           <div class="card-container">
             <div class="card">
               <div
@@ -153,6 +154,7 @@
         </div>
       </div>
     </main>
-    <%- include(`partials/footer`)%> <%- include(`partials/scripts`)%>
+    <%- include(`partials/footer`)%>
+    <script src="/js/global.js"></script>
   </body>
 </html>

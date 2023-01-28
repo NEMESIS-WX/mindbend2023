@@ -100,3 +100,12 @@ main {
   background-color: #33d8f4;
   box-shadow: 10px 10px 10px #33d7f479;
 }
+
+@media screen and (max-width: 860px) {
+  .ca-container {
+    width: 95vw;
+  }
+  .ca-desc {
+    padding: 1rem;
+  }
+}
