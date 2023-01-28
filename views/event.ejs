@@ -86,10 +86,12 @@
         </div>
       </div>
       <div class="registration-form-container form-dissappear">
-        <div class="mbimg-container">
+
+        <!-- <div class="mbimg-container">
           <img src="/images/mbLogo.png" alt="" />
-        </div>
-        <div class="registration-form">
+        </div> -->
+
+        <!-- <div class="registration-form">
           <div title="CLose Form" class="close-button" onclick="form_toggle();">
             <svg
               clip-rule="evenodd"
@@ -114,12 +116,173 @@
           >
             Stay tuned,<br />
             Registrations will be open soon. . .
-          </h1>
+          </h1> -->
+
+          <!-- the form -->
+          <div class="registration-form-container form-dissappear">
+            <div class="mbimg-container">
+              <img src="/images/mbLogo.png" alt="" />
+            </div>
+            <div class="registration-form">
+              <div title="CLose Form" class="close-button" onclick="form_toggle();">
+                <svg
+                  clip-rule="evenodd"
+                  fill-rule="evenodd"
+                  stroke-linejoin="round"
+                  stroke-miterlimit="2"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="m12 10.93 5.719-5.72c.146-.146.339-.219.531-.219.404 0 .75.324.75.749 0 .193-.073.385-.219.532l-5.72 5.719 5.719 5.719c.147.147.22.339.22.531 0 .427-.349.75-.75.75-.192 0-.385-.073-.531-.219l-5.719-5.719-5.719 5.719c-.146.146-.339.219-.531.219-.401 0-.75-.323-.75-.75 0-.192.073-.384.22-.531l5.719-5.719-5.72-5.719c-.146-.147-.219-.339-.219-.532 0-.425.346-.749.75-.749.192 0 .385.073.531.219z"
+                  />
+                </svg>
+              </div>
+
+              <form
+                action="/events/register"
+                method="post"
+              >
+                <div class="left-form">
+                  <div class="input-container">
+                    <label for="event">Event</label>
+                    <input
+                      type="text"
+                      name="event"
+                      value="<%= event.name %>"
+                      style="pointer-events: none"
+                      id=""
+                      required
+                    />
+                  </div>
+
+                  <div class="input-container">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="" required />
+                  </div>
+
+                  <div class="input-container">
+                    <label for="email">E-Mail</label>
+                    <input type="email" name="email" id="" required />
+                  </div>
+
+                  <div class="input-container">
+                    <label for="phoneNo">Phone</label>
+                    <input
+                      type="tel"
+                      id="phone"
+                      name="phoneNo"
+                      pattern="[0-9]{10}"
+                      placeholder="1234567890"
+                      required
+                    />  
+                  </div>
+
+                  <div class="is-svnitian">
+                    <div class="input-container">
+                      <label for="svnitian">SVNITIAN</label>
+                      <input
+                        type="radio"
+                        name="svnitian"
+                        id="true"
+                        value="true"
+                        onclick="itssvnitian();"
+                      />
+                    </div>
+
+                    <div class="input-container">
+                      <label for="svnitian">Other</label>
+                      <input
+                        type="radio"
+                        name="svnitian"
+                        id="false"
+                        value="false"
+                        onclick="other();"
+                        checked
+                      />
+                    </div>
+
+                  </div>
+                </div>
+
+                // this is the popup
+                <div class="right-form">
+
+                  <div class="svnitian" style="display: none">
+                    <label for="rollNo">Roll No.</label>
+                    <input
+                      type="text"
+                      name="rollNo"
+                      id=""
+                      value="A12AB123"
+                      pattern="[A-Za-z]{1}[0-9]{2}[A-Za-z]{2}[0-9]{3}"
+                      required
+                    />
+                  </div>
+
+                  <div class="other">
+                    <div class="input-container">
+                      <label for="college">College</label>
+                      <input
+                        type="text"
+                        name="college"
+                        value="My College"
+                        id=""
+                        required
+                      />
+                    </div>
+
+                    <div class="input-container">
+                      <label for="upi">Upi Id</label>
+                      <input
+                        type="text"
+                        name="upi"
+                        value="abc@sbi"
+                        id=""
+                        required
+                      />
+                    </div>
+                  </div>
+
+                  <div class="input-container">
+                    <label for="branch">Branch</label>
+                    <input type="text" name="branch" id="" required />
+                  </div>
+
+                  <div class="input-container">
+                    <label for="year">Year</label>
+                    <input
+                      type="number"
+                      name="year"
+                      id=""
+                      min="1"
+                      max="4"
+                      required
+                    />
+                  </div>
+                </div>
+
+                <div class="qr-code">
+                  <img src="" alt="" srcset="">
+                </div>
+
+                <div class="buttons">
+                  <!-- <input type="button" value="button"> -->
+                  <button id="submit"><a href="/payment" style="color:black"> Register</a> </button>
+                  <!-- <input type="submit" name="Submit" id="submit" /> -->
+                  <input type="reset" name="Reset" id="reset" />
+                </div>
+
+              </form>
+
+            </div>
+          </div>
+
         </div>
       </div>
 
-      <!-- the form -->
-      <!-- <div class="registration-form-container form-dissappear">
+      <!-- the form
+      <div class="registration-form-container form-dissappear">
         <div class="mbimg-container">
           <img src="/images/mbLogo.png" alt="" />
         </div>
@@ -138,6 +301,7 @@
               />
             </svg>
           </div>
+
           <form
             action=""
             method="post"
@@ -154,14 +318,17 @@
                   required
                 />
               </div>
+
               <div class="input-container">
                 <label for="name">Name</label>
                 <input type="text" name="name" id="" required />
               </div>
+
               <div class="input-container">
                 <label for="email">E-Mail</label>
                 <input type="email" name="email" id="" required />
               </div>
+
               <div class="input-container">
                 <label for="phoneNo">Phone</label>
                 <input
@@ -173,6 +340,7 @@
                   required
                 />
               </div>
+
               <div class="is-svnitian">
                 <div class="input-container">
                   <label for="svnitian">SVNITIAN</label>
@@ -183,6 +351,7 @@
                     onclick="itssvnitian();"
                   />
                 </div>
+
                 <div class="input-container">
                   <label for="svnitian">Other</label>
                   <input
@@ -193,9 +362,13 @@
                     checked
                   />
                 </div>
+
               </div>
             </div>
+
+            // this is the popup
             <div class="right-form">
+
               <div class="svnitian" style="display: none">
                 <label for="rollNo">Roll No.</label>
                 <input
@@ -207,6 +380,7 @@
                   required
                 />
               </div>
+
               <div class="other">
                 <div class="input-container">
                   <label for="college">College</label>
@@ -218,6 +392,7 @@
                     required
                   />
                 </div>
+
                 <div class="input-container">
                   <label for="upi">Upi Id</label>
                   <input
@@ -229,10 +404,12 @@
                   />
                 </div>
               </div>
+
               <div class="input-container">
                 <label for="branch">Branch</label>
                 <input type="text" name="branch" id="" required />
               </div>
+
               <div class="input-container">
                 <label for="year">Year</label>
                 <input
@@ -245,13 +422,17 @@
                 />
               </div>
             </div>
+
             <div class="buttons">
               <input type="submit" name="Submit" id="submit" />
               <input type="reset" name="Reset" id="reset" />
             </div>
+
           </form>
+
         </div>
       </div> -->
+
     </main>
     <%- include(`partials/footer`)%>
     <script src="/js/global.js"></script>
@@ -281,9 +462,11 @@
         isSvnitian.style.display = "flex";
         notSvnitian.style.display = "none";
       }
+
       function other() {
         isSvnitian.style.display = "none";
         notSvnitian.style.display = "flex";
+        
       }
     </script>
   </body>

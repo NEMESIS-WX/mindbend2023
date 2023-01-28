@@ -2,15 +2,18 @@ const express = require("express");
 const app = express();
 const mongoose = require("mongoose");
 const cp = require("cookie-parser");
-
+const multer = require("multer");
+const middle=require("./multer.js")
 const PORT = process.env.PORT || 8080;
 
 // import events from data.js
 const { events, workshops, team } = require("./assets/js/data.js");
+const formData = require("./schemas/formData.js");
 
 app.set("view engine", "ejs");
 app.use(express.urlencoded({ extended: true }));
 app.use(cp("secret"));
+// const router = express.Router();
 
 // Connect to db
 mongoose
@@ -62,6 +65,29 @@ app.get("/workshops/:wname", (req, res) => {
   });
 });
 
+app.post('/events/register', async (req, res) => {
+  const data = new formData({
+    eventName: req.body.event,
+    name: req.body.name,
+    email: req.body.email,
+    phoneNo: req.body.phoneNo,
+    svnitian: ( req.body.svnitian === 'true') ? true : false,
+    rollNo: req.body.rollNo,
+    college: req.body.college,
+    upiId: req.body.upi,
+    branch: req.body.branch,
+    year: req.body.year
+  });
+  
+  data.save((err,result) => {
+    if(err) throw err;
+    console.log(result);
+  });
+
+  res.render("payment");
+});
+
+
 app.get("/camAmb", (req, res) => {
   res.render("camAmb");
 });
@@ -81,6 +107,36 @@ app.get("/sponsors", (req, res) => {
 app.get("/test", (req, res) => {
   res.render("test");
 });
+
+app.route('/payment').get((req, res) => {
+  res.render("payment");
+}).post( middle.single("file"),(req,res,next) => {
+    /* middle(req,res,(err)=>{
+      if(err instanceof multer.MulterError){
+        console.log("error occured when uploading")
+      }
+      else if(err){
+        console.log("unknown error occured");
+      }
+    }) */
+    const data=formData.findOne({$and:[
+      { email: req.body.email }, { phoneNo :req.body.phone}
+    ]})
+    data.exec((err,result) => {
+      if (err) console.log(err);
+      if(result == null) {
+        res.redirect('/');
+      }
+      console.log(result);
+      result.paid=true;
+      result.img=req.file.filename;
+      result.save((err,check)=>{
+        if(err) throw err;
+        console.log(check);      
+        res.redirect('/')
+      })
+    })
+})
 
 // Campus ambassador router
 app.use("/campusAmbassador/", require("./routes/campusAmbassadorRoutes"));
