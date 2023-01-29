@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('partials/head', {description:`MINDBEND is Gujarat's largest
+  Techno-Managerial Fest, which is entirely organized by the SVNIT student body
+  and serves as the perfect rocket launch-pad for all the tech-enthusiasts out
+  there!`, keywords: `MINDBEND, TECHNO-FEST, SVNIT, NIT-SURAT, NATIONAL-EVENT`,
+  style: ``, title: `MINDBEND 2023 | Sucessfull Payment`});%>
+  <style>
+    #bg {
+      position: fixed;
+      height: 100%;
+      top: 0;
+      filter: blur(6px);
+    }
+    main {
+      padding: 5rem;
+      height: 100vh;
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    .texts {
+      padding: 5rem 3rem;
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background: rgba(0, 0, 0, 0.667);
+    }
+    h2 {
+      color: #33d8f4;
+      text-align: center;
+    }
+    p {
+      font-weight: 600;
+      margin: 1rem;
+      color: #fff;
+    }
+  </style>
+  <body>
+    <%- include(`partials/loading`)%> <%- include(`partials/nav`,
+    {appear:`appear`})%>
+    <img id="bg" src="/images/bgs/success.png" alt="" />
+
+    <main>
+      <div class="texts">
+        <h2>We've recoreded your response, and we'll get back to you soon.</h2>
+        <p>Keep Exploring.</p>
+      </div>
+    </main>
+    <%- include(`partials/footer`)%>
+  </body>
+  <script src="/js/global.js"></script>
+</html>
+
+<script></script>

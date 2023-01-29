@@ -472,6 +472,7 @@ main {
   height: 2rem;
   width: 2rem;
   margin: 1rem;
+  cursor: pointer;
 }
 
 .close-button svg {
@@ -573,7 +574,8 @@ input[type="radio"] {
   justify-content: center;
 }
 
-.buttons input {
+.buttons input,
+.buttons button {
   border: 0;
   height: 2.5rem;
   padding: 0.7rem;
@@ -583,8 +585,10 @@ input[type="radio"] {
   background: #fff;
 }
 
-.buttons input:hover {
+.buttons input:hover,
+input::file-selector-button:hover {
   background: #33d8f4;
+  color: #fff;
 }
 
 @media screen and (max-width: 860px) {
@@ -665,7 +669,51 @@ input[type="radio"] {
   }
 }
 
+#file {
+  width: 7rem;
+  margin: 0.5rem 0;
+}
+
+input::file-selector-button {
+  padding: 0;
+  margin: 0;
+  width: 7rem;
+  border: none;
+  height: 3rem;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.qr-code {
+  height: 15rem;
+  width: 15rem;
+  margin: 1rem;
+  border-radius: 10px;
+}
+
+.conditional {
+  flex-direction: column;
+}
+
 @media screen and (max-width: 768px) {
+  input[type="text"],
+  input[type="number"],
+  input[type="tel"],
+  input[type="email"] {
+    height: 2rem;
+    font-size: 0.8rem;
+  }
+
+  .acc-btn,
+  .acc-content {
+    margin-left: 1.5rem;
+    width: calc(100% - 1.5rem);
+  }
+
+  .qr-code {
+    height: 12rem;
+    width: 12rem;
+  }
   .content .contacts {
     flex-direction: column;
     align-items: center;
