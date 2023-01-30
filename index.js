@@ -3,7 +3,7 @@ const app = express();
 const mongoose = require("mongoose");
 const cp = require("cookie-parser");
 const multer = require("multer");
-const middle=require("./multer.js")
+const middle = require("./multer.js");
 const PORT = process.env.PORT || 8080;
 
 // import events from data.js
@@ -65,28 +65,27 @@ app.get("/workshops/:wname", (req, res) => {
   });
 });
 
-app.post('/events/register', async (req, res) => {
+app.post("/events/register", async (req, res) => {
   const data = new formData({
     eventName: req.body.event,
     name: req.body.name,
     email: req.body.email,
     phoneNo: req.body.phoneNo,
-    svnitian: ( req.body.svnitian === 'true') ? true : false,
+    svnitian: req.body.svnitian === "true" ? true : false,
     rollNo: req.body.rollNo,
     college: req.body.college,
     upiId: req.body.upi,
     branch: req.body.branch,
-    year: req.body.year
+    year: req.body.year,
   });
-  
-  data.save((err,result) => {
-    if(err) throw err;
+
+  data.save((err, result) => {
+    if (err) throw err;
     console.log(result);
   });
 
-  res.render("payment");
+  res.render("payment", { data: data });
 });
-
 
 app.get("/camAmb", (req, res) => {
   res.render("camAmb");
@@ -108,35 +107,34 @@ app.get("/test", (req, res) => {
   res.render("test");
 });
 
-app.route('/payment').get((req, res) => {
-  res.render("payment");
-}).post( middle.single("file"),(req,res,next) => {
-    /* middle(req,res,(err)=>{
-      if(err instanceof multer.MulterError){
-        console.log("error occured when uploading")
-      }
-      else if(err){
-        console.log("unknown error occured");
-      }
-    }) */
-    const data=formData.findOne({$and:[
-      { email: req.body.email }, { phoneNo :req.body.phone}
-    ]})
-    data.exec((err,result) => {
+app.get("/success", (req, res) => {
+  res.render("success");
+});
+
+app
+  .route("/payment")
+  .get((req, res) => {
+    res.render("payment");
+  })
+  .post(middle.single("file"), (req, res, next) => {
+    const data = formData.findOne({
+      $and: [{ email: req.body.email }, { phoneNo: req.body.phone }],
+    });
+    data.exec((err, result) => {
       if (err) console.log(err);
-      if(result == null) {
-        res.redirect('/');
+      if (result == null) {
+        res.redirect("/success");
       }
       console.log(result);
-      result.paid=true;
-      result.img=req.file.filename;
-      result.save((err,check)=>{
-        if(err) throw err;
-        console.log(check);      
-        res.redirect('/')
-      })
-    })
-})
+      result.paid = true;
+      result.img = req.file.filename;
+      result.save((err, check) => {
+        if (err) throw err;
+        console.log(check);
+        res.redirect("/success");
+      });
+    });
+  });
 
 // Campus ambassador router
 app.use("/campusAmbassador/", require("./routes/campusAmbassadorRoutes"));
