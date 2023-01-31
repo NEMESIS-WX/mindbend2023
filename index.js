@@ -74,6 +74,7 @@ app.post("/events/register", async (req, res) => {
     svnitian: req.body.svnitian === "true" ? true : false,
     rollNo: req.body.rollNo,
     college: req.body.college,
+    fee: req.body.fee,
     upiId: req.body.upi,
     branch: req.body.branch,
     year: req.body.year,

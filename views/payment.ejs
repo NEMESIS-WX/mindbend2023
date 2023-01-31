@@ -44,18 +44,26 @@
             </div>
             <%if(!data.svnitian == true){%>
             <div class="input-container">
-              <label for="upi">Upi Id</label>
+              <label for="upi">Transection Id</label>
               <input
                 type="text"
                 id="upiId"
                 name="upiId"
                 value="<%= data.upiId%>"
-                style="pointer-events: none"
+                required
               />
             </div>
             <div class="input-container">
-              <p style="color: #33d8f4; margin: 0.5rem 0; font-weight: 600">
-                Total Payable: 200
+              <p
+                style="
+                  width: 20rem;
+                  color: #33d8f4;
+                  margin: 0.5rem 0;
+                  font-weight: 600;
+                "
+              >
+                Total Payable: <%if(data.svnitian == true){%> FREE <%};%>
+                <%if(data.svnitian == false){%> <%= data.fee%> <%};%>
               </p>
             </div>
             <%};%>
@@ -65,7 +73,6 @@
               <%if(data.svnitian == true){%>
               <label for="proof">Upload an ID Proof of SVNIT</label>
               <%};%> <%if(data.svnitian == false){%>
-              <label for="proof">Upload Payment Screenshot</label>
               <div class="right">
                 <img
                   class="qr-code"
@@ -74,9 +81,18 @@
                   srcset=""
                 />
               </div>
-              <%};%>
+              <label for="proof">Upload Payment Screenshot</label>
 
-              <input type="file" name="file" id="file" required />
+              <%};%>
+              <div class="file-button">
+                <input
+                  type="file"
+                  name="file"
+                  id="file"
+                  accept="image/*"
+                  required
+                />
+              </div>
             </div>
           </div>
 

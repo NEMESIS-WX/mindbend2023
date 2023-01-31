@@ -5,6 +5,8 @@ const events = [
     image_hq: "/images/events/hq/MUN_ TANMAY.png",
     image: "/images/events/MUN_ TANMAY.png",
     prize: ["1st Prize: Rs 8000", "2nd Prize: Rs 6000"],
+    fee: "Rs 30",
+    type: "individual",
     about: `Chance to Represent your country at global level`,
     // ----------------------------------------------------------------
     details: `
@@ -115,6 +117,8 @@ const events = [
     image_hq: "/images/events/hq/DALAL STREET 1992.png",
     image: "/images/events/DALAL STREET 1992.png",
     prize: ["1st Prize: Rs 8000", "2nd Prize: Rs 6000"],
+    fee: "Rs 30",
+    type: "team",
     about: `Indian Stock Market Simulation`,
     // ----------------------------------------------------------------
     details: `
@@ -212,6 +216,8 @@ const events = [
     image_hq: "/images/events/hq/VENDING MASTERS.png",
     image: "/images/events/VENDING MASTERS.png",
     prize: ["1st Prize: Rs 4500", "2nd Prize: Rs 3500", "3rd Prize: Rs 2000"],
+    fee: "Rs 30",
+    type: "team",
     about: `Exhibit you marketing savviness`,
     // ----------------------------------------------------------------
     details: `
@@ -304,6 +310,8 @@ const events = [
     image_hq: "/images/events/hq/hustle trade.png",
     image: "/images/events/hustle trade.png",
     prize: ["1st Prize: Rs 6000", "2nd Prize: Rs 4000"],
+    fee: "Rs 30",
+    type: "team",
     about: `The Game of Wit and Bid`,
     // ----------------------------------------------------------------
     details: `
@@ -400,6 +408,8 @@ const events = [
     image_hq: "/images/events/hq/create your identity.png",
     image: "/images/events/create your identity.png",
     prize: ["1st Prize: Rs 5000", "2nd Prize: Rs 3000"],
+    fee: "Rs 20",
+    type: "team",
     about: `Unleashing the Power of Creativity`,
     // ----------------------------------------------------------------
     details: `
@@ -498,6 +508,8 @@ const events = [
     image_hq: "/images/events/hq/Bluffs and Bargains.png",
     image: "/images/events/Bluffs and Bargains.png",
     prize: ["1st Prize: Rs 4000", "2nd Prize: Rs 3000", "3rd Prize Rs 2000"],
+    fee: "Rs 30",
+    type: "team",
     about: "Prove your negotiation mettle",
     // ----------------------------------------------------------------
     details: `
@@ -599,6 +611,8 @@ const events = [
     image_hq: "/images/events/hq/Trend Your Brand.png",
     image: "/images/events/Trend Your Brand.png",
     prize: ["1st Prize: Rs 5500", "2nd Prize: Rs 3500"],
+    fee: "Rs 30",
+    type: "ind",
     about: "Advertising Ideas~ Endorsing Brands",
     // ----------------------------------------------------------------
     details: `<h2>
@@ -693,6 +707,8 @@ const events = [
     image_hq: "/images/events/hq/INVESTOMANIA.png",
     image: "/images/events/INVESTOMANIA.png",
     prize: ["1st Prize: Rs 5000", "2nd Prize: Rs 3000"],
+    fee: "Rs 30",
+    type: "team",
     about: "Investments that will make you grow",
     // ----------------------------------------------------------------
     details: `<h2>
@@ -792,6 +808,8 @@ investments and how you apply and get good returns.
     image_hq: "/images/events/hq/the jewel of jumanji.png",
     image: "/images/events/the jewel of jumanji.png",
     prize: ["1st Prize: Rs 4500", "2nd Prize: Rs 3500", "3rd Prize: Rs 2000"],
+    fee: "Rs 30",
+    type: "team",
     about: "Fight your way to the top",
     // ----------------------------------------------------------------
     details: `<h2>
@@ -891,6 +909,8 @@ investments and how you apply and get good returns.
     image_hq: "/images/events/hq/CAN YOU BE THE PRESIDENT.png",
     image: "/images/events/CAN YOU BE THE PRESIDENT.png",
     prize: ["1st Prize: Rs 4500", "2nd Prize: Rs 3500", "3rd Prize: Rs 2000"],
+    fee: "Rs 20",
+    type: "individual",
     about: "Be the leader you would follow",
     // ----------------------------------------------------------------
     details: `<h2>
@@ -994,6 +1014,7 @@ investments and how you apply and get good returns.
     image_hq: "/images/events/hq/cad crackers.png",
     image: "/images/events/cad crackers.png",
     prize: ["1st Prize: Rs 3500", "2nd Prize: Rs 2500", "3rd Prize: Rs 1500"],
+    fee: "Rs 30",
     about: "CAD",
     // ----------------------------------------------------------------
     details: `<h2>
@@ -1067,7 +1088,6 @@ investments and how you apply and get good returns.
       </h3>
       <p>
         Registration Fee: Rs 30 <br>
-        Registration window will open soon.
       </p>
       <h3> Event Platform</h3>
       <p> Online </p>
@@ -1088,7 +1108,7 @@ investments and how you apply and get good returns.
       "Bring your college/student I-Card at the time of competition. ",
       "Decision Taken by Judges will be final and binding for all.",
       " Any misbehavior will lead you to disqualification from the competition.",
-      " If less than 5 teams will be registered, then only the first prize will be given, and if less than 10 teams will register, only two prizes will be given.",
+      " If less than 10 teams will be registered, then only the first prize will be given, and if less than 20 teams will register, only two prizes will be given.",
     ],
     catagory: "technical",
     faqs: [
@@ -1131,6 +1151,7 @@ investments and how you apply and get good returns.
     image_hq: "/images/events/hq/structure for future.png",
     image: "/images/events/structure for future.png",
     prize: ["1st Prize: Rs 3500", "2nd Prize: Rs 2500", "3rd Prize: Rs 1500"],
+    fee: "Rs 70",
     about: "STRUCTURE FOR FUTURE",
     // ----------------------------------------------------------------
     details: `<h2>
@@ -1243,7 +1264,6 @@ investments and how you apply and get good returns.
       </h3>
       <p>
         Registration Fee: Rs 50 <br>
-        Registration window will open soon!
       </p>
   
       <h2>
@@ -1311,6 +1331,7 @@ investments and how you apply and get good returns.
       "2nd Prize: Rs 40,000",
       "3rd Prize: Rs 25,000",
     ],
+    fee: "Rs 300",
     about: "The fun begins where the pavement ends",
     // ----------------------------------------------------------------
     details: `<h2>
@@ -1410,7 +1431,6 @@ investments and how you apply and get good returns.
       </h3>
       <p>
         Registration Fee: Rs 500 <br>
-        Registration window will open soon!
       </p>
   
       <h2> 
@@ -1484,6 +1504,7 @@ investments and how you apply and get good returns.
       `15kg Category; 1st prize: Rs. 40,000, 2nd Prize: Rs 25,000, 3rd Prize: Rs. 15,000`,
       `60kg Category; 1st prize: Rs. 60,000, 2nd Prize: Rs 35,000, 3rd Prize: Rs. 25,000`,
     ],
+    fee: "Catagory - 1 : 200; Catagory - 2 : 400",
     about: "Beat, Defeat, Win, Repeat  ",
     // ----------------------------------------------------------------
     details: `<h2>
@@ -1705,7 +1726,6 @@ investments and how you apply and get good returns.
       </h3>
       <p>
         Registration Fee: Rs 500 <br>
-        Registration window will open soon!
       </p>
   
       <h2>
@@ -1765,6 +1785,7 @@ investments and how you apply and get good returns.
     image_hq: "/images/events/hq/MAZE RUNNER.png",
     image: "/images/events/MAZE RUNNER.png",
     prize: ["1st Prize: Rs 13000", "2nd Prize: Rs 10000", "3rd Prize: Rs 7000"],
+    fee: "Rs 100",
     about: ``,
     // ----------------------------------------------------------------
     details: `
@@ -1861,7 +1882,6 @@ investments and how you apply and get good returns.
           </h2>
           <p>
             Fee: Rs 200 <br>
-            Registration window will be open soon.
           </p>
         </ul>
       `,
@@ -1871,7 +1891,7 @@ investments and how you apply and get good returns.
       "Decision Taken by Judges will be final and binding for all.",
       "All decisions taken by the organizing team will be deemed final, and no more changes will be encouraged.",
       "The idea presented by the teams should be original (not protected by patent/copyright/technical publication by anyone else).",
-      "If less than 5 teams will be registered, then only the first prize will be given and if less than 10 teams will register, only two prizes will be given.",
+      "If less than 5 teams will be registered, then only the first prize will be given and if less than 15 teams will register, only two prizes will be given.",
       "No one shall enter the arena except the organizers.",
       "If Any of the above-mentioned rules, if found violated, teams would not be allowed to participate in the competition.",
       "Any damage caused to the arena at any point in time will lead to disqualification /penalty.",
@@ -1917,6 +1937,7 @@ investments and how you apply and get good returns.
     image_hq: "/images/events/hq/sky high.png",
     image: "/images/events/sky high.png",
     prize: ["1st Prize: Rs 7000", "2nd Prize: Rs 5000", "3rd Prize: Rs 3000"],
+    fee: "Rs 80",
     about: ``,
     // ----------------------------------------------------------------
     details: `
@@ -2061,7 +2082,6 @@ investments and how you apply and get good returns.
           </h2>
           <p>
             Fee: Rs 50 <br>
-            Registration window will be open soon.
           </p>
         </ul>
       `,
@@ -2072,7 +2092,7 @@ investments and how you apply and get good returns.
       "All decisions taken by the organizing team will be deemed final, and no more changes will be encouraged.",
       "Plagiarism in any form is strictly prohibited and can even result in the disqualification of contestants involved.",
       "The idea presented by the teams should be original (not protected by patent/copyright/technical publication by anyone else).",
-      "If less than 5 teams will be registered, then only first prize will be given and if less than 10 teams will register, only two prizes will be given.",
+      "If less than 5 teams will be registered, then only first prize will be given and if less than 15 teams will register, only two prizes will be given.",
       "No one shall enter the arena except the organisers.",
       "Any of the above-mentioned rules, if found violated, teams would not be allowed to participate in the competition.",
       "Any damage caused to the arena at any point in time will lead to disqualification /penalty.",
@@ -2118,6 +2138,7 @@ investments and how you apply and get good returns.
     image_hq: "/images/events/hq/cat-a-pult.png",
     image: "/images/events/cat-a-pult.png",
     prize: ["1st Prize: Rs 7000", "2nd Prize: Rs 5000", "3rd Prize: Rs 3000"],
+    fee: "Rs 80",
     about: ``,
     // ----------------------------------------------------------------
     details: `
@@ -2208,7 +2229,6 @@ investments and how you apply and get good returns.
           </h2>
           <p>
             Fee: Rs 50 <br>
-            Registration window will be open soon.
           </p>
         </ul>
       `,
@@ -2266,6 +2286,7 @@ investments and how you apply and get good returns.
     image_hq: "/images/events/hq/HUNT THE LINE.png",
     image: "/images/events/HUNT THE LINE.png",
     prize: ["1st Prize: Rs 13000", "2nd Prize: Rs 10000", "3rd Prize: Rs 7000"],
+    fee: "Rs 100",
     about: `A Chase for All!!`,
     // ----------------------------------------------------------------
     details: `
@@ -2347,7 +2368,6 @@ investments and how you apply and get good returns.
           </h2>
           <p>
             Fee: Rs 200 <br>
-            Registration window will be open soon.
           </p>
         </ul>
       `,
@@ -2359,7 +2379,7 @@ investments and how you apply and get good returns.
       "Any of the above-mentioned rules, if found violated, teams would not be allowed to participate in the competition.",
       "Decision Taken by Judges will be final and binding for all.",
       "Any misbehaviour will lead you to disqualification from the competition.",
-      "If less than 5 teams will be registered, then only first prize will be given and if less than 10 teams will register, only two prizes will be given. Team Specifications",
+      "If less than 5 teams will be registered, then only first prize will be given and if less than 15 teams will register, only two prizes will be given. Team Specifications",
       "Team should be of 3-5 members.",
       "Members of a team may be from the same college/school or different (K12/UG/PG).",
       "Any number of teams can participate from one college/school.",
@@ -2412,6 +2432,7 @@ investments and how you apply and get good returns.
     image_hq: "/images/events/hq/chem-e-car.png",
     image: "/images/events/chem-e-car.png",
     prize: ["1st Prize: Rs 8000", "2nd Prize: Rs 5000", "3rd Prize: Rs 3000"],
+    fee: "Rs 200",
     about: `Voraciously Chem-E-Engineered Car`,
     // ----------------------------------------------------------------
     details: `
@@ -2488,7 +2509,6 @@ investments and how you apply and get good returns.
           </h2>
           <p>
             Fee: Rs 50 <br>
-            Registration window will be open soon.
           </p>
         </ul>
       `,
@@ -2497,7 +2517,7 @@ investments and how you apply and get good returns.
       "Bring your college/student I-Card at the time of competition.",
       "Decision Taken by Judges will be final and binding for all.",
       "Any misbehavior will lead you to disqualification from the competition.",
-      "If less than 15 teams will be registered, then only first prize will be given and if less than 10 teams will register, only two prizes will be given.",
+      "If less than 10 teams will be registered, then only first prize will be given and if less than 20 teams will register, only two prizes will be given.",
     ],
     catagory: "technical",
     faqs: [
@@ -2536,6 +2556,7 @@ investments and how you apply and get good returns.
     image_hq: "/images/events/hq/CODEWARS.png",
     image: "/images/events/CODEWARS.png",
     prize: ["1st Prize: Rs 12000", "2nd Prize: Rs 8000", "3rd Prize: Rs 5000"],
+    fee: "Rs 50",
     about: `Wars Between Coders`,
     // ----------------------------------------------------------------
     details: `
@@ -2586,7 +2607,6 @@ investments and how you apply and get good returns.
           </h2>
           <p>
             Fee: Rs 150 <br>
-            Registration window will be open soon.
           </p>
         </ul>
       `,
@@ -2641,6 +2661,7 @@ investments and how you apply and get good returns.
     image_hq: "/images/events/hq/GAME OF BOTS.png",
     image: "/images/events/GAME OF BOTS.png",
     prize: ["1st Prize: Rs 3500", "2nd Prize: Rs 2500", "3nd Prize: Rs 1500"],
+    fee: "Rs 70",
     about: `Any technical fest is incomplete without a ‘Coding Challenge,’ isn’t it? Here we are with Game of Bots, where you must build a Discord Music bot on Replit. This competition stimulates your creativity and encourages you to come up with some imaginative ideas.`,
     // ----------------------------------------------------------------
     details: `
@@ -2783,6 +2804,7 @@ investments and how you apply and get good returns.
     image: "/images/events/kryptos.png",
     image_hq: "/images/events/hq/kryptos.png",
     prize: ["1st Prize: Rs 3000", "2nd Prize: Rs 2000", "3rd Prize: Rs 1000"],
+    fee: "Rs 80",
     about: ``,
     // ----------------------------------------------------------------
     details: `
@@ -2863,7 +2885,6 @@ investments and how you apply and get good returns.
         </h2>
         <p>
           Fee: Rs 30 <br>
-          Registration window will be open soon.
         </p>
       </ul>
     `,
@@ -2874,7 +2895,7 @@ investments and how you apply and get good returns.
       "All decisions taken by the organizing team will be deemed final, and no more changes will be encouraged. ",
       "Plagiarism in any form is strictly prohibited and can even result in the disqualification of contestants involved. ",
       "The idea presented by the teams should be original (not protected by patent/copyright/technical publication by anyone else)",
-      "If less than 10 teams will be registered, then only first prize will be given and if less than 15 teams will register, only two prizes will be given. ",
+      "If less than 10 teams will be registered, then only first prize will be given and if less than 20 teams will register, only two prizes will be given. ",
       "No one shall enter the arena except the organisers.",
       "Any of the above-mentioned rules, if found violated, teams would not be allowed to participate in the competition.",
       "Any damage caused to the arena at any point in time will lead to disqualification /penalty.",
@@ -2919,6 +2940,7 @@ investments and how you apply and get good returns.
     image: "/images/events/botmainia.png",
     image_hq: "/images/events/hq/botmainia.png",
     prize: ["1st Prize: Rs 6000", "2nd Prize: Rs 5000", "3rd Prize: Rs 4000"],
+    fee: "Rs 100",
     about: ``,
     // ----------------------------------------------------------------
     details: `
@@ -3015,7 +3037,6 @@ investments and how you apply and get good returns.
         </h2>
         <p>
           Fee: Rs 50 <br>
-          Registration window will be open soon.
         </p>
       </ul>
     `,
@@ -3073,6 +3094,7 @@ investments and how you apply and get good returns.
       "2nd Prize: Rs 17000",
       "3rd Prize: Rs 13000",
     ],
+    fee: "Rs 80",
     about: ``,
     // ----------------------------------------------------------------
     details: `
@@ -3218,7 +3240,6 @@ investments and how you apply and get good returns.
         </h2>
         <p>
           Fee: Rs 400 <br>
-          Registration window will be open soon.
         </p>
       </ul>
     `,
@@ -3227,7 +3248,7 @@ investments and how you apply and get good returns.
       "Any misbehavior will lead you to disqualification from the competition.",
       "Decision Taken by Judges will be final and binding for all",
       "All decisions taken by the organizing team will be deemed final, and no more changes will be encouraged",
-      "If less than 5 teams will be registered, then only the first prize will be given and if less than 10 teams will register, only two prizes will be given.",
+      "If less than 5 teams will be registered, then only the first prize will be given and if less than 15 teams will register, only two prizes will be given.",
       "No one shall enter the arena except the organizers",
       "If Any of the above-mentioned rules, if found violated, teams would not be allowed to participate in the competition.",
       "Any damage caused to the arena at any point in time will lead to disqualification /penalty.",
@@ -3268,6 +3289,7 @@ investments and how you apply and get good returns.
     image: "/images/events/dr driving.png",
     image_hq: "/images/events/hq/dr driving.png",
     prize: ["1st Prize: Rs 5000", "2nd Prize: Rs 3000", "3rd Prize: Rs 2000"],
+    fee: "Rs 50",
     about: ``,
     // ----------------------------------------------------------------
     details: `
@@ -3409,7 +3431,6 @@ investments and how you apply and get good returns.
       </h2>
       <p>
         Fee: Rs 50 <br>
-        Registration window will be open soon.
       </p>
     </ul>
   `,
@@ -3426,7 +3447,7 @@ investments and how you apply and get good returns.
       "Decision Taken by Judges will be final and binding for all",
       "All decisions taken by the organizing team will be deemed final, and no more changes will be encouraged.",
       "Bring your college/student I-Card at the time of competition.",
-      "If less than 5 teams will be registered, then only the first prize will be given, and if less than 10 teams will register, only two prizes will be given.",
+      "If less than 5 teams will be registered, then only the first prize will be given, and if less than 15 teams will register, only two prizes will be given.",
     ],
     faqs: [
       {
@@ -3469,6 +3490,7 @@ investments and how you apply and get good returns.
     image: "/images/events/chem-e-jeopardy.png",
     image_hq: "/images/events/hq/chem-e-jeopardy.png",
     prize: ["1st Prize: Rs 3000", "2nd Prize: Rs 2000", "3rd Prize: Rs 1000"],
+    fee: "Rs 30",
     about: ``,
     details: `
     <h2>
@@ -3529,7 +3551,6 @@ investments and how you apply and get good returns.
       </h2>
       <p>
         Fee: Rs 100 <br>
-        Registration window will be open soon.
       </p>
     </ul>
   `,
@@ -3579,6 +3600,7 @@ investments and how you apply and get good returns.
     image: "/images/events/bug-n-feature.png",
     image_hq: "/images/events/hq/bug-n-feature.png",
     prize: ["1st Prize: Rs 3500", "2nd Prize: Rs 2500", "3rd Prize: Rs 1500"],
+    fee: "Rs 50",
     about: ``,
     details: `
     <h2>
@@ -3692,7 +3714,6 @@ investments and how you apply and get good returns.
       </h2>
       <p>
         Fee: Rs 30 <br>
-        Registration window will be open soon.
       </p>
     </ul>
   `,
@@ -3703,7 +3724,7 @@ investments and how you apply and get good returns.
       "All decisions taken by the organizing team will be deemed final, and no more changes will be encouraged.  ",
       "Plagiarism in any form is strictly prohibited and can even result in the disqualification of contestants involved. ",
       "The idea presented by the teams should be original (not protected by patent/copyright/technical publication by anyone else) ",
-      "If less than 10 teams will be registered, then only first prize will be given and if less than 15 teams will register, only two prizes will be given.  ",
+      "If less than 10 teams will be registered, then only first prize will be given and if less than 20 teams will register, only two prizes will be given.  ",
       "No one shall enter the arena except the organizers. ",
       "Any of the above-mentioned rules, if found violated, teams would not be allowed to participate in the competition. ",
       "Any damage caused to the arena at any point in time will lead to disqualification/penalty. ",
@@ -3748,6 +3769,7 @@ investments and how you apply and get good returns.
     image: "/images/events/CONNECTIFY.png",
     image_hq: "/images/events/hq/CONNECTIFY.png",
     prize: ["1st Prize: Rs 3500", "2nd Prize: Rs 2500", "3rd Prize: Rs 1500"],
+    fee: "Rs 50",
     about: ``,
     details: `
     <h2>
@@ -3834,7 +3856,6 @@ investments and how you apply and get good returns.
       </h2>
       <p>
         Fee: Rs 50 <br>
-        Registration window will be open soon.
       </p>
     </ul>
   `,
@@ -3887,6 +3908,7 @@ investments and how you apply and get good returns.
     image: "/images/events/tech city.png",
     image_hq: "/images/events/hq/tech city.png",
     prize: ["1st Prize: Rs 3000", "2nd Prize: Rs 2000", "3rd Prize: Rs 1000"],
+    fee: "Rs 100",
     about: ``,
     details: `
     <h2>
@@ -3999,7 +4021,6 @@ investments and how you apply and get good returns.
       </h2>
       <p>
         Fee: Rs 50 <br>
-        Registration window will be open soon.
       </p>
     </ul>
   `,
@@ -4009,7 +4030,7 @@ investments and how you apply and get good returns.
       "Decisions Taken by Judges will be final and binding for all.",
       "Any misbehavior will lead you to disqualification from the competition.",
       "Plagiarism is strictly prohibited. Anyone found using the ppts available online or copying content from the internet will be immediately disqualified.",
-      "If less than 20 teams will be registered, then only two prize will be given and if less than 10 teams will register, only one prizes will be given.",
+      "If less than 10 teams will be registered, then only first prize will be given and if less than 20 teams will register, only two prizes will be given.",
     ],
     faqs: [
       {
@@ -4050,6 +4071,7 @@ investments and how you apply and get good returns.
 const workshops = [
   {
     name: "Web 3.0",
+    fee: "FREE",
     image_hq: "/images/workshops/hq/Web_3.png",
     image: "/images/workshops/Web_3.png",
 
@@ -4058,33 +4080,30 @@ const workshops = [
   },
   {
     name: "Rocket Building",
+    fee: "Rs 100",
     image_hq: "/images/workshops/hq/Rocket Building.png",
     image: "/images/workshops/Rocket Building.png",
     details: `A hands-on workshop on how to build basic rocket models. 
       The workshop will provide students with an opportunity to develop engineering design skills through direct application in high-powered rocketry.`,
   },
   {
-    name: "Exploration of Metaverse",
-    image_hq: "/images/workshops/hq/Exploration of Metaverse.png",
-    image: "/images/workshops/Exploration of Metaverse.png",
+    name: "Xtended Reality",
+    fee: "Rs 30",
+    image_hq: "/images/workshops/hq/Xtended Reality.png",
+    image: "/images/workshops/Xtended Reality.png",
     details: `A workshop on exploring Metaverse through VR headsets.
       Metaverse is a virtual space that allows users to work , interact and connect with each other outside real world. Metaverse uses blockchain, virtual reality and augmented reality to give life to virtual environment.`,
   },
   {
-    name: "Cyber Security",
-    image_hq: "/images/workshops/hq/Cyber Security.png",
-    image: "/images/workshops/Cyber Security.png",
-    details: `Introduction to Cyber Security and malware attacks.
-      This workshop will help us to protect our systems, networks and programs from digital attacks like cyber threats, cryptography, stegenography etc.`,
-  },
-  {
     name: "Blockchain Development",
+    fee: "FREE",
     image_hq: "/images/workshops/hq/Blockchain Development.png",
     image: "/images/workshops/Blockchain Development.png",
     details: `Blockchain technology is an advanced database mechanism that allows transparent information sharing within a business network. It stores data in blocks that are linked together in chains. These developers also help businesses understand how cryptocurrency works.`,
   },
   {
     name: "Data Science",
+    fee: "Rs 150",
     image_hq: "/images/workshops/hq/Data Science.png",
     image: "/images/workshops/Data Science.png",
     details: `Introduction to Data Science and Data analytics.
@@ -4092,6 +4111,7 @@ const workshops = [
   },
   {
     name: "3d printing",
+    fee: "Rs 60",
     image_hq: "/images/workshops/hq/3d printing.png",
     image: "/images/workshops/3d printing.png",
     details: `A hands-on 3d printing workshop.
@@ -4099,14 +4119,8 @@ const workshops = [
       `,
   },
   {
-    name: "Artificial Intelligence",
-    image_hq: "/images/workshops/hq/Artificial Intelligence.png",
-    image: "/images/workshops/Artificial Intelligence.png",
-    details: `Various AI domain based workshops.
-      Artificial intelligence is the simulation of human intelligence processes by machines, especially computer systems.`,
-  },
-  {
     name: "Gesture Robotics",
+    fee: "Rs 150",
     image_hq: "/images/workshops/hq/Gesture Robotics.png",
     image: "/images/workshops/Gesture Robotics.png",
     details: `Introduction to gesture robotics and a hands-on workshop on it.
@@ -4114,12 +4128,14 @@ const workshops = [
   },
   {
     name: "Web development",
+    fee: "Rs 100",
     image_hq: "/images/workshops/hq/Web development.png",
     image: "/images/workshops/Web development.png",
     details: `Web development is the building and maintenance of websites; it's the work that happens behind the scenes to make a website look great, work fast and perform well with a seamless user experience. It requires the knowledge of HTML, CSS, JavaScript etc`,
   },
   {
     name: "Machine Learning",
+    fee: "FREE",
     image_hq: "/images/workshops/hq/Machine Learning.png",
     image: "/images/workshops/Machine Learning.png",
     details: `Machine learning is a branch of artificial intelligence (AI) and computer science which focuses on the use of data and algorithms to imitate the way that humans learn, gradually improving its accuracy.`,

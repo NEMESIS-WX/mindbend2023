@@ -43,6 +43,7 @@
           <input type="radio" name="tabs" id="tab_3" />
           <label for="tab_3">
             <div class="content">
+              <h3 id="cordinators">Event Cordinators</h3>
               <div class="contacts">
                 <% event.contacts.forEach(function(e,id){ %>
                 <div class="contact">
@@ -194,8 +195,20 @@
                     required
                   />
                 </div>
-
                 <div class="input-container">
+                  <label for="fee">Fee</label>
+                  <textarea
+                    name="fee"
+                    id="fee"
+                    cols="1"
+                    rows="2"
+                    style="pointer-events: none"
+                  >
+  <%= event.fee %></textarea
+                  >
+                </div>
+
+                <!-- <div class="input-container">
                   <label for="upi">Upi Id</label>
                   <input
                     type="text"
@@ -204,7 +217,7 @@
                     id=""
                     required
                   />
-                </div>
+                </div> -->
               </div>
 
               <div class="input-container">
@@ -214,15 +227,29 @@
 
               <div class="input-container">
                 <label for="year">Year</label>
-                <input
+                <!-- <input
                   type="number"
                   name="year"
                   id=""
                   min="1"
                   max="4"
                   required
-                />
+                /> -->
+                <select name="year" id="year" required>
+                  <option value="1">1st</option>
+                  <option value="2">2nd</option>
+                  <option value="3">3rd</option>
+                  <option value="4">4th</option>
+                </select>
               </div>
+              <% if(event.type === "team" || event.catagory === "technical"){ %>
+              <div class="input-container">
+                <p for="team" style="color: #33d8f4; width: 20rem">
+                  Note: Its a team event so only team leader should register.
+                </p>
+              </div>
+
+              <%};%>
             </div>
 
             <div class="buttons">
@@ -336,7 +363,7 @@
                   <input
                     type="text"
                     name="college"
-                    value="My College"
+                    value="SVNIT"
                     id=""
                     required
                   />
