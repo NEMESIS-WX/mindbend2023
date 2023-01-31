@@ -17,10 +17,7 @@ app.use(cp("secret"));
 
 // Connect to db
 mongoose
-  .connect(
-    "mongodb+srv://user1:mongopass@cluster0.dt1ew.mongodb.net/mindBend?retryWrites=true",
-    { useNewURLParser: true }
-  )
+  .connect("mongodb://localhost/MindBend", { useNewURLParser: true })
   .then(() => {
     console.log("db connected");
   })
