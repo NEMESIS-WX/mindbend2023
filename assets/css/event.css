@@ -597,6 +597,39 @@ input::file-selector-button:hover {
   color: #fff;
 }
 
+#cordinators {
+  margin: 0 1rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+#file {
+  width: 17rem;
+  color: #33d8f4;
+  margin: 0.5rem 0;
+}
+
+input::file-selector-button {
+  padding: 0;
+  margin: 0 0.5rem;
+  width: 6rem;
+  border: none;
+  height: 2.5rem;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.qr-code {
+  height: 15rem;
+  width: 15rem;
+  margin: 1rem;
+  border-radius: 10px;
+}
+
+.conditional {
+  flex-direction: column;
+}
+
 @media screen and (max-width: 860px) {
   #event_container {
     width: auto;
@@ -675,39 +708,6 @@ input::file-selector-button:hover {
   textarea {
     width: 13rem;
   }
-}
-
-#cordinators {
-  margin: 0 1rem;
-  font-size: 1.5rem;
-  font-weight: 600;
-}
-
-#file {
-  width: 17rem;
-  color: #33d8f4;
-  margin: 0.5rem 0;
-}
-
-input::file-selector-button {
-  padding: 0;
-  margin: 0 0.5rem;
-  width: 6rem;
-  border: none;
-  height: 2.5rem;
-  border-radius: 10px;
-  background: #fff;
-}
-
-.qr-code {
-  height: 15rem;
-  width: 15rem;
-  margin: 1rem;
-  border-radius: 10px;
-}
-
-.conditional {
-  flex-direction: column;
 }
 
 @media screen and (max-width: 768px) {
