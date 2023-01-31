@@ -68,7 +68,7 @@ const scene_2 = new ScrollMagic.Scene({
 scene_1.on("progress", (e) => {
   hero_texts.children[0].childNodes.forEach((ch) => {
     ch.style = `font-size: ${Math.min(
-      Math.min(10, (window.innerWidth / 10) * 0.06),
+      Math.min(10, (window.innerWidth / 6) * 0.06),
       Math.max((1 - e.progress) * 10, 2)
     )}rem`;
   });

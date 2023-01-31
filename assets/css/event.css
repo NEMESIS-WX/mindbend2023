@@ -530,20 +530,26 @@ main {
 input[type="text"],
 input[type="number"],
 input[type="tel"],
-input[type="email"] {
+input[type="email"],
+select,
+textarea {
   border: none;
   border-radius: 5px;
-  height: 2.5rem;
+  min-height: 2.5rem;
+  height: auto;
   padding: 0.7rem;
   width: 15rem;
   background: #b9b9b9;
   font-size: 1rem;
+  resize: none;
 }
 
 input[type="text"]:focus,
 input[type="tel"]:focus,
 input[type="number"]:focus,
-input[type="email"]:focus {
+input[type="email"]:focus,
+select:focus,
+textarea:focus {
   outline: none;
   background: #fff;
 }
@@ -589,6 +595,39 @@ input[type="radio"] {
 input::file-selector-button:hover {
   background: #33d8f4;
   color: #fff;
+}
+
+#cordinators {
+  margin: 0 1rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+#file {
+  width: 17rem;
+  color: #33d8f4;
+  margin: 0.5rem 0;
+}
+
+input::file-selector-button {
+  padding: 0;
+  margin: 0 0.5rem;
+  width: 6rem;
+  border: none;
+  height: 2.5rem;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.qr-code {
+  height: 15rem;
+  width: 15rem;
+  margin: 1rem;
+  border-radius: 10px;
+}
+
+.conditional {
+  flex-direction: column;
 }
 
 @media screen and (max-width: 860px) {
@@ -638,13 +677,13 @@ input::file-selector-button:hover {
   }
 
   .mbimg-container {
-    height: 7rem;
-    width: 7rem;
+    height: 5rem;
+    width: 5rem;
   }
   .registration-form {
-    margin-top: -3.5rem;
+    margin-top: -2.5rem;
     padding: 1rem;
-    padding-top: 4.5rem;
+    padding-top: 3.5rem;
   }
   .left-form,
   .right-form {
@@ -664,43 +703,21 @@ input::file-selector-button:hover {
   input[type="text"],
   input[type="number"],
   input[type="tel"],
-  input[type="email"] {
+  input[type="email"],
+  select,
+  textarea {
     width: 13rem;
   }
-}
-
-#file {
-  width: 7rem;
-  margin: 0.5rem 0;
-}
-
-input::file-selector-button {
-  padding: 0;
-  margin: 0;
-  width: 7rem;
-  border: none;
-  height: 3rem;
-  border-radius: 10px;
-  background: #fff;
-}
-
-.qr-code {
-  height: 15rem;
-  width: 15rem;
-  margin: 1rem;
-  border-radius: 10px;
-}
-
-.conditional {
-  flex-direction: column;
 }
 
 @media screen and (max-width: 768px) {
   input[type="text"],
   input[type="number"],
   input[type="tel"],
-  input[type="email"] {
-    height: 2rem;
+  input[type="email"],
+  select,
+  textarea {
+    min-height: 2rem;
     font-size: 0.8rem;
   }
 
@@ -717,5 +734,9 @@ input::file-selector-button {
   .content .contacts {
     flex-direction: column;
     align-items: center;
+  }
+
+  #cordinators {
+    margin: 0 2.5rem;
   }
 }
