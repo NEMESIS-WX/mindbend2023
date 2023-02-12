@@ -371,6 +371,20 @@ main {
   border-bottom: 1px solid #ccc;
 }
 
+.content #rulebook {
+  height: 3rem;
+  width: auto;
+  padding: 0.5rem;
+  background: #fff;
+  color: #000000;
+  border-radius: 100px;
+}
+
+.content #rulebook:hover {
+  background: #000;
+  color: #fff;
+}
+
 /* ----------------------------------------------------------- */
 /* contacts css */
 .contacts {
@@ -402,10 +416,24 @@ main {
   font-size: 1rem;
   font-weight: 600;
 }
-.contact p {
+.contact a {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
   width: 100%;
   font-size: 0.8rem;
   margin: 0.2rem 0;
+  color: #000;
+}
+
+.contact a:hover {
+  fill: #25d366;
+  color: #25d366;
+}
+
+.contact a svg {
+  height: 1rem;
+  margin-left: 0.2rem;
 }
 
 /* Registration form -------------------------------------------------------------- */
@@ -735,7 +763,9 @@ input::file-selector-button {
     flex-direction: column;
     align-items: center;
   }
-
+  .content img {
+    width: 100%;
+  }
   #cordinators {
     margin: 0 2.5rem;
   }
