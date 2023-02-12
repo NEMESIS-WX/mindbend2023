@@ -66,6 +66,7 @@ const events = [
       </ul>`,
 
     timeline: ["DATE : 01/04/2023  ", "TIME : 2:30PM ONWARDS"],
+    rulebook: "NA",
     rules: [
       `
       All participants are supposed to follow the rules and game flow as decided by Mindbend'23 team
@@ -170,6 +171,7 @@ const events = [
       </ul>`,
 
     timeline: ["DATE : 31/03/2023  ", "TIME : 2:30PM ONWARDS"],
+    rulebook: "/docs/rulebooks/datal street.pdf",
     rules: [
       `
       All participants are supposed to follow the rules and game flow as decided by Mindbend'23 team members. 
@@ -196,7 +198,7 @@ const events = [
       },
       {
         q: "When will registrations begin?",
-        a: "Registration has started",  
+        a: "Registration has started",
       },
     ],
     contacts: [
@@ -264,6 +266,7 @@ const events = [
       </ul>`,
 
     timeline: ["DATE : 0  1/04/2023  ", "TIME : 2:30PM - 6:00PM"],
+    rulebook: "/docs/rulebooks/Vending Master.pdf",
     rules: [
       `
       All participants are supposed to follow the rules and game flow as decided by Mindbend'23 team members. 
@@ -362,6 +365,7 @@ const events = [
       </ul>`,
 
     timeline: ["DATE : 31/03/2023  ", "TIME : 2:30PM - 6:00PM"],
+    rulebook: "/docs/rulebooks/Hustle trade.pdf",
     rules: [
       `
       All participants are supposed to follow the rules and game flow as decided by Mindbend'23 team members. 
@@ -462,6 +466,7 @@ const events = [
       </ul>`,
 
     timeline: ["DATE : 02/04/2023  ", "TIME : 2:30PM - 6:00PM"],
+    rulebook: "/docs/rulebooks/Create your indentity.pdf",
     rules: [
       `
       All participants are supposed to follow the rules and game flow as decided by Mindbend'23 team members. 
@@ -565,6 +570,7 @@ const events = [
       </ul>
     `,
     timeline: ["DATE : 02/04/2023  ", "TIME : 10:00AM - 2:00PM"],
+    rulebook: "/docs/rulebooks/Bluffs and Bargains.pdf",
     rules: [
       `
     All participants are supposed to follow the rules and game flow as decided by Mindbend'23 team members. 
@@ -661,6 +667,7 @@ const events = [
 
   </ul>`,
     timeline: ["DATE : 31/03/2023  ", "TIME : 09:00AM - 2:00PM"],
+    rulebook: "/docs/rulebooks/Trend your brand.pdf",
     rules: [
       `
     All participants are supposed to follow the rules and game flow as decided by Mindbend'23 team members. 
@@ -762,6 +769,7 @@ investments and how you apply and get good returns.
 
   </ul>`,
     timeline: ["DATE : 31/03/2023  ", "TIME : 11:00AM - 2:30PM"],
+    rulebook: "/docs/rulebooks/Investomania.pdf",
     rules: [
       `
     All participants are supposed to follow the rules and game flow as decided by Mindbend'23 team members. 
@@ -863,6 +871,7 @@ investments and how you apply and get good returns.
 
   </ul>`,
     timeline: ["DATE : 01/04/2023  ", "TIME : 10:00AM - 2:00PM"],
+    rulebook: "/docs/rulebooks/The Jewel of jumanji.pdf",
     rules: [
       `
     All participants are supposed to follow the rules and game flow as decided by Mindbend'23 team members. 
@@ -968,6 +977,7 @@ investments and how you apply and get good returns.
 
   </ul>`,
     timeline: ["DATE : 01/04/2023  ", "TIME : 09:00AM - 1:00PM"],
+    rulebook: "/docs/rulebooks/Can you be the president.pdf",
     rules: [
       `
     All participants are supposed to follow the rules and game flow as decided by Mindbend'23 team members. 
@@ -1092,6 +1102,7 @@ investments and how you apply and get good returns.
       <h3> Event Platform</h3>
       <p> Online </p>`,
     timeline: [""],
+    rulebook: "/docs/rulebooks/CAD-CRACKERS.pdf",
     rules: [
       "For designing the models, SOLIDWORKS software is mandatory.",
       " The design must be completed in the given time restriction.",
@@ -1258,6 +1269,7 @@ investments and how you apply and get good returns.
         Registration Fee: Rs 50 <br>
       </p>`,
     timeline: [""],
+    rulebook: "NA",
     rules: [
       "Bring your college/student I-Card at the time of the competition.",
       "Decisions taken by Judges will be final and binding for all. ",
@@ -1413,6 +1425,7 @@ investments and how you apply and get good returns.
         Registration Fee: Rs 500 <br>
       </p>`,
     timeline: [""],
+    rulebook: "/docs/rulebooks/mode overdrive.pdf",
     rules: [
       "Teams are not permitted to damage other team's car during race intentionally.",
       "Any damage to track due to car will not be tolerated. ",
@@ -1690,6 +1703,7 @@ investments and how you apply and get good returns.
         Registration Fee: Rs 500 <br>
       </p>`,
     timeline: [""],
+    rulebook: "NA",
     rules: [
       "Any  damage  caused  to  the  arena  at  any  point  of  time  will  lead  to  disqualification/penalty.",
       "A team member can’t be a part of more than one team.    ",
@@ -1825,6 +1839,7 @@ investments and how you apply and get good returns.
         </ul>
       `,
     timeline: [""],
+    rulebook: "NA",
     rules: [
       "Any misbehavior will lead you to disqualification from the competition.",
       "Decision Taken by Judges will be final and binding for all.",
@@ -2008,6 +2023,7 @@ investments and how you apply and get good returns.
         </ul>
       `,
     timeline: [""],
+    rulebook: "/docs/rulebooks/SKY HIGH RULEBOOK.pdf",
     rules: [
       "Any misbehavior will lead you to disqualification from the competition.",
       "Decision Taken by Judges will be final and binding for all",
@@ -2140,6 +2156,7 @@ investments and how you apply and get good returns.
         </ul>
       `,
     timeline: [""],
+    rulebook: "NA",
     rules: [
       "Flammable substances like gunpowder, etc., cannot be used.",
       "Size of the object to be thrown: Lightweight ball of table-tennis ball’s size",
@@ -2260,6 +2277,7 @@ investments and how you apply and get good returns.
         </ul>
       `,
     timeline: [""],
+    rulebook: "NA",
     rules: [
       "Any damage caused to the arena at any point in time will lead to disqualification /penalty.",
       "The robot has to travel only on the prescribed arena, and if the bot completely leaves the arena it will have to start from the previous checkpoint.",
@@ -2384,6 +2402,7 @@ investments and how you apply and get good returns.
         </ul>
       `,
     timeline: [""],
+    rulebook: "/docs/rulebooks/Chem-E-Car.pdf",
     rules: [
       "Bring your college/student I-Card at the time of competition.",
       "Decision Taken by Judges will be final and binding for all.",
@@ -2476,6 +2495,7 @@ investments and how you apply and get good returns.
         </ul>
       `,
     timeline: [""],
+    rulebook: "NA",
     rules: [
       "The contest will be conducted on CodeForces",
       "Each team will get one computer to submit their solutions to the problem statements(ICPC Style)",
@@ -2609,6 +2629,7 @@ investments and how you apply and get good returns.
         </ul>`,
 
     timeline: [""],
+    rulebook: "/docs/rulebooks/game of bots.pdf",
     rules: [
       "Decision Taken by Judges will be final and binding for all",
       "All decisions taken by the organizing team will be deemed final, and no more changes will be encouraged.",
@@ -2735,6 +2756,7 @@ investments and how you apply and get good returns.
       </ul>
     `,
     timeline: [],
+    rulebook: "NA",
     rules: [
       "Any misbehavior will lead you to disqualification from the competition. ",
       "Decision Taken by Judges will be final and binding for all",
@@ -2783,8 +2805,8 @@ investments and how you apply and get good returns.
   // BALANCE IT
   {
     name: "BALANCE IT",
-    image: "/images/events/botmainia.png",
-    image_hq: "/images/events/hq/botmainia.png",
+    image: "/images/events/balance it.png",
+    image_hq: "/images/events/hq/balance it.png",
     prize: ["1st Prize: Rs 6000", "2nd Prize: Rs 5000", "3rd Prize: Rs 4000"],
     fee: "Rs 100",
     about: ``,
@@ -2874,6 +2896,7 @@ investments and how you apply and get good returns.
       </ul>
     `,
     timeline: [],
+    rulebook: "NA",
     rules: [
       "Bot must be autonomous detecting the white and black track. ",
       "Width of bot should be around 60-70 cm (as width of track = 80-90 cm",
@@ -3065,6 +3088,7 @@ investments and how you apply and get good returns.
       </ul>
     `,
     timeline: [],
+    rulebook: "NA",
     rules: [
       "Any misbehavior will lead you to disqualification from the competition.",
       "Decision Taken by Judges will be final and binding for all",
@@ -3243,6 +3267,7 @@ investments and how you apply and get good returns.
     </ul>
   `,
     timeline: [],
+    rulebook: "NA",
     rules: [
       "Vehicle means a four wheeled, electric motor driven RC car.",
       "The RC car must be controllable wirelessly by smartphone.",
@@ -3351,6 +3376,7 @@ investments and how you apply and get good returns.
     </ul>
   `,
     timeline: [],
+    rulebook: "/docs/rulebooks/chem-e-jeopardy.pdf",
     rules: [
       "The team should respond to the clue in the question format. For example, the clue is “Where is Taj Mahal?”. The answer should not be given Agra directly rather than this it should be given in the format “Where is Agra?” ",
       "Negative marking for response not submitted in question format along with deduction of clue’s value. ",
@@ -3501,6 +3527,7 @@ investments and how you apply and get good returns.
     </ul>
   `,
     timeline: [],
+    rulebook: "/docs/rulebooks/BUG N FEATURE.pdf",
     rules: [
       "Any misbehavior will lead you to disqualification from the competition.  ",
       "Decision Taken by Judges will be final and binding for all ",
@@ -3628,6 +3655,7 @@ investments and how you apply and get good returns.
     </ul>
   `,
     timeline: [],
+    rulebook: "NA",
     rules: [
       "Bring your college/student I-Card at the time of the competition. ",
       "Decisions taken by Judges will be final and binding for all. ",
@@ -3781,6 +3809,7 @@ investments and how you apply and get good returns.
     </ul>
   `,
     timeline: [],
+    rulebook: "NA",
     rules: [
       "Any violation of constraints will result in disqualification of the team.",
       "Decisions Taken by Judges will be final and binding for all.",
