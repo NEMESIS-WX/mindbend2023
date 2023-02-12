@@ -93,7 +93,7 @@ const events = [
       },
       {
         q: "When will registrations begin?",
-        a: "Registrations will begin very soon.",
+        a: "Registration has started",
       },
     ],
     contacts: [
@@ -196,7 +196,7 @@ const events = [
       },
       {
         q: "When will registrations begin?",
-        a: "Registrations will begin very soon.",
+        a: "Registration has started",  
       },
     ],
     contacts: [
@@ -290,17 +290,17 @@ const events = [
       },
       {
         q: "When will registrations begin?",
-        a: "Registrations will begin very soon.",
+        a: "Registration has started",
       },
     ],
     contacts: [
       {
         name: "Nirdeshi",
-        phone: "+91 6353 657 841",
+        phone: "6353 657 841",
       },
       {
         name: "Saurav",
-        phone: "+91 93270 49411",
+        phone: "93270 49411",
       },
     ],
   },
@@ -388,7 +388,7 @@ const events = [
       },
       {
         q: "When will registrations begin?",
-        a: "Registrations will begin very soon.",
+        a: "Registration has started",
       },
     ],
     contacts: [
@@ -488,13 +488,13 @@ const events = [
       },
       {
         q: "When will registrations begin?",
-        a: "Registrations will begin very soon.",
+        a: "Registration has started",
       },
     ],
     contacts: [
       {
         name: "Kaustubh",
-        phone: "91 79765 73402",
+        phone: "79765 73402",
       },
       {
         name: "Harsh",
@@ -591,7 +591,7 @@ const events = [
       },
       {
         q: "When will registrations begin?",
-        a: "Registrations will begin very soon.",
+        a: "Registration has started",
       },
     ],
     contacts: [
@@ -687,7 +687,7 @@ const events = [
       },
       {
         q: "When will registrations begin?",
-        a: "Registrations will begin very soon.",
+        a: "Registration has started",
       },
     ],
     contacts: [
@@ -788,7 +788,7 @@ investments and how you apply and get good returns.
       },
       {
         q: "When will registrations begin?",
-        a: "Registrations will begin very soon.",
+        a: "Registration has started",
       },
     ],
     contacts: [
@@ -889,7 +889,7 @@ investments and how you apply and get good returns.
       },
       {
         q: "When will registrations begin?",
-        a: "Registrations will begin very soon.",
+        a: "Registration has started",
       },
     ],
     contacts: [
@@ -994,7 +994,7 @@ investments and how you apply and get good returns.
       },
       {
         q: "When will registrations begin?",
-        a: "Registrations will begin very soon.",
+        a: "Registration has started",
       },
     ],
     contacts: [
@@ -1090,15 +1090,7 @@ investments and how you apply and get good returns.
         Registration Fee: Rs 30 <br>
       </p>
       <h3> Event Platform</h3>
-      <p> Online </p>
-      <h2> 
-        EVENT TIMELINE
-      </h2>
-        <h3>ROUND 1</h3>
-         <p> Declaration of shortlisted candidates: 25th March, 2023 </p>
-         <h3>ROUND 2</h3>
-          <p> Final submission: 30th March, 2023</p>
-`,
+      <p> Online </p>`,
     timeline: [""],
     rules: [
       "For designing the models, SOLIDWORKS software is mandatory.",
@@ -1130,7 +1122,7 @@ investments and how you apply and get good returns.
       },
       {
         q: "When will registrations begin?",
-        a: "Registrations will begin very soon.",
+        a: "Registration has started",
       },
     ],
     contacts: [
@@ -1264,19 +1256,7 @@ investments and how you apply and get good returns.
       </h3>
       <p>
         Registration Fee: Rs 50 <br>
-      </p>
-  
-      <h2>
-        EVENT TIMELINE
-      </h2>
-        <h3>ROUND 1</h3>
-         <ul>
-         <li>Abstract Submission: Before 15th March, 2023 </li>
-         <li> Declaration of shortlisted candidates: 18th March, 2023</li>
-         </ul>
-         <h3>ROUND 2</h3>
-          <p> Final submission: 30th March, 2023</p>
-`,
+      </p>`,
     timeline: [""],
     rules: [
       "Bring your college/student I-Card at the time of the competition.",
@@ -1306,7 +1286,7 @@ investments and how you apply and get good returns.
       },
       {
         q: "When will registrations begin?",
-        a: "Registrations will begin very soon.",
+        a: "Registration has started",
       },
     ],
     contacts: [
@@ -1431,25 +1411,7 @@ investments and how you apply and get good returns.
       </h3>
       <p>
         Registration Fee: Rs 500 <br>
-      </p>
-  
-      <h2> 
-        EVENT TIMELINE
-      </h2>
-        <h3>ROUND 1</h3>
-         <ul>
-         <li> Abstract Submission: Before 15th March, 2023
-         </li>
-         <li>Declaration of shortlisted candidates: 18th March, 2023
-         </li>
-         </ul>
-         <h3>ROUND 2</h3>
-          <p> Offline Event: 1st April, 2023
-          </p>
-        <h3>ROUND 3
-        </h3>
-        <p>Offline Event: 1st April, 2023
-        </p>`,
+      </p>`,
     timeline: [""],
     rules: [
       "Teams are not permitted to damage other team's car during race intentionally.",
@@ -1480,7 +1442,7 @@ investments and how you apply and get good returns.
       },
       {
         q: "When will registrations begin?",
-        a: "Registrations will begin very soon.",
+        a: "Registration has started",
       },
     ],
     contacts: [
@@ -1726,13 +1688,7 @@ investments and how you apply and get good returns.
       </h3>
       <p>
         Registration Fee: Rs 500 <br>
-      </p>
-  
-      <h2>
-        EVENT TIMELINE
-      </h2>
-        <p>Date of Conduct: 2nd April, 2023
-        </p>`,
+      </p>`,
     timeline: [""],
     rules: [
       "Any  damage  caused  to  the  arena  at  any  point  of  time  will  lead  to  disqualification/penalty.",
@@ -1764,7 +1720,7 @@ investments and how you apply and get good returns.
       },
       {
         q: "When will registrations begin?",
-        a: "Registrations will begin very soon.",
+        a: "Registration has started",
       },
     ],
     contacts: [
@@ -1861,23 +1817,6 @@ investments and how you apply and get good returns.
           </ul>
   
           <h2>
-            EVENT TIMELINE
-          </h2>
-          <h3>
-            ROUND 1
-          </h3>
-          <p>
-            Abstract Submission: Before 15th March, 2023 <br>
-            Declaration of shortlisted candidates: 18th March, 2023
-          </p>
-          <h3>
-            ROUND 2
-          </h3>
-          <p>
-            Offline Event: 1st April, 2023
-          </p>
-          
-          <h2>
             REGISTRATION DETAILS
           </h2>
           <p>
@@ -1916,7 +1855,7 @@ investments and how you apply and get good returns.
       },
       {
         q: "When will registrations begin?",
-        a: "Registrations will begin very soon.",
+        a: "Registration has started",
       },
     ],
     contacts: [
@@ -2061,27 +2000,10 @@ investments and how you apply and get good returns.
           </ul>
           
           <h2>
-            EVENT TIMELINE
-          </h2>
-          <h3>
-            ROUND 1
-          </h3>
-          <p>
-            Video Submission: Before 15th March, 2023 <br>
-            Declaration of shortlisted candidates: 18th March, 2023
-          </p>
-          <h3>
-            ROUND 2
-          </h3>
-          <p>
-            Offline Event: 2nd April, 2023
-          </p>
-          
-          <h2>
             REGISTRATION DETAILS
           </h2>
           <p>
-            Fee: Rs 50 <br>
+            Fee: Rs 80 <br>
           </p>
         </ul>
       `,
@@ -2117,7 +2039,7 @@ investments and how you apply and get good returns.
       },
       {
         q: "When will registrations begin?",
-        a: "Registrations will begin very soon.",
+        a: "Registration has started",
       },
     ],
     contacts: [
@@ -2175,12 +2097,13 @@ investments and how you apply and get good returns.
           <p>
             (10, 20 and 30 refer to the points earned in that region)
           </p>
-          <img src="/images/events/catapult/arena.png" alt="arena" />
+          <img src="/images/events/catapult-arena1.png" alt="arena" width="400px" />
           <h3>
+          <br>
             ARENA FOR ROUND 2:
           </h3>
-          <img src="/images/events/catapult/arena.png" alt="arena" />
-  
+          <img src="/images/events/catapult-arena2.png" alt="arena" width="400px"/>
+          <br>
           <h2>
             TEAM SPECIFICATION
           </h2>
@@ -2188,8 +2111,8 @@ investments and how you apply and get good returns.
             <li>1.You can participate individually or with a team of a maximum of 3 members.</li>
             <li>2. Any number of candidates can participate from one college/school.</li>
             <li>3. Participants are required to bring their school/college ID cards.</li>
-            <li>4. Once registered, the same candidate cannot register with another name for the event. 5. Organizers have the right to reject entries for any inappropriate username of the</li>
-            <li>candidate.</li>
+            <li>4. Once registered, the same candidate cannot register with another name for the event. </li>
+            <li>5. Organizers have the right to reject entries for any inappropriate username of the candidate.</li>
             <li>6. Organizers must be notified if a candidate’s username has been changed.</li>
           </ul>
   
@@ -2208,23 +2131,7 @@ investments and how you apply and get good returns.
             Judging criteria is according to the specific rounds mentioned above.
           </p>
           
-          <h2>
-            EVENT TIMELINE
-          </h2>
-          <h3>
-            ROUND 1
-          </h3>
-          <p>
-            Offline Event: 31st March, 2023
-          </p>
-          <h3>
-            ROUND 2
-          </h3>
-          <p>
-            Final submission: 31st March, 2023
-          </p>
-          
-          <h2>
+         <h2>
             REGISTRATION DETAILS
           </h2>
           <p>
@@ -2265,7 +2172,7 @@ investments and how you apply and get good returns.
       },
       {
         q: "When will registrations begin?",
-        a: "Registrations will begin very soon.",
+        a: "Registration has started",
       },
     ],
     contacts: [
@@ -2299,9 +2206,6 @@ investments and how you apply and get good returns.
         <h2>
           PROBLEM STATEMENT
         </h2>
-        <p>
-          Participants have to design an object-throwing mechanism.
-        </p>
         <ul>
           <h3>
             ROUND 1
@@ -2314,6 +2218,7 @@ investments and how you apply and get good returns.
             <li>Video must be in mp4 format.</li>
             <li>Ensure the proper visibility of bot in video.</li>
             <li>Bot shown must be the one which is to be operated over arena. Any sort of malpractice might lead to disqualification.</li>
+            <li>Any sort of malpractice might lead to disqualification.</li>
           </ul>
   
           <h3>
@@ -2345,23 +2250,6 @@ investments and how you apply and get good returns.
             <li>The maximum DC voltage between any two points in the circuitry must not exceed 24V.</li>
             <li>No pneumatics and hydraulics are allowed. Mechanisms which can harm other robot are NOT allowed.</li>
           </ul>
-          
-          <h2>
-            EVENT TIMELINE
-          </h2>
-          <h3>
-            ROUND 1
-          </h3>
-          <p>
-            Abstract Submission: Before 15 March, 2023 <br>
-            Declaration of shortlisted candidates: 18th March, 2023
-          </p>
-          <h3>
-            ROUND 2
-          </h3>
-          <p>
-            Offline : 31st March, 2023
-          </p>
           
           <h2>
             REGISTRATION DETAILS
@@ -2411,7 +2299,7 @@ investments and how you apply and get good returns.
       },
       {
         q: "When will registrations begin?",
-        a: "Registrations will begin very soon.",
+        a: "Registration has started",
       },
     ],
     contacts: [
@@ -2486,23 +2374,6 @@ investments and how you apply and get good returns.
             <li>If teams don’t show up on allotted slot, they will be disqualified.</li>
           </ul>
           
-          <h2>
-            EVENT TIMELINE
-          </h2>
-          <h3>
-            ROUND 1
-          </h3>
-          <p>
-            Abstract Submission: Before 15th March, 2023 <br>
-            Declaration of shortlisted candidates: 18th March, 2023
-          </p>
-          <h3>
-            ROUND 2
-          </h3>
-          <p>
-            Final Submission: 1st April, 2023 <br>
-            Declaration of winners: 
-          </p>
           
           <h2>
             REGISTRATION DETAILS
@@ -2539,7 +2410,7 @@ investments and how you apply and get good returns.
       },
       {
         q: "When will registrations begin?",
-        a: "Registrations will begin very soon.",
+        a: "Registration has started",
       },
     ],
     contacts: [
@@ -2597,12 +2468,6 @@ investments and how you apply and get good returns.
           </ul>
           
           <h2>
-            EVENT TIMELINE
-          </h2>
-          <p>Round: 31st March, 2023 
-          </p>
-          
-          <h2>
             REGISTRATION DETAILS
           </h2>
           <p>
@@ -2641,7 +2506,7 @@ investments and how you apply and get good returns.
       },
       {
         q: "When will registrations begin?",
-        a: "Registrations will begin very soon.",
+        a: "Registration has started",
       },
     ],
     contacts: [
@@ -2688,7 +2553,7 @@ investments and how you apply and get good returns.
             Thinking- It should contain the thinking behind the proposed solution.
             </li>
             </ul>
-            You must be very concise and to the point in the Abstract. It must not exceed two pages (double spaced. The Abstract (as a pdf) must be sent by email to (email) and (replit account) with the team details clearly mentioned in the email. The Team ID should be explicitly mentioned in the email subject, and the abstract file must be in the form of ‘TeamID_TeamLeaderName.’ Any other name for the abstract file will not be accepted.
+            You must be very concise and to the point in the Abstract. It must not exceed two pages double spaced. The Abstract must be sent by mail to (mindbend@svnit.ac.in) and replit account with the team details clearly mentioned in the email. The Team ID should be explicitly mentioned in the email subject, and the abstract file must be in the form of ‘TeamID_TeamLeaderName.’ Any other name for the abstract file will not be accepted.
           </p>
           <h3>
             Round 2
@@ -2705,7 +2570,7 @@ investments and how you apply and get good returns.
             There must be a clear description of the work of the submission in the README file.
             </li>
             <li>
-            Create a short video demo (~1-2 mins) while making the submission and submit the link to the mail(email). Make sure that the person watching the video is fully able to understand what the hack is and what the functionalities are. The more features and functionality of the bot, the more points you gain.
+            Create a short video demo (~1-2 mins) while making the submission and submit the link to the mail(mindbend@svnit.ac.in). Make sure that the person watching the video is fully able to understand what the hack is and what the functionalities are. The more features and functionality of the bot, the more points you gain.
             </li>
             </ul>
           </p>
@@ -2741,16 +2606,7 @@ investments and how you apply and get good returns.
           <p>
             Registration details will be announced soon.
           </p>
-        </ul>
-        <h2> 
-          EVENT TIMELINE
-        </h2>
-          <h3>ROUND 1</h3>
-           <p> Abstract Submission: Before 15th March, 2023</p>
-           <p> Declaration of shortlisted candidates: 18th March, 2023</p>
-           <h3>ROUND 2</h3>
-           <p> Online event: 29th March, 2023</p>
-        `,
+        </ul>`,
 
     timeline: [""],
     rules: [
@@ -2784,7 +2640,7 @@ investments and how you apply and get good returns.
       },
       {
         q: "When will registrations begin?",
-        a: "Registrations will begin very soon.",
+        a: "Registration has started",
       },
     ],
     contacts: [
@@ -2870,17 +2726,7 @@ investments and how you apply and get good returns.
         <p>The second round will be judged upon the approach as well concept clarity towards the
         questions.        
         </p>
-        <h2>
-          EVENT TIMELINE
-        </h2>
-       <h3>ROUND 1</h3>
-       <p>Quiz: 27th March, 2023
-       </p>
-       <h3>ROUND 2</h3>
-       <p>27th March, 2023
-       </p>
-        
-        <h2>
+       <h2>
           REGISTRATION DETAILS
         </h2>
         <p>
@@ -2919,7 +2765,7 @@ investments and how you apply and get good returns.
       },
       {
         q: "When will registrations begin?",
-        a: "Registrations will begin very soon.",
+        a: "Registration has started",
       },
     ],
     catagory: "technical",
@@ -3019,20 +2865,7 @@ investments and how you apply and get good returns.
        check points a team passes will be considered in assigning scores.
        </li>
        </ul>
-        <h2>
-          EVENT TIMELINE
-        </h2>
-       <h3>ABSTRACT SUBMISSION ROUND
-       </h3>
-       <p>Abstract Submission: Before 15th March, 2023
-       </p>
-       <p>Declaration of shortlisted candidates: 18th March, 2023
-       </p>
-       <h3>ROUND 1 & 2</h3>
-       <p>Final submission: 2nd April, 2023
-       </p>
-        
-        <h2>
+       <h2>
           REGISTRATION DETAILS
         </h2>
         <p>
@@ -3054,6 +2887,7 @@ investments and how you apply and get good returns.
       " In any condition if the bot moves out of the track then every time the team has to resume the game from the check points marked after every stage in round 2",
       "lf less then 15 teams have registered for the event only two prizes will be given and if less then 10 teams have registered for the event only two prize will be given.",
     ],
+
     faqs: [
       {
         q: "Who can participate?",
@@ -3073,7 +2907,7 @@ investments and how you apply and get good returns.
       },
       {
         q: "When will registrations begin?",
-        a: "Registrations will begin very soon.",
+        a: "Registration has started",
       },
     ],
     catagory: "technical",
@@ -3222,20 +3056,7 @@ investments and how you apply and get good returns.
         <li>Organizers must be notified if a candidate’s username has been changed. 
         </li>
         </ul>
-        <h2>
-          EVENT TIMELINE
-        </h2>
-       <h3>ABSTRACT SUBMISSION ROUND
-       </h3>
-       <p>Abstract Submission: Before 15th March, 2023
-       </p>
-       <p>Declaration of shortlisted candidates: 18th March, 2023
-       </p>
-       <h3>ROUND 1 </h3>
-       <p>Final submission: 1st April, 2023
-       </p>
-        
-        <h2>
+       <h2>
           REGISTRATION DETAILS
         </h2>
         <p>
@@ -3272,7 +3093,7 @@ investments and how you apply and get good returns.
       },
       {
         q: "When will registrations begin?",
-        a: "Registrations will begin very soon.",
+        a: "Registration has started",
       },
     ],
     catagory: "technical",
@@ -3332,7 +3153,7 @@ investments and how you apply and get good returns.
       <li>The vehicles will be judged in the following dynamic events
       
       <ul>
-      <li>Parallel Par
+      <li>Parallel Park
       </li>
       <li>Lap Tim</li>
       </ul></li>
@@ -3410,23 +3231,10 @@ investments and how you apply and get good returns.
             </li>
             <li>Track will be on solid concrete and bounded by plastic cones.
             </li>
-            <li>Cost for 42 cones = 1323 INR
-            </li>
           </ul>
         </li>
       </ul>
-      <h2>
-        EVENT TIMELINE
-      </h2>
-     <h3>ROUND 1
-     </h3>
-     <p>Online submission: Before 15th March, 2023  
-     </p>
-     <h3>ROUND 2 </h3>
-     <p>Offline round : 1st April, 2023
-     </p>
-      
-      <h2>
+     <h2>
         REGISTRATION DETAILS
       </h2>
       <p>
@@ -3468,7 +3276,7 @@ investments and how you apply and get good returns.
       },
       {
         q: "When will registrations begin?",
-        a: "Registrations will begin very soon.",
+        a: "Registration has started",
       },
     ],
     catagory: "technical",
@@ -3534,19 +3342,7 @@ investments and how you apply and get good returns.
      <p>Jeopardy and Final Jeopardy constitute the preliminary qualifying games which the teams
      shall get an opportunity to play in the semifinals
      </p>
-      <h2>
-        EVENT TIMELINE
-      </h2>
-     <h3>ROUND 1
-     </h3>
-     <p>Online submission: 25th March, 2023
-     </p>
-    
-     <h3>ROUND 2 </h3>
-     <p>Offline round: 31st March, 2023  
-     </p>
-      
-      <h2>
+     <h2>
         REGISTRATION DETAILS
       </h2>
       <p>
@@ -3583,7 +3379,7 @@ investments and how you apply and get good returns.
       },
       {
         q: "When will registrations begin?",
-        a: "Registrations will begin very soon.",
+        a: "Registration has started",
       },
     ],
     catagory: "technical",
@@ -3696,20 +3492,7 @@ investments and how you apply and get good returns.
       </h3>
       <p>Students of age 16-21
       </p>
-      <h2>
-        EVENT TIMELINE
-      </h2>
-     <h3>ROUND 1
-     </h3>
-     <p>Abstract Submission: Before 15th March, 2023
-     </p>
-     <p>Declaration of shortlisted candidates: 18th March, 2023
-      </p>
-     <h3>ROUND 2 </h3>
-     <p>Final submission: 30th March, 2023
-     </p>
-      
-      <h2>
+     <h2>
         REGISTRATION DETAILS
       </h2>
       <p>
@@ -3748,7 +3531,7 @@ investments and how you apply and get good returns.
       },
       {
         q: "When will registrations begin?",
-        a: "Registrations will begin very soon.",
+        a: "Registration has started",
       },
     ],
     catagory: "technical",
@@ -3837,21 +3620,6 @@ investments and how you apply and get good returns.
         </li>
       </ul>
       <h2>
-        EVENT TIMELINE
-      </h2>
-      <h3>ROUND 1 (Offline/Online):
-      </h3>
-      <p>A workshop- 1st April, 2023 </p>
-      <h3>ROUND 2 (Online - Kahoot):
-      </h3>
-      <p>Submission: 1st April, 202</p>
-      <h3>ROUND 3 (Offline - SVNIT Campus):
-      </h3>
-      <p>Final submission: 1st April, 2023
-      </p>
-      <p>Declaration of winners:      </p>
-     
-      <h2>
         REGISTRATION DETAILS
       </h2>
       <p>
@@ -3887,7 +3655,7 @@ investments and how you apply and get good returns.
       },
       {
         q: "When will registrations begin?",
-        a: "Registrations will begin very soon.",
+        a: "Registration has started",
       },
     ],
     catagory: "technical",
@@ -4005,18 +3773,6 @@ investments and how you apply and get good returns.
      </p>
 
       <h2>
-        EVENT TIMELINE
-      </h2>
-      <h3>ROUND 1:
-      </h3>
-      <p>Online presentation- 15th March, 2023
-      </p>
-      <h3>ROUND 2:
-      </h3>
-      <p>Simulation model submisson - 31st March, 2023
-      </p>
-
-      <h2>
         REGISTRATION DETAILS
       </h2>
       <p>
@@ -4051,7 +3807,7 @@ investments and how you apply and get good returns.
       },
       {
         q: "When will registrations begin?",
-        a: "Registrations will begin very soon.",
+        a: "Registration has started",
       },
     ],
     catagory: "technical",
@@ -4177,7 +3933,7 @@ const team = [
   },
   {
     name: "RUTUJA JADHAV",
-    phone: "+918975238707",
+    phone: "8975238707",
     admission_number: "U19ME024",
     mail: "rjjjadhavgne1729@gmail.com",
     commitee: "CCAS",
@@ -4241,7 +3997,7 @@ const team = [
   },
   {
     name: "Nishit Prajapati",
-    phone: "+919913899949",
+    phone: "9913899949",
     admission_number: "U20ME089",
     mail: "nishitprajapati2002@gmail.com",
     commitee: "Conveners",
