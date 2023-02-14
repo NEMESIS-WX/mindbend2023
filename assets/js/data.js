@@ -2023,7 +2023,7 @@ investments and how you apply and get good returns.
         </ul>
       `,
     timeline: [""],
-    rulebook: "/docs/rulebooks/SKY HIGH RULEBOOK.pdf",
+    rulebook: "/docs/rulebooks/SKY HIGH.pdf",
     rules: [
       "Any misbehavior will lead you to disqualification from the competition.",
       "Decision Taken by Judges will be final and binding for all",
@@ -2156,7 +2156,7 @@ investments and how you apply and get good returns.
         </ul>
       `,
     timeline: [""],
-    rulebook: "NA",
+    rulebook: "/docs/rulebooks/CAT-A-PULT.pdf",
     rules: [
       "Flammable substances like gunpowder, etc., cannot be used.",
       "Size of the object to be thrown: Lightweight ball of table-tennis ball’s size",
@@ -2495,7 +2495,7 @@ investments and how you apply and get good returns.
         </ul>
       `,
     timeline: [""],
-    rulebook: "NA",
+    rulebook: "/docs/rulebooks/Chem-E-Car.pdf",
     rules: [
       "The contest will be conducted on CodeForces",
       "Each team will get one computer to submit their solutions to the problem statements(ICPC Style)",
