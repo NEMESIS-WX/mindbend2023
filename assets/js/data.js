@@ -1,1475 +1,4 @@
 const events = [
-  // model united nations
-  {
-    name: "MODEL UNITED NATIONS (MUN)",
-    image_hq: "/images/events/hq/MUN_ TANMAY.png",
-    image: "/images/events/MUN_ TANMAY.png",
-    prize: ["1st Prize: Rs 8000", "2nd Prize: Rs 6000"],
-    fee: "Rs 30",
-    type: "individual",
-    about: `Chance to Represent your country at global level`,
-    // ----------------------------------------------------------------
-    details: `
-      <h2>
-        Problem Statement
-      </h2>
-      <p>
-        Replit is the best platform for quickly starting, sharing, hosting, and developing coding projects in any programming language right from your browser. Features you can make the most out of: Enjoy a Google Docs-like coding & editing experience supporting all languages across both mobile and desktop.
-      </p>
-      <ul>
-        <h3>
-          Round 1
-        </h3>
-        <p>
-          A quiz will be held on topic related to the international organisation or current affairs related
-          topics.The participants have to answer the question in pre defined time.On the basis of the score
-          in the quiz conducted teams will be shortlisted for 2nd round.
-        </p>
-        <h3>
-          Round 2
-        </h3>
-        <p>
-          Case Study : In this round a country name will be given and the participants will have to do case study on it.
-        </p>
-        <h3>
-          Round 3
-        </h3>
-        <p>
-          Debate
-            <ul>
-              <li>
-              Opening of the debate
-              </li>
-              <li>
-                The Debate
-              </li>
-              <li>
-                Closing of the debate
-              </li>
-            </ul>
-        </p>
-        <h3>
-          Team Specification
-        </h3>
-        <p>
-          Upto 3 members.
-        </p>
-        <h3>
-          Registration Details
-        </h3>
-        <p>
-          Registration Fee: Rs 30
-        </p>
-        <p>
-          Registration details will be announced soon.
-        </p>
-      </ul>`,
-
-    timeline: ["DATE : 01/04/2023  ", "TIME : 2:30PM ONWARDS"],
-    rulebook: "NA",
-    rules: [
-      `
-      All participants are supposed to follow the rules and game flow as decided by Mindbend'23 team
-      members. In case of any confusion, the final decision of the conducting team should be obeyed and
-      will be considered final.
-    `,
-    ],
-    catagory: "managerial",
-    faqs: [
-      {
-        q: "Who can participate?",
-        a: "Whosoever wants to participate there is no age restrictions, but participant should have school/college ID.",
-      },
-      {
-        q: "How long are the event?",
-        a: "No events will take more than a day.",
-      },
-      {
-        q: "What is techno-managerial fest?",
-        a: "It has both technical and managerial events.",
-      },
-      {
-        q: "What will i get if i don't win?",
-        a: "Every participant will get participation certificate.",
-      },
-      {
-        q: "When will registrations begin?",
-        a: "Registration has started",
-      },
-    ],
-    contacts: [
-      {
-        name: "Het",
-        phone: "73594 31754",
-      },
-      {
-        name: "Saurav",
-        phone: "93270 49411",
-      },
-      {
-        name: "Karm",
-        phone: "8347674048",
-      },
-    ],
-  },
-  // dalal street 1992
-  {
-    name: "DALAL STREET-1992",
-    image_hq: "/images/events/hq/DALAL STREET 1992.png",
-    image: "/images/events/DALAL STREET 1992.png",
-    prize: ["1st Prize: Rs 8000", "2nd Prize: Rs 6000"],
-    fee: "Rs 30",
-    type: "team",
-    about: `Indian Stock Market Simulation`,
-    // ----------------------------------------------------------------
-    details: `
-      <h2>
-        Introduction
-      </h2>
-      <p>
-        CCAC and MINDBEND 2023 bring to you the "DALAL STREET-1992", an Indian Stock Market competition as part of MINDBEND 2023. Presenting an opportunity to test their expertise in the stock market, participants will have to use their buy and sell qualities to keep moving ahead in the dynamic market.
-      </p>
-      <p>
-        Dalal Street-1992 is set in the year 1992 where Shareholders(Teams) can buy, sell, and trade their stock portfolio in an offline physical market. The goal is to increase the respective portfolios. The one with the maximum value of the portfolio wins the event.
-      </p>
-      <h2>
-        Problem Statement
-      </h2>
-      <ul>
-        <h3>
-          Round 1
-        </h3>
-        <p>
-          There will be an online quiz of 30 minutes based on some stock market facts 
-          followed by a Dalal Street competition round, 
-          10 teams or shareholders with each team comprising 3-4 members will qualify for the next round.
-        </p>
-        <h3>
-          Round 2
-        </h3>
-        <p>
-          There will be 10 News Rounds. 
-          In each round, the updated stock price of each company and some recent news events will be presented. 
-          Based on details each team must decide on which companies to invest in and update the respective portfolio. 
-          This will allow each of the teams(shareholders) to buy, sell, and trade with the Stock exchange or among themselves as well. 
-          Teams are allowed to move on the given platform allotted to each one of them respectively. 
-          At the end of this, the team with the maximum portfolio will win.
-        </p>
-        <h3>
-          Team Specification
-        </h3>
-        <p>
-          Upto 4 members.
-        </p>
-        <h3>
-          Registration Details
-        </h3>
-        <p>
-          Registration Fee: Rs 30 <br>
-          Registration details will be announced soon.
-        </p>
-      </ul>`,
-
-    timeline: ["DATE : 31/03/2023  ", "TIME : 2:30PM ONWARDS"],
-    rulebook: "/docs/rulebooks/datal street.pdf",
-    rules: [
-      `
-      All participants are supposed to follow the rules and game flow as decided by Mindbend'23 team members. 
-      In case of any confusion, the final decision of the conducting team should be obeyed and will be considered final.
-    `,
-    ],
-    catagory: "managerial",
-    faqs: [
-      {
-        q: "Who can participate?",
-        a: "Whosoever wants to participate there is no age restrictions, but participant should have school/college ID.",
-      },
-      {
-        q: "How long are the event?",
-        a: "No events will take more than a day.",
-      },
-      {
-        q: "What is techno-managerial fest?",
-        a: "It has both technical and managerial events.",
-      },
-      {
-        q: "What will i get if i don't win?",
-        a: "Every participant will get participation certificate.",
-      },
-      {
-        q: "When will registrations begin?",
-        a: "Registration has started",
-      },
-    ],
-    contacts: [
-      {
-        name: "Ritesh",
-        phone: "84018 22498",
-      },
-      {
-        name: "Anand",
-        phone: "73830 29448",
-      },
-    ],
-  },
-  // vending masters
-  {
-    name: "VENDING MASTERS",
-    image_hq: "/images/events/hq/VENDING MASTERS.png",
-    image: "/images/events/VENDING MASTERS.png",
-    prize: ["1st Prize: Rs 4500", "2nd Prize: Rs 3500", "3rd Prize: Rs 2000"],
-    fee: "Rs 30",
-    type: "team",
-    about: `Exhibit you marketing savviness`,
-    // ----------------------------------------------------------------
-    details: `
-      <h2>
-        Introduction
-      </h2>
-      <p>
-        How good are your marketing skills? How better can you convince others? This is all about the event Vending Masters. 
-        Here teams have to showcase their marketing knowledge and skills to convince people to buy their products.
-      </p>
-      <h2>
-        Problem Statement
-      </h2>
-      <ul>
-        <h3>
-          Round 1
-        </h3>
-        <p>
-          Teams will be shown some standard market products of which they have to guess the range 
-          in which the price of the product lies and the teams making the closest guesses will be promoted to the next round.
-        </p>
-        <h3>
-          Round 2
-        </h3>
-        <p>
-          In round 2, the qualified teams will have to sell some products showcasing 
-          their marketing and convincing skills to a group of people having some standard points 
-          each and the team taking the most points by selling the products given to them will win the game.
-        </p>
-        <h3>
-          Team Specification
-        </h3>
-        <p>
-          Upto 2 members.
-        </p>
-        <h3>
-          Registration Details
-        </h3>
-        <p>
-          Registration Fee: Rs 30 <br>
-          Registration details will be announced soon.
-        </p>
-
-      </ul>`,
-
-    timeline: ["DATE : 0  1/04/2023  ", "TIME : 2:30PM - 6:00PM"],
-    rulebook: "/docs/rulebooks/Vending Master.pdf",
-    rules: [
-      `
-      All participants are supposed to follow the rules and game flow as decided by Mindbend'23 team members. 
-      In case of any confusion, the final decision of the conducting team should be obeyed and will be considered final.
-    `,
-    ],
-    catagory: "managerial",
-    faqs: [
-      {
-        q: "Who can participate?",
-        a: "Whosoever wants to participate there is no age restrictions, but participant should have school/college ID.",
-      },
-      {
-        q: "How long are the event?",
-        a: "No events will take more than a day.",
-      },
-      {
-        q: "What is techno-managerial fest?",
-        a: "It has both technical and managerial events.",
-      },
-      {
-        q: "What will i get if i don't win?",
-        a: "Every participant will get participation certificate.",
-      },
-      {
-        q: "When will registrations begin?",
-        a: "Registration has started",
-      },
-    ],
-    contacts: [
-      {
-        name: "Nirdeshi",
-        phone: "6353 657 841",
-      },
-      {
-        name: "Saurav",
-        phone: "93270 49411",
-      },
-    ],
-  },
-  // hustle trade
-  {
-    name: "HUSTLE TRADE",
-    image_hq: "/images/events/hq/hustle trade.png",
-    image: "/images/events/hustle trade.png",
-    prize: ["1st Prize: Rs 6000", "2nd Prize: Rs 4000"],
-    fee: "Rs 30",
-    type: "team",
-    about: `The Game of Wit and Bid`,
-    // ----------------------------------------------------------------
-    details: `
-      <h2>
-        Introduction
-      </h2>
-      <p>
-        "Hustle Trade" is a game of Bid and Wit where participants 
-        will get an opportunity to test their auctioning and bidding skills. 
-        This game revolves around the auctioning and trading of units for completing the objects. 
-        From bidding for items through all the units, 
-        managing them and trading for completing the object this game has all that is needed for a whopping Bidding and Trading Battle
-      </p>
-      <h2>
-        Problem Statement
-      </h2>
-      <ul>
-        <h3>
-          Round 1
-        </h3>
-        <p>
-          All participating teams have to participate in an online quiz regarding Finance, Trading and Auctions. 
-          Teams will be shortlisted for further rounds on the basis of their respective scores on quiz.
-        </p>
-        <h3>
-          Round 2
-        </h3>
-        <p>
-          Each team will be granted a certain amount of money to purchase units or engage in trade. 
-          The unit will be auctioned out, each includes various elements of objects (such as sentence- forming words, gadget components, puzzles, etc). 
-          The winning team will have the maximum number of completed objects (and the largest number of the remaining amount). 
-          Following the auction, inter-trading alternatives will be provided.
-        </p>
-        <h3>
-          Team Specification
-        </h3>
-        <p>
-          Upto 4 members.
-        </p>
-        <h3>
-          Registration Details
-        </h3>
-        <p>
-          Registration Fee: Rs 30 <br>
-          Registration details will be announced soon.
-        </p>
-
-      </ul>`,
-
-    timeline: ["DATE : 31/03/2023  ", "TIME : 2:30PM - 6:00PM"],
-    rulebook: "/docs/rulebooks/Hustle trade.pdf",
-    rules: [
-      `
-      All participants are supposed to follow the rules and game flow as decided by Mindbend'23 team members. 
-      In case of any confusion, the final decision of the conducting team should be obeyed and will be considered final.
-    `,
-    ],
-    catagory: "managerial",
-    faqs: [
-      {
-        q: "Who can participate?",
-        a: "Whosoever wants to participate there is no age restrictions, but participant should have school/college ID.",
-      },
-      {
-        q: "How long are the event?",
-        a: "No events will take more than a day.",
-      },
-      {
-        q: "What is techno-managerial fest?",
-        a: "It has both technical and managerial events.",
-      },
-      {
-        q: "What will i get if i don't win?",
-        a: "Every participant will get participation certificate.",
-      },
-      {
-        q: "When will registrations begin?",
-        a: "Registration has started",
-      },
-    ],
-    contacts: [
-      {
-        name: "ayush",
-        phone: "6352 685 997",
-      },
-      {
-        name: "yash",
-        phone: "97129 00042",
-      },
-    ],
-  },
-  // create your identity
-  {
-    name: "CREATE YOUR IDENTITY",
-    image_hq: "/images/events/hq/create your identity.png",
-    image: "/images/events/create your identity.png",
-    prize: ["1st Prize: Rs 5000", "2nd Prize: Rs 3000"],
-    fee: "Rs 20",
-    type: "team",
-    about: `Unleashing the Power of Creativity`,
-    // ----------------------------------------------------------------
-    details: `
-      <h2>
-        Introduction
-      </h2>
-      <p>
-        What is a better way to express your creativity than expressing yourself through a design but concise, i.e., a LOGO.
-        In this event, you get a chance to channel your inner creativity and dive into the world of miniature but the point representation of designing a logo.
-      </p>
-      <h2>
-        Problem Statement
-      </h2>
-      <ul>
-        <h3>
-          Round 1
-        </h3>
-        <p>
-          All participating teams have to participate in an online quiz where there will be two logos side by side and you need to choose the correct one. 
-          Teams will be shortlisted for further rounds on the basis of their respective scores in quiz.
-        </p>
-        <h3>
-          Round 2
-        </h3>
-        <p>
-          Participants will be given a company or a product that failed or faced backlash. Prepare a case
-          study on the company or the product and come up with a solution.
-        </p>
-        <h3>
-          Round 3
-        </h3>
-        <p>
-          For the given hypothetical brand name and its description the qualified participants will have to come up with their own logos. 
-          The logo selected by the judges will be the logo king aka the winner.
-        </p>
-        <h3>
-          Team Specification
-        </h3>
-        <p>
-          Up to 2 members.
-        </p>
-        <h3>
-          Registration Details
-        </h3>
-        <p>
-          Registration Fee: Rs 20 <br>
-          Registration details will be announced soon.
-        </p>
-
-      </ul>`,
-
-    timeline: ["DATE : 02/04/2023  ", "TIME : 2:30PM - 6:00PM"],
-    rulebook: "/docs/rulebooks/Create your indentity.pdf",
-    rules: [
-      `
-      All participants are supposed to follow the rules and game flow as decided by Mindbend'23 team members. 
-      In case of any confusion, the final decision of the conducting team should be obeyed and will be considered final.
-    `,
-    ],
-    catagory: "managerial",
-    faqs: [
-      {
-        q: "Who can participate?",
-        a: "Whosoever wants to participate there is no age restrictions, but participant should have school/college ID.",
-      },
-      {
-        q: "How long are the event?",
-        a: "No events will take more than a day.",
-      },
-      {
-        q: "What is techno-managerial fest?",
-        a: "It has both technical and managerial events.",
-      },
-      {
-        q: "What will i get if i don't win?",
-        a: "Every participant will get participation certificate.",
-      },
-      {
-        q: "When will registrations begin?",
-        a: "Registration has started",
-      },
-    ],
-    contacts: [
-      {
-        name: "Kaustubh",
-        phone: "79765 73402",
-      },
-      {
-        name: "Harsh",
-        phone: "99044 55809",
-      },
-    ],
-  },
-  // bluffs and bargains
-  {
-    name: "BLUFFS AND BARGAINS",
-    image_hq: "/images/events/hq/Bluffs and Bargains.png",
-    image: "/images/events/Bluffs and Bargains.png",
-    prize: ["1st Prize: Rs 4000", "2nd Prize: Rs 3000", "3rd Prize Rs 2000"],
-    fee: "Rs 30",
-    type: "team",
-    about: "Prove your negotiation mettle",
-    // ----------------------------------------------------------------
-    details: `
-      <h2>
-        Introduction
-      </h2>
-      <p>
-        Bluffs and Bargains is a first-of-its-kind Negotiation Tournament, 
-        based on negotiation case simulations conducted in top Law schools 
-        to teach hands-on experience in one of the most important skills in the modern world. 
-        Teams will have to role-play various historical and realworld negotiators and secure the best deal for their situation.
-      </p>
-    
-      <h2>
-        Problem Statement
-      </h2>
-      <ul>
-        <h3>
-          Round 1
-        </h3>
-        <p>
-          After a short preliminary online quiz (30 min) on basic negotiating intuition to decide the candidates, 
-          Teams will qualify for a specified round knockout tournament on scorable
-          negotiation cases to spotlight the best of the best, 
-          the most silver-tongued and hard-balling negotiators that can crack deals 
-          in minutes and leave all sides happy with their lot.
-        </p>
-        <h3>
-          Round 2
-        </h3>
-        <p>
-          Each knockout round lasts around 25-30 minutes.
-          10 min given to teams to understand their side of the story and take note of their
-          confidential information and what deal they need to make. 
-          Followed by 15-20 minutes of dealmaking, 
-          where both sides try to convince each other to agree to their own terms. 
-          If a deal is struck and hands have shaken, 
-          the teams are scored based on the result and their application of negotiating skills.
-        </p>
-        <h3>
-          Team Specification
-        </h3>
-        <p>
-          Upto 2 members.
-        </p>
-        <h3>
-          Registration Details
-        </h3>
-        <p>
-          Registration Fee: Rs 30 <br>
-          Registration details will be announced soon.
-        </p>
-      </ul>
-    `,
-    timeline: ["DATE : 02/04/2023  ", "TIME : 10:00AM - 2:00PM"],
-    rulebook: "/docs/rulebooks/Bluffs and Bargains.pdf",
-    rules: [
-      `
-    All participants are supposed to follow the rules and game flow as decided by Mindbend'23 team members. 
-    In case of any confusion, the final decision of the conducting team should be obeyed and will be considered final.
-  `,
-    ],
-    catagory: "managerial",
-    faqs: [
-      {
-        q: "Who can participate?",
-        a: "Whosoever wants to participate there is no age restrictions, but participant should have school/college ID.",
-      },
-      {
-        q: "How long are the event?",
-        a: "No events will take more than a day.",
-      },
-      {
-        q: "What is techno-managerial fest?",
-        a: "It has both technical and managerial events.",
-      },
-      {
-        q: "What will i get if i don't win?",
-        a: "Every participant will get participation certificate.",
-      },
-      {
-        q: "When will registrations begin?",
-        a: "Registration has started",
-      },
-    ],
-    contacts: [
-      {
-        name: "Drashti",
-        phone: "94082 44705",
-      },
-      {
-        name: "Anand",
-        phone: "73830 29448",
-      },
-    ],
-  },
-  // trend your brand
-  {
-    name: "TREND YOUR BRAND",
-    image_hq: "/images/events/hq/Trend Your Brand.png",
-    image: "/images/events/Trend Your Brand.png",
-    prize: ["1st Prize: Rs 5500", "2nd Prize: Rs 3500"],
-    fee: "Rs 30",
-    type: "ind",
-    about: "Advertising Ideas~ Endorsing Brands",
-    // ----------------------------------------------------------------
-    details: `<h2>
-    Introduction
-  </h2>
-  
-  <p>
-  'Trend your brand' is a fun event to optimize your basic tricks of Social Media Marketing and come
-  up with an impressive quality advertisement. The more the hype created higher are your chances of
-  winning.
-  
-  </p>
-  
-  <h2>
-    Problem Statement
-  </h2>
-  <ul>
-    <h3>
-      Round 1
-    </h3>
-    <p>
-    Puzzle round based on Brand logo /tagline. Whoever solves it first, gets to select a product of
-    their choice. 2 people choosing the same product will be clubbed together as a team.
-    
-    </p>
-    <h3>
-      Round 2
-    </h3>
-    <p>
-    Advertisement round, each team needs to come up with a social media post for their
-    product/service that could be posted on social media.
-    </p>
-    <h3>
-      Team Specification
-    </h3>
-    <p>
-      individual
-    </p>
-    <h3>
-      Registration Details
-    </h3>
-    <p>
-      Registration Fee: Rs 30 <br>
-      Registration details will be announced soon.
-    </p>
-
-  </ul>`,
-    timeline: ["DATE : 31/03/2023  ", "TIME : 09:00AM - 2:00PM"],
-    rulebook: "/docs/rulebooks/Trend your brand.pdf",
-    rules: [
-      `
-    All participants are supposed to follow the rules and game flow as decided by Mindbend'23 team members. 
-    In case of any confusion, the final decision of the conducting team should be obeyed and will be considered final.
-  `,
-    ],
-    catagory: "managerial",
-    faqs: [
-      {
-        q: "Who can participate?",
-        a: "Whosoever wants to participate there is no age restrictions, but participant should have school/college ID.",
-      },
-      {
-        q: "How long are the event?",
-        a: "No events will take more than a day.",
-      },
-      {
-        q: "What is techno-managerial fest?",
-        a: "It has both technical and managerial events.",
-      },
-      {
-        q: "What will i get if i don't win?",
-        a: "Every participant will get participation certificate.",
-      },
-      {
-        q: "When will registrations begin?",
-        a: "Registration has started",
-      },
-    ],
-    contacts: [
-      {
-        name: "Moli",
-        phone: "80055 47242",
-      },
-      {
-        name: "Ananya",
-        phone: "90819 41100",
-      },
-    ],
-  },
-  // investomania
-  {
-    name: "INVESTOMANIA",
-    image_hq: "/images/events/hq/INVESTOMANIA.png",
-    image: "/images/events/INVESTOMANIA.png",
-    prize: ["1st Prize: Rs 5000", "2nd Prize: Rs 3000"],
-    fee: "Rs 30",
-    type: "team",
-    about: "Investments that will make you grow",
-    // ----------------------------------------------------------------
-    details: `<h2>
-    Introduction
-  </h2>
-  
-  <p>
-  "How well you invest" will be a fun event in which you have to showcase your knowledge about
-investments and how you apply and get good returns.
-
-  
-  </p>
-  
-  <h2>
-    Problem Statement
-  </h2>
-  <ul>
-    <h3>
-      Round 1
-    </h3>
-    <p>
-    It will be an Online quiz round on Kahoot, teams have to answer some general informative
-    questions regarding investment. The top 8 teams based on the quiz scores will be selected for the
-    second round.
-    
-    
-    </p>
-    <h3>
-      Round 2
-    </h3>
-    <p>
-    This is a Presentation round.
-    Problem Statement – 1,00,000 Rs will be given (hypothetically) and they have to invest in different
-    ways like gold, stocks, Mutual Funds etc. They have to research and then present their way of
-    investment, forecast their profits and show trends of particular investments, and how much profit
-    it might give. A maximum of 10 slides are allowed and 15 min will be given for each presentation.
-    </p>
-    <h3>
-      Team Specification
-    </h3>
-    <p>
-      Upto 3 members
-    </p>
-    <h3>
-      Registration Details
-    </h3>
-    <p>
-      Registration Fee: Rs 30 <br>
-      Registration details will be announced soon.
-    </p>
-
-  </ul>`,
-    timeline: ["DATE : 31/03/2023  ", "TIME : 11:00AM - 2:30PM"],
-    rulebook: "/docs/rulebooks/Investomania.pdf",
-    rules: [
-      `
-    All participants are supposed to follow the rules and game flow as decided by Mindbend'23 team members. 
-    In case of any confusion, the final decision of the conducting team should be obeyed and will be considered final.
-  `,
-    ],
-    catagory: "managerial",
-    faqs: [
-      {
-        q: "Who can participate?",
-        a: "Whosoever wants to participate there is no age restrictions, but participant should have school/college ID.",
-      },
-      {
-        q: "How long are the event?",
-        a: "No events will take more than a day.",
-      },
-      {
-        q: "What is techno-managerial fest?",
-        a: "It has both technical and managerial events.",
-      },
-      {
-        q: "What will i get if i don't win?",
-        a: "Every participant will get participation certificate.",
-      },
-      {
-        q: "When will registrations begin?",
-        a: "Registration has started",
-      },
-    ],
-    contacts: [
-      {
-        name: "Harsh",
-        phone: "99044 55809",
-      },
-      {
-        name: "Dheeraj",
-        phone: "76718 42406",
-      },
-    ],
-  },
-  // the jewels of jumanji
-  {
-    name: "THE JEWEL OF JUMANJI",
-    image_hq: "/images/events/hq/the jewel of jumanji.png",
-    image: "/images/events/the jewel of jumanji.png",
-    prize: ["1st Prize: Rs 4500", "2nd Prize: Rs 3500", "3rd Prize: Rs 2000"],
-    fee: "Rs 30",
-    type: "team",
-    about: "Fight your way to the top",
-    // ----------------------------------------------------------------
-    details: `<h2>
-    Introduction
-  </h2>
-  
-  <p>
-  The jewel of Jumanji involves assessing your analyzing and managing skills when it comes to
-  knowing your own strengths and weaknesses to solving a dire situation that you might face
-  whether it maybe being chased by a hippopotamus to solving a hardcore logic puzzle.
-  
-  </p>
-  
-  <h2>
-    Problem Statement
-  </h2>
-  <ul>
-    <h3>
-      Round 1
-    </h3>
-    <p>
-    Each team will be given certain advantages in terms of points from 1-10 in all three areas of
-    expertise like arts& literature; logic and analysis; practical field knowledge, the sum of
-    which(points) is fixed. Using these points you can obtain hints, which are of two types, to
-    solving every problem that you face ahead. Solve and also score bonus points for bonus
-    questions to obtain the map for the jaguar's eye or the jewel of the Jumanji.
-    </p>
-    <h3>
-      Round 2
-    </h3>
-    <p>
-    There will be a small treasure hunt in which the clues will be provided after solving certain
-    questions similar to round 1. For the tie-breaker, the team will be given a specific sum and this
-    time they have to decide the distribution of points in the three areas as per their interest and
-    then the winner is decided from three questions.
-    
-    </p>
-    <h3>
-      Team Specification
-    </h3>
-    <p>
-      Upto 3 members
-    </p>
-    <h3>
-      Registration Details
-    </h3>
-    <p>
-      Registration Fee: Rs 30 <br>
-      Registration details will be announced soon.
-    </p>
-
-  </ul>`,
-    timeline: ["DATE : 01/04/2023  ", "TIME : 10:00AM - 2:00PM"],
-    rulebook: "/docs/rulebooks/The Jewel of jumanji.pdf",
-    rules: [
-      `
-    All participants are supposed to follow the rules and game flow as decided by Mindbend'23 team members. 
-    In case of any confusion, the final decision of the conducting team should be obeyed and will be considered final.
-  `,
-    ],
-    catagory: "managerial",
-    faqs: [
-      {
-        q: "Who can participate?",
-        a: "Whosoever wants to participate there is no age restrictions, but participant should have school/college ID.",
-      },
-      {
-        q: "How long are the event?",
-        a: "No events will take more than a day.",
-      },
-      {
-        q: "What is techno-managerial fest?",
-        a: "It has both technical and managerial events.",
-      },
-      {
-        q: "What will i get if i don't win?",
-        a: "Every participant will get participation certificate.",
-      },
-      {
-        q: "When will registrations begin?",
-        a: "Registration has started",
-      },
-    ],
-    contacts: [
-      {
-        name: "Sneh",
-        phone: "85112 66722",
-      },
-      {
-        name: "Anany",
-        phone: "90819 41100",
-      },
-    ],
-  },
-  // can you beat the president
-  {
-    name: "CAN YOU BE THE PRESIDENT",
-    image_hq: "/images/events/hq/CAN YOU BE THE PRESIDENT.png",
-    image: "/images/events/CAN YOU BE THE PRESIDENT.png",
-    prize: ["1st Prize: Rs 4500", "2nd Prize: Rs 3500", "3rd Prize: Rs 2000"],
-    fee: "Rs 20",
-    type: "individual",
-    about: "Be the leader you would follow",
-    // ----------------------------------------------------------------
-    details: `<h2>
-    Introduction
-  </h2>
-  
-  <p>
-  “Can you be the president” is a managerial event that demands problem-solving, debating and
-  public speaking skills, this event test the managerial power and skills that a good leader must
-  have.
-  </p>
-  
-  <h2>
-    Problem Statement
-  </h2>
-  <ul>
-    <h3>
-      Round 1
-    </h3>
-    <p>
-    You will be given a google form consisting of various problem statements/questions regarding
-    managing a country and apart from that you have to write policies and schemes that you will
-    implement if you became the president basically your own manifesto.
-    </p>
-    <h3>
-      Round 2
-    </h3>
-    <p>
-    In round 2, (news debate round) shortlisted candidates will be given their own party symbol
-    and they have to represent themselves in a news channel debate, the topic of the debate will
-    be decided by the news anchor.
-    </p>
-    <h3>
-      Round 3
-    </h3>
-    <p>
-    Shortlisted candidates have to give a speech addressing the public that why they deserve to
-    be the president and followed by a press conference in which journalists will ask you
-    questions on the basis of their speech.
-    
-    </p>
-    <h3>
-      Team Specification
-    </h3>
-    <p>
-      Individual member
-    </p>
-    <h3>
-      Registration Details
-    </h3>
-    <p>
-      Registration Fee: Rs 20 <br>
-      Registration details will be announced soon.
-    </p>
-
-  </ul>`,
-    timeline: ["DATE : 01/04/2023  ", "TIME : 09:00AM - 1:00PM"],
-    rulebook: "/docs/rulebooks/Can you be the president.pdf",
-    rules: [
-      `
-    All participants are supposed to follow the rules and game flow as decided by Mindbend'23 team members. 
-    In case of any confusion, the final decision of the conducting team should be obeyed and will be considered final.
-  `,
-    ],
-    catagory: "managerial",
-    faqs: [
-      {
-        q: "Who can participate?",
-        a: "Whosoever wants to participate there is no age restrictions, but participant should have school/college ID.",
-      },
-      {
-        q: "How long are the event?",
-        a: "No events will take more than a day.",
-      },
-      {
-        q: "What is techno-managerial fest?",
-        a: "It has both technical and managerial events.",
-      },
-      {
-        q: "What will i get if i don't win?",
-        a: "Every participant will get participation certificate.",
-      },
-      {
-        q: "When will registrations begin?",
-        a: "Registration has started",
-      },
-    ],
-    contacts: [
-      {
-        name: "Chandan",
-        phone: "93271 43251",
-      },
-      {
-        name: "Yash",
-        phone: "97129 00042",
-      },
-    ],
-  },
-  // CAd CRACKER
-  {
-    name: "CAD CRACKER",
-    image_hq: "/images/events/hq/cad crackers.png",
-    image: "/images/events/cad crackers.png",
-    prize: ["1st Prize: Rs 3500", "2nd Prize: Rs 2500", "3rd Prize: Rs 1500"],
-    fee: "Rs 30",
-    about: "CAD",
-    // ----------------------------------------------------------------
-    details: `<h2>
-      Introduction
-    </h2>
-    
-    <p>
-      The most intriguing topic to learn as a mechanical engineer is how to design models (Cars,
-      planes or Robots). So, here we present the CAD CRACKER to all CAD enthusiasts. Models
-      should be designed, assembled, and analyzed.
-      
-    </p>
-    
-    <h2>
-      Problem Statements
-    </h2>
-    <p>Participants have to design 3D parts from the 2D sketch of a military vehicle given and
-    assemble them to complete military vehicle.</p>
-    <ul>
-      <h3>
-        Round 1
-      </h3>
-      <ul>
-      <li> Design the Parts of the given Defense Vehicle. 2D views of those parts will be
-      provided.
-      </li>
-      <li> The models to be designed would be presented to every participant. They must
-      complete their design in the fixed time allotted for each design that has to be
-      submitted in .SLDPRT format. </li>
-      </ul>
-      <h3>
-        Round 2
-      </h3>
-      <ul>
-        <li>Participants have to make that defense vehicle by assembling those parts (made in
-          round 1) with provided body parts, within the given time constraint.</li>
-        <li>It has to be submitted in .SLDSAM and .STEP
-        </li>
-      </ul>
-      
-      <h3>
-        Team Specification
-      </h3>
-      <ul>
-        <li> Team with maximum 2 participants is permitted in this event.</li>
-        <li> Any number of individuals may participate from one college.</li>
-        <li> Professionals are not allowed. Only students can participate.</li>
-        <li> Participants are required to bring their school/college ID cards. </li>
-        <li> Once registered, the same team cannot register with another name or for another 
-        model other than previously registered one.</li>
-        <li> Every team must have a unique name that should not be offensive conflicting or 
-        inappropriate</li>
-        <li> Organizers have the right to reject entries for any inappropriate team name.</li>
-      </ul>
-      <h3>JUDGING CRITERION</h3>
-      <ul>
-          <li>In first round the given parts for designing purpose have different weightage of points 
-          so the participant with more points will be Ranked higher.
-          </li>
-          <li> Time will also be a judging criteria</li>
-          <li> Among them 1/3rd of participants will be sent to 2nd round</li>
-          <li> In second round participant who has completed the assembly of defense vehicle with 
-          minimum amount of time taken will be Ranked higher.</li>
-      </ul>
-      <h3>Number of expected registrations </h3>
-      <p>100 Teams</p>
-      <h3> Target Audience</h3>
-      <p> 2nd and 3rd year students of from Mechanical </p>
-      <h3>
-        Registration Details
-      </h3>
-      <p>
-        Registration Fee: Rs 30 <br>
-      </p>
-      <h3> Event Platform</h3>
-      <p> Online </p>`,
-    timeline: [""],
-    rulebook: "/docs/rulebooks/CAD-CRACKERS.pdf",
-    rules: [
-      "For designing the models, SOLIDWORKS software is mandatory.",
-      " The design must be completed in the given time restriction.",
-      " Submissions should be provided in the appropriate format given by the judges. ",
-      " The participants would be required to submit the CAD model in the link provided by the judges in the beginning of the competition.",
-      "Bring your college/student I-Card at the time of competition. ",
-      "Decision Taken by Judges will be final and binding for all.",
-      " Any misbehavior will lead you to disqualification from the competition.",
-      " If less than 10 teams will be registered, then only the first prize will be given, and if less than 20 teams will register, only two prizes will be given.",
-    ],
-    catagory: "technical",
-    faqs: [
-      {
-        q: "Who can participate?",
-        a: "Whosoever wants to participate there is no age restrictions, but participant should have school/college ID.",
-      },
-      {
-        q: "How long are the event?",
-        a: "No events will take more than a day.",
-      },
-      {
-        q: "What is techno-managerial fest?",
-        a: "It has both technical and managerial events.",
-      },
-      {
-        q: "What will i get if i don't win?",
-        a: "Every participant will get participation certificate.",
-      },
-      {
-        q: "When will registrations begin?",
-        a: "Registration has started",
-      },
-    ],
-    contacts: [
-      {
-        name: "Pratham Parmar",
-        phone: "7874992002",
-      },
-      {
-        name: "Devanshu Vyas",
-        phone: "9157120402",
-      },
-    ],
-  },
-
-  // structure for future
-  {
-    name: "STRUCTURE FOR FUTURE",
-    image_hq: "/images/events/hq/structure for future.png",
-    image: "/images/events/structure for future.png",
-    prize: ["1st Prize: Rs 3500", "2nd Prize: Rs 2500", "3rd Prize: Rs 1500"],
-    fee: "Rs 70",
-    about: "STRUCTURE FOR FUTURE",
-    // ----------------------------------------------------------------
-    details: `<h2>
-      Introduction
-    </h2>
-    
-    <p>
-    This event focuses on how participants make structures engineered to withstand weight,
-    are durable, and in some cases, are aesthetically pleasing.
-    </p>
-    
-    <h2>
-      Problem Statements
-    </h2>
-    <p>Participants  need  to  design  and  build  their  structure  using  popsicle  sticks  and  glue.
-    Participants can use the fewest number of popsicle sticks while still achieving their goals.
-    </p>
-    <ul>
-      <h3>
-        Round 1
-      </h3>
-      <ul>
-      <li>Participants need to submit a CAD model of the tower.</li>
-      <li> The CAD file must be in .sldasm/ .dwg/ .step format. </li>
-      <li> Teams  have  to  manufacture  the  same  CAD  model  in  the  next  round,  so  design  it
-      accordingly. </li>
-      <li>The structure should support at least 1 kg of weight applied normally downwards to
-      the top surface.</li>
-      <li> The top and bottom surfaces of the tower should be made flat. </li>
-      </ul>
-      <h3>
-        Round 2
-      </h3>
-      <ul>
-        <li>This would be an offline round.</li>
-        <li> Teams have to manufacture the CAD model on the spot.</li>
-        <li> The time duration given would be 4 hours.</li>
-        <li> The materials required for building the tower will be provided to the teams.</li>
-        <li> The completed structure would be first measured by the coordinators.</li>
-        <li>If  the  dimensions  are  found  to  exceed  the  allowed  dimensions  by  a  considerate
-        margin, the team will be disqualified.</li>
-        <li> The structure would then be weighed on a weighing scale.</li>
-        <li> Weights  ranging  from  1kg  to  10kg  would  be  placed  on  the  top  surface  of  the
-        structure.</li>
-        <li>The procedure of placing weights would be the same for every team.</li>
-        <li> The maximum weight the tower can hold without collapsing would be noted.</li>
-      </ul>
-      <h3> MATERIAL TO BE USED </h3>
-      <ul>
-        <li>The  organizers  will  provide  popsicle  sticks.  Sticks  can  have  the  following  maximum
-        dimensions: Length = 112 mm, Breadth = 95 mm, Width = 02 mm.</li>
-        <li> Sticks can be altered physically by cutting or notching at any angle.</li>
-        <li> Only  Fevicol  can  be  used  as  an  adhesive;  using  other  adhesives  may  lead  to
-        disqualification. The use of threads is not allowed.</li>
-        <li> Participants must bring basic stationary items, such as pens, scissors, cutters, etc. </li>
-        <li> Clips for support and fevicol would be provided to the participants. </li>
-        <li> The maximum number of sticks that can be overlapped together is 2.</li>
-      </ul>
-      <h3> STRUCTURE DIMENSIONS </h3>
-      <ul>
-        <li>Length - 25 cm (maximum)</li>
-        <li>Width - 25 cm (maximum) </li>
-        <li>Height - 25 cm (minimum)</li>
-        <li>(No limit for maximum height)</li>
-      </ul>
-      <h3>
-        Team Specification
-      </h3>
-      <ul>
-        <li>The team should have a minimum of 2 members and up to 6 members. </li>
-        <li> Members of a team may be from the same college or different.</li>
-        <li> Any number of teams can participate from one college. </li>
-        <li> Professionals are not allowed. Only students can participate.</li>
-        <li> Once registered, the same team cannot register with another name or for another 
-        model other than previously registered one.</li>
-        <li> Every team must have a unique name that should not be offensive conflicting or 
-        inappropriate</li>
-        <li> Organizers must be notified if a team’s name has been changed.</li>
-        <li> Team Representative: Each team must specify their Team Representative (Leader) at
-        registration on the website. All important communications between the organizer and 
-        the registered teams will be done through their Team Representatives. The Team 
-        representatives must submit valid contact details (phone no., email id, etc.) at the time 
-        of registration.</li>
-      </ul>
-      <h2>JUDGING CRITERION</h2>
-      <h3>ROUND 1</h3>
-      <p>The CAD model would be judged on the following criteria:</p>
-      <ul>
-          <li> Originality</li>
-          <li> Aesthetics </li>
-      </ul>
-      <h3>ROUND 2  </h3>
-      <ul>
-      <li>The weight of the structure would be noted.</li>
-      <li>The maximum weight the structure can hold just before collapsing would also be 
-      noted.</li>
-      <li>The structure made with minimum material and holding the maximum weight would 
-      be considered the winner.</li>
-      <li> The ratio of maximum weight withstand to the weight of the structure itself would be
-      the efficiency of the tower </li>
-      <li>The aesthetics of the bridge will also be evaluated.</li>
-      <li>The judges will evaluate the bridge based on its appearance, the originality of its
-      design, and the connection of members.</li>
-      <li> The weightage of each criterion is given as follows: Efficiency = 70 points Aesthetics =
-      30 points</li>
-      <li>The total score will be given out of 100 points. </li>
-      </ul>
-      <h3>
-        Registration Details
-      </h3>
-      <p>
-        Registration Fee: Rs 50 <br>
-      </p>`,
-    timeline: [""],
-    rulebook: "NA",
-    rules: [
-      "Bring your college/student I-Card at the time of the competition.",
-      "Decisions taken by Judges will be final and binding for all. ",
-      " Any misbehavior will lead you to disqualification from the competition. ",
-      "Organizers have the right to reject entries for any inappropriate team name.  ",
-      " Teams who don't show up on allotted slots will be disqualified.",
-      " lf less then 25 teams have registered for the event only two prizes will be given and if less then 15 teams have registered for the event only two prize will be given.",
-    ],
-    catagory: "technical",
-    faqs: [
-      {
-        q: "Who can participate?",
-        a: "Whosoever wants to participate there is no age restrictions, but participant should have school/college ID.",
-      },
-      {
-        q: "How long are the event?",
-        a: "No events will take more than a day.",
-      },
-      {
-        q: "What is techno-managerial fest?",
-        a: "It has both technical and managerial events.",
-      },
-      {
-        q: "What will i get if i don't win?",
-        a: "Every participant will get participation certificate.",
-      },
-      {
-        q: "When will registrations begin?",
-        a: "Registration has started",
-      },
-    ],
-    contacts: [
-      {
-        name: "Atul Gautam",
-        phone: "9468650219",
-      },
-      {
-        name: "Adarsh Kataktalware",
-        phone: "999849931",
-      },
-    ],
-  },
-
-  // overdrive
-  {
-    name: "OVERDRIVE",
-    image_hq: "/images/events/hq/MODE_ OVERDRIVE.png",
-    image: "/images/events/MODE_ OVERDRIVE.png",
-    prize: [
-      "1st Prize: Rs 55,000",
-      "2nd Prize: Rs 40,000",
-      "3rd Prize: Rs 25,000",
-    ],
-    fee: "Rs 300",
-    about: "The fun begins where the pavement ends",
-    // ----------------------------------------------------------------
-    details: `<h2>
-      Introduction
-    </h2>
-    
-    <p>
-    Engineering students are competitive by nature and the notion of competition was an
-  appealing approach to capitalize on this characteristic. And therefore, here participants
-  have to win with the help of their RC Nitro cars. Students have to Design a remote-
-  controlled car consisting of an IC Engine that can compete with other opponents on a dirt
-  track full of various types of obstacles.
-  
-    </p>
-    
-    <h2>
-      Problem Statements
-    </h2>
-   
-    <ul>
-      <h3>
-        Round 1
-      </h3>
-     <p>Teams will need to submit a proof of concept (POC) of the model.</p>
-      <h3>
-        Round 2
-      </h3>
-      <p> It will be an on-site competition. Each team will be given 2 laps out of which faster lap will
-      be considered. There will be points system for clearing each obstacle on the track.
-      Depending on the score, teams will be selected for next round.</p>
-      <h3> ROUND 3 </h3>
-      <p>It will be a race between three teams qualified from round 2. </p>
-      <h3>TRACK SPECIFICATION</h3>
-      <ul>
-        <li> Exact design of the track will be disclosed on the day of the event.</li>
-        <li> Track will be made up of either dry ground or mud consisting of up and downs,
-        bumpers, turns, etc.</li>
-        <li> Borders of the track will be clearly indicated.  </li>
-        <li>The minimum width of the track will be around 5 feet.</li>
-        <li> A lap of the track is completed when the car comes back to the start-finish line. </li>
-        <li>  Driver has to operate car from specific control stand provided on the side to the
-        track. More than one car may race on the track at the same time.</li>
-        <li>Despite  the  organizer's  efforts  to  keep  the  track's  quality  intact,  the  track  may
-        undergo wear and the car is expected to be able to perform on such a weakened track
-        as well.</li>
-      </ul>
-      <h3>CAR SPECIFICATION </h3>
-      <ul>
-        <li> Bot should fit in a box of dimensions 500mm x 300mm x 300mm at any moment of
-        time during the race.</li>
-        <li>Only wireless communication is allowed throughout the race. </li>
-        <li>Functional parts - Gears, differential gear, engine, springs, shock absorbers, batteries,
-        wheels and wheel hub can be directly used as available in the market.</li>
-        <li> Structural  parts  -  Chassis,  steering  mechanism,  shock  towers  and  suspension
-        (excluding upper suspension arm, suspension spring and shock absorbers) have to be
-        built by the participants themselves.</li>
-        <li> Only single-cylinder, two-stroke, normally aspirated, air-cooled, glow- ignition engines
-        utilizing standard or turbo plugs will be permitted. IC engine specification- up to 6cc.</li>
-        <li> Fuel tanks must be safely mounted. </li>
-      </ul>
-      <h3>GAME RULES</h3>
-      <ul>
-      <li>There will be 3 rounds among which round 2 and round 3 will be in offline mode </li>
-      <li> Number of stages in each round may vary accordingly. </li>
-      <li>Team members are not allowed to touch car once race Hand touch is allowed at cost
-      of the penalty. </li>
-      </ul>
-      <h3>
-        Team Specification
-      </h3>
-      <ul>
-        <li>Team should be of 3-5 members.</li>
-        <li>Members of a team may be from the same college/school or different (K12/UG/PG).</li>
-        <li>Any number of teams can participate from one college/school. 
-        </li>
-        <li>Professionals are not allowed. Only students can participate.
-        </li>
-        <li> Participants are required to bring their school/college ID cards.</li>
-        <li> Once registered, the same team cannot register with another name or for another 
-        model other than previously registered one.</li>
-        <li> Every team must have a unique name that should not be offensive conflicting or 
-        inappropriate</li>
-        <li>Organizers have the right to reject entries for any inappropriate team name. 
-        </li>
-        <li> Organizers must be notified if a team’s name has been changed.</li>
-        <li> Team Representative: Each team must specify their Team Representative (Leader) at
-        registration on the website. All important communications between the organizer and 
-        the registered teams will be done through their Team Representatives. The Team 
-        representatives must submit valid contact details (phone no., email id, etc.) at the time 
-        of registration.</li>
-        <li>If teams don’t show up on allotted slot, they will be disqualified.
-        </li>
-      </ul>
-      
-      <h3>
-        Registration Details
-      </h3>
-      <p>
-        Registration Fee: Rs 500 <br>
-      </p>`,
-    timeline: [""],
-    rulebook: "/docs/rulebooks/mode overdrive.pdf",
-    rules: [
-      "Teams are not permitted to damage other team's car during race intentionally.",
-      "Any damage to track due to car will not be tolerated. ",
-      " The  car  is  not  allowed  to  lose  any  loose  parts  on  any  part  of  the  arena.  Any  car disintegrating during the race will be disqualified.",
-      " Bring your college/student I-Card at the time of competition. ",
-      "Decision Taken by Judges will be final and binding for all. ",
-      " Any misbehaviour will lead you to disqualification from the competition. ",
-      "If less than 5 teams will be registered, then only first prize will be given and if less than 10 teams will register, only two prizes will be given.",
-    ],
-    catagory: "technical",
-    faqs: [
-      {
-        q: "Who can participate?",
-        a: "Whosoever wants to participate there is no age restrictions, but participant should have school/college ID.",
-      },
-      {
-        q: "How long are the event?",
-        a: "No events will take more than a day.",
-      },
-      {
-        q: "What is techno-managerial fest?",
-        a: "It has both technical and managerial events.",
-      },
-      {
-        q: "What will i get if i don't win?",
-        a: "Every participant will get participation certificate.",
-      },
-      {
-        q: "When will registrations begin?",
-        a: "Registration has started",
-      },
-    ],
-    contacts: [
-      {
-        name: "Atul Gautam",
-        phone: "9468650219",
-      },
-      {
-        name: "Mihir Parmar",
-        phone: "9924435522",
-      },
-    ],
-  },
-
   // robowars
   {
     name: "ROBOWARS",
@@ -1480,7 +9,7 @@ investments and how you apply and get good returns.
       `60kg Category; 1st prize: Rs. 60,000, 2nd Prize: Rs 35,000, 3rd Prize: Rs. 25,000`,
     ],
     fee: "Catagory - 1 : 200; Catagory - 2 : 400",
-    about: "Beat, Defeat, Win, Repeat  ",
+    // about: "Beat, Defeat, Win, Repeat  ",
     // ----------------------------------------------------------------
     details: `<h2>
       Introduction
@@ -1749,6 +278,465 @@ investments and how you apply and get good returns.
     ],
   },
 
+  // model united nations
+  {
+    name: "MODEL UNITED NATIONS (MUN)",
+    image_hq: "/images/events/hq/MUN_ TANMAY.png",
+    image: "/images/events/MUN_ TANMAY.png",
+    prize: ["1st Prize: Rs 8000", "2nd Prize: Rs 6000"],
+    fee: "Rs 30",
+    type: "individual",
+    // about: `Chance to Represent your country at global level`,
+    // ----------------------------------------------------------------
+    details: `
+      <h2>
+        Problem Statement
+      </h2>
+      <p>
+        Replit is the best platform for quickly starting, sharing, hosting, and developing coding projects in any programming language right from your browser. Features you can make the most out of: Enjoy a Google Docs-like coding & editing experience supporting all languages across both mobile and desktop.
+      </p>
+      <ul>
+        <h3>
+          Round 1
+        </h3>
+        <p>
+          A quiz will be held on topic related to the international organisation or current affairs related
+          topics.The participants have to answer the question in pre defined time.On the basis of the score
+          in the quiz conducted teams will be shortlisted for 2nd round.
+        </p>
+        <h3>
+          Round 2
+        </h3>
+        <p>
+          Case Study : In this round a country name will be given and the participants will have to do case study on it.
+        </p>
+        <h3>
+          Round 3
+        </h3>
+        <p>
+          Debate
+            <ul>
+              <li>
+              Opening of the debate
+              </li>
+              <li>
+                The Debate
+              </li>
+              <li>
+                Closing of the debate
+              </li>
+            </ul>
+        </p>
+        <h3>
+          Team Specification
+        </h3>
+        <p>
+          Upto 3 members.
+        </p>
+        <h3>
+          Registration Details
+        </h3>
+        <p>
+          Registration Fee: Rs 30
+        </p>
+        <p>
+          Registration details will be announced soon.
+        </p>
+      </ul>`,
+
+    timeline: ["DATE : 01/04/2023  ", "TIME : 2:30PM ONWARDS"],
+    rulebook: "NA",
+    rules: [
+      `
+      All participants are supposed to follow the rules and game flow as decided by Mindbend'23 team
+      members. In case of any confusion, the final decision of the conducting team should be obeyed and
+      will be considered final.
+    `,
+    ],
+    catagory: "managerial",
+    faqs: [
+      {
+        q: "Who can participate?",
+        a: "Whosoever wants to participate there is no age restrictions, but participant should have school/college ID.",
+      },
+      {
+        q: "How long are the event?",
+        a: "No events will take more than a day.",
+      },
+      {
+        q: "What is techno-managerial fest?",
+        a: "It has both technical and managerial events.",
+      },
+      {
+        q: "What will i get if i don't win?",
+        a: "Every participant will get participation certificate.",
+      },
+      {
+        q: "When will registrations begin?",
+        a: "Registration has started",
+      },
+    ],
+    contacts: [
+      {
+        name: "Het",
+        phone: "73594 31754",
+      },
+      {
+        name: "Saurav",
+        phone: "93270 49411",
+      },
+      {
+        name: "Karm",
+        phone: "8347674048",
+      },
+    ],
+  },
+
+  // overdrive
+  {
+    name: "OVERDRIVE",
+    image_hq: "/images/events/hq/MODE_ OVERDRIVE.png",
+    image: "/images/events/MODE_ OVERDRIVE.png",
+    prize: [
+      "1st Prize: Rs 55,000",
+      "2nd Prize: Rs 40,000",
+      "3rd Prize: Rs 25,000",
+    ],
+    fee: "Rs 300",
+    // about: "The fun begins where the pavement ends",
+    // ----------------------------------------------------------------
+    details: `<h2>
+      Introduction
+    </h2>
+    
+    <p>
+    Engineering students are competitive by nature and the notion of competition was an
+  appealing approach to capitalize on this characteristic. And therefore, here participants
+  have to win with the help of their RC Nitro cars. Students have to Design a remote-
+  controlled car consisting of an IC Engine that can compete with other opponents on a dirt
+  track full of various types of obstacles.
+  
+    </p>
+    
+    <h2>
+      Problem Statements
+    </h2>
+   
+    <ul>
+      <h3>
+        Round 1
+      </h3>
+     <p>Teams will need to submit a proof of concept (POC) of the model.</p>
+      <h3>
+        Round 2
+      </h3>
+      <p> It will be an on-site competition. Each team will be given 2 laps out of which faster lap will
+      be considered. There will be points system for clearing each obstacle on the track.
+      Depending on the score, teams will be selected for next round.</p>
+      <h3> ROUND 3 </h3>
+      <p>It will be a race between three teams qualified from round 2. </p>
+      <h3>TRACK SPECIFICATION</h3>
+      <ul>
+        <li> Exact design of the track will be disclosed on the day of the event.</li>
+        <li> Track will be made up of either dry ground or mud consisting of up and downs,
+        bumpers, turns, etc.</li>
+        <li> Borders of the track will be clearly indicated.  </li>
+        <li>The minimum width of the track will be around 5 feet.</li>
+        <li> A lap of the track is completed when the car comes back to the start-finish line. </li>
+        <li>  Driver has to operate car from specific control stand provided on the side to the
+        track. More than one car may race on the track at the same time.</li>
+        <li>Despite  the  organizer's  efforts  to  keep  the  track's  quality  intact,  the  track  may
+        undergo wear and the car is expected to be able to perform on such a weakened track
+        as well.</li>
+      </ul>
+      <h3>CAR SPECIFICATION </h3>
+      <ul>
+        <li> Bot should fit in a box of dimensions 500mm x 300mm x 300mm at any moment of
+        time during the race.</li>
+        <li>Only wireless communication is allowed throughout the race. </li>
+        <li>Functional parts - Gears, differential gear, engine, springs, shock absorbers, batteries,
+        wheels and wheel hub can be directly used as available in the market.</li>
+        <li> Structural  parts  -  Chassis,  steering  mechanism,  shock  towers  and  suspension
+        (excluding upper suspension arm, suspension spring and shock absorbers) have to be
+        built by the participants themselves.</li>
+        <li> Only single-cylinder, two-stroke, normally aspirated, air-cooled, glow- ignition engines
+        utilizing standard or turbo plugs will be permitted. IC engine specification- up to 6cc.</li>
+        <li> Fuel tanks must be safely mounted. </li>
+      </ul>
+      <h3>GAME RULES</h3>
+      <ul>
+      <li>There will be 3 rounds among which round 2 and round 3 will be in offline mode </li>
+      <li> Number of stages in each round may vary accordingly. </li>
+      <li>Team members are not allowed to touch car once race Hand touch is allowed at cost
+      of the penalty. </li>
+      </ul>
+      <h3>
+        Team Specification
+      </h3>
+      <ul>
+        <li>Team should be of 3-5 members.</li>
+        <li>Members of a team may be from the same college/school or different (K12/UG/PG).</li>
+        <li>Any number of teams can participate from one college/school. 
+        </li>
+        <li>Professionals are not allowed. Only students can participate.
+        </li>
+        <li> Participants are required to bring their school/college ID cards.</li>
+        <li> Once registered, the same team cannot register with another name or for another 
+        model other than previously registered one.</li>
+        <li> Every team must have a unique name that should not be offensive conflicting or 
+        inappropriate</li>
+        <li>Organizers have the right to reject entries for any inappropriate team name. 
+        </li>
+        <li> Organizers must be notified if a team’s name has been changed.</li>
+        <li> Team Representative: Each team must specify their Team Representative (Leader) at
+        registration on the website. All important communications between the organizer and 
+        the registered teams will be done through their Team Representatives. The Team 
+        representatives must submit valid contact details (phone no., email id, etc.) at the time 
+        of registration.</li>
+        <li>If teams don’t show up on allotted slot, they will be disqualified.
+        </li>
+      </ul>
+      
+      <h3>
+        Registration Details
+      </h3>
+      <p>
+        Registration Fee: Rs 500 <br>
+      </p>`,
+    timeline: [""],
+    rulebook: "/docs/rulebooks/mode overdrive.pdf",
+    rules: [
+      "Teams are not permitted to damage other team's car during race intentionally.",
+      "Any damage to track due to car will not be tolerated. ",
+      " The  car  is  not  allowed  to  lose  any  loose  parts  on  any  part  of  the  arena.  Any  car disintegrating during the race will be disqualified.",
+      " Bring your college/student I-Card at the time of competition. ",
+      "Decision Taken by Judges will be final and binding for all. ",
+      " Any misbehaviour will lead you to disqualification from the competition. ",
+      "If less than 5 teams will be registered, then only first prize will be given and if less than 10 teams will register, only two prizes will be given.",
+    ],
+    catagory: "technical",
+    faqs: [
+      {
+        q: "Who can participate?",
+        a: "Whosoever wants to participate there is no age restrictions, but participant should have school/college ID.",
+      },
+      {
+        q: "How long are the event?",
+        a: "No events will take more than a day.",
+      },
+      {
+        q: "What is techno-managerial fest?",
+        a: "It has both technical and managerial events.",
+      },
+      {
+        q: "What will i get if i don't win?",
+        a: "Every participant will get participation certificate.",
+      },
+      {
+        q: "When will registrations begin?",
+        a: "Registration has started",
+      },
+    ],
+    contacts: [
+      {
+        name: "Atul Gautam",
+        phone: "9468650219",
+      },
+      {
+        name: "Mihir Parmar",
+        phone: "9924435522",
+      },
+    ],
+  },
+
+  //CARRY THE CONSIGNMENT
+  {
+    name: "CARRY THE CONSIGNMENT",
+    image: "/images/events/Carry the Consignment.png",
+    image_hq: "/images/events/hq/Carry the Consignment.png",
+    prize: [
+      "1st Prize: Rs 21000",
+      "2nd Prize: Rs 17000",
+      "3rd Prize: Rs 13000",
+    ],
+    fee: "Rs 80",
+    // about: ``,
+    // ----------------------------------------------------------------
+    details: `
+      <h2>
+        INTRODUCTION
+      </h2>
+      <p>In the competition, the participants must design and fabricate an RC aircraft within 
+      specified dimensions and technical specifications later specified in the document.           
+      </p>
+      <h2>
+        PROBLEM STATEMENT
+      </h2>
+      <p>The participants are required to design and fly RC aircraft that can carry payload 
+      successfully.       
+      </p>
+      <h3>ROUND 1(ONLINE)</h3>
+     <ul>
+     <li>In round one, the teams are required to send us an abstract in which they have to 
+     justify their research and design aspects and how they designed the aircraft to carry 
+     maximum payload.
+     </li>
+     <li>The abstract should be a minimum of 6 pages (A4 size 1.5 line spacing) with standard 
+     formatting.
+     </li>
+     <li>The document must include the basic design of the aircraft (dimensions, wing areas, 
+      velocity, etc.) and explain how their design is suitable for the given problem.
+      </li>
+     <li>Teams will be shortlisted on the basis of abstract and shortlisted teams will be 
+     announced 20 days before the competition date.
+     </li>
+     </ul>
+      <h3>ROUND 2(OFFLINE)</h3>
+      <p>The RC aircraft should be able to carry payload and must be designed within the specified 
+      dimensions.      
+      </p>
+      <h3>AIRCRAFT SPECIFICATIONS
+      </h3>
+      <ol>
+     <li>The competition requires participants to design and fabricate an RC aircraft.
+     </li>
+     <li>T/W <=0.75 without payload. (Thrust to weight ratio of aircraft without payload)
+     </li>
+     <li>Propeller diameter should not be greater than 13 inches.
+     </li>
+     <li>Metal propellers are not allowed. 
+     </li>
+     <li>The models can have powered take-off with landing gear or be hand launched
+     </li>
+     <li>Total wingspan should be a maximum of 1.2 m.
+     </li>
+     <li>Only electrical motors are allowed. 
+     </li>
+     <li>Use of gyroscopes and programming assistance in receivers is prohibited
+     </li>
+      </ol>
+      
+        <h2>
+          TEAM SPECIFICATIONS
+        </h2>
+       <ul>
+       <li>In the competition you can either participate individually or in a team consisting a 
+       maximum of 5 members including pilot.
+       </li>
+       <li>Any number of teams can participate from one college/school.
+       </li>
+       <li>Participants must bring their school/college ID cards.
+       </li>
+       <li>A particular participant cannot register with more than one team.
+       </li>
+       <li>The organizers have the right to reject entries if any ambiguity is found in the above- 
+       mentioned rules.
+       </li>
+       </ul>
+       
+        <h2>JUDGING CRITERIA:
+        </h2>
+        <ul>
+        <li>The judging will be done on the basis of the maximum weight carried. The aircraft that 
+        carries the highest weight successfully will be declared the winner.
+        </li>
+        <li>The term successfully here means that the aircraft must take proper take-off and while 
+        flying, the weight shouldn’t be dropped and should land successfully in the landing 
+        zone.
+        </li>
+        <li>The aircraft must be landed within 3 minutes of take-off.
+        </li>
+        <li>In case the aircraft falls after take-off, the team will be given a total of 5 minutes to 
+        repair the damages (if any) and return to the take-off zone for the second attempt.
+        </li>
+        <li>Note- only two attempts will be given.
+        </li>
+        <li>The blue area depicted in the arena top view is the minimum distance (15 meters) that 
+        the aircraft must cover in order to consider for its scoring.
+        </li>
+        </ul>
+        <p>The formula used for scoring will be:
+        weight of payload (grams)* time of flight(secs)/ weight of aircraft (grams)</p>
+        <h2>
+        <h3>IMP POINTS TO BE CONSIDERED WHILE SCORING
+        </h3>
+        <ul>
+        <li>The aircraft must be designed to increase the score.
+        </li>
+        <li>Here time of flight can be a maximum of 180 seconds only.
+        </li>
+        <li>If you are unable to land the aircraft after 180 secs. We will deduct 3 seconds for 
+        every flight extra second the aircraft flies.
+        </li>
+        </ul>
+        <h3>TEAM SPECIFICATIONS
+        </h3>
+        <ul>
+        <li>This will be a team event. You can participate individually or with a team of a 
+        maximum of 3 members.
+        </li>
+        <li>Any number of candidates can participate from one college/school
+        </li>
+        <li>Participants are required to bring their school/college ID cards.
+        </li>
+        <li>Once registered, the same candidate cannot register with another name for the event.
+        </li>
+        <li>Organizers have the right to reject entries for any inappropriate username of the 
+        candidate
+        </li>
+        <li>Organizers must be notified if a candidate’s username has been changed. 
+        </li>
+        </ul>
+       <h2>
+          REGISTRATION DETAILS
+        </h2>
+        <p>
+          Fee: Rs 400 <br>
+        </p>
+      </ul>
+    `,
+    timeline: [],
+    rulebook: "NA",
+    rules: [
+      "Any misbehavior will lead you to disqualification from the competition.",
+      "Decision Taken by Judges will be final and binding for all",
+      "All decisions taken by the organizing team will be deemed final, and no more changes will be encouraged",
+      "If less than 5 teams will be registered, then only the first prize will be given and if less than 15 teams will register, only two prizes will be given.",
+      "No one shall enter the arena except the organizers",
+      "If Any of the above-mentioned rules, if found violated, teams would not be allowed to participate in the competition.",
+      "Any damage caused to the arena at any point in time will lead to disqualification /penalty.",
+    ],
+    faqs: [
+      {
+        q: "Who can participate?",
+        a: "Whosoever wants to participate there is no age restrictions, but participant should have school/college ID.",
+      },
+      {
+        q: "How long are the event?",
+        a: "No events will take more than a day.",
+      },
+      {
+        q: "What is techno-managerial fest?",
+        a: "It has both technical and managerial events.",
+      },
+      {
+        q: "What will i get if i don't win?",
+        a: "Every participant will get participation certificate.",
+      },
+      {
+        q: "When will registrations begin?",
+        a: "Registration has started",
+      },
+    ],
+    catagory: "technical",
+    contacts: [
+      {
+        name: "",
+        phone: "",
+      },
+    ],
+  },
+
   // maze runner
   {
     name: "MAZE RUNNER",
@@ -1756,7 +744,7 @@ investments and how you apply and get good returns.
     image: "/images/events/MAZE RUNNER.png",
     prize: ["1st Prize: Rs 13000", "2nd Prize: Rs 10000", "3rd Prize: Rs 7000"],
     fee: "Rs 100",
-    about: ``,
+    // about: ``,
     // ----------------------------------------------------------------
     details: `
         <h2>
@@ -1892,7 +880,7 @@ investments and how you apply and get good returns.
     image: "/images/events/sky high.png",
     prize: ["1st Prize: Rs 7000", "2nd Prize: Rs 5000", "3rd Prize: Rs 3000"],
     fee: "Rs 80",
-    about: ``,
+    // about: ``,
     // ----------------------------------------------------------------
     details: `
         <h2>
@@ -2070,6 +1058,1442 @@ investments and how you apply and get good returns.
     ],
   },
 
+  // hunt the line
+  {
+    name: "HUNT THE LINE",
+    image_hq: "/images/events/hq/HUNT THE LINE.png",
+    image: "/images/events/HUNT THE LINE.png",
+    prize: ["1st Prize: Rs 13000", "2nd Prize: Rs 10000", "3rd Prize: Rs 7000"],
+    fee: "Rs 100",
+    // about: `A Chase for All!!`,
+    // ----------------------------------------------------------------
+    details: `
+        <h2>
+          INTRODUCTION
+        </h2>
+        <p>
+          In this competition participants would be competing against each other in an arena which would be having white stripes on a black background. Robots should be designed in such a way that it can take turn whenever there is a curve.
+        </p>
+        <h2>
+          PROBLEM STATEMENT
+        </h2>
+        <ul>
+          <h3>
+            ROUND 1
+          </h3>
+          <p>
+            Teams will need to submit working video of their robot as a Proof of Concept.
+          </p>
+          <ul>
+            <li>Duration of video must not be more 5 minutes.</li>
+            <li>Video must be in mp4 format.</li>
+            <li>Ensure the proper visibility of bot in video.</li>
+            <li>Bot shown must be the one which is to be operated over arena. Any sort of malpractice might lead to disqualification.</li>
+            <li>Any sort of malpractice might lead to disqualification.</li>
+          </ul>
+  
+          <h3>
+            ROUND  2
+          </h3>
+          <p>
+            The robot will be required to follow the path on the arena. The layout of the arena will be disclosed on the spot.
+          </p>
+  
+          <h2>
+            TRACK SPECIFICATION
+          </h2>
+          <ul>
+            <li>The layout of the track will be disclosed on the spot.</li>
+            <li>The track will have straight paths and smooth circular turns.</li>
+            <li>The lines will be of standard white color of the width of 3 cm (with a dark background).</li>
+            <li>The starting point and ending point will not coincide.</li>
+            <li>White strip will be present at the end of the arena.</li>
+          </ul>
+  
+          <h2>
+            MACHINE SPECIFICATION
+          </h2>
+          <ul>
+            <li>The robot must be fully autonomous.</li>
+            <li>It should be controlled by a micro-controller using differential drive.</li>
+            <li>At any time of the event, the robot dimensions must not exceed 250x250 mm length and breadthwise.</li>
+            <li>There isn’t any constraint on height and weight.</li>
+            <li>The maximum DC voltage between any two points in the circuitry must not exceed 24V.</li>
+            <li>No pneumatics and hydraulics are allowed. Mechanisms which can harm other robot are NOT allowed.</li>
+          </ul>
+          
+          <h2>
+            REGISTRATION DETAILS
+          </h2>
+          <p>
+            Fee: Rs 200 <br>
+          </p>
+        </ul>
+      `,
+    timeline: [""],
+    rulebook: "NA",
+    rules: [
+      "Any damage caused to the arena at any point in time will lead to disqualification /penalty.",
+      "The robot has to travel only on the prescribed arena, and if the bot completely leaves the arena it will have to start from the previous checkpoint.",
+      "Bring your college/student I-Card at the time of competition.",
+      "Any of the above-mentioned rules, if found violated, teams would not be allowed to participate in the competition.",
+      "Decision Taken by Judges will be final and binding for all.",
+      "Any misbehaviour will lead you to disqualification from the competition.",
+      "If less than 5 teams will be registered, then only first prize will be given and if less than 15 teams will register, only two prizes will be given. Team Specifications",
+      "Team should be of 3-5 members.",
+      "Members of a team may be from the same college/school or different (K12/UG/PG).",
+      "Any number of teams can participate from one college/school.",
+      "Professionals are not allowed. Only students can participate.",
+      "Participants are required to bring their school/college ID cards.",
+      "Once registered, the same team cannot register with another name or for another robot other than previously registered one.",
+      "Every team must have a unique name that should not be offensive conflicting or inappropriate.",
+      "Organizers have the right to reject entries for any inappropriate team name. Organizers must be notified if a team’s name has been changed.",
+      "Team Representative: Each team must specify their Team Representative (Leader) at the time of registration on the website. All important communications between the organizer and the registered teams will be done through their Team Representative. The Team representatives must submit valid contact details (phone no., email id, etc.) at the time of registration.",
+      "If teams don’t show up on allotted slot, they will be disqualified.",
+    ],
+    catagory: "technical",
+    faqs: [
+      {
+        q: "Who can participate?",
+        a: "Whosoever wants to participate there is no age restrictions, but participant should have school/college ID.",
+      },
+      {
+        q: "How long are the event?",
+        a: "No events will take more than a day.",
+      },
+      {
+        q: "What is techno-managerial fest?",
+        a: "It has both technical and managerial events.",
+      },
+      {
+        q: "What will i get if i don't win?",
+        a: "Every participant will get participation certificate.",
+      },
+      {
+        q: "When will registrations begin?",
+        a: "Registration has started",
+      },
+    ],
+    contacts: [
+      {
+        name: "Harshraj Gohil",
+        phone: "9054660903",
+      },
+      {
+        name: "Nishit Prajapati",
+        phone: "9913899949",
+      },
+    ],
+  },
+
+  // CODE WARS
+  {
+    name: "Code Wars",
+    image_hq: "/images/events/hq/CODEWARS.png",
+    image: "/images/events/CODEWARS.png",
+    prize: ["1st Prize: Rs 12000", "2nd Prize: Rs 8000", "3rd Prize: Rs 5000"],
+    fee: "Rs 50",
+    // about: `Wars Between Coders`,
+    // ----------------------------------------------------------------
+    details: `
+        <h2>
+          INTRODUCTION
+        </h2>
+        <p>Any technical fest is incomplete without a ‘Coding Challenge’, isn’t it? Here we are with
+        CodeWars,  a  3-hour  long  ICPC  style  coding  competition  based  on  Algorithms,  Data-
+        structures,  and  problem-solving.  The  problem  statements  will  be  themed  on  defense
+        technologies with the participants solving coding puzzles to decrypt enemy military codes
+        and win the battle for the homeland!      
+        </p>
+        <h2>
+          PROBLEM STATEMENT
+        </h2>
+        <p>3-hour  marathon  classic  ICPC  style  coding  contest  participated  by  students  across  are
+        required to code and submit the solutions of given problem statements in any language of
+        their choice. A reference algorithm booklet PDF will be provided to all registered teams
+        and they can bring the printed form with them to the site of contest for reference.      
+        </p>
+          <h2>
+            TEAM SPECIFICATIONS
+          </h2>
+          <ul>
+            <li>This will be a team event of maximum three members each team.   </li>
+            <li>The participants must be enrolled in a college/university at the time of application and
+            must not be graduated as of March 
+            </li>
+            <li>All team members must be from the same college or university.
+            </li>
+            <li>Participants are required to bring final COVID vaccination certificates and wear masks
+            according to government COVID advisory guidelines.</li>
+            <li>Participants are required to bring their school/college ID cards.</li>
+            <li>Once registered, the same candidate cannot register with another name for the event.</li>
+            <li>Organizers have the right to reject entries for any inappropriate username of candidate.</li>
+           <li>Organizers must be notified if a candidate’s username has been changed.
+           </li>
+          </ul>
+          
+          <h2>
+            REGISTRATION DETAILS
+          </h2>
+          <p>
+            Fee: Rs 150 <br>
+          </p>
+        </ul>
+      `,
+    timeline: [""],
+    rulebook: "/docs/rulebooks/Chem-E-Car.pdf",
+    rules: [
+      "The contest will be conducted on CodeForces",
+      "Each team will get one computer to submit their solutions to the problem statements(ICPC Style)",
+      " The team will be rewarded points based on the number of test samples solved.",
+      "The team will be ranked as per the number of problem. Statements solved and ties will be  broken  by  total  time  taken  by  each  participant/penalty  incurred  on  wrong submission.",
+      "Plagiarism/Use  of  internet  in  any  form  is  strictly  prohibited  and  can  even  result  in disqualification of contestants involved.",
+      "All  decisions  taken  by  the  organizing  team  will  be  deemed  as  final,  and  no  more changes will been courage.",
+      "Any misbehavior will lead you to disqualification from the competition.",
+      "If less than 20 teams will be registered, then only two prizes will be given and if less than 10 teams will register, only first prize will be given.",
+    ],
+    catagory: "technical",
+    faqs: [
+      {
+        q: "Who can participate?",
+        a: "Whosoever wants to participate there is no age restrictions, but participant should have school/college ID.",
+      },
+      {
+        q: "How long are the event?",
+        a: "No events will take more than a day.",
+      },
+      {
+        q: "What is techno-managerial fest?",
+        a: "It has both technical and managerial events.",
+      },
+      {
+        q: "What will i get if i don't win?",
+        a: "Every participant will get participation certificate.",
+      },
+      {
+        q: "When will registrations begin?",
+        a: "Registration has started",
+      },
+    ],
+    contacts: [
+      {
+        name: "Vishvesh Trivedi",
+        phone: "9979637506",
+      },
+      {
+        name: "Swara Jain",
+        phone: "9426671700",
+      },
+    ],
+  },
+
+  // dalal street 1992
+  {
+    name: "DALAL STREET-1992",
+    image_hq: "/images/events/hq/DALAL STREET 1992.png",
+    image: "/images/events/DALAL STREET 1992.png",
+    prize: ["1st Prize: Rs 8000", "2nd Prize: Rs 6000"],
+    fee: "Rs 30",
+    type: "team",
+    // about: `Indian Stock Market Simulation`,
+    // ----------------------------------------------------------------
+    details: `
+      <h2>
+        Introduction
+      </h2>
+      <p>
+        CCAC and MINDBEND 2023 bring to you the "DALAL STREET-1992", an Indian Stock Market competition as part of MINDBEND 2023. Presenting an opportunity to test their expertise in the stock market, participants will have to use their buy and sell qualities to keep moving ahead in the dynamic market.
+      </p>
+      <p>
+        Dalal Street-1992 is set in the year 1992 where Shareholders(Teams) can buy, sell, and trade their stock portfolio in an offline physical market. The goal is to increase the respective portfolios. The one with the maximum value of the portfolio wins the event.
+      </p>
+      <h2>
+        Problem Statement
+      </h2>
+      <ul>
+        <h3>
+          Round 1
+        </h3>
+        <p>
+          There will be an online quiz of 30 minutes based on some stock market facts 
+          followed by a Dalal Street competition round, 
+          10 teams or shareholders with each team comprising 3-4 members will qualify for the next round.
+        </p>
+        <h3>
+          Round 2
+        </h3>
+        <p>
+          There will be 10 News Rounds. 
+          In each round, the updated stock price of each company and some recent news events will be presented. 
+          Based on details each team must decide on which companies to invest in and update the respective portfolio. 
+          This will allow each of the teams(shareholders) to buy, sell, and trade with the Stock exchange or among themselves as well. 
+          Teams are allowed to move on the given platform allotted to each one of them respectively. 
+          At the end of this, the team with the maximum portfolio will win.
+        </p>
+        <h3>
+          Team Specification
+        </h3>
+        <p>
+          Upto 4 members.
+        </p>
+        <h3>
+          Registration Details
+        </h3>
+        <p>
+          Registration Fee: Rs 30 <br>
+          Registration details will be announced soon.
+        </p>
+      </ul>`,
+
+    timeline: ["DATE : 31/03/2023  ", "TIME : 2:30PM ONWARDS"],
+    rulebook: "/docs/rulebooks/datal street.pdf",
+    rules: [
+      `
+      All participants are supposed to follow the rules and game flow as decided by Mindbend'23 team members. 
+      In case of any confusion, the final decision of the conducting team should be obeyed and will be considered final.
+    `,
+    ],
+    catagory: "managerial",
+    faqs: [
+      {
+        q: "Who can participate?",
+        a: "Whosoever wants to participate there is no age restrictions, but participant should have school/college ID.",
+      },
+      {
+        q: "How long are the event?",
+        a: "No events will take more than a day.",
+      },
+      {
+        q: "What is techno-managerial fest?",
+        a: "It has both technical and managerial events.",
+      },
+      {
+        q: "What will i get if i don't win?",
+        a: "Every participant will get participation certificate.",
+      },
+      {
+        q: "When will registrations begin?",
+        a: "Registration has started",
+      },
+    ],
+    contacts: [
+      {
+        name: "Ritesh",
+        phone: "84018 22498",
+      },
+      {
+        name: "Anand",
+        phone: "73830 29448",
+      },
+    ],
+  },
+  // vending masters
+  {
+    name: "VENDING MASTERS",
+    image_hq: "/images/events/hq/VENDING MASTERS.png",
+    image: "/images/events/VENDING MASTERS.png",
+    prize: ["1st Prize: Rs 4500", "2nd Prize: Rs 3500", "3rd Prize: Rs 2000"],
+    fee: "Rs 30",
+    type: "team",
+    // about: `Exhibit you marketing savviness`,
+    // ----------------------------------------------------------------
+    details: `
+      <h2>
+        Introduction
+      </h2>
+      <p>
+        How good are your marketing skills? How better can you convince others? This is all about the event Vending Masters. 
+        Here teams have to showcase their marketing knowledge and skills to convince people to buy their products.
+      </p>
+      <h2>
+        Problem Statement
+      </h2>
+      <ul>
+        <h3>
+          Round 1
+        </h3>
+        <p>
+          Teams will be shown some standard market products of which they have to guess the range 
+          in which the price of the product lies and the teams making the closest guesses will be promoted to the next round.
+        </p>
+        <h3>
+          Round 2
+        </h3>
+        <p>
+          In round 2, the qualified teams will have to sell some products showcasing 
+          their marketing and convincing skills to a group of people having some standard points 
+          each and the team taking the most points by selling the products given to them will win the game.
+        </p>
+        <h3>
+          Team Specification
+        </h3>
+        <p>
+          Upto 2 members.
+        </p>
+        <h3>
+          Registration Details
+        </h3>
+        <p>
+          Registration Fee: Rs 30 <br>
+          Registration details will be announced soon.
+        </p>
+
+      </ul>`,
+
+    timeline: ["DATE : 0  1/04/2023  ", "TIME : 2:30PM - 6:00PM"],
+    rulebook: "/docs/rulebooks/Vending Master.pdf",
+    rules: [
+      `
+      All participants are supposed to follow the rules and game flow as decided by Mindbend'23 team members. 
+      In case of any confusion, the final decision of the conducting team should be obeyed and will be considered final.
+    `,
+    ],
+    catagory: "managerial",
+    faqs: [
+      {
+        q: "Who can participate?",
+        a: "Whosoever wants to participate there is no age restrictions, but participant should have school/college ID.",
+      },
+      {
+        q: "How long are the event?",
+        a: "No events will take more than a day.",
+      },
+      {
+        q: "What is techno-managerial fest?",
+        a: "It has both technical and managerial events.",
+      },
+      {
+        q: "What will i get if i don't win?",
+        a: "Every participant will get participation certificate.",
+      },
+      {
+        q: "When will registrations begin?",
+        a: "Registration has started",
+      },
+    ],
+    contacts: [
+      {
+        name: "Nirdeshi",
+        phone: "6353 657 841",
+      },
+      {
+        name: "Saurav",
+        phone: "93270 49411",
+      },
+    ],
+  },
+  // hustle trade
+  {
+    name: "HUSTLE TRADE",
+    image_hq: "/images/events/hq/hustle trade.png",
+    image: "/images/events/hustle trade.png",
+    prize: ["1st Prize: Rs 6000", "2nd Prize: Rs 4000"],
+    fee: "Rs 30",
+    type: "team",
+    // about: `The Game of Wit and Bid`,
+    // ----------------------------------------------------------------
+    details: `
+      <h2>
+        Introduction
+      </h2>
+      <p>
+        "Hustle Trade" is a game of Bid and Wit where participants 
+        will get an opportunity to test their auctioning and bidding skills. 
+        This game revolves around the auctioning and trading of units for completing the objects. 
+        From bidding for items through all the units, 
+        managing them and trading for completing the object this game has all that is needed for a whopping Bidding and Trading Battle
+      </p>
+      <h2>
+        Problem Statement
+      </h2>
+      <ul>
+        <h3>
+          Round 1
+        </h3>
+        <p>
+          All participating teams have to participate in an online quiz regarding Finance, Trading and Auctions. 
+          Teams will be shortlisted for further rounds on the basis of their respective scores on quiz.
+        </p>
+        <h3>
+          Round 2
+        </h3>
+        <p>
+          Each team will be granted a certain amount of money to purchase units or engage in trade. 
+          The unit will be auctioned out, each includes various elements of objects (such as sentence- forming words, gadget components, puzzles, etc). 
+          The winning team will have the maximum number of completed objects (and the largest number of the remaining amount). 
+          Following the auction, inter-trading alternatives will be provided.
+        </p>
+        <h3>
+          Team Specification
+        </h3>
+        <p>
+          Upto 4 members.
+        </p>
+        <h3>
+          Registration Details
+        </h3>
+        <p>
+          Registration Fee: Rs 30 <br>
+          Registration details will be announced soon.
+        </p>
+
+      </ul>`,
+
+    timeline: ["DATE : 31/03/2023  ", "TIME : 2:30PM - 6:00PM"],
+    rulebook: "/docs/rulebooks/Hustle trade.pdf",
+    rules: [
+      `
+      All participants are supposed to follow the rules and game flow as decided by Mindbend'23 team members. 
+      In case of any confusion, the final decision of the conducting team should be obeyed and will be considered final.
+    `,
+    ],
+    catagory: "managerial",
+    faqs: [
+      {
+        q: "Who can participate?",
+        a: "Whosoever wants to participate there is no age restrictions, but participant should have school/college ID.",
+      },
+      {
+        q: "How long are the event?",
+        a: "No events will take more than a day.",
+      },
+      {
+        q: "What is techno-managerial fest?",
+        a: "It has both technical and managerial events.",
+      },
+      {
+        q: "What will i get if i don't win?",
+        a: "Every participant will get participation certificate.",
+      },
+      {
+        q: "When will registrations begin?",
+        a: "Registration has started",
+      },
+    ],
+    contacts: [
+      {
+        name: "ayush",
+        phone: "6352 685 997",
+      },
+      {
+        name: "yash",
+        phone: "97129 00042",
+      },
+    ],
+  },
+  // create your identity
+  {
+    name: "CREATE YOUR IDENTITY",
+    image_hq: "/images/events/hq/create your identity.png",
+    image: "/images/events/create your identity.png",
+    prize: ["1st Prize: Rs 5000", "2nd Prize: Rs 3000"],
+    fee: "Rs 20",
+    type: "team",
+    // about: `Unleashing the Power of Creativity`,
+    // ----------------------------------------------------------------
+    details: `
+      <h2>
+        Introduction
+      </h2>
+      <p>
+        What is a better way to express your creativity than expressing yourself through a design but concise, i.e., a LOGO.
+        In this event, you get a chance to channel your inner creativity and dive into the world of miniature but the point representation of designing a logo.
+      </p>
+      <h2>
+        Problem Statement
+      </h2>
+      <ul>
+        <h3>
+          Round 1
+        </h3>
+        <p>
+          All participating teams have to participate in an online quiz where there will be two logos side by side and you need to choose the correct one. 
+          Teams will be shortlisted for further rounds on the basis of their respective scores in quiz.
+        </p>
+        <h3>
+          Round 2
+        </h3>
+        <p>
+          Participants will be given a company or a product that failed or faced backlash. Prepare a case
+          study on the company or the product and come up with a solution.
+        </p>
+        <h3>
+          Round 3
+        </h3>
+        <p>
+          For the given hypothetical brand name and its description the qualified participants will have to come up with their own logos. 
+          The logo selected by the judges will be the logo king aka the winner.
+        </p>
+        <h3>
+          Team Specification
+        </h3>
+        <p>
+          Up to 2 members.
+        </p>
+        <h3>
+          Registration Details
+        </h3>
+        <p>
+          Registration Fee: Rs 20 <br>
+          Registration details will be announced soon.
+        </p>
+
+      </ul>`,
+
+    timeline: ["DATE : 02/04/2023  ", "TIME : 2:30PM - 6:00PM"],
+    rulebook: "/docs/rulebooks/Create your indentity.pdf",
+    rules: [
+      `
+      All participants are supposed to follow the rules and game flow as decided by Mindbend'23 team members. 
+      In case of any confusion, the final decision of the conducting team should be obeyed and will be considered final.
+    `,
+    ],
+    catagory: "managerial",
+    faqs: [
+      {
+        q: "Who can participate?",
+        a: "Whosoever wants to participate there is no age restrictions, but participant should have school/college ID.",
+      },
+      {
+        q: "How long are the event?",
+        a: "No events will take more than a day.",
+      },
+      {
+        q: "What is techno-managerial fest?",
+        a: "It has both technical and managerial events.",
+      },
+      {
+        q: "What will i get if i don't win?",
+        a: "Every participant will get participation certificate.",
+      },
+      {
+        q: "When will registrations begin?",
+        a: "Registration has started",
+      },
+    ],
+    contacts: [
+      {
+        name: "Kaustubh",
+        phone: "79765 73402",
+      },
+      {
+        name: "Harsh",
+        phone: "99044 55809",
+      },
+    ],
+  },
+  // bluffs and bargains
+  {
+    name: "BLUFFS AND BARGAINS",
+    image_hq: "/images/events/hq/Bluffs and Bargains.png",
+    image: "/images/events/Bluffs and Bargains.png",
+    prize: ["1st Prize: Rs 4000", "2nd Prize: Rs 3000", "3rd Prize Rs 2000"],
+    fee: "Rs 30",
+    type: "team",
+    // about: "Prove your negotiation mettle",
+    // ----------------------------------------------------------------
+    details: `
+      <h2>
+        Introduction
+      </h2>
+      <p>
+        Bluffs and Bargains is a first-of-its-kind Negotiation Tournament, 
+        based on negotiation case simulations conducted in top Law schools 
+        to teach hands-on experience in one of the most important skills in the modern world. 
+        Teams will have to role-play various historical and realworld negotiators and secure the best deal for their situation.
+      </p>
+    
+      <h2>
+        Problem Statement
+      </h2>
+      <ul>
+        <h3>
+          Round 1
+        </h3>
+        <p>
+          After a short preliminary online quiz (30 min) on basic negotiating intuition to decide the candidates, 
+          Teams will qualify for a specified round knockout tournament on scorable
+          negotiation cases to spotlight the best of the best, 
+          the most silver-tongued and hard-balling negotiators that can crack deals 
+          in minutes and leave all sides happy with their lot.
+        </p>
+        <h3>
+          Round 2
+        </h3>
+        <p>
+          Each knockout round lasts around 25-30 minutes.
+          10 min given to teams to understand their side of the story and take note of their
+          confidential information and what deal they need to make. 
+          Followed by 15-20 minutes of dealmaking, 
+          where both sides try to convince each other to agree to their own terms. 
+          If a deal is struck and hands have shaken, 
+          the teams are scored based on the result and their application of negotiating skills.
+        </p>
+        <h3>
+          Team Specification
+        </h3>
+        <p>
+          Upto 2 members.
+        </p>
+        <h3>
+          Registration Details
+        </h3>
+        <p>
+          Registration Fee: Rs 30 <br>
+          Registration details will be announced soon.
+        </p>
+      </ul>
+    `,
+    timeline: ["DATE : 02/04/2023  ", "TIME : 10:00AM - 2:00PM"],
+    rulebook: "/docs/rulebooks/Bluffs and Bargains.pdf",
+    rules: [
+      `
+    All participants are supposed to follow the rules and game flow as decided by Mindbend'23 team members. 
+    In case of any confusion, the final decision of the conducting team should be obeyed and will be considered final.
+  `,
+    ],
+    catagory: "managerial",
+    faqs: [
+      {
+        q: "Who can participate?",
+        a: "Whosoever wants to participate there is no age restrictions, but participant should have school/college ID.",
+      },
+      {
+        q: "How long are the event?",
+        a: "No events will take more than a day.",
+      },
+      {
+        q: "What is techno-managerial fest?",
+        a: "It has both technical and managerial events.",
+      },
+      {
+        q: "What will i get if i don't win?",
+        a: "Every participant will get participation certificate.",
+      },
+      {
+        q: "When will registrations begin?",
+        a: "Registration has started",
+      },
+    ],
+    contacts: [
+      {
+        name: "Drashti",
+        phone: "94082 44705",
+      },
+      {
+        name: "Anand",
+        phone: "73830 29448",
+      },
+    ],
+  },
+  // trend your brand
+  {
+    name: "TREND YOUR BRAND",
+    image_hq: "/images/events/hq/Trend Your Brand.png",
+    image: "/images/events/Trend Your Brand.png",
+    prize: ["1st Prize: Rs 5500", "2nd Prize: Rs 3500"],
+    fee: "Rs 30",
+    type: "ind",
+    // about: "Advertising Ideas~ Endorsing Brands",
+    // ----------------------------------------------------------------
+    details: `<h2>
+    Introduction
+  </h2>
+  
+  <p>
+  'Trend your brand' is a fun event to optimize your basic tricks of Social Media Marketing and come
+  up with an impressive quality advertisement. The more the hype created higher are your chances of
+  winning.
+  
+  </p>
+  
+  <h2>
+    Problem Statement
+  </h2>
+  <ul>
+    <h3>
+      Round 1
+    </h3>
+    <p>
+    Puzzle round based on Brand logo /tagline. Whoever solves it first, gets to select a product of
+    their choice. 2 people choosing the same product will be clubbed together as a team.
+    
+    </p>
+    <h3>
+      Round 2
+    </h3>
+    <p>
+    Advertisement round, each team needs to come up with a social media post for their
+    product/service that could be posted on social media.
+    </p>
+    <h3>
+      Team Specification
+    </h3>
+    <p>
+      individual
+    </p>
+    <h3>
+      Registration Details
+    </h3>
+    <p>
+      Registration Fee: Rs 30 <br>
+      Registration details will be announced soon.
+    </p>
+
+  </ul>`,
+    timeline: ["DATE : 31/03/2023  ", "TIME : 09:00AM - 2:00PM"],
+    rulebook: "/docs/rulebooks/Trend your brand.pdf",
+    rules: [
+      `
+    All participants are supposed to follow the rules and game flow as decided by Mindbend'23 team members. 
+    In case of any confusion, the final decision of the conducting team should be obeyed and will be considered final.
+  `,
+    ],
+    catagory: "managerial",
+    faqs: [
+      {
+        q: "Who can participate?",
+        a: "Whosoever wants to participate there is no age restrictions, but participant should have school/college ID.",
+      },
+      {
+        q: "How long are the event?",
+        a: "No events will take more than a day.",
+      },
+      {
+        q: "What is techno-managerial fest?",
+        a: "It has both technical and managerial events.",
+      },
+      {
+        q: "What will i get if i don't win?",
+        a: "Every participant will get participation certificate.",
+      },
+      {
+        q: "When will registrations begin?",
+        a: "Registration has started",
+      },
+    ],
+    contacts: [
+      {
+        name: "Moli",
+        phone: "80055 47242",
+      },
+      {
+        name: "Ananya",
+        phone: "90819 41100",
+      },
+    ],
+  },
+  // investomania
+  {
+    name: "INVESTOMANIA",
+    image_hq: "/images/events/hq/INVESTOMANIA.png",
+    image: "/images/events/INVESTOMANIA.png",
+    prize: ["1st Prize: Rs 5000", "2nd Prize: Rs 3000"],
+    fee: "Rs 30",
+    type: "team",
+    // about: "Investments that will make you grow",
+    // ----------------------------------------------------------------
+    details: `<h2>
+    Introduction
+  </h2>
+  
+  <p>
+  "How well you invest" will be a fun event in which you have to showcase your knowledge about
+investments and how you apply and get good returns.
+
+  
+  </p>
+  
+  <h2>
+    Problem Statement
+  </h2>
+  <ul>
+    <h3>
+      Round 1
+    </h3>
+    <p>
+    It will be an Online quiz round on Kahoot, teams have to answer some general informative
+    questions regarding investment. The top 8 teams based on the quiz scores will be selected for the
+    second round.
+    
+    
+    </p>
+    <h3>
+      Round 2
+    </h3>
+    <p>
+    This is a Presentation round.
+    Problem Statement – 1,00,000 Rs will be given (hypothetically) and they have to invest in different
+    ways like gold, stocks, Mutual Funds etc. They have to research and then present their way of
+    investment, forecast their profits and show trends of particular investments, and how much profit
+    it might give. A maximum of 10 slides are allowed and 15 min will be given for each presentation.
+    </p>
+    <h3>
+      Team Specification
+    </h3>
+    <p>
+      Upto 3 members
+    </p>
+    <h3>
+      Registration Details
+    </h3>
+    <p>
+      Registration Fee: Rs 30 <br>
+      Registration details will be announced soon.
+    </p>
+
+  </ul>`,
+    timeline: ["DATE : 31/03/2023  ", "TIME : 11:00AM - 2:30PM"],
+    rulebook: "/docs/rulebooks/Investomania.pdf",
+    rules: [
+      `
+    All participants are supposed to follow the rules and game flow as decided by Mindbend'23 team members. 
+    In case of any confusion, the final decision of the conducting team should be obeyed and will be considered final.
+  `,
+    ],
+    catagory: "managerial",
+    faqs: [
+      {
+        q: "Who can participate?",
+        a: "Whosoever wants to participate there is no age restrictions, but participant should have school/college ID.",
+      },
+      {
+        q: "How long are the event?",
+        a: "No events will take more than a day.",
+      },
+      {
+        q: "What is techno-managerial fest?",
+        a: "It has both technical and managerial events.",
+      },
+      {
+        q: "What will i get if i don't win?",
+        a: "Every participant will get participation certificate.",
+      },
+      {
+        q: "When will registrations begin?",
+        a: "Registration has started",
+      },
+    ],
+    contacts: [
+      {
+        name: "Harsh",
+        phone: "99044 55809",
+      },
+      {
+        name: "Dheeraj",
+        phone: "76718 42406",
+      },
+    ],
+  },
+  // the jewels of jumanji
+  {
+    name: "THE JEWEL OF JUMANJI",
+    image_hq: "/images/events/hq/the jewel of jumanji.png",
+    image: "/images/events/the jewel of jumanji.png",
+    prize: ["1st Prize: Rs 4500", "2nd Prize: Rs 3500", "3rd Prize: Rs 2000"],
+    fee: "Rs 30",
+    type: "team",
+    // about: "Fight your way to the top",
+    // ----------------------------------------------------------------
+    details: `<h2>
+    Introduction
+  </h2>
+  
+  <p>
+  The jewel of Jumanji involves assessing your analyzing and managing skills when it comes to
+  knowing your own strengths and weaknesses to solving a dire situation that you might face
+  whether it maybe being chased by a hippopotamus to solving a hardcore logic puzzle.
+  
+  </p>
+  
+  <h2>
+    Problem Statement
+  </h2>
+  <ul>
+    <h3>
+      Round 1
+    </h3>
+    <p>
+    Each team will be given certain advantages in terms of points from 1-10 in all three areas of
+    expertise like arts& literature; logic and analysis; practical field knowledge, the sum of
+    which(points) is fixed. Using these points you can obtain hints, which are of two types, to
+    solving every problem that you face ahead. Solve and also score bonus points for bonus
+    questions to obtain the map for the jaguar's eye or the jewel of the Jumanji.
+    </p>
+    <h3>
+      Round 2
+    </h3>
+    <p>
+    There will be a small treasure hunt in which the clues will be provided after solving certain
+    questions similar to round 1. For the tie-breaker, the team will be given a specific sum and this
+    time they have to decide the distribution of points in the three areas as per their interest and
+    then the winner is decided from three questions.
+    
+    </p>
+    <h3>
+      Team Specification
+    </h3>
+    <p>
+      Upto 3 members
+    </p>
+    <h3>
+      Registration Details
+    </h3>
+    <p>
+      Registration Fee: Rs 30 <br>
+      Registration details will be announced soon.
+    </p>
+
+  </ul>`,
+    timeline: ["DATE : 01/04/2023  ", "TIME : 10:00AM - 2:00PM"],
+    rulebook: "/docs/rulebooks/The Jewel of jumanji.pdf",
+    rules: [
+      `
+    All participants are supposed to follow the rules and game flow as decided by Mindbend'23 team members. 
+    In case of any confusion, the final decision of the conducting team should be obeyed and will be considered final.
+  `,
+    ],
+    catagory: "managerial",
+    faqs: [
+      {
+        q: "Who can participate?",
+        a: "Whosoever wants to participate there is no age restrictions, but participant should have school/college ID.",
+      },
+      {
+        q: "How long are the event?",
+        a: "No events will take more than a day.",
+      },
+      {
+        q: "What is techno-managerial fest?",
+        a: "It has both technical and managerial events.",
+      },
+      {
+        q: "What will i get if i don't win?",
+        a: "Every participant will get participation certificate.",
+      },
+      {
+        q: "When will registrations begin?",
+        a: "Registration has started",
+      },
+    ],
+    contacts: [
+      {
+        name: "Sneh",
+        phone: "85112 66722",
+      },
+      {
+        name: "Anany",
+        phone: "90819 41100",
+      },
+    ],
+  },
+  // can you beat the president
+  {
+    name: "CAN YOU BE THE PRESIDENT",
+    image_hq: "/images/events/hq/CAN YOU BE THE PRESIDENT.png",
+    image: "/images/events/CAN YOU BE THE PRESIDENT.png",
+    prize: ["1st Prize: Rs 4500", "2nd Prize: Rs 3500", "3rd Prize: Rs 2000"],
+    fee: "Rs 20",
+    type: "individual",
+    // about: "Be the leader you would follow",
+    // ----------------------------------------------------------------
+    details: `<h2>
+    Introduction
+  </h2>
+  
+  <p>
+  “Can you be the president” is a managerial event that demands problem-solving, debating and
+  public speaking skills, this event test the managerial power and skills that a good leader must
+  have.
+  </p>
+  
+  <h2>
+    Problem Statement
+  </h2>
+  <ul>
+    <h3>
+      Round 1
+    </h3>
+    <p>
+    You will be given a google form consisting of various problem statements/questions regarding
+    managing a country and apart from that you have to write policies and schemes that you will
+    implement if you became the president basically your own manifesto.
+    </p>
+    <h3>
+      Round 2
+    </h3>
+    <p>
+    In round 2, (news debate round) shortlisted candidates will be given their own party symbol
+    and they have to represent themselves in a news channel debate, the topic of the debate will
+    be decided by the news anchor.
+    </p>
+    <h3>
+      Round 3
+    </h3>
+    <p>
+    Shortlisted candidates have to give a speech addressing the public that why they deserve to
+    be the president and followed by a press conference in which journalists will ask you
+    questions on the basis of their speech.
+    
+    </p>
+    <h3>
+      Team Specification
+    </h3>
+    <p>
+      Individual member
+    </p>
+    <h3>
+      Registration Details
+    </h3>
+    <p>
+      Registration Fee: Rs 20 <br>
+      Registration details will be announced soon.
+    </p>
+
+  </ul>`,
+    timeline: ["DATE : 01/04/2023  ", "TIME : 09:00AM - 1:00PM"],
+    rulebook: "/docs/rulebooks/Can you be the president.pdf",
+    rules: [
+      `
+    All participants are supposed to follow the rules and game flow as decided by Mindbend'23 team members. 
+    In case of any confusion, the final decision of the conducting team should be obeyed and will be considered final.
+  `,
+    ],
+    catagory: "managerial",
+    faqs: [
+      {
+        q: "Who can participate?",
+        a: "Whosoever wants to participate there is no age restrictions, but participant should have school/college ID.",
+      },
+      {
+        q: "How long are the event?",
+        a: "No events will take more than a day.",
+      },
+      {
+        q: "What is techno-managerial fest?",
+        a: "It has both technical and managerial events.",
+      },
+      {
+        q: "What will i get if i don't win?",
+        a: "Every participant will get participation certificate.",
+      },
+      {
+        q: "When will registrations begin?",
+        a: "Registration has started",
+      },
+    ],
+    contacts: [
+      {
+        name: "Chandan",
+        phone: "93271 43251",
+      },
+      {
+        name: "Yash",
+        phone: "97129 00042",
+      },
+    ],
+  },
+  // CAd CRACKER
+  {
+    name: "CAD CRACKER",
+    image_hq: "/images/events/hq/cad crackers.png",
+    image: "/images/events/cad crackers.png",
+    prize: ["1st Prize: Rs 3500", "2nd Prize: Rs 2500", "3rd Prize: Rs 1500"],
+    fee: "Rs 30",
+    // about: "CAD",
+    // ----------------------------------------------------------------
+    details: `<h2>
+      Introduction
+    </h2>
+    
+    <p>
+      The most intriguing topic to learn as a mechanical engineer is how to design models (Cars,
+      planes or Robots). So, here we present the CAD CRACKER to all CAD enthusiasts. Models
+      should be designed, assembled, and analyzed.
+      
+    </p>
+    
+    <h2>
+      Problem Statements
+    </h2>
+    <p>Participants have to design 3D parts from the 2D sketch of a military vehicle given and
+    assemble them to complete military vehicle.</p>
+    <ul>
+      <h3>
+        Round 1
+      </h3>
+      <ul>
+      <li> Design the Parts of the given Defense Vehicle. 2D views of those parts will be
+      provided.
+      </li>
+      <li> The models to be designed would be presented to every participant. They must
+      complete their design in the fixed time allotted for each design that has to be
+      submitted in .SLDPRT format. </li>
+      </ul>
+      <h3>
+        Round 2
+      </h3>
+      <ul>
+        <li>Participants have to make that defense vehicle by assembling those parts (made in
+          round 1) with provided body parts, within the given time constraint.</li>
+        <li>It has to be submitted in .SLDSAM and .STEP
+        </li>
+      </ul>
+      
+      <h3>
+        Team Specification
+      </h3>
+      <ul>
+        <li> Team with maximum 2 participants is permitted in this event.</li>
+        <li> Any number of individuals may participate from one college.</li>
+        <li> Professionals are not allowed. Only students can participate.</li>
+        <li> Participants are required to bring their school/college ID cards. </li>
+        <li> Once registered, the same team cannot register with another name or for another 
+        model other than previously registered one.</li>
+        <li> Every team must have a unique name that should not be offensive conflicting or 
+        inappropriate</li>
+        <li> Organizers have the right to reject entries for any inappropriate team name.</li>
+      </ul>
+      <h3>JUDGING CRITERION</h3>
+      <ul>
+          <li>In first round the given parts for designing purpose have different weightage of points 
+          so the participant with more points will be Ranked higher.
+          </li>
+          <li> Time will also be a judging criteria</li>
+          <li> Among them 1/3rd of participants will be sent to 2nd round</li>
+          <li> In second round participant who has completed the assembly of defense vehicle with 
+          minimum amount of time taken will be Ranked higher.</li>
+      </ul>
+      <h3>Number of expected registrations </h3>
+      <p>100 Teams</p>
+      <h3> Target Audience</h3>
+      <p> 2nd and 3rd year students of from Mechanical </p>
+      <h3>
+        Registration Details
+      </h3>
+      <p>
+        Registration Fee: Rs 30 <br>
+      </p>
+      <h3> Event Platform</h3>
+      <p> Online </p>`,
+    timeline: [""],
+    rulebook: "/docs/rulebooks/CAD-CRACKERS.pdf",
+    rules: [
+      "For designing the models, SOLIDWORKS software is mandatory.",
+      " The design must be completed in the given time restriction.",
+      " Submissions should be provided in the appropriate format given by the judges. ",
+      " The participants would be required to submit the CAD model in the link provided by the judges in the beginning of the competition.",
+      "Bring your college/student I-Card at the time of competition. ",
+      "Decision Taken by Judges will be final and binding for all.",
+      " Any misbehavior will lead you to disqualification from the competition.",
+      " If less than 10 teams will be registered, then only the first prize will be given, and if less than 20 teams will register, only two prizes will be given.",
+    ],
+    catagory: "technical",
+    faqs: [
+      {
+        q: "Who can participate?",
+        a: "Whosoever wants to participate there is no age restrictions, but participant should have school/college ID.",
+      },
+      {
+        q: "How long are the event?",
+        a: "No events will take more than a day.",
+      },
+      {
+        q: "What is techno-managerial fest?",
+        a: "It has both technical and managerial events.",
+      },
+      {
+        q: "What will i get if i don't win?",
+        a: "Every participant will get participation certificate.",
+      },
+      {
+        q: "When will registrations begin?",
+        a: "Registration has started",
+      },
+    ],
+    contacts: [
+      {
+        name: "Pratham Parmar",
+        phone: "7874992002",
+      },
+      {
+        name: "Devanshu Vyas",
+        phone: "9157120402",
+      },
+    ],
+  },
+
+  // structure for future
+  {
+    name: "STRUCTURE FOR FUTURE",
+    image_hq: "/images/events/hq/structure for future.png",
+    image: "/images/events/structure for future.png",
+    prize: ["1st Prize: Rs 3500", "2nd Prize: Rs 2500", "3rd Prize: Rs 1500"],
+    fee: "Rs 70",
+    // about: "STRUCTURE FOR FUTURE",
+    // ----------------------------------------------------------------
+    details: `<h2>
+      Introduction
+    </h2>
+    
+    <p>
+    This event focuses on how participants make structures engineered to withstand weight,
+    are durable, and in some cases, are aesthetically pleasing.
+    </p>
+    
+    <h2>
+      Problem Statements
+    </h2>
+    <p>Participants  need  to  design  and  build  their  structure  using  popsicle  sticks  and  glue.
+    Participants can use the fewest number of popsicle sticks while still achieving their goals.
+    </p>
+    <ul>
+      <h3>
+        Round 1
+      </h3>
+      <ul>
+      <li>Participants need to submit a CAD model of the tower.</li>
+      <li> The CAD file must be in .sldasm/ .dwg/ .step format. </li>
+      <li> Teams  have  to  manufacture  the  same  CAD  model  in  the  next  round,  so  design  it
+      accordingly. </li>
+      <li>The structure should support at least 1 kg of weight applied normally downwards to
+      the top surface.</li>
+      <li> The top and bottom surfaces of the tower should be made flat. </li>
+      </ul>
+      <h3>
+        Round 2
+      </h3>
+      <ul>
+        <li>This would be an offline round.</li>
+        <li> Teams have to manufacture the CAD model on the spot.</li>
+        <li> The time duration given would be 4 hours.</li>
+        <li> The materials required for building the tower will be provided to the teams.</li>
+        <li> The completed structure would be first measured by the coordinators.</li>
+        <li>If  the  dimensions  are  found  to  exceed  the  allowed  dimensions  by  a  considerate
+        margin, the team will be disqualified.</li>
+        <li> The structure would then be weighed on a weighing scale.</li>
+        <li> Weights  ranging  from  1kg  to  10kg  would  be  placed  on  the  top  surface  of  the
+        structure.</li>
+        <li>The procedure of placing weights would be the same for every team.</li>
+        <li> The maximum weight the tower can hold without collapsing would be noted.</li>
+      </ul>
+      <h3> MATERIAL TO BE USED </h3>
+      <ul>
+        <li>The  organizers  will  provide  popsicle  sticks.  Sticks  can  have  the  following  maximum
+        dimensions: Length = 112 mm, Breadth = 95 mm, Width = 02 mm.</li>
+        <li> Sticks can be altered physically by cutting or notching at any angle.</li>
+        <li> Only  Fevicol  can  be  used  as  an  adhesive;  using  other  adhesives  may  lead  to
+        disqualification. The use of threads is not allowed.</li>
+        <li> Participants must bring basic stationary items, such as pens, scissors, cutters, etc. </li>
+        <li> Clips for support and fevicol would be provided to the participants. </li>
+        <li> The maximum number of sticks that can be overlapped together is 2.</li>
+      </ul>
+      <h3> STRUCTURE DIMENSIONS </h3>
+      <ul>
+        <li>Length - 25 cm (maximum)</li>
+        <li>Width - 25 cm (maximum) </li>
+        <li>Height - 25 cm (minimum)</li>
+        <li>(No limit for maximum height)</li>
+      </ul>
+      <h3>
+        Team Specification
+      </h3>
+      <ul>
+        <li>The team should have a minimum of 2 members and up to 6 members. </li>
+        <li> Members of a team may be from the same college or different.</li>
+        <li> Any number of teams can participate from one college. </li>
+        <li> Professionals are not allowed. Only students can participate.</li>
+        <li> Once registered, the same team cannot register with another name or for another 
+        model other than previously registered one.</li>
+        <li> Every team must have a unique name that should not be offensive conflicting or 
+        inappropriate</li>
+        <li> Organizers must be notified if a team’s name has been changed.</li>
+        <li> Team Representative: Each team must specify their Team Representative (Leader) at
+        registration on the website. All important communications between the organizer and 
+        the registered teams will be done through their Team Representatives. The Team 
+        representatives must submit valid contact details (phone no., email id, etc.) at the time 
+        of registration.</li>
+      </ul>
+      <h2>JUDGING CRITERION</h2>
+      <h3>ROUND 1</h3>
+      <p>The CAD model would be judged on the following criteria:</p>
+      <ul>
+          <li> Originality</li>
+          <li> Aesthetics </li>
+      </ul>
+      <h3>ROUND 2  </h3>
+      <ul>
+      <li>The weight of the structure would be noted.</li>
+      <li>The maximum weight the structure can hold just before collapsing would also be 
+      noted.</li>
+      <li>The structure made with minimum material and holding the maximum weight would 
+      be considered the winner.</li>
+      <li> The ratio of maximum weight withstand to the weight of the structure itself would be
+      the efficiency of the tower </li>
+      <li>The aesthetics of the bridge will also be evaluated.</li>
+      <li>The judges will evaluate the bridge based on its appearance, the originality of its
+      design, and the connection of members.</li>
+      <li> The weightage of each criterion is given as follows: Efficiency = 70 points Aesthetics =
+      30 points</li>
+      <li>The total score will be given out of 100 points. </li>
+      </ul>
+      <h3>
+        Registration Details
+      </h3>
+      <p>
+        Registration Fee: Rs 50 <br>
+      </p>`,
+    timeline: [""],
+    rulebook: "NA",
+    rules: [
+      "Bring your college/student I-Card at the time of the competition.",
+      "Decisions taken by Judges will be final and binding for all. ",
+      " Any misbehavior will lead you to disqualification from the competition. ",
+      "Organizers have the right to reject entries for any inappropriate team name.  ",
+      " Teams who don't show up on allotted slots will be disqualified.",
+      " lf less then 25 teams have registered for the event only two prizes will be given and if less then 15 teams have registered for the event only two prize will be given.",
+    ],
+    catagory: "technical",
+    faqs: [
+      {
+        q: "Who can participate?",
+        a: "Whosoever wants to participate there is no age restrictions, but participant should have school/college ID.",
+      },
+      {
+        q: "How long are the event?",
+        a: "No events will take more than a day.",
+      },
+      {
+        q: "What is techno-managerial fest?",
+        a: "It has both technical and managerial events.",
+      },
+      {
+        q: "What will i get if i don't win?",
+        a: "Every participant will get participation certificate.",
+      },
+      {
+        q: "When will registrations begin?",
+        a: "Registration has started",
+      },
+    ],
+    contacts: [
+      {
+        name: "Atul Gautam",
+        phone: "9468650219",
+      },
+      {
+        name: "Adarsh Kataktalware",
+        phone: "999849931",
+      },
+    ],
+  },
+
+  
+
+  
+
+  
+
   // cat a pult
   {
     name: "CAT-A-PULT",
@@ -2077,7 +2501,7 @@ investments and how you apply and get good returns.
     image: "/images/events/cat-a-pult.png",
     prize: ["1st Prize: Rs 7000", "2nd Prize: Rs 5000", "3rd Prize: Rs 3000"],
     fee: "Rs 80",
-    about: ``,
+    // about: ``,
     // ----------------------------------------------------------------
     details: `
         <h2>
@@ -2204,133 +2628,7 @@ investments and how you apply and get good returns.
     ],
   },
 
-  // hunt the line
-  {
-    name: "HUNT THE LINE",
-    image_hq: "/images/events/hq/HUNT THE LINE.png",
-    image: "/images/events/HUNT THE LINE.png",
-    prize: ["1st Prize: Rs 13000", "2nd Prize: Rs 10000", "3rd Prize: Rs 7000"],
-    fee: "Rs 100",
-    about: `A Chase for All!!`,
-    // ----------------------------------------------------------------
-    details: `
-        <h2>
-          INTRODUCTION
-        </h2>
-        <p>
-          In this competition participants would be competing against each other in an arena which would be having white stripes on a black background. Robots should be designed in such a way that it can take turn whenever there is a curve.
-        </p>
-        <h2>
-          PROBLEM STATEMENT
-        </h2>
-        <ul>
-          <h3>
-            ROUND 1
-          </h3>
-          <p>
-            Teams will need to submit working video of their robot as a Proof of Concept.
-          </p>
-          <ul>
-            <li>Duration of video must not be more 5 minutes.</li>
-            <li>Video must be in mp4 format.</li>
-            <li>Ensure the proper visibility of bot in video.</li>
-            <li>Bot shown must be the one which is to be operated over arena. Any sort of malpractice might lead to disqualification.</li>
-            <li>Any sort of malpractice might lead to disqualification.</li>
-          </ul>
   
-          <h3>
-            ROUND  2
-          </h3>
-          <p>
-            The robot will be required to follow the path on the arena. The layout of the arena will be disclosed on the spot.
-          </p>
-  
-          <h2>
-            TRACK SPECIFICATION
-          </h2>
-          <ul>
-            <li>The layout of the track will be disclosed on the spot.</li>
-            <li>The track will have straight paths and smooth circular turns.</li>
-            <li>The lines will be of standard white color of the width of 3 cm (with a dark background).</li>
-            <li>The starting point and ending point will not coincide.</li>
-            <li>White strip will be present at the end of the arena.</li>
-          </ul>
-  
-          <h2>
-            MACHINE SPECIFICATION
-          </h2>
-          <ul>
-            <li>The robot must be fully autonomous.</li>
-            <li>It should be controlled by a micro-controller using differential drive.</li>
-            <li>At any time of the event, the robot dimensions must not exceed 250x250 mm length and breadthwise.</li>
-            <li>There isn’t any constraint on height and weight.</li>
-            <li>The maximum DC voltage between any two points in the circuitry must not exceed 24V.</li>
-            <li>No pneumatics and hydraulics are allowed. Mechanisms which can harm other robot are NOT allowed.</li>
-          </ul>
-          
-          <h2>
-            REGISTRATION DETAILS
-          </h2>
-          <p>
-            Fee: Rs 200 <br>
-          </p>
-        </ul>
-      `,
-    timeline: [""],
-    rulebook: "NA",
-    rules: [
-      "Any damage caused to the arena at any point in time will lead to disqualification /penalty.",
-      "The robot has to travel only on the prescribed arena, and if the bot completely leaves the arena it will have to start from the previous checkpoint.",
-      "Bring your college/student I-Card at the time of competition.",
-      "Any of the above-mentioned rules, if found violated, teams would not be allowed to participate in the competition.",
-      "Decision Taken by Judges will be final and binding for all.",
-      "Any misbehaviour will lead you to disqualification from the competition.",
-      "If less than 5 teams will be registered, then only first prize will be given and if less than 15 teams will register, only two prizes will be given. Team Specifications",
-      "Team should be of 3-5 members.",
-      "Members of a team may be from the same college/school or different (K12/UG/PG).",
-      "Any number of teams can participate from one college/school.",
-      "Professionals are not allowed. Only students can participate.",
-      "Participants are required to bring their school/college ID cards.",
-      "Once registered, the same team cannot register with another name or for another robot other than previously registered one.",
-      "Every team must have a unique name that should not be offensive conflicting or inappropriate.",
-      "Organizers have the right to reject entries for any inappropriate team name. Organizers must be notified if a team’s name has been changed.",
-      "Team Representative: Each team must specify their Team Representative (Leader) at the time of registration on the website. All important communications between the organizer and the registered teams will be done through their Team Representative. The Team representatives must submit valid contact details (phone no., email id, etc.) at the time of registration.",
-      "If teams don’t show up on allotted slot, they will be disqualified.",
-    ],
-    catagory: "technical",
-    faqs: [
-      {
-        q: "Who can participate?",
-        a: "Whosoever wants to participate there is no age restrictions, but participant should have school/college ID.",
-      },
-      {
-        q: "How long are the event?",
-        a: "No events will take more than a day.",
-      },
-      {
-        q: "What is techno-managerial fest?",
-        a: "It has both technical and managerial events.",
-      },
-      {
-        q: "What will i get if i don't win?",
-        a: "Every participant will get participation certificate.",
-      },
-      {
-        q: "When will registrations begin?",
-        a: "Registration has started",
-      },
-    ],
-    contacts: [
-      {
-        name: "Harshraj Gohil",
-        phone: "9054660903",
-      },
-      {
-        name: "Nishit Prajapati",
-        phone: "9913899949",
-      },
-    ],
-  },
 
   // chem e car
   {
@@ -2339,7 +2637,7 @@ investments and how you apply and get good returns.
     image: "/images/events/chem-e-car.png",
     prize: ["1st Prize: Rs 8000", "2nd Prize: Rs 5000", "3rd Prize: Rs 3000"],
     fee: "Rs 200",
-    about: `Voraciously Chem-E-Engineered Car`,
+    // about: `Voraciously Chem-E-Engineered Car`,
     // ----------------------------------------------------------------
     details: `
         <h2>
@@ -2440,106 +2738,7 @@ investments and how you apply and get good returns.
     ],
   },
 
-  // CODE WARS
-  {
-    name: "Code Wars",
-    image_hq: "/images/events/hq/CODEWARS.png",
-    image: "/images/events/CODEWARS.png",
-    prize: ["1st Prize: Rs 12000", "2nd Prize: Rs 8000", "3rd Prize: Rs 5000"],
-    fee: "Rs 50",
-    about: `Wars Between Coders`,
-    // ----------------------------------------------------------------
-    details: `
-        <h2>
-          INTRODUCTION
-        </h2>
-        <p>Any technical fest is incomplete without a ‘Coding Challenge’, isn’t it? Here we are with
-        CodeWars,  a  3-hour  long  ICPC  style  coding  competition  based  on  Algorithms,  Data-
-        structures,  and  problem-solving.  The  problem  statements  will  be  themed  on  defense
-        technologies with the participants solving coding puzzles to decrypt enemy military codes
-        and win the battle for the homeland!      
-        </p>
-        <h2>
-          PROBLEM STATEMENT
-        </h2>
-        <p>3-hour  marathon  classic  ICPC  style  coding  contest  participated  by  students  across  are
-        required to code and submit the solutions of given problem statements in any language of
-        their choice. A reference algorithm booklet PDF will be provided to all registered teams
-        and they can bring the printed form with them to the site of contest for reference.      
-        </p>
-          <h2>
-            TEAM SPECIFICATIONS
-          </h2>
-          <ul>
-            <li>This will be a team event of maximum three members each team.   </li>
-            <li>The participants must be enrolled in a college/university at the time of application and
-            must not be graduated as of March 
-            </li>
-            <li>All team members must be from the same college or university.
-            </li>
-            <li>Participants are required to bring final COVID vaccination certificates and wear masks
-            according to government COVID advisory guidelines.</li>
-            <li>Participants are required to bring their school/college ID cards.</li>
-            <li>Once registered, the same candidate cannot register with another name for the event.</li>
-            <li>Organizers have the right to reject entries for any inappropriate username of candidate.</li>
-           <li>Organizers must be notified if a candidate’s username has been changed.
-           </li>
-          </ul>
-          
-          <h2>
-            REGISTRATION DETAILS
-          </h2>
-          <p>
-            Fee: Rs 150 <br>
-          </p>
-        </ul>
-      `,
-    timeline: [""],
-    rulebook: "/docs/rulebooks/Chem-E-Car.pdf",
-    rules: [
-      "The contest will be conducted on CodeForces",
-      "Each team will get one computer to submit their solutions to the problem statements(ICPC Style)",
-      " The team will be rewarded points based on the number of test samples solved.",
-      "The team will be ranked as per the number of problem. Statements solved and ties will be  broken  by  total  time  taken  by  each  participant/penalty  incurred  on  wrong submission.",
-      "Plagiarism/Use  of  internet  in  any  form  is  strictly  prohibited  and  can  even  result  in disqualification of contestants involved.",
-      "All  decisions  taken  by  the  organizing  team  will  be  deemed  as  final,  and  no  more changes will been courage.",
-      "Any misbehavior will lead you to disqualification from the competition.",
-      "If less than 20 teams will be registered, then only two prizes will be given and if less than 10 teams will register, only first prize will be given.",
-    ],
-    catagory: "technical",
-    faqs: [
-      {
-        q: "Who can participate?",
-        a: "Whosoever wants to participate there is no age restrictions, but participant should have school/college ID.",
-      },
-      {
-        q: "How long are the event?",
-        a: "No events will take more than a day.",
-      },
-      {
-        q: "What is techno-managerial fest?",
-        a: "It has both technical and managerial events.",
-      },
-      {
-        q: "What will i get if i don't win?",
-        a: "Every participant will get participation certificate.",
-      },
-      {
-        q: "When will registrations begin?",
-        a: "Registration has started",
-      },
-    ],
-    contacts: [
-      {
-        name: "Vishvesh Trivedi",
-        phone: "9979637506",
-      },
-      {
-        name: "Swara Jain",
-        phone: "9426671700",
-      },
-    ],
-  },
+  
   // game of bots
   {
     name: "GAME OF BOTS",
@@ -2547,7 +2746,7 @@ investments and how you apply and get good returns.
     image: "/images/events/GAME OF BOTS.png",
     prize: ["1st Prize: Rs 3500", "2nd Prize: Rs 2500", "3nd Prize: Rs 1500"],
     fee: "Rs 70",
-    about: `Any technical fest is incomplete without a ‘Coding Challenge,’ isn’t it? Here we are with Game of Bots, where you must build a Discord Music bot on Replit. This competition stimulates your creativity and encourages you to come up with some imaginative ideas.`,
+    // about: `Any technical fest is incomplete without a ‘Coding Challenge,’ isn’t it? Here we are with Game of Bots, where you must build a Discord Music bot on Replit. This competition stimulates your creativity and encourages you to come up with some imaginative ideas.`,
     // ----------------------------------------------------------------
     details: `
         <h2>
@@ -2682,7 +2881,7 @@ investments and how you apply and get good returns.
     image_hq: "/images/events/hq/kryptos.png",
     prize: ["1st Prize: Rs 3000", "2nd Prize: Rs 2000", "3rd Prize: Rs 1000"],
     fee: "Rs 80",
-    about: ``,
+    // about: ``,
     // ----------------------------------------------------------------
     details: `
       <h2>
@@ -2809,7 +3008,7 @@ investments and how you apply and get good returns.
     image_hq: "/images/events/hq/balance it.png",
     prize: ["1st Prize: Rs 6000", "2nd Prize: Rs 5000", "3rd Prize: Rs 4000"],
     fee: "Rs 100",
-    about: ``,
+    // about: ``,
     // ----------------------------------------------------------------
     details: `
       <h2>
@@ -2941,193 +3140,7 @@ investments and how you apply and get good returns.
       },
     ],
   },
-  //CARRY THE CONSIGNMENT
-  {
-    name: "CARRY THE CONSIGNMENT",
-    image: "/images/events/Carry the Consignment.png",
-    image_hq: "/images/events/hq/Carry the Consignment.png",
-    prize: [
-      "1st Prize: Rs 21000",
-      "2nd Prize: Rs 17000",
-      "3rd Prize: Rs 13000",
-    ],
-    fee: "Rs 80",
-    about: ``,
-    // ----------------------------------------------------------------
-    details: `
-      <h2>
-        INTRODUCTION
-      </h2>
-      <p>In the competition, the participants must design and fabricate an RC aircraft within 
-      specified dimensions and technical specifications later specified in the document.           
-      </p>
-      <h2>
-        PROBLEM STATEMENT
-      </h2>
-      <p>The participants are required to design and fly RC aircraft that can carry payload 
-      successfully.       
-      </p>
-      <h3>ROUND 1(ONLINE)</h3>
-     <ul>
-     <li>In round one, the teams are required to send us an abstract in which they have to 
-     justify their research and design aspects and how they designed the aircraft to carry 
-     maximum payload.
-     </li>
-     <li>The abstract should be a minimum of 6 pages (A4 size 1.5 line spacing) with standard 
-     formatting.
-     </li>
-     <li>The document must include the basic design of the aircraft (dimensions, wing areas, 
-      velocity, etc.) and explain how their design is suitable for the given problem.
-      </li>
-     <li>Teams will be shortlisted on the basis of abstract and shortlisted teams will be 
-     announced 20 days before the competition date.
-     </li>
-     </ul>
-      <h3>ROUND 2(OFFLINE)</h3>
-      <p>The RC aircraft should be able to carry payload and must be designed within the specified 
-      dimensions.      
-      </p>
-      <h3>AIRCRAFT SPECIFICATIONS
-      </h3>
-      <ol>
-     <li>The competition requires participants to design and fabricate an RC aircraft.
-     </li>
-     <li>T/W <=0.75 without payload. (Thrust to weight ratio of aircraft without payload)
-     </li>
-     <li>Propeller diameter should not be greater than 13 inches.
-     </li>
-     <li>Metal propellers are not allowed. 
-     </li>
-     <li>The models can have powered take-off with landing gear or be hand launched
-     </li>
-     <li>Total wingspan should be a maximum of 1.2 m.
-     </li>
-     <li>Only electrical motors are allowed. 
-     </li>
-     <li>Use of gyroscopes and programming assistance in receivers is prohibited
-     </li>
-      </ol>
-      
-        <h2>
-          TEAM SPECIFICATIONS
-        </h2>
-       <ul>
-       <li>In the competition you can either participate individually or in a team consisting a 
-       maximum of 5 members including pilot.
-       </li>
-       <li>Any number of teams can participate from one college/school.
-       </li>
-       <li>Participants must bring their school/college ID cards.
-       </li>
-       <li>A particular participant cannot register with more than one team.
-       </li>
-       <li>The organizers have the right to reject entries if any ambiguity is found in the above- 
-       mentioned rules.
-       </li>
-       </ul>
-       
-        <h2>JUDGING CRITERIA:
-        </h2>
-        <ul>
-        <li>The judging will be done on the basis of the maximum weight carried. The aircraft that 
-        carries the highest weight successfully will be declared the winner.
-        </li>
-        <li>The term successfully here means that the aircraft must take proper take-off and while 
-        flying, the weight shouldn’t be dropped and should land successfully in the landing 
-        zone.
-        </li>
-        <li>The aircraft must be landed within 3 minutes of take-off.
-        </li>
-        <li>In case the aircraft falls after take-off, the team will be given a total of 5 minutes to 
-        repair the damages (if any) and return to the take-off zone for the second attempt.
-        </li>
-        <li>Note- only two attempts will be given.
-        </li>
-        <li>The blue area depicted in the arena top view is the minimum distance (15 meters) that 
-        the aircraft must cover in order to consider for its scoring.
-        </li>
-        </ul>
-        <p>The formula used for scoring will be:
-        weight of payload (grams)* time of flight(secs)/ weight of aircraft (grams)</p>
-        <h2>
-        <h3>IMP POINTS TO BE CONSIDERED WHILE SCORING
-        </h3>
-        <ul>
-        <li>The aircraft must be designed to increase the score.
-        </li>
-        <li>Here time of flight can be a maximum of 180 seconds only.
-        </li>
-        <li>If you are unable to land the aircraft after 180 secs. We will deduct 3 seconds for 
-        every flight extra second the aircraft flies.
-        </li>
-        </ul>
-        <h3>TEAM SPECIFICATIONS
-        </h3>
-        <ul>
-        <li>This will be a team event. You can participate individually or with a team of a 
-        maximum of 3 members.
-        </li>
-        <li>Any number of candidates can participate from one college/school
-        </li>
-        <li>Participants are required to bring their school/college ID cards.
-        </li>
-        <li>Once registered, the same candidate cannot register with another name for the event.
-        </li>
-        <li>Organizers have the right to reject entries for any inappropriate username of the 
-        candidate
-        </li>
-        <li>Organizers must be notified if a candidate’s username has been changed. 
-        </li>
-        </ul>
-       <h2>
-          REGISTRATION DETAILS
-        </h2>
-        <p>
-          Fee: Rs 400 <br>
-        </p>
-      </ul>
-    `,
-    timeline: [],
-    rulebook: "NA",
-    rules: [
-      "Any misbehavior will lead you to disqualification from the competition.",
-      "Decision Taken by Judges will be final and binding for all",
-      "All decisions taken by the organizing team will be deemed final, and no more changes will be encouraged",
-      "If less than 5 teams will be registered, then only the first prize will be given and if less than 15 teams will register, only two prizes will be given.",
-      "No one shall enter the arena except the organizers",
-      "If Any of the above-mentioned rules, if found violated, teams would not be allowed to participate in the competition.",
-      "Any damage caused to the arena at any point in time will lead to disqualification /penalty.",
-    ],
-    faqs: [
-      {
-        q: "Who can participate?",
-        a: "Whosoever wants to participate there is no age restrictions, but participant should have school/college ID.",
-      },
-      {
-        q: "How long are the event?",
-        a: "No events will take more than a day.",
-      },
-      {
-        q: "What is techno-managerial fest?",
-        a: "It has both technical and managerial events.",
-      },
-      {
-        q: "What will i get if i don't win?",
-        a: "Every participant will get participation certificate.",
-      },
-      {
-        q: "When will registrations begin?",
-        a: "Registration has started",
-      },
-    ],
-    catagory: "technical",
-    contacts: [
-      {
-        name: "",
-        phone: "",
-      },
-    ],
-  },
+  
   // Dr. Driving
   {
     name: "Dr. Driving",
@@ -3135,7 +3148,7 @@ investments and how you apply and get good returns.
     image_hq: "/images/events/hq/dr driving.png",
     prize: ["1st Prize: Rs 5000", "2nd Prize: Rs 3000", "3rd Prize: Rs 2000"],
     fee: "Rs 50",
-    about: ``,
+    // about: ``,
     // ----------------------------------------------------------------
     details: `
     <h2>
@@ -3324,7 +3337,7 @@ investments and how you apply and get good returns.
     image_hq: "/images/events/hq/chem-e-jeopardy.png",
     prize: ["1st Prize: Rs 3000", "2nd Prize: Rs 2000", "3rd Prize: Rs 1000"],
     fee: "Rs 30",
-    about: ``,
+    // about: ``,
     details: `
     <h2>
       INTRODUCTION
@@ -3423,7 +3436,7 @@ investments and how you apply and get good returns.
     image_hq: "/images/events/hq/bug-n-feature.png",
     prize: ["1st Prize: Rs 3500", "2nd Prize: Rs 2500", "3rd Prize: Rs 1500"],
     fee: "Rs 50",
-    about: ``,
+    // about: ``,
     details: `
     <h2>
       INTRODUCTION
@@ -3580,7 +3593,7 @@ investments and how you apply and get good returns.
     image_hq: "/images/events/hq/CONNECTIFY.png",
     prize: ["1st Prize: Rs 3500", "2nd Prize: Rs 2500", "3rd Prize: Rs 1500"],
     fee: "Rs 50",
-    about: ``,
+    // about: ``,
     details: `
     <h2>
       INTRODUCTION
@@ -3705,7 +3718,7 @@ investments and how you apply and get good returns.
     image_hq: "/images/events/hq/tech city.png",
     prize: ["1st Prize: Rs 3000", "2nd Prize: Rs 2000", "3rd Prize: Rs 1000"],
     fee: "Rs 100",
-    about: ``,
+    // about: ``,
     details: `
     <h2>
       INTRODUCTION
@@ -4113,15 +4126,15 @@ const team = [
     photo: "/images/team/Adarsh Kumar.jpg",
   },
   {
-    name: "Prathamraj Chauhan ",
-    phone: "8734056648",
-    admission_number: "U20EC132 ",
-    mail: "pratham6122@gmail.com",
+    name: "Durgesh Prajapat ",
+    phone: "7898609565",
+    admission_number: "U20EC132",
+    mail: "Durgeshprajapat215@gmail.com",
     commitee: "Infra Inhouse",
-    photo: "/images/team/Prathamraj Chauhan.jpg",
+    photo: "/images/team/Durgesh Prajapat.jpg",
   },
   {
-    name: "Jay Prakash Kuma",
+    name: "Jay Prakash Kumar ",
     phone: "9334958154",
     admission_number: "U20EC063",
     mail: "jp578785@gmail.com",
@@ -4168,6 +4181,15 @@ const team = [
     commitee: "Managerial",
     photo: "/images/team/Saurav Singh.jpg",
   },
+  {
+    name: "Kaustubh Trivedi ",
+    phone: "7976573402",
+    admission_number: "U20EC133",
+    mail: "trivedikaustubh2001@gmail.com",
+    commitee: "Managerial",
+    photo: "/images/team/Kaustubh Trivedi.jpg",
+  },
+
   {
     name: "Nimit Shah",
     phone: "9913111021",
