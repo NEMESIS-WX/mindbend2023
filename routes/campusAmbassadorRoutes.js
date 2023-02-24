@@ -67,7 +67,7 @@ campAmbaRouter.post("/signUp", async (req, res) => {
     }
     nu.save().then(() => {
       res.cookie("id", nu._id.toString(), { httpOnly: true, signed: true });
-      res.redirect("/login");
+      res.redirect("/campusAmbassador/");
     });
   } catch (e) {
     console.log(e);
