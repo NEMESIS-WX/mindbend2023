@@ -4344,4 +4344,22 @@ const team = [
   },
 ];
 
-module.exports = { events, workshops, team };
+const guest = [
+  {
+    name: "Jatin Dalal",
+    position: "CFO Wipro",
+    photo: "/images/guest/dalal2.png",
+  },
+  {
+    name: "Himesh Madaan",
+    position: "Famous Youtuber",
+    photo: "/images/guest/madaan2.png",
+  },
+  {
+    name: "Rashmi Robot",
+    position: "Humanoid Robot",
+    photo: "/images/guest/rashmi2.png",
+  },
+];
+
+module.exports = { events, workshops, team, guest };

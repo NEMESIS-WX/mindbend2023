@@ -7,7 +7,7 @@ const middle = require("./multer.js");
 const PORT = process.env.PORT || 8080;
 
 // import events from data.js
-const { events, workshops, team } = require("./assets/js/data.js");
+const { events, workshops, team, guest } = require("./assets/js/data.js");
 const formData = require("./schemas/formData.js");
 const { addRefCode, createDb2Connection } = require("./schemas/referral.js");
 
@@ -36,6 +36,10 @@ app.use(express.static("assets"));
 
 app.get("/", (req, res) => {
   res.render("index");
+});
+
+app.get("/guest", (req, res) => {
+  res.render("guest", { guest: guest });
 });
 
 app.get("/events", (req, res) => {
