@@ -9,6 +9,7 @@ const PORT = process.env.PORT || 8080;
 // import events from data.js
 const { events, workshops, team } = require("./assets/js/data.js");
 const formData = require("./schemas/formData.js");
+const { addRefCode, createDb2Connection } = require("./schemas/referral.js");
 
 app.set("view engine", "ejs");
 app.use(express.urlencoded({ extended: true }));
@@ -17,11 +18,14 @@ app.use(cp("secret"));
 
 // Connect to db
 mongoose
-  .connect("mongodb://localhost/MindBend", { useNewURLParser: true })
+  .connect("mongodb+srv://shubham:mint@cluster0.hggpfnd.mongodb.net/?retryWrites=true&w=majority", { useNewURLParser: true })
   .then(() => {
     console.log("db connected");
   })
   .catch((err) => console.log(err));
+
+// second db for referrals
+createDb2Connection();
 
 // Static files
 app.use(express.static("assets"));
@@ -76,6 +80,8 @@ app.post("/events/register", async (req, res) => {
     branch: req.body.branch,
     year: req.body.year,
   });
+
+  addRefCode(req.body.referralCode);
 
   data.save((err, result) => {
     if (err) throw err;
