@@ -99,6 +99,10 @@ app.get("/camAmb", (req, res) => {
   res.render("camAmb");
 });
 
+app.get("/dashboard", (req, res) => {
+  res.render("dashboard", {user: req.cookies.user});
+});
+
 app.get("/team", (req, res) => {
   res.render("team", { team: team });
 });
