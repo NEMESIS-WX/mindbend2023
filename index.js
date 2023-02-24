@@ -99,10 +99,6 @@ app.get("/camAmb", (req, res) => {
   res.render("camAmb");
 });
 
-app.get("/dashboard", (req, res) => {
-  res.render("dashboard");
-});
-
 app.get("/team", (req, res) => {
   res.render("team", { team: team });
 });
