@@ -2,8 +2,8 @@ const mongoose = require("mongoose");
 
 let db2;
 async function createDb2Connection() {
-   db2 = await mongoose.createConnection(
-    "mongodb+srv://shubham:mint@cluster0.hggpfnd.mongodb.net/rererrals?retryWrites=true&w=majority",
+  db2 = await mongoose.createConnection(
+    "mongodb://localhost:27017/referrals",
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
