@@ -18,7 +18,7 @@ app.use(cp("secret"));
 
 // Connect to db
 mongoose
-  .connect("mongodb://localhost:27017/mindbend", { useNewURLParser: true })
+  .connect("mongodb://localhost:27017/Mindbend", { useNewURLParser: true })
   .then(() => {
     console.log("db connected");
   })
@@ -100,7 +100,7 @@ app.get("/camAmb", (req, res) => {
 });
 
 app.get("/dashboard", (req, res) => {
-  res.render("dashboard", {user: req.cookies.user});
+  res.render("dashboard", { user: req.cookies.user });
 });
 
 app.get("/team", (req, res) => {
