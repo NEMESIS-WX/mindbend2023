@@ -18,7 +18,7 @@ app.use(cp("secret"));
 
 // Connect to db
 mongoose
-  .connect("mongodb://localhost:27017/Mindbend", { useNewURLParser: true })
+  .connect("mongodb://localhost:27017/MindBend", { useNewURLParser: true })
   .then(() => {
     console.log("db connected");
   })
