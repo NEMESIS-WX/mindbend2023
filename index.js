@@ -132,6 +132,7 @@ app
       if (err) console.log(err);
       if (result == null) {
         res.redirect("/success");
+        window.reload();
       }
       console.log(result);
       result.paid = true;
@@ -140,6 +141,7 @@ app
         if (err) throw err;
         console.log(check);
         res.redirect("/success");
+        window.reload();
       });
     });
   });
