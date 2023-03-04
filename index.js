@@ -141,7 +141,6 @@ app
         if (err) throw err;
         console.log(check);
         res.redirect("/success");
-        window.reload();
       });
     });
   });
