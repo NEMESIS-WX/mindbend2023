@@ -3953,7 +3953,7 @@ competition's stipulated limits.
       </ul>
     `,
     timeline: [],
-    rulebook: "/rulebooks/Drone Zone.pdf",
+    rulebook: "/docs/rulebooks/Drone Zone.pdf",
     rules: [
       "Any violation of constraints will result in disqualification of the team.",
       "Decisions Taken by Judges will be final and binding for all.",
