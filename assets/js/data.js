@@ -2488,12 +2488,6 @@ investments and how you apply and get good returns.
     ],
   },
 
-  
-
-  
-
-  
-
   // cat a pult
   {
     name: "CAT-A-PULT",
@@ -2628,8 +2622,6 @@ investments and how you apply and get good returns.
     ],
   },
 
-  
-
   // chem e car
   {
     name: "CHEM E CAR",
@@ -2738,7 +2730,6 @@ investments and how you apply and get good returns.
     ],
   },
 
-  
   // game of bots
   {
     name: "GAME OF BOTS",
@@ -3140,7 +3131,7 @@ investments and how you apply and get good returns.
       },
     ],
   },
-  
+
   // Dr. Driving
   {
     name: "Dr. Driving",
@@ -3861,6 +3852,145 @@ investments and how you apply and get good returns.
       {
         name: "Yash Mhatre ",
         phone: "9920584449",
+      },
+    ],
+  },
+  //DRONE ZONE
+  {
+    name: "DONE ZONE",
+    image: "/images/events/DRONE _ JYOTI.png",
+    image_hq: "/images/events/hq/DRONE _ JYOTI.png",
+    prize: ["1st Prize: Rs 45000", "2nd Prize: Rs 30000"],
+    fee: "Rs 50",
+    // about: ``,
+    details: `
+      <h2>
+        INTRODUCTION
+      </h2>
+      <p>This competition tests the ability of participants to make a DIY Drone (Quad Copter) and
+      make it stable as well as some autonomous tasks. In this competition, participants will
+      require to go through the basics of a drone and comprehend its dynamics, and apply it to
+      real-world situations.      
+      </p>
+      <h2>
+        PROBLEM STATEMENT:
+      </h2>
+      <p>This tournament will consist of two rounds. There will be an online phase in which
+      participants must submit a report, followed by an offline round in which they must
+      execute a task. Competitors must choose appropriate components, provide a complete
+      report, and build the drone using the same for subsequent rounds.
+      
+      </p>
+     <h3>ROUND 1: 
+     </h3>
+     <p>  Online Presentation Round: 
+     </p>
+      <ul>
+        <li>Submission of the following document about the Quadcopter is to be done;
+        Detailed report outlining all of the components used for the Drone within the
+competition's stipulated limits.
+        </li>
+        <li>The above details will be collected through a google form.
+        </li>
+      </ul>
+      <h3>ROUND 2:</h3>
+      <ul>
+        <li>This is an offline round.
+        </li>
+        <li>The course will not be disclosed prior to the round.</li>
+        <li> The Quadcopter need to reach two checkpoints.</li>
+        <li> The quadcopter would first take off, navigate through the obstacles placed in its route, and reach at Checkpoint 1.</li>
+        <li> The timer will be paused at Checkpoint 1 and the team will be given the GPS coordinates for Checkpoint 2.</li>
+        <li> Each team will receive two trails to complete the track.</li>
+        <li> Quadcopter need to maintain specific height while completing the course.</li>
+      </ul>
+      <h2>
+          TEAM SPECIFICATIONS
+      </h2>
+      <ul>
+        <li>You can participate individually or with a team of a maximum of 6 members.</li>
+        <li>Any number of candidates can participate from one college/school.</li>
+        <li>Participants are required to bring their school/college ID cards.</li>
+        <li>Once registered, the same candidate cannot register with another name for the event.</li>
+        <li>Organizers have the right to reject entries for any inappropriate username of the candidate.</li>
+        <li>Organizers must be notified if a candidate’s username has been changed.</li>
+      </ul>
+       <h3>JUDGING CRITERION:
+       </h3>
+       <ul>
+       <li>The vehicles will be judged in the following events : 
+        <ul>
+          <li>
+            Lap Time.
+          </li>
+          <li>
+            Payload carrying of minimum dimension 10cm x 10cm x 10cm.
+          </li>
+          <li>
+            Minimum weight of payload should be 150g.
+          </li>
+       </ul>
+       </li>
+      <li>Points will be awarded based on the dynamic performance of the Drone in Round 2.</li>
+      <li>Points awarded in the events will be summed up.</li>
+      <li>Point system:
+        <ul>
+          <li>
+            Percentile of maximum payload weight.
+          </li>
+          <li>
+            Percentile of minimum lap time.
+          </li>
+        </ul>
+      </li>
+       </ul>
+        <h2>
+          REGISTRATION DETAILS
+        </h2>
+        <p>
+          Fee: Rs 50 <br>
+        </p>
+      </ul>
+    `,
+    timeline: [],
+    rulebook: "/rulebooks/Drone Zone.pdf",
+    rules: [
+      "Any violation of constraints will result in disqualification of the team.",
+      "Decisions Taken by Judges will be final and binding for all.",
+      "Any misbehavior will lead you to disqualification from the competition.",
+      "If less than 10 teams will be registered, then only first prize will be given and if less than 20 teams will register, only two prizes will be given.",
+    ],
+    faqs: [
+      {
+        q: "Who can participate?",
+        a: "Whosoever wants to participate there is no age restrictions, but participant should have school/college ID.",
+      },
+      {
+        q: "How long are the event?",
+        a: "No events will take more than a day.",
+      },
+      {
+        q: "What is techno-managerial fest?",
+        a: "It has both technical and managerial events.",
+      },
+      {
+        q: "What will i get if i don't win?",
+        a: "Every participant will get participation certificate.",
+      },
+      {
+        q: "When will registrations begin?",
+        a: "Registration has started",
+      },
+    ],
+    catagory: "technical",
+    contacts: [
+      {
+        name: "Devanshu Vyas",
+        phone: "9157120402",
+      },
+      {
+        name: "Megh Modi ",
+        phone: "- 6354742209",
       },
     ],
   },
