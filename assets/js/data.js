@@ -293,7 +293,8 @@ const events = [
         Problem Statement
       </h2>
       <p>
-        Replit is the best platform for quickly starting, sharing, hosting, and developing coding projects in any programming language right from your browser. Features you can make the most out of: Enjoy a Google Docs-like coding & editing experience supporting all languages across both mobile and desktop.
+          The Model United Nations is a series of programs run throughout the country and the world with the goals of furthering understanding about the United Nations, educating participants about world
+          issues, and promoting peace and the work of the United Nations through cooperation and diplomacy
       </p>
       <ul>
         <h3>
@@ -731,9 +732,13 @@ const events = [
     catagory: "technical",
     contacts: [
       {
-        name: "",
-        phone: "",
+        name: "Devanshu Vyas",
+        phone: "915120402",
       },
+      {
+        name: "Megh Modi",
+        phone: "6354742209"
+      }
     ],
   },
 
@@ -1641,7 +1646,7 @@ const events = [
       </ul>`,
 
     timeline: ["DATE : 02/04/2023  ", "TIME : 2:30PM - 6:00PM"],
-    rulebook: "/docs/rulebooks/Create your indentity.pdf",
+    rulebook: "/docs/rulebooks/Create Your Indentity.pdf",
     rules: [
       `
       All participants are supposed to follow the rules and game flow as decided by Mindbend'23 team members. 
@@ -2014,27 +2019,19 @@ investments and how you apply and get good returns.
       Round 1
     </h3>
     <p>
-    Each team will be given certain advantages in terms of points from 1-10 in all three areas of
-    expertise like arts& literature; logic and analysis; practical field knowledge, the sum of
-    which(points) is fixed. Using these points you can obtain hints, which are of two types, to
-    solving every problem that you face ahead. Solve and also score bonus points for bonus
-    questions to obtain the map for the jaguar's eye or the jewel of the Jumanji.
+        There will be about 20 sub-rounds, each of which will be centered on one of the three themes of fictional characters. At the conclusion of each sub-round, teams will receive special benefits in the form of points ranging from 1 to 20. These points enable teams to obtain hints in the second round, enabling them to overcome every obstacle in their path and locate the locations.
     </p>
     <h3>
       Round 2
     </h3>
     <p>
-    There will be a small treasure hunt in which the clues will be provided after solving certain
-    questions similar to round 1. For the tie-breaker, the team will be given a specific sum and this
-    time they have to decide the distribution of points in the three areas as per their interest and
-    then the winner is decided from three questions.
-    
+        Teams will participate in a treasure hunt where they must navigate their way through different areas in the campus by finding the answers to clues in order to reach the final destination. For the tie-breaker, the teams will be given a specific hints by spending points which they've gained in round 1
     </p>
     <h3>
       Team Specification
     </h3>
     <p>
-      Upto 3 members
+      3 Members are Compulsary
     </p>
     <h3>
       Registration Details
@@ -2628,7 +2625,7 @@ investments and how you apply and get good returns.
     image_hq: "/images/events/hq/chem-e-car.png",
     image: "/images/events/chem-e-car.png",
     prize: ["1st Prize: Rs 8000", "2nd Prize: Rs 5000", "3rd Prize: Rs 3000"],
-    fee: "Rs 200",
+    fee: "Rs 100",
     // about: `Voraciously Chem-E-Engineered Car`,
     // ----------------------------------------------------------------
     details: `
@@ -2641,9 +2638,7 @@ investments and how you apply and get good returns.
         <h2>
           PROBLEM STATEMENT
         </h2>
-        <p>
-          Teams have to fabricate a water rocket that uses the thrust of pressurized water to launch and travel the maximum distance.
-        </p>
+        
         <ul>
           <h3>
             ROUND 1
@@ -2658,13 +2653,6 @@ investments and how you apply and get good returns.
           </h3>
           <p>
             The teams have to run their working models on the specified tract and execute the stopping mechanism for a specified distance. All the teams will be judged on the basis of how close their car gets to the endline in a specific amount of time and winners will be decided on this basis. The judges’ decision will be final on all matters.
-          </p>
-  
-          <h2>
-            TRACK SPECIFICATION
-          </h2>
-          <p>
-            Kindly refer the following video and document: Chem-E-Car track_figure.pdf Disclaimer: The mechanisms and track shown as above are purely on an example basis. Participants must note that mechanisms apart from the one shown in the above video are also acceptable.
           </p>
   
           <h2>
@@ -2687,7 +2675,7 @@ investments and how you apply and get good returns.
             REGISTRATION DETAILS
           </h2>
           <p>
-            Fee: Rs 50 <br>
+            Fee: Rs 100 <br>
           </p>
         </ul>
       `,
@@ -2997,7 +2985,7 @@ investments and how you apply and get good returns.
     name: "BALANCE IT",
     image: "/images/events/balance it.png",
     image_hq: "/images/events/hq/balance it.png",
-    prize: ["1st Prize: Rs 6000", "2nd Prize: Rs 5000", "3rd Prize: Rs 4000"],
+    prize: ["1st Prize: Rs 6000", "2nd Prize: Rs 4000", "3rd Prize: Rs 3000"],
     fee: "Rs 100",
     // about: ``,
     // ----------------------------------------------------------------
@@ -3081,7 +3069,7 @@ investments and how you apply and get good returns.
           REGISTRATION DETAILS
         </h2>
         <p>
-          Fee: Rs 50 <br>
+          Fee: Rs 100 <br>
         </p>
       </ul>
     `,
@@ -3326,8 +3314,8 @@ investments and how you apply and get good returns.
     name: "CHEM-E-JEOPARDY",
     image: "/images/events/chem-e-jeopardy.png",
     image_hq: "/images/events/hq/chem-e-jeopardy.png",
-    prize: ["1st Prize: Rs 3000", "2nd Prize: Rs 2000", "3rd Prize: Rs 1000"],
-    fee: "Rs 30",
+    prize: ["1st Prize: Rs 4000", "2nd Prize: Rs 2000", "3rd Prize: Rs 1000"],
+    fee: "Rs 50",
     // about: ``,
     details: `
     <h2>
@@ -3368,14 +3356,16 @@ investments and how you apply and get good returns.
      </ul>
      
      <h3>ROUND SPECIFICATION</h3>
-     <p>Jeopardy and Final Jeopardy constitute the preliminary qualifying games which the teams
-     shall get an opportunity to play in the semifinals
+     <p>
+        Round 1 is the screening round which consists of Chem E Cross, an online chemical engineering crossword series.
+        <br>
+        Round 2 consists of Jeopardy and Final Jeopardy constitute the preliminary qualifying games which the teams shall get an opportunity to play in the semifinals.
      </p>
      <h2>
         REGISTRATION DETAILS
       </h2>
       <p>
-        Fee: Rs 100 <br>
+        Fee: Rs 50 <br>
       </p>
     </ul>
   `,

@@ -14,6 +14,7 @@ const { addRefCode, createDb2Connection } = require("./schemas/referral.js");
 app.set("view engine", "ejs");
 app.use(express.urlencoded({ extended: true }));
 app.use(cp("secret"));
+
 // const router = express.Router();
 
 // Connect to db
@@ -109,6 +110,14 @@ app.get("/team", (req, res) => {
 
 app.get("/sponsors", (req, res) => {
   res.render("sponsors");
+});
+
+app.get("/accomodation", (req, res) => {
+  res.render("accomodation");
+});
+
+app.get("/accomodation/register", (req, res) => {
+  
 });
 
 app.get("/test", (req, res) => {

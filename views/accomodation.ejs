@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('partials/head', {description:`MINDBEND is Gujarat's largest
+  Techno-Managerial Fest, which is entirely organized by the SVNIT student body
+  and serves as the perfect rocket launch-pad for all the tech-enthusiasts out
+  there!`, keywords: `MINDBEND, TECHNO-FEST, SVNIT, NIT-SURAT, NATIONAL-EVENT`,
+  style: `accomodation`, title: `MINDBEND 2023 | CAMPUS AMBASSADOR`, });%>
+  <body>
+    <%- include(`partials/stars`)%> <%- include(`partials/loading`)%> <%-
+    include(`partials/nav`, {appear:"appear"})%>
+    <main>
+    
+        <div class="registration-form-container">
+        
+            <div class="mbimg-container">
+                <img src="/images/mbLogo.png" alt="" />
+            </div>
+        
+            <div class="registration-form">
+
+                <form action="/accomodation/register" method="post">
+                
+                    <div class="left-form">
+    
+                        <div class="input-container">
+                            <label for="name">Name</label>
+                            <input type="text" name="name" id="" required />
+                        </div>
+        
+                        <div class="input-container">
+                            <label for="college">College</label>
+                            <input type="text" name="college" id="" required />
+                        </div>
+    
+                    </div>
+    
+                    <div class="right-form">
+                        
+                        <div class="input-container">
+                            <label for="address">Address</label>
+                            <input type="text" name="address" id="address" />
+                        </div>
+
+                        <div class="input-container">
+                            <label for="branch">Days</label>
+                            <input type="text" name="branch" id="" required />
+                        </div>
+
+                    </div>
+    
+                    <div class="buttons">
+                        <button id="submit">
+                            <a onclick="frmValidate()" style="color: black">Submit</a>
+                        </button>
+                        <input type="reset" name="Reset" id="reset" />
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </main>
+    <img id="snow-mountain" src="/images/extras/snow-mountain.png" alt="" />
+    <%- include(`partials/footer`)%>
+    <script src="/js/global.js"></script>
+  </body>
+</html>
