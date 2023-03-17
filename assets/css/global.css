@@ -101,7 +101,7 @@ nav {
 .right-nav,
 #mindbend {
   height: 100%;
-  width: 33.33%;
+  /* width: 33.33%; */
   display: flex;
   justify-content: center;
   align-items: center;

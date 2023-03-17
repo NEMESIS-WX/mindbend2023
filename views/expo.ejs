@@ -18,39 +18,37 @@
         
             <div class="registration-form">
 
-                <form action="/accomodation/register" method="post">
-                
+                <form action="/expo/register" method="post">
                     <div class="left-form">
-    
                         <div class="input-container">
                             <label for="name">Name</label>
                             <input type="text" name="name" id="" required />
+                        </div>
+
+                        <div class="input-container">
+                            <label for="address">Email</label>
+                            <input type="email" name="email" id="" required />
                         </div>
         
                         <div class="input-container">
                             <label for="college">College</label>
                             <input type="text" name="college" id="" required />
                         </div>
-    
-                    </div>
-    
-                    <div class="right-form">
                         
-                        <div class="input-container">
-                            <label for="address">Address</label>
-                            <input type="text" name="address" id="address" />
-                        </div>
+
 
                         <div class="input-container">
-                            <label for="branch">Days</label>
-                            <input type="text" name="branch" id="" required />
-                        </div>
-
+                            <label for="expo">Expo</label>
+                            <select name="expo" id="" required>
+                              <option value="Auto Expo">Auto Expo</option>
+                              <option value="Aero Expo">Aero Expo</option>
+                              <option value="Start-up Expo">Start-up Expo</option>
+                            </select>
+                          </div>
                     </div>
-    
                     <div class="buttons">
                         <button id="submit">
-                            <a onclick="frmValidate()" style="color: black">Submit</a>
+                            <a onclick="frmValidate()" style="color: black">Register</a>
                         </button>
                         <input type="reset" name="Reset" id="reset" />
                     </div>
@@ -59,8 +57,27 @@
             </div>
         </div>
     </main>
-    <img id="snow-mountain" src="/images/extras/snow-mountain.png" alt="" />
     <%- include(`partials/footer`)%>
+    <img id="snow-mountain" src="/images/extras/snow-mountain.png" alt="" />
     <script src="/js/global.js"></script>
+    <script>
+        const form_container = document.querySelector(
+        ".registration-form-container"
+      );
+
+
+        function frmValidate() {
+        const frm = document.querySelector("form");
+        let len = frm.length;
+        while (len--) {
+          if (!frm.elements[frm.length - len].checkValidity()) {
+            return false;
+          }
+        }
+      }
+
+    //   btns.forEach((el) => el.addEventListener("click", accordion));
+
+    </script>
   </body>
 </html>
