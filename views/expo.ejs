@@ -18,10 +18,8 @@
         
             <div class="registration-form">
 
-                <form action="/accomodation/register" method="post">
-                
+                <form action="/expo/register" method="post">
                     <div class="left-form">
-    
                         <div class="input-container">
                             <label for="name">Name</label>
                             <input type="text" name="name" id="" required />
@@ -31,10 +29,6 @@
                             <label for="college">College</label>
                             <input type="text" name="college" id="" required />
                         </div>
-    
-                    </div>
-    
-                    <div class="right-form">
                         
                         <div class="input-container">
                             <label for="address">Address</label>
@@ -42,11 +36,23 @@
                         </div>
 
                         <div class="input-container">
-                            <label for="branch">Days</label>
-                            <input type="text" name="branch" id="" required />
-                        </div>
-
+                            <label for="year">Expo</label>
+                            <!-- <input
+                              type="number"
+                              name="year"
+                              id=""
+                              min="1"
+                              max="4"
+                              required
+                            /> -->
+                            <select name="year" id="year" required>
+                              <option value="1">Auto Expo</option>
+                              <option value="2">Aero Expo</option>
+                              <option value="3">Start-up Expo</option>
+                            </select>
+                          </div>
                     </div>
+                    
     
                     <div class="buttons">
                         <button id="submit">
@@ -55,12 +61,26 @@
                         <input type="reset" name="Reset" id="reset" />
                     </div>
 
+                    
+
                 </form>
             </div>
         </div>
     </main>
-    <img id="snow-mountain" src="/images/extras/snow-mountain.png" alt="" />
     <%- include(`partials/footer`)%>
+    <img id="snow-mountain" src="/images/extras/snow-mountain.png" alt="" />
     <script src="/js/global.js"></script>
+    <script>
+        function frmValidate() {
+        const frm = document.querySelector("form");
+        let len = frm.length;
+        while (len--) {
+          if (!frm.elements[frm.length - len].checkValidity()) {
+            return false;
+          }
+        }
+      }
+
+    </script>
   </body>
 </html>

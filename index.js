@@ -115,8 +115,16 @@ app.get("/sponsors", (req, res) => {
 app.get("/accomodation", (req, res) => {
   res.render("accomodation");
 });
-
 app.get("/accomodation/register", (req, res) => {
+  
+});
+
+app.get("/expo", (req, res) => {
+  res.render("expo");
+});
+
+
+app.get("/expo/register", (req, res) => {
   
 });
 
