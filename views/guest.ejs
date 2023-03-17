@@ -7,6 +7,7 @@
         title: "MINDBEND 2023 | guest"}); 
     %>
     <link rel="stylesheet" href="css/team.css">
+    <link rel="stylesheet" href="css/guest_registration.css">
 
   <body>
     <img id="bg" src="/images/bgs/team.webp" alt="" />
@@ -30,14 +31,24 @@
           <div class="card-container">
             <div class="card">
               <div class="cardBg" style="background-image: url('<%= e.photo %>')"></div>
+            
             </div>
+            <form  action="/guest_registration_page" method="post"  >
+            <div>
+              <button type="submit" class="buttons" id="guestsubmit"  style="margin:20px 20px;position: relative; left:25px; height:30px " >Guest Register</button>
+            </div>
+            </form>
           </div>
+          
           <% }); %>
         </div>
+          
       </div>
+     
     </main>
 
     <%- include('partials/footer'); %>
-    <script src="/js/global.js"></script>
+    <script src="/js/global.js">
+    </script>
   </body>
 </html>
