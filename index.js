@@ -47,6 +47,9 @@ app.get("/guest", (req, res) => {
 app.get("/events", (req, res) => {
   res.render("events", { events: events });
 });
+app.post("/guest_registration_page", (req, res, next) => {
+  res.redirect("/guest_registration");
+});
 
 app.get("/events/:ename", (req, res) => {
   res.render("event", {
@@ -109,18 +112,15 @@ app.get("/team", (req, res) => {
   res.render("team", { team: team });
 });
 
-app.get("/accomodation", (req, res) => {
-  res.render("accomodation");
-});
-
-app.get("/accomodation", (req, res) => {
-  
-});
-
 app.get("/sponsors", (req, res) => {
   res.render("sponsors");
 });
 
+app.get("/accomodation", (req, res) => {
+  res.render("accomodation");
+});
+
+app.get("/accomodation/register", (req, res) => {});
 
 app.get("/test", (req, res) => {
   res.render("test");
@@ -142,7 +142,7 @@ app
     data.exec((err, result) => {
       if (err) console.log(err);
       if (result == null) {
-        res.redirect("/success");
+        res.redirect("/");
         window.reload();
       }
       console.log(result);
@@ -155,45 +155,49 @@ app
       });
     });
   });
+app.get("/guest_registration", (req, res, next) => {
+  const data = {
+    name: "Guests Register",
+    fee: "50 rs",
+  };
+  res.render("guest-register", { event: data });
+});
 
-  // exppo route
+// exppo route
 
-  app.get("/expo", (req, res) => {
-      res.render("expo");
-  });
+app.get("/expo", (req, res) => {
+  res.render("expo");
+});
 
-  app.post("/expo/register", async (req, res) => {
-      const data = new ExpoData({
-        name: req.body.name,
-        email: req.body.email,
-        college: req.body.college,
-        expo: req.body.expo,
-      }
-      
-      
-      
-      
-      
-      )
-      .save(
-        (err, result) => {
-          if (err) throw err;
-          console.log(result);
-          res.redirect("/success");
-        }
-      )
-      ;
-  });
+app.post("/expo/register", async (req, res) => {
+  const data = new ExpoData({
+    name: req.body.name,
+    email: req.body.email,
+    college: req.body.college,
+    expo: req.body.expo,
+  }
   
   
-
-
-  //accomodation route
-
-  app.get("/accomodation", (req, res) => {
-    res.render("accomodation");
-  });
   
+  
+  
+  )
+  .save(
+    (err, result) => {
+      if (err) throw err;
+      console.log(result);
+      res.redirect("/success");
+    }
+  )
+  ;
+});
+
+//accomodation route
+
+app.get("/accomodation", (req, res) => {
+res.render("accomodation");
+});
+
 
 // Campus ambassador router
 app.use("/campusAmbassador/", require("./routes/campusAmbassadorRoutes"));
