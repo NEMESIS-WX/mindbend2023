@@ -24,44 +24,34 @@
                             <label for="name">Name</label>
                             <input type="text" name="name" id="" required />
                         </div>
+
+                        <div class="input-container">
+                            <label for="address">Email</label>
+                            <input type="email" name="email" id="" required />
+                        </div>
         
                         <div class="input-container">
                             <label for="college">College</label>
                             <input type="text" name="college" id="" required />
                         </div>
                         
-                        <div class="input-container">
-                            <label for="address">Address</label>
-                            <input type="text" name="address" id="address" />
-                        </div>
+
 
                         <div class="input-container">
-                            <label for="year">Expo</label>
-                            <!-- <input
-                              type="number"
-                              name="year"
-                              id=""
-                              min="1"
-                              max="4"
-                              required
-                            /> -->
-                            <select name="year" id="year" required>
-                              <option value="1">Auto Expo</option>
-                              <option value="2">Aero Expo</option>
-                              <option value="3">Start-up Expo</option>
+                            <label for="expo">Expo</label>
+                            <select name="expo" id="" required>
+                              <option value="Auto Expo">Auto Expo</option>
+                              <option value="Aero Expo">Aero Expo</option>
+                              <option value="Start-up Expo">Start-up Expo</option>
                             </select>
                           </div>
                     </div>
-                    
-    
                     <div class="buttons">
                         <button id="submit">
-                            <a onclick="frmValidate()" style="color: black">Submit</a>
+                            <a onclick="frmValidate()" style="color: black">Register</a>
                         </button>
                         <input type="reset" name="Reset" id="reset" />
                     </div>
-
-                    
 
                 </form>
             </div>
@@ -71,6 +61,11 @@
     <img id="snow-mountain" src="/images/extras/snow-mountain.png" alt="" />
     <script src="/js/global.js"></script>
     <script>
+        const form_container = document.querySelector(
+        ".registration-form-container"
+      );
+
+
         function frmValidate() {
         const frm = document.querySelector("form");
         let len = frm.length;
@@ -80,6 +75,8 @@
           }
         }
       }
+
+    //   btns.forEach((el) => el.addEventListener("click", accordion));
 
     </script>
   </body>
