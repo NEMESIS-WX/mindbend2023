@@ -371,6 +371,20 @@ main {
   border-bottom: 1px solid #ccc;
 }
 
+.content #rulebook {
+  height: 3rem;
+  width: auto;
+  padding: 0.5rem;
+  background: #fff;
+  color: #000000;
+  border-radius: 100px;
+}
+
+.content #rulebook:hover {
+  background: #000;
+  color: #fff;
+}
+
 /* ----------------------------------------------------------- */
 /* contacts css */
 .contacts {
@@ -402,10 +416,24 @@ main {
   font-size: 1rem;
   font-weight: 600;
 }
-.contact p {
+.contact a {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
   width: 100%;
   font-size: 0.8rem;
   margin: 0.2rem 0;
+  color: #000;
+}
+
+.contact a:hover {
+  fill: #25d366;
+  color: #25d366;
+}
+
+.contact a svg {
+  height: 1rem;
+  margin-left: 0.2rem;
 }
 
 /* Registration form -------------------------------------------------------------- */
@@ -472,6 +500,7 @@ main {
   height: 2rem;
   width: 2rem;
   margin: 1rem;
+  cursor: pointer;
 }
 
 .close-button svg {
@@ -529,20 +558,26 @@ main {
 input[type="text"],
 input[type="number"],
 input[type="tel"],
-input[type="email"] {
+input[type="email"],
+select,
+textarea {
   border: none;
   border-radius: 5px;
-  height: 2.5rem;
+  min-height: 2.5rem;
+  height: auto;
   padding: 0.7rem;
   width: 15rem;
   background: #b9b9b9;
   font-size: 1rem;
+  resize: none;
 }
 
 input[type="text"]:focus,
 input[type="tel"]:focus,
 input[type="number"]:focus,
-input[type="email"]:focus {
+input[type="email"]:focus,
+select:focus,
+textarea:focus {
   outline: none;
   background: #fff;
 }
@@ -573,7 +608,8 @@ input[type="radio"] {
   justify-content: center;
 }
 
-.buttons input {
+.buttons input,
+.buttons button {
   border: 0;
   height: 2.5rem;
   padding: 0.7rem;
@@ -583,8 +619,43 @@ input[type="radio"] {
   background: #fff;
 }
 
-.buttons input:hover {
+.buttons input:hover,
+input::file-selector-button:hover {
   background: #33d8f4;
+  color: #fff;
+}
+
+#cordinators {
+  margin: 0 1rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+#file {
+  width: 17rem;
+  color: #33d8f4;
+  margin: 0.5rem 0;
+}
+
+input::file-selector-button {
+  padding: 0;
+  margin: 0 0.5rem;
+  width: 6rem;
+  border: none;
+  height: 2.5rem;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.qr-code {
+  height: 15rem;
+  width: 15rem;
+  margin: 1rem;
+  border-radius: 10px;
+}
+
+.conditional {
+  flex-direction: column;
 }
 
 @media screen and (max-width: 860px) {
@@ -634,13 +705,13 @@ input[type="radio"] {
   }
 
   .mbimg-container {
-    height: 7rem;
-    width: 7rem;
+    height: 5rem;
+    width: 5rem;
   }
   .registration-form {
-    margin-top: -3.5rem;
+    margin-top: -2.5rem;
     padding: 1rem;
-    padding-top: 4.5rem;
+    padding-top: 3.5rem;
   }
   .left-form,
   .right-form {
@@ -660,14 +731,42 @@ input[type="radio"] {
   input[type="text"],
   input[type="number"],
   input[type="tel"],
-  input[type="email"] {
+  input[type="email"],
+  select,
+  textarea {
     width: 13rem;
   }
 }
 
 @media screen and (max-width: 768px) {
+  input[type="text"],
+  input[type="number"],
+  input[type="tel"],
+  input[type="email"],
+  select,
+  textarea {
+    min-height: 2rem;
+    font-size: 0.8rem;
+  }
+
+  .acc-btn,
+  .acc-content {
+    margin-left: 1.5rem;
+    width: calc(100% - 1.5rem);
+  }
+
+  .qr-code {
+    height: 12rem;
+    width: 12rem;
+  }
   .content .contacts {
     flex-direction: column;
     align-items: center;
+  }
+  .content img {
+    width: 100%;
+  }
+  #cordinators {
+    margin: 0 2.5rem;
   }
 }

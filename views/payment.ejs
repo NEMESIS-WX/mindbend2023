@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('partials/head', {description:`MINDBEND is Gujarat's largest
+  Techno-Managerial Fest, which is entirely organized by the SVNIT student body
+  and serves as the perfect rocket launch-pad for all the tech-enthusiasts out
+  there!`, keywords: `MINDBEND, TECHNO-FEST, SVNIT, NIT-SURAT, NATIONAL-EVENT`,
+  style: `event`, title: `MINDBEND 2023 | Registration`});%>
+  <body>
+    <div class="registration-form-container">
+      <div class="mbimg-container">
+        <img src="/images/mbLogo.png" alt="" />
+      </div>
+
+      <div class="registration-form">
+        <form
+          action="/payment"
+          method="post"
+          enctype="multipart/form-data"
+          class="payment-form"
+        >
+          <div class="left-form">
+            <div class="input-container">
+              <label for="email">E-Mail</label>
+              <input
+                type="email"
+                name="email"
+                id=""
+                required
+                value="<%= data.email%>"
+                style="pointer-events: none"
+              />
+            </div>
+
+            <div class="input-container">
+              <label for="phoneNo">Phone</label>
+              <input
+                type="tel"
+                id="phone"
+                name="phone"
+                pattern="[0-9]{10}"
+                value="<%= data.phoneNo%>"
+                style="pointer-events: none"
+              />
+            </div>
+            <%if(!data.svnitian == true){%>
+            <div class="input-container">
+              <label for="upi">Transection Id</label>
+              <input
+                type="text"
+                id="upiId"
+                name="upiId"
+                value="<%= data.upiId%>"
+                required
+              />
+            </div>
+            <div class="input-container">
+              <p
+                style="
+                  width: 20rem;
+                  color: #33d8f4;
+                  margin: 0.5rem 0;
+                  font-weight: 600;
+                "
+              >
+                Total Payable: <%if(data.svnitian == true){%> FREE <%};%>
+                <%if(data.svnitian == false){%> <%= data.fee%> <%};%>
+              </p>
+            </div>
+            <%};%>
+          </div>
+          <div class="right-form">
+            <div class="input-container conditional">
+              <%if(data.svnitian == true){%>
+              <label for="proof">Upload an ID Proof of SVNIT</label>
+              <%};%> <%if(data.svnitian == false){%>
+              <div class="right">
+                <img
+                  class="qr-code"
+                  src="/images/payment/qr-code.png"
+                  alt="QR Code Not Found"
+                  srcset=""
+                />
+              </div>
+              <label for="proof">Upload Payment Screenshot</label>
+
+              <%};%>
+              <div class="file-button">
+                <input
+                  type="file"
+                  name="file"
+                  id="file"
+                  accept="image/*"
+                  required
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="buttons">
+            <input type="submit" name="Submit" id="submit" />
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
+
+<script></script>

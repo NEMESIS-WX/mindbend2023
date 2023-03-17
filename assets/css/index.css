@@ -152,7 +152,7 @@ main {
 .hero-texts b,
 .hero-texts h2,
 .hero-texts h3 {
-  font-size: min(10rem, 10vw);
+  font-size: min(10rem, 15vw);
   font-family: Ethnocentric, sans-serif;
   color: #fff;
   z-index: 15;
@@ -454,6 +454,9 @@ main {
     top: 20%;
     overflow: auto;
     width: auto;
+  }
+  .hero-texts h2 {
+    font-size: 2rem;
   }
   #about {
     transform: translateY(10rem);

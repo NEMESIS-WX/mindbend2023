@@ -76,7 +76,7 @@ main {
 
 .card:hover {
   z-index: 1111;
-  transform: perspective(2000px) rotate(-10deg);
+  transform: perspective(2000px);
   box-shadow: inset 20px 0 50px rgba(0, 0, 0, 0.5);
 }
 
@@ -135,13 +135,17 @@ main {
   right: 0;
   height: 2rem;
   width: auto;
-  padding: 0.5rem;
   margin: 1rem;
   transition: all 0.2s ease-in-out;
+  font-size: 0.8rem;
+  background: rgb(102, 102, 102);
+  padding: 0.6rem 0.6rem;
+  border-radius: 100px;
 }
 
 .card a:hover {
-  color: #33d8f4;
+  background: #fff;
+  color: #000;
 }
 
 .download-file {
@@ -163,5 +167,9 @@ main {
 @media screen and (max-width: 768px) {
   .events-container {
     padding: 2rem;
+  }
+  #workshop-heading,
+  #workshop-heading p {
+    font-size: 2rem;
   }
 }

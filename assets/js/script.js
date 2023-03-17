@@ -105,8 +105,10 @@ password.addEventListener("change", (e) => {
   }
   pforpassword.innerHTML = text;
 });
+
 let phone = document.getElementById("phone");
 console.log(phone);
+
 let pforphone = document.getElementById("pforphone");
 phone.addEventListener("change", (e) => {
   let p = e.target.value;

@@ -426,6 +426,9 @@ footer div {
     height: 50vw;
     width: auto;
   }
+  .heading p {
+    opacity: 0;
+  }
 }
 
 @media screen and (max-width: 768px) {
