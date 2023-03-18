@@ -129,6 +129,10 @@ main {
   border: 3px solid #fff;
 }
 
+.about #rulebook {
+  right: 10rem;
+}
+
 .about a:hover {
   border: 3px solid #33d8f4;
   color: #33d8f4;
@@ -491,6 +495,7 @@ main {
   justify-content: center;
   border-radius: 20px;
   position: relative;
+  /* z-index: 30; */
 }
 
 .close-button {
@@ -747,6 +752,10 @@ input::file-selector-button {
   textarea {
     min-height: 2rem;
     font-size: 0.8rem;
+  }
+
+  #rulebook {
+    right: 0 !important;
   }
 
   .acc-btn,

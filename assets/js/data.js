@@ -737,8 +737,8 @@ const events = [
       },
       {
         name: "Megh Modi",
-        phone: "6354742209"
-      }
+        phone: "6354742209",
+      },
     ],
   },
 
@@ -1307,7 +1307,7 @@ const events = [
         Introduction
       </h2>
       <p>
-        CCAC and MINDBEND 2023 bring to you the "DALAL STREET-1992", an Indian Stock Market competition as part of MINDBEND 2023. Presenting an opportunity to test their expertise in the stock market, participants will have to use their buy and sell qualities to keep moving ahead in the dynamic market.
+        MINDBEND 2023 bring to you the "DALAL STREET-1992", an Indian Stock Market competition as part of MINDBEND 2023. Presenting an opportunity to test their expertise in the stock market, participants will have to use their buy and sell qualities to keep moving ahead in the dynamic market.
       </p>
       <p>
         Dalal Street-1992 is set in the year 1992 where Shareholders(Teams) can buy, sell, and trade their stock portfolio in an offline physical market. The goal is to increase the respective portfolios. The one with the maximum value of the portfolio wins the event.
@@ -1738,7 +1738,7 @@ const events = [
           Team Specification
         </h3>
         <p>
-          Upto 2 members.
+          Upto 3 members.
         </p>
         <h3>
           Registration Details
@@ -1903,7 +1903,7 @@ const events = [
   </h2>
   
   <p>
-  "How well you invest" will be a fun event in which you have to showcase your knowledge about
+  "INVESTOMANIA" will be a fun event in which you have to showcase your knowledge about
 investments and how you apply and get good returns.
 
   
@@ -4019,13 +4019,6 @@ const workshops = [
     image: "/images/workshops/Xtended Reality.png",
     details: `A workshop on exploring Metaverse through VR headsets.
       Metaverse is a virtual space that allows users to work , interact and connect with each other outside real world. Metaverse uses blockchain, virtual reality and augmented reality to give life to virtual environment.`,
-  },
-  {
-    name: "Blockchain Development",
-    fee: "FREE",
-    image_hq: "/images/workshops/hq/Blockchain Development.png",
-    image: "/images/workshops/Blockchain Development.png",
-    details: `Blockchain technology is an advanced database mechanism that allows transparent information sharing within a business network. It stores data in blocks that are linked together in chains. These developers also help businesses understand how cryptocurrency works.`,
   },
   {
     name: "Data Science",
