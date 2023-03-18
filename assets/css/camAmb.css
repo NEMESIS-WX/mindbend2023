@@ -101,11 +101,23 @@ main {
   box-shadow: 10px 10px 10px #33d7f479;
 }
 
+#bg {
+  position: fixed;
+  /* height: 100%; */
+  width: 100%;
+  top: 0;
+  filter: blur(2px);
+}
+
 @media screen and (max-width: 860px) {
   .ca-container {
     width: 95vw;
   }
   .ca-desc {
     padding: 1rem;
+  }
+  #bg {
+    width: auto;
+    height: 100%;
   }
 }

@@ -20,7 +20,7 @@ app.use(cp("secret"));
 
 // Connect to db
 mongoose
-  .connect("mongodb://localhost:27017/MindBend", { useNewURLParser: true })
+  .connect("mongodb://localhost:27017/MindBend")
   .then(() => {
     console.log("db connected");
   })
@@ -155,6 +155,7 @@ app
       });
     });
   });
+
 app.get("/guest_registration", (req, res, next) => {
   const data = {
     name: "Guests Register",
@@ -175,13 +176,7 @@ app.post("/expo/register", async (req, res) => {
     email: req.body.email,
     college: req.body.college,
     expo: req.body.expo,
-  }
-  
-  
-  
-  
-  
-  )
+  })
   .save(
     (err, result) => {
       if (err) throw err;
@@ -197,7 +192,6 @@ app.post("/expo/register", async (req, res) => {
 app.get("/accomodation", (req, res) => {
 res.render("accomodation");
 });
-
 
 // Campus ambassador router
 app.use("/campusAmbassador/", require("./routes/campusAmbassadorRoutes"));

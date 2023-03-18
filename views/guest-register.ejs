@@ -8,7 +8,7 @@
 
   <body>
     <%- include(`partials/stars`)%> <%- include(`partials/loading`)%> <%-
-    include(`partials/nav`, {appear:"appear"})%>6353168005
+    include(`partials/nav`, {appear:"appear"})%>
     <main>
       <div class="registration-form-container form-dissappear">
         <div class="mbimg-container">
@@ -128,17 +128,6 @@
                               <%= event.fee %></textarea
                   >
                 </div>
-
-                <!-- <div class="input-container">
-                                              <label for="upi">Upi Id</label>
-                                              <input
-                                                type="text"
-                                                name="upi"
-                                                value="abc@sbi"
-                                                id=""
-                                                required
-                                              />
-                                            </div> -->
               </div>
 
               <div class="input-container">
@@ -148,14 +137,7 @@
 
               <div class="input-container">
                 <label for="year">Year</label>
-                <!-- <input
-                                              type="number"
-                                              name="year"
-                                              id=""
-                                              min="1"
-                                              max="4"
-                                              required
-                                            /> -->
+
                 <select name="year" id="year" required>
                   <option value="1">1st</option>
                   <option value="2">2nd</option>
@@ -177,8 +159,8 @@
         </div>
       </div>
     </main>
-    <%- include(`partials/footer`)%>
-    <img id="snow-mountain" src="/images/extras/snow-mountain.png" alt="" />
+    <!-- <%- include(`partials/footer`)%> -->
+    <!-- <img id="snow-mountain" src="/images/extras/snow-mountain.png" alt="" /> -->
     <script src="/js/global.js"></script>
     <script>
       const form_container = document.querySelector(
