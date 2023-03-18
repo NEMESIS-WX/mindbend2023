@@ -399,9 +399,9 @@ const events = [
     image_hq: "/images/events/hq/MODE_ OVERDRIVE.png",
     image: "/images/events/MODE_ OVERDRIVE.png",
     prize: [
-      "1st Prize: Rs 55,000",
-      "2nd Prize: Rs 40,000",
-      "3rd Prize: Rs 25,000",
+      "1st Prize: Rs 40,000",
+      "2nd Prize: Rs 30,000",
+      "3rd Prize: Rs 20,000",
     ],
     fee: "Rs 300",
     // about: "The fun begins where the pavement ends",
@@ -747,7 +747,7 @@ const events = [
     name: "MAZE RUNNER",
     image_hq: "/images/events/hq/MAZE RUNNER.png",
     image: "/images/events/MAZE RUNNER.png",
-    prize: ["1st Prize: Rs 13000", "2nd Prize: Rs 10000", "3rd Prize: Rs 7000"],
+    prize: ["1st Prize: Rs 15000", "2nd Prize: Rs 10000", "3rd Prize: Rs 5000"],
     fee: "Rs 100",
     // about: ``,
     // ----------------------------------------------------------------
@@ -883,7 +883,7 @@ const events = [
     name: "SKY HIGH",
     image_hq: "/images/events/hq/sky high.png",
     image: "/images/events/sky high.png",
-    prize: ["1st Prize: Rs 7000", "2nd Prize: Rs 5000", "3rd Prize: Rs 3000"],
+    prize: ["1st Prize: Rs 7500", "2nd Prize: Rs 5000", "3rd Prize: Rs 2500"],
     fee: "Rs 80",
     // about: ``,
     // ----------------------------------------------------------------
@@ -1068,7 +1068,7 @@ const events = [
     name: "HUNT THE LINE",
     image_hq: "/images/events/hq/HUNT THE LINE.png",
     image: "/images/events/HUNT THE LINE.png",
-    prize: ["1st Prize: Rs 13000", "2nd Prize: Rs 10000", "3rd Prize: Rs 7000"],
+    prize: ["1st Prize: Rs 15000", "2nd Prize: Rs 10000", "3rd Prize: Rs 5000"],
     fee: "Rs 100",
     // about: `A Chase for All!!`,
     // ----------------------------------------------------------------
@@ -1246,7 +1246,7 @@ const events = [
         </ul>
       `,
     timeline: [""],
-    rulebook: "/docs/rulebooks/Chem-E-Car.pdf",
+    rulebook: "/docs/rulebooks/CODEWARS.pdf",
     rules: [
       "The contest will be conducted on CodeForces",
       "Each team will get one computer to submit their solutions to the problem statements(ICPC Style)",
@@ -2625,7 +2625,7 @@ investments and how you apply and get good returns.
     image_hq: "/images/events/hq/chem-e-car.png",
     image: "/images/events/chem-e-car.png",
     prize: ["1st Prize: Rs 8000", "2nd Prize: Rs 5000", "3rd Prize: Rs 3000"],
-    fee: "Rs 100",
+    fee: "Rs 200",
     // about: `Voraciously Chem-E-Engineered Car`,
     // ----------------------------------------------------------------
     details: `
@@ -3323,7 +3323,7 @@ investments and how you apply and get good returns.
     image: "/images/events/chem-e-jeopardy.png",
     image_hq: "/images/events/hq/chem-e-jeopardy.png",
     prize: ["1st Prize: Rs 4000", "2nd Prize: Rs 2000", "3rd Prize: Rs 1000"],
-    fee: "Rs 50",
+    fee: "Rs 30",
     // about: ``,
     details: `
     <h2>
