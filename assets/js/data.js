@@ -229,7 +229,7 @@ const events = [
         Registration Details
       </h3>
       <p>
-        Registration Fee: Rs 500 <br>
+        Registration Fee: Catagory - 1 : 200; Catagory - 2 : 400 <br>
       </p>`,
     timeline: [""],
     rulebook: "NA",
@@ -281,7 +281,7 @@ const events = [
   // model united nations
   {
     name: "MODEL UNITED NATIONS (MUN)",
-    image_hq: "/images/events/hq/MUN_ TANMAY.png",
+    image_hq: "/images/events/hq/mun.png",
     image: "/images/events/MUN_ TANMAY.png",
     prize: ["1st Prize: Rs 8000", "2nd Prize: Rs 6000"],
     fee: "Rs 30",
@@ -346,7 +346,7 @@ const events = [
       </ul>`,
 
     timeline: ["DATE : 01/04/2023  ", "TIME : 2:30PM ONWARDS"],
-    rulebook: "NA",
+    rulebook: "/docs/rulebooks/Model_United_ Nations_Rulebook",
     rules: [
       `
       All participants are supposed to follow the rules and game flow as decided by Mindbend'23 team
@@ -502,7 +502,7 @@ const events = [
         Registration Details
       </h3>
       <p>
-        Registration Fee: Rs 500 <br>
+        Registration Fee: Rs 300 <br>
       </p>`,
     timeline: [""],
     rulebook: "/docs/rulebooks/mode overdrive.pdf",
@@ -692,7 +692,7 @@ const events = [
           REGISTRATION DETAILS
         </h2>
         <p>
-          Fee: Rs 400 <br>
+          Fee: Rs 80 <br>
         </p>
       </ul>
     `,
@@ -827,7 +827,7 @@ const events = [
             REGISTRATION DETAILS
           </h2>
           <p>
-            Fee: Rs 200 <br>
+            Fee: Rs 100 <br>
           </p>
         </ul>
       `,
@@ -1131,7 +1131,7 @@ const events = [
             REGISTRATION DETAILS
           </h2>
           <p>
-            Fee: Rs 200 <br>
+            Fee: Rs 100 <br>
           </p>
         </ul>
       `,
@@ -1241,7 +1241,7 @@ const events = [
             REGISTRATION DETAILS
           </h2>
           <p>
-            Fee: Rs 150 <br>
+            Fee: Rs 50 <br>
           </p>
         </ul>
       `,
@@ -1351,7 +1351,7 @@ const events = [
       </ul>`,
 
     timeline: ["DATE : 31/03/2023  ", "TIME : 2:30PM ONWARDS"],
-    rulebook: "/docs/rulebooks/datal street.pdf",
+    rulebook: "/docs/rulebooks/Dalal_Street-1992_Rulebook.pdf",
     rules: [
       `
       All participants are supposed to follow the rules and game flow as decided by Mindbend'23 team members. 
@@ -1395,7 +1395,7 @@ const events = [
   // vending masters
   {
     name: "VENDING MASTERS",
-    image_hq: "/images/events/hq/VENDING MASTERS.png",
+    image_hq: "/images/events/hq/VENDING MASTERS.jpg",
     image: "/images/events/VENDING MASTERS.png",
     prize: ["1st Prize: Rs 4500", "2nd Prize: Rs 3500", "3rd Prize: Rs 2000"],
     fee: "Rs 30",
@@ -1446,7 +1446,7 @@ const events = [
       </ul>`,
 
     timeline: ["DATE : 0  1/04/2023  ", "TIME : 2:30PM - 6:00PM"],
-    rulebook: "/docs/rulebooks/Vending Master.pdf",
+    rulebook: "/docs/rulebooks/Vending_Masters_Rulebook.pdf",
     rules: [
       `
       All participants are supposed to follow the rules and game flow as decided by Mindbend'23 team members. 
@@ -1490,7 +1490,7 @@ const events = [
   // hustle trade
   {
     name: "HUSTLE TRADE",
-    image_hq: "/images/events/hq/hustle trade.png",
+    image_hq: "/images/events/hq/hustle trade.jpg",
     image: "/images/events/hustle trade.png",
     prize: ["1st Prize: Rs 6000", "2nd Prize: Rs 4000"],
     fee: "Rs 30",
@@ -1545,7 +1545,7 @@ const events = [
       </ul>`,
 
     timeline: ["DATE : 31/03/2023  ", "TIME : 2:30PM - 6:00PM"],
-    rulebook: "/docs/rulebooks/Hustle trade.pdf",
+    rulebook: "/docs/rulebooks/Hustle_Trade_Rulebook.pdf",
     rules: [
       `
       All participants are supposed to follow the rules and game flow as decided by Mindbend'23 team members. 
@@ -1589,7 +1589,7 @@ const events = [
   // create your identity
   {
     name: "CREATE YOUR IDENTITY",
-    image_hq: "/images/events/hq/create your identity.png",
+    image_hq: "/images/events/hq/create your identity.jpg",
     image: "/images/events/create your identity.png",
     prize: ["1st Prize: Rs 5000", "2nd Prize: Rs 3000"],
     fee: "Rs 20",
@@ -1646,7 +1646,7 @@ const events = [
       </ul>`,
 
     timeline: ["DATE : 02/04/2023  ", "TIME : 2:30PM - 6:00PM"],
-    rulebook: "/docs/rulebooks/Create Your Indentity.pdf",
+    rulebook: "/docs/rulebooks/Create_Your_Indentity_Rulebook.pdf",
     rules: [
       `
       All participants are supposed to follow the rules and game flow as decided by Mindbend'23 team members. 
@@ -1690,7 +1690,7 @@ const events = [
   // bluffs and bargains
   {
     name: "BLUFFS AND BARGAINS",
-    image_hq: "/images/events/hq/Bluffs and Bargains.png",
+    image_hq: "/images/events/hq/bluffs and bargain.jpg",
     image: "/images/events/Bluffs and Bargains.png",
     prize: ["1st Prize: Rs 4000", "2nd Prize: Rs 3000", "3rd Prize Rs 2000"],
     fee: "Rs 30",
@@ -1738,7 +1738,7 @@ const events = [
           Team Specification
         </h3>
         <p>
-          Upto 2 members.
+          Upto 3 members.
         </p>
         <h3>
           Registration Details
@@ -1750,7 +1750,7 @@ const events = [
       </ul>
     `,
     timeline: ["DATE : 02/04/2023  ", "TIME : 10:00AM - 2:00PM"],
-    rulebook: "/docs/rulebooks/Bluffs and Bargains.pdf",
+    rulebook: "/docs/rulebooks/Bluffs_And_Bargains_Rulebook.pdf",
     rules: [
       `
     All participants are supposed to follow the rules and game flow as decided by Mindbend'23 team members. 
@@ -1794,7 +1794,7 @@ const events = [
   // trend your brand
   {
     name: "TREND YOUR BRAND",
-    image_hq: "/images/events/hq/Trend Your Brand.png",
+    image_hq: "/images/events/hq/Trend Your Brand.jpg",
     image: "/images/events/Trend Your Brand.png",
     prize: ["1st Prize: Rs 5500", "2nd Prize: Rs 3500"],
     fee: "Rs 30",
@@ -1847,7 +1847,7 @@ const events = [
 
   </ul>`,
     timeline: ["DATE : 31/03/2023  ", "TIME : 09:00AM - 2:00PM"],
-    rulebook: "/docs/rulebooks/Trend your brand.pdf",
+    rulebook: "/docs/rulebooks/Trend_Your_Brand_Rulebook.pdf",
     rules: [
       `
     All participants are supposed to follow the rules and game flow as decided by Mindbend'23 team members. 
@@ -1891,7 +1891,7 @@ const events = [
   // investomania
   {
     name: "INVESTOMANIA",
-    image_hq: "/images/events/hq/INVESTOMANIA.png",
+    image_hq: "/images/events/hq/INVESTOMANIA.jpg",
     image: "/images/events/INVESTOMANIA.png",
     prize: ["1st Prize: Rs 5000", "2nd Prize: Rs 3000"],
     fee: "Rs 30",
@@ -1903,7 +1903,7 @@ const events = [
   </h2>
   
   <p>
-  "How well you invest" will be a fun event in which you have to showcase your knowledge about
+  "Investomania" will be a fun event in which you have to showcase your knowledge about
 investments and how you apply and get good returns.
 
   
@@ -1949,7 +1949,7 @@ investments and how you apply and get good returns.
 
   </ul>`,
     timeline: ["DATE : 31/03/2023  ", "TIME : 11:00AM - 2:30PM"],
-    rulebook: "/docs/rulebooks/Investomania.pdf",
+    rulebook: "/docs/rulebooks/Investomania_Rulebook.pdf",
     rules: [
       `
     All participants are supposed to follow the rules and game flow as decided by Mindbend'23 team members. 
@@ -1993,7 +1993,7 @@ investments and how you apply and get good returns.
   // the jewels of jumanji
   {
     name: "THE JEWEL OF JUMANJI",
-    image_hq: "/images/events/hq/the jewel of jumanji.png",
+    image_hq: "/images/events/hq/the jewel of jumanji.jpg",
     image: "/images/events/the jewel of jumanji.png",
     prize: ["1st Prize: Rs 4500", "2nd Prize: Rs 3500", "3rd Prize: Rs 2000"],
     fee: "Rs 30",
@@ -2043,7 +2043,7 @@ investments and how you apply and get good returns.
 
   </ul>`,
     timeline: ["DATE : 01/04/2023  ", "TIME : 10:00AM - 2:00PM"],
-    rulebook: "/docs/rulebooks/The Jewel of jumanji.pdf",
+    rulebook: "/docs/rulebooks/Jewel_Of_Jumanji_Rulebook.pdf",
     rules: [
       `
     All participants are supposed to follow the rules and game flow as decided by Mindbend'23 team members. 
@@ -2087,7 +2087,7 @@ investments and how you apply and get good returns.
   // can you beat the president
   {
     name: "CAN YOU BE THE PRESIDENT",
-    image_hq: "/images/events/hq/CAN YOU BE THE PRESIDENT.png",
+    image_hq: "/images/events/hq/CAN YOU BE THE PRESIDENT.jpg",
     image: "/images/events/CAN YOU BE THE PRESIDENT.png",
     prize: ["1st Prize: Rs 4500", "2nd Prize: Rs 3500", "3rd Prize: Rs 2000"],
     fee: "Rs 20",
@@ -2149,7 +2149,7 @@ investments and how you apply and get good returns.
 
   </ul>`,
     timeline: ["DATE : 01/04/2023  ", "TIME : 09:00AM - 1:00PM"],
-    rulebook: "/docs/rulebooks/Can you be the president.pdf",
+    rulebook: "/docs/rulebooks/Can_You_Be_The_President_Rulebook.pdf",
     rules: [
       `
     All participants are supposed to follow the rules and game flow as decided by Mindbend'23 team members. 
@@ -2438,7 +2438,7 @@ investments and how you apply and get good returns.
         Registration Details
       </h3>
       <p>
-        Registration Fee: Rs 50 <br>
+        Registration Fee: Rs 70 <br>
       </p>`,
     timeline: [""],
     rulebook: "NA",
@@ -2566,7 +2566,7 @@ investments and how you apply and get good returns.
             REGISTRATION DETAILS
           </h2>
           <p>
-            Fee: Rs 50 <br>
+            Fee: Rs 80 <br>
           </p>
         </ul>
       `,
@@ -2675,7 +2675,7 @@ investments and how you apply and get good returns.
             REGISTRATION DETAILS
           </h2>
           <p>
-            Fee: Rs 100 <br>
+            Fee: Rs 200 <br>
           </p>
         </ul>
       `,
@@ -2799,7 +2799,7 @@ investments and how you apply and get good returns.
             Registration Details
           </h3>
           <p>
-            Registration Fee: Rs 30
+            Registration Fee: Rs 70
           </p>
           <p>
             Registration details will be announced soon.
@@ -2929,7 +2929,7 @@ investments and how you apply and get good returns.
           REGISTRATION DETAILS
         </h2>
         <p>
-          Fee: Rs 30 <br>
+          Fee: Rs 80 <br>
         </p>
       </ul>
     `,
@@ -3373,7 +3373,7 @@ investments and how you apply and get good returns.
         REGISTRATION DETAILS
       </h2>
       <p>
-        Fee: Rs 50 <br>
+        Fee: Rs 30 <br>
       </p>
     </ul>
   `,
@@ -3422,7 +3422,7 @@ investments and how you apply and get good returns.
   {
     name: "BUG-N-FEATURE",
     image: "/images/events/bug-n-feature.png",
-    image_hq: "/images/events/hq/bug-n-feature.png",
+    image_hq: "/images/events/hq/bug-n-feature2.png",
     prize: ["1st Prize: Rs 3500", "2nd Prize: Rs 2500", "3rd Prize: Rs 1500"],
     fee: "Rs 50",
     // about: ``,
@@ -3524,7 +3524,7 @@ investments and how you apply and get good returns.
         REGISTRATION DETAILS
       </h2>
       <p>
-        Fee: Rs 30 <br>
+        Fee: Rs 50 <br>
       </p>
     </ul>
   `,
@@ -3806,7 +3806,7 @@ investments and how you apply and get good returns.
         REGISTRATION DETAILS
       </h2>
       <p>
-        Fee: Rs 50 <br>
+        Fee: Rs 100 <br>
       </p>
     </ul>
   `,
@@ -4490,4 +4490,698 @@ const guest = [
   },
 ];
 
-module.exports = { events, workshops, team, guest };
+const expo = [
+// robowars
+{
+  name: "AERO EXPO",
+  image_hq: "/images/expo/aero-expo-hq.png",
+  image: "/images/expo/aero-expo.png",
+  // about: "Beat, Defeat, Win, Repeat  ",
+  // ----------------------------------------------------------------
+  details: `<h2>
+    Introduction
+  </h2>
+  
+  <p>
+  Robo-wars  is  a  major  combat  robotics  event  which  focuses  on  designing  and
+manufacturing  of  robots  made  to  annihilate  its  opponents  and  keeping  itself  as  safe  as
+possible. Winner is decided on the basis of destruction it has caused to its opponents. It
+will have two categories: 15 kg and 60 kg.
+
+  </p>
+  
+  <h2>
+    Problem Statements
+  </h2>
+ 
+  <ul>
+    <h3>
+      Round 1
+    </h3>
+   <p>Teams will need to submit a proof of concept (POC) of the model.</p>
+    <h3>
+      Round 2
+    </h3>
+    <p> It  will  be  an  on-site  one-to-one  fight.  The  two  robots  will  be  fighting  in  the  arena.  The
+    track of points will be maintained for both the teams and the team having maximum points
+    will be declared as winner for that round. This round can be further divided in sub rounds
+    e.g. semifinals and final. </p>
+   
+    <h3>TRACK SPECIFICATION</h3>
+    <ul>
+      <li> Arena is rectangular in shape with dimension 18 x 16 x 10 foot.
+      </li>
+      <li> Height of the side safety wall, which is made of M. S, has a height of 0.5m. 
+      </li>
+      <li> Height above the safety plate is of polycarbonate plate with cage. Top of the arena is
+      covered with cage. 
+      </li>
+    </ul>
+    <h3> JUDGING CRITERIA
+    </h3>
+    <ul>
+      <li>A bot is declared victorious if its opponent is immobilized. 
+      </li>
+      <li>A bot is declared immobilized if it cannot move linearly/rotationally for more than 30
+      seconds. 
+      </li>
+      <li>A robot with one side of its drive train disabled will not be counted immobilized, if it
+      can demonstrate some degree of controlled movement.
+      </li>
+      <li> In case both the robots remain mobile after the end of the round then the winner will
+      be decided subjectively
+      </li>
+      <li> Points will be given on the basis of aggression, damage, control, and strategy.
+      </li>
+      <li> Pinning occurs when one robot, through sheer force, holds an opponent stationary in
+      order to immobilize it
+      </li>
+      <li> Organizers will allow pinning or lifting for a maximum of 15 seconds per pin/lift then
+      the attacker robot will be instructed to release the opponent. 
+      </li>
+      <li> If  a  team  fails  to  stop  the  pinning/lifting  for  several  times,  that  team  can  also  be
+      disqualified. 
+      </li>
+    </ul>
+    <h3>MACHINE SPECIFICATION 
+    </h3>
+    <ul>
+    <li>The  bot  should  not  exceed  60kg  weight  including  the  pneumatic/hydraulic  (the
+      components of bot which will be out of arena do not count in this 60kg). 
+      </li>
+    <li> Robots must be wireless. 
+    </li>
+    <li> Source, batteries (including external) and any other component excluding remote. The
+    robot should fit in the box of 750mm x 750mm x 1000mm. 
+    </li>
+    <li>All  times,  the  external  device  used  to  control  the  robot  or  any  external  tank  is  not
+    included in the size constraint.
+    </li>
+    <li>Bots can have zero ground clearance provided they do not damage the arena.
+    </li>
+    </ul>
+    <h3>
+      MOBILITY
+    </h3>
+    <ul>
+      <li>Rolling (wheels or whole bot).
+      </li>
+      <li>Linear actuated legs or cam operated motion or any non-wheeled drive system. 
+      </li>
+      <li>Jumping or flying with the help of propellers or gas balloons is not allowed.
+      </li>
+    </ul>
+    <h3>
+    ELECTRICAL SYSTEM SPECIFICATIONS 
+    </h3>
+    <ul>
+      <li>Bot can be powered electrically (DC) by batteries with electrolytes such as Li-ion, Li-
+      Po, NiCad, gel cells, lead-acid, etc.      
+      </li>
+      <li>The electric voltage between 2 points anywhere in the machine should not be more
+      than 48 V DC at any point of time.      
+      </li>
+      <li>Batteries should be charged up before advancing to the match.
+      </li>
+      <li>All efforts must be made to protect battery terminals from a direct short and causing a
+      battery fire, failure to do so will cause direct disqualification.
+      </li>
+      <li>Internal combustion engines as a source of power will not be allowed.
+      </li>
+      <li>Any kind of inflammable liquid will not be allowed to use in the bot by any means.
+      </li>
+    </ul>
+    <h3>
+    PNEUMATICS AND HYDRAULICS
+    </h3>
+    <ul>
+      <li>  Robot can use non-inflammable liquid to actuate hydraulic devices.
+      </li>
+      <li>Maximum pressure in the storage/source tank must not exceed 8 bars.</li>
+      <li>There should be provision to check the storage tank or source tank pressure with an
+      integrated or temporarily fitted pressure gauge.</li>
+      <li>All hydraulic liquids should be non-corrosive and leak proof.    </li>
+      <li>Special care must be taken while mounting pump, accumulator, and armor to ensure
+      that if ruptured direct fluid streams will not escape the robot.
+      </li>
+     
+    </ul>
+    <h3>
+    ATTACKING/WEAPON SYSTEM 
+    </h3>
+    <ul>
+      <li> Robots can have any kind of cutters, flippers, saws, lifting devices, spinning hammers,
+      Spinning drums, etc. as weapons   </li>
+      <li>Following weapons or attacking systems are not permitted:      </li>
+      <li>Liquid projectiles and tethered or untethered projectiles. 
+      </li>
+      <li>Any kind of inflammable liquid.       </li>
+      <li>Any kind of explosive or intentionally ignited solid or potentially ignitable solid. 
+      </li>
+     <li>Nets, tape, glue, chains or any other entanglement device. 
+     </li>
+     <li>High power magnets or electromagnets
+     </li>
+     <li>Radio jamming, lasers, tesla coils, or any other high-voltage device. 
+     </li>
+     <li> Spinning weapons that do not come in contact with the arena at any point of time are
+     allowed. 
+     </li>
+     <li>In any case, the arena should not be damaged by any bot.
+     </li>
+    </ul>
+    <h3>
+    TEAM SPECIFICATIONS
+    </h3>
+    <ul>
+      <li> Members of a team may be from the same college/school or different (K12/UG/PG).</li>
+      <li>Any number of teams can participate from one college/school.
+      </li>
+      <li>Participants can build a single robot or cluster of robots (according to given rules).
+      </li>
+      <li>A team can have a maximum of 6 participants may be of same or different colleges.
+      But one participant cannot participate simultaneously in 2 or more teams. 
+      </li>
+      <li>Once  registered,  the  same  team  cannot  register  with  another  name  or  for  another
+      robot other than previously registered one.      
+      </li>
+     <li>Every  team  must  have  a  unique  name  that  should  not  be  offensive  conflicting  or
+     inappropriate.      
+     </li>
+     <li>Organizers have the right to reject entries for any inappropriate team name.
+     </li>
+     <li>Organizers must be notified if a team’s name has been changed. 
+     </li>
+     <li> Team Representative: Each team must specify their Team Representative (Leader) at
+     the  time  of  registration  on  the  website.  All-important  communications  between  the
+     organizer  and  the  registered  teams  will  be  done  through  their  Team  Representative.
+     The Team representatives must submit valid contact details (phone no., email id, etc.)
+     at the time of registration.
+     </li>
+     <li>If teams don’t show up on allotted slot, they will be disqualified. 
+     </li>
+    </ul>
+    <h3>SAFETY RULES     </h3>
+    <ul>
+    <li>Robots  must  be  activated  in  the  arena  or  with  the  expressed  consent  of  the  event
+    coordinators.
+    </li>
+    <li>All participants build and operate robots at their own risk.
+    </li>
+    <li>Please  take  care  you  do  not  hurt  yourself  or  others  when  building,  testing  and
+    competing. 
+    </li>
+    <li>Organizers will not be responsible for any injuries to the operator or team members. 
+    </li>
+    <li>Violation of any of the above rules will lead to disqualification of the respective team.
+    </li>
+    <li>A  robot  that  is  deemed  unsafe  by  the  judges  after  the  match  has  begun  will  be
+    disqualified  and  therefore  declared  the  loser.  The  match  will  be  immediately  halted
+    and the opponent will be awarded a win. 
+    </li>
+    <li>Robots intentionally damaging the wires of the opponent will be disqualified. 
+    </li>
+    <li>Also, each team should keep their wires above the ground. 
+    </li>
+    <li>Robots intentionally and/or extensively damaging the arena will be disqualified.
+    </li>
+    <li>If the wires of the robot are cut because of its own strategy and if fail to repair within
+    match time then the team will be disqualified. 
+    </li>
+    <li>Special care should be taken to protect the on-board batteries and pneumatics, robot
+    without proper protection will not be allowed to compete. 
+    </li>
+    </ul>
+    <h3>
+      Registration Details
+    </h3>
+    <p>
+      Registration Fee: Rs 500 <br>
+    </p>`,
+  timeline: [""],
+  catagory: "expo",
+  
+},
+{
+  name: "AUTO EXPO",
+  image_hq: "/images/expo/auto-expo-hq.png",
+  image: "/images/expo/auto-expo.png",
+  // about: "Beat, Defeat, Win, Repeat  ",
+  // ----------------------------------------------------------------
+  details: `<h2>
+    Introduction
+  </h2>
+  
+  <p>
+  Robo-wars  is  a  major  combat  robotics  event  which  focuses  on  designing  and
+manufacturing  of  robots  made  to  annihilate  its  opponents  and  keeping  itself  as  safe  as
+possible. Winner is decided on the basis of destruction it has caused to its opponents. It
+will have two categories: 15 kg and 60 kg.
+
+  </p>
+  
+  <h2>
+    Problem Statements
+  </h2>
+ 
+  <ul>
+    <h3>
+      Round 1
+    </h3>
+   <p>Teams will need to submit a proof of concept (POC) of the model.</p>
+    <h3>
+      Round 2
+    </h3>
+    <p> It  will  be  an  on-site  one-to-one  fight.  The  two  robots  will  be  fighting  in  the  arena.  The
+    track of points will be maintained for both the teams and the team having maximum points
+    will be declared as winner for that round. This round can be further divided in sub rounds
+    e.g. semifinals and final. </p>
+   
+    <h3>TRACK SPECIFICATION</h3>
+    <ul>
+      <li> Arena is rectangular in shape with dimension 18 x 16 x 10 foot.
+      </li>
+      <li> Height of the side safety wall, which is made of M. S, has a height of 0.5m. 
+      </li>
+      <li> Height above the safety plate is of polycarbonate plate with cage. Top of the arena is
+      covered with cage. 
+      </li>
+    </ul>
+    <h3> JUDGING CRITERIA
+    </h3>
+    <ul>
+      <li>A bot is declared victorious if its opponent is immobilized. 
+      </li>
+      <li>A bot is declared immobilized if it cannot move linearly/rotationally for more than 30
+      seconds. 
+      </li>
+      <li>A robot with one side of its drive train disabled will not be counted immobilized, if it
+      can demonstrate some degree of controlled movement.
+      </li>
+      <li> In case both the robots remain mobile after the end of the round then the winner will
+      be decided subjectively
+      </li>
+      <li> Points will be given on the basis of aggression, damage, control, and strategy.
+      </li>
+      <li> Pinning occurs when one robot, through sheer force, holds an opponent stationary in
+      order to immobilize it
+      </li>
+      <li> Organizers will allow pinning or lifting for a maximum of 15 seconds per pin/lift then
+      the attacker robot will be instructed to release the opponent. 
+      </li>
+      <li> If  a  team  fails  to  stop  the  pinning/lifting  for  several  times,  that  team  can  also  be
+      disqualified. 
+      </li>
+    </ul>
+    <h3>MACHINE SPECIFICATION 
+    </h3>
+    <ul>
+    <li>The  bot  should  not  exceed  60kg  weight  including  the  pneumatic/hydraulic  (the
+      components of bot which will be out of arena do not count in this 60kg). 
+      </li>
+    <li> Robots must be wireless. 
+    </li>
+    <li> Source, batteries (including external) and any other component excluding remote. The
+    robot should fit in the box of 750mm x 750mm x 1000mm. 
+    </li>
+    <li>All  times,  the  external  device  used  to  control  the  robot  or  any  external  tank  is  not
+    included in the size constraint.
+    </li>
+    <li>Bots can have zero ground clearance provided they do not damage the arena.
+    </li>
+    </ul>
+    <h3>
+      MOBILITY
+    </h3>
+    <ul>
+      <li>Rolling (wheels or whole bot).
+      </li>
+      <li>Linear actuated legs or cam operated motion or any non-wheeled drive system. 
+      </li>
+      <li>Jumping or flying with the help of propellers or gas balloons is not allowed.
+      </li>
+    </ul>
+    <h3>
+    ELECTRICAL SYSTEM SPECIFICATIONS 
+    </h3>
+    <ul>
+      <li>Bot can be powered electrically (DC) by batteries with electrolytes such as Li-ion, Li-
+      Po, NiCad, gel cells, lead-acid, etc.      
+      </li>
+      <li>The electric voltage between 2 points anywhere in the machine should not be more
+      than 48 V DC at any point of time.      
+      </li>
+      <li>Batteries should be charged up before advancing to the match.
+      </li>
+      <li>All efforts must be made to protect battery terminals from a direct short and causing a
+      battery fire, failure to do so will cause direct disqualification.
+      </li>
+      <li>Internal combustion engines as a source of power will not be allowed.
+      </li>
+      <li>Any kind of inflammable liquid will not be allowed to use in the bot by any means.
+      </li>
+    </ul>
+    <h3>
+    PNEUMATICS AND HYDRAULICS
+    </h3>
+    <ul>
+      <li>  Robot can use non-inflammable liquid to actuate hydraulic devices.
+      </li>
+      <li>Maximum pressure in the storage/source tank must not exceed 8 bars.</li>
+      <li>There should be provision to check the storage tank or source tank pressure with an
+      integrated or temporarily fitted pressure gauge.</li>
+      <li>All hydraulic liquids should be non-corrosive and leak proof.    </li>
+      <li>Special care must be taken while mounting pump, accumulator, and armor to ensure
+      that if ruptured direct fluid streams will not escape the robot.
+      </li>
+     
+    </ul>
+    <h3>
+    ATTACKING/WEAPON SYSTEM 
+    </h3>
+    <ul>
+      <li> Robots can have any kind of cutters, flippers, saws, lifting devices, spinning hammers,
+      Spinning drums, etc. as weapons   </li>
+      <li>Following weapons or attacking systems are not permitted:      </li>
+      <li>Liquid projectiles and tethered or untethered projectiles. 
+      </li>
+      <li>Any kind of inflammable liquid.       </li>
+      <li>Any kind of explosive or intentionally ignited solid or potentially ignitable solid. 
+      </li>
+     <li>Nets, tape, glue, chains or any other entanglement device. 
+     </li>
+     <li>High power magnets or electromagnets
+     </li>
+     <li>Radio jamming, lasers, tesla coils, or any other high-voltage device. 
+     </li>
+     <li> Spinning weapons that do not come in contact with the arena at any point of time are
+     allowed. 
+     </li>
+     <li>In any case, the arena should not be damaged by any bot.
+     </li>
+    </ul>
+    <h3>
+    TEAM SPECIFICATIONS
+    </h3>
+    <ul>
+      <li> Members of a team may be from the same college/school or different (K12/UG/PG).</li>
+      <li>Any number of teams can participate from one college/school.
+      </li>
+      <li>Participants can build a single robot or cluster of robots (according to given rules).
+      </li>
+      <li>A team can have a maximum of 6 participants may be of same or different colleges.
+      But one participant cannot participate simultaneously in 2 or more teams. 
+      </li>
+      <li>Once  registered,  the  same  team  cannot  register  with  another  name  or  for  another
+      robot other than previously registered one.      
+      </li>
+     <li>Every  team  must  have  a  unique  name  that  should  not  be  offensive  conflicting  or
+     inappropriate.      
+     </li>
+     <li>Organizers have the right to reject entries for any inappropriate team name.
+     </li>
+     <li>Organizers must be notified if a team’s name has been changed. 
+     </li>
+     <li> Team Representative: Each team must specify their Team Representative (Leader) at
+     the  time  of  registration  on  the  website.  All-important  communications  between  the
+     organizer  and  the  registered  teams  will  be  done  through  their  Team  Representative.
+     The Team representatives must submit valid contact details (phone no., email id, etc.)
+     at the time of registration.
+     </li>
+     <li>If teams don’t show up on allotted slot, they will be disqualified. 
+     </li>
+    </ul>
+    <h3>SAFETY RULES     </h3>
+    <ul>
+    <li>Robots  must  be  activated  in  the  arena  or  with  the  expressed  consent  of  the  event
+    coordinators.
+    </li>
+    <li>All participants build and operate robots at their own risk.
+    </li>
+    <li>Please  take  care  you  do  not  hurt  yourself  or  others  when  building,  testing  and
+    competing. 
+    </li>
+    <li>Organizers will not be responsible for any injuries to the operator or team members. 
+    </li>
+    <li>Violation of any of the above rules will lead to disqualification of the respective team.
+    </li>
+    <li>A  robot  that  is  deemed  unsafe  by  the  judges  after  the  match  has  begun  will  be
+    disqualified  and  therefore  declared  the  loser.  The  match  will  be  immediately  halted
+    and the opponent will be awarded a win. 
+    </li>
+    <li>Robots intentionally damaging the wires of the opponent will be disqualified. 
+    </li>
+    <li>Also, each team should keep their wires above the ground. 
+    </li>
+    <li>Robots intentionally and/or extensively damaging the arena will be disqualified.
+    </li>
+    <li>If the wires of the robot are cut because of its own strategy and if fail to repair within
+    match time then the team will be disqualified. 
+    </li>
+    <li>Special care should be taken to protect the on-board batteries and pneumatics, robot
+    without proper protection will not be allowed to compete. 
+    </li>
+    </ul>
+    <h3>
+      Registration Details
+    </h3>
+    <p>
+      Registration Fee: Rs 500 <br>
+    </p>`,
+  timeline: [""],
+  catagory: "expo",
+  
+},
+{
+  name: "START-UP EXPO",
+  image_hq: "/images/expo/auto-expo-hq.png",
+  image: "/images/expo/auto-expo.png",
+  // about: "Beat, Defeat, Win, Repeat  ",
+  // ----------------------------------------------------------------
+  details: `<h2>
+    Introduction
+  </h2>
+  
+  <p>
+  Robo-wars  is  a  major  combat  robotics  event  which  focuses  on  designing  and
+manufacturing  of  robots  made  to  annihilate  its  opponents  and  keeping  itself  as  safe  as
+possible. Winner is decided on the basis of destruction it has caused to its opponents. It
+will have two categories: 15 kg and 60 kg.
+
+  </p>
+  
+  <h2>
+    Problem Statements
+  </h2>
+ 
+  <ul>
+    <h3>
+      Round 1
+    </h3>
+   <p>Teams will need to submit a proof of concept (POC) of the model.</p>
+    <h3>
+      Round 2
+    </h3>
+    <p> It  will  be  an  on-site  one-to-one  fight.  The  two  robots  will  be  fighting  in  the  arena.  The
+    track of points will be maintained for both the teams and the team having maximum points
+    will be declared as winner for that round. This round can be further divided in sub rounds
+    e.g. semifinals and final. </p>
+   
+    <h3>TRACK SPECIFICATION</h3>
+    <ul>
+      <li> Arena is rectangular in shape with dimension 18 x 16 x 10 foot.
+      </li>
+      <li> Height of the side safety wall, which is made of M. S, has a height of 0.5m. 
+      </li>
+      <li> Height above the safety plate is of polycarbonate plate with cage. Top of the arena is
+      covered with cage. 
+      </li>
+    </ul>
+    <h3> JUDGING CRITERIA
+    </h3>
+    <ul>
+      <li>A bot is declared victorious if its opponent is immobilized. 
+      </li>
+      <li>A bot is declared immobilized if it cannot move linearly/rotationally for more than 30
+      seconds. 
+      </li>
+      <li>A robot with one side of its drive train disabled will not be counted immobilized, if it
+      can demonstrate some degree of controlled movement.
+      </li>
+      <li> In case both the robots remain mobile after the end of the round then the winner will
+      be decided subjectively
+      </li>
+      <li> Points will be given on the basis of aggression, damage, control, and strategy.
+      </li>
+      <li> Pinning occurs when one robot, through sheer force, holds an opponent stationary in
+      order to immobilize it
+      </li>
+      <li> Organizers will allow pinning or lifting for a maximum of 15 seconds per pin/lift then
+      the attacker robot will be instructed to release the opponent. 
+      </li>
+      <li> If  a  team  fails  to  stop  the  pinning/lifting  for  several  times,  that  team  can  also  be
+      disqualified. 
+      </li>
+    </ul>
+    <h3>MACHINE SPECIFICATION 
+    </h3>
+    <ul>
+    <li>The  bot  should  not  exceed  60kg  weight  including  the  pneumatic/hydraulic  (the
+      components of bot which will be out of arena do not count in this 60kg). 
+      </li>
+    <li> Robots must be wireless. 
+    </li>
+    <li> Source, batteries (including external) and any other component excluding remote. The
+    robot should fit in the box of 750mm x 750mm x 1000mm. 
+    </li>
+    <li>All  times,  the  external  device  used  to  control  the  robot  or  any  external  tank  is  not
+    included in the size constraint.
+    </li>
+    <li>Bots can have zero ground clearance provided they do not damage the arena.
+    </li>
+    </ul>
+    <h3>
+      MOBILITY
+    </h3>
+    <ul>
+      <li>Rolling (wheels or whole bot).
+      </li>
+      <li>Linear actuated legs or cam operated motion or any non-wheeled drive system. 
+      </li>
+      <li>Jumping or flying with the help of propellers or gas balloons is not allowed.
+      </li>
+    </ul>
+    <h3>
+    ELECTRICAL SYSTEM SPECIFICATIONS 
+    </h3>
+    <ul>
+      <li>Bot can be powered electrically (DC) by batteries with electrolytes such as Li-ion, Li-
+      Po, NiCad, gel cells, lead-acid, etc.      
+      </li>
+      <li>The electric voltage between 2 points anywhere in the machine should not be more
+      than 48 V DC at any point of time.      
+      </li>
+      <li>Batteries should be charged up before advancing to the match.
+      </li>
+      <li>All efforts must be made to protect battery terminals from a direct short and causing a
+      battery fire, failure to do so will cause direct disqualification.
+      </li>
+      <li>Internal combustion engines as a source of power will not be allowed.
+      </li>
+      <li>Any kind of inflammable liquid will not be allowed to use in the bot by any means.
+      </li>
+    </ul>
+    <h3>
+    PNEUMATICS AND HYDRAULICS
+    </h3>
+    <ul>
+      <li>  Robot can use non-inflammable liquid to actuate hydraulic devices.
+      </li>
+      <li>Maximum pressure in the storage/source tank must not exceed 8 bars.</li>
+      <li>There should be provision to check the storage tank or source tank pressure with an
+      integrated or temporarily fitted pressure gauge.</li>
+      <li>All hydraulic liquids should be non-corrosive and leak proof.    </li>
+      <li>Special care must be taken while mounting pump, accumulator, and armor to ensure
+      that if ruptured direct fluid streams will not escape the robot.
+      </li>
+     
+    </ul>
+    <h3>
+    ATTACKING/WEAPON SYSTEM 
+    </h3>
+    <ul>
+      <li> Robots can have any kind of cutters, flippers, saws, lifting devices, spinning hammers,
+      Spinning drums, etc. as weapons   </li>
+      <li>Following weapons or attacking systems are not permitted:      </li>
+      <li>Liquid projectiles and tethered or untethered projectiles. 
+      </li>
+      <li>Any kind of inflammable liquid.       </li>
+      <li>Any kind of explosive or intentionally ignited solid or potentially ignitable solid. 
+      </li>
+     <li>Nets, tape, glue, chains or any other entanglement device. 
+     </li>
+     <li>High power magnets or electromagnets
+     </li>
+     <li>Radio jamming, lasers, tesla coils, or any other high-voltage device. 
+     </li>
+     <li> Spinning weapons that do not come in contact with the arena at any point of time are
+     allowed. 
+     </li>
+     <li>In any case, the arena should not be damaged by any bot.
+     </li>
+    </ul>
+    <h3>
+    TEAM SPECIFICATIONS
+    </h3>
+    <ul>
+      <li> Members of a team may be from the same college/school or different (K12/UG/PG).</li>
+      <li>Any number of teams can participate from one college/school.
+      </li>
+      <li>Participants can build a single robot or cluster of robots (according to given rules).
+      </li>
+      <li>A team can have a maximum of 6 participants may be of same or different colleges.
+      But one participant cannot participate simultaneously in 2 or more teams. 
+      </li>
+      <li>Once  registered,  the  same  team  cannot  register  with  another  name  or  for  another
+      robot other than previously registered one.      
+      </li>
+     <li>Every  team  must  have  a  unique  name  that  should  not  be  offensive  conflicting  or
+     inappropriate.      
+     </li>
+     <li>Organizers have the right to reject entries for any inappropriate team name.
+     </li>
+     <li>Organizers must be notified if a team’s name has been changed. 
+     </li>
+     <li> Team Representative: Each team must specify their Team Representative (Leader) at
+     the  time  of  registration  on  the  website.  All-important  communications  between  the
+     organizer  and  the  registered  teams  will  be  done  through  their  Team  Representative.
+     The Team representatives must submit valid contact details (phone no., email id, etc.)
+     at the time of registration.
+     </li>
+     <li>If teams don’t show up on allotted slot, they will be disqualified. 
+     </li>
+    </ul>
+    <h3>SAFETY RULES     </h3>
+    <ul>
+    <li>Robots  must  be  activated  in  the  arena  or  with  the  expressed  consent  of  the  event
+    coordinators.
+    </li>
+    <li>All participants build and operate robots at their own risk.
+    </li>
+    <li>Please  take  care  you  do  not  hurt  yourself  or  others  when  building,  testing  and
+    competing. 
+    </li>
+    <li>Organizers will not be responsible for any injuries to the operator or team members. 
+    </li>
+    <li>Violation of any of the above rules will lead to disqualification of the respective team.
+    </li>
+    <li>A  robot  that  is  deemed  unsafe  by  the  judges  after  the  match  has  begun  will  be
+    disqualified  and  therefore  declared  the  loser.  The  match  will  be  immediately  halted
+    and the opponent will be awarded a win. 
+    </li>
+    <li>Robots intentionally damaging the wires of the opponent will be disqualified. 
+    </li>
+    <li>Also, each team should keep their wires above the ground. 
+    </li>
+    <li>Robots intentionally and/or extensively damaging the arena will be disqualified.
+    </li>
+    <li>If the wires of the robot are cut because of its own strategy and if fail to repair within
+    match time then the team will be disqualified. 
+    </li>
+    <li>Special care should be taken to protect the on-board batteries and pneumatics, robot
+    without proper protection will not be allowed to compete. 
+    </li>
+    </ul>
+    <h3>
+      Registration Details
+    </h3>
+    <p>
+      Registration Fee: Rs 500 <br>
+    </p>`,
+  timeline: [""],
+  catagory: "expo",
+  
+},
+];
+
+module.exports = { events, workshops, team, guest, expo };

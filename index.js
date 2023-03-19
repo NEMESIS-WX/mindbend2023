@@ -7,7 +7,7 @@ const middle = require("./multer.js");
 const PORT = process.env.PORT || 8080;
 
 // import events from data.js
-const { events, workshops, team, guest } = require("./assets/js/data.js");
+const { events, workshops, team, guest, expo } = require("./assets/js/data.js");
 const formData = require("./schemas/formData.js");
 const ExpoData = require("./schemas/expo.js");
 const { addRefCode, createDb2Connection } = require("./schemas/referral.js");
@@ -165,16 +165,29 @@ app.get("/guest_registration", (req, res, next) => {
 
 // exppo route
 
+app.get("/expos", (req, res) => {
+  // res.render("expos");
+  res.render("expos", { expos: expo });
+});
+
 app.get("/expo", (req, res) => {
   res.render("expo");
 });
 
 app.post("/expo/register", async (req, res) => {
   const data = new ExpoData({
+    expo: req.body.expo,
+    companyname: req.body.companyname,
     name: req.body.name,
     email: req.body.email,
-    college: req.body.college,
-    expo: req.body.expo,
+    phone: req.body.phone,
+    website: req.body.website,
+    industry: req.body.industry,
+    stage: req.body.stage,
+    description: req.body.description,
+    market: req.body.market,
+    fundstatus: req.body.fundstatus,
+    teamsize: req.body.teamsize,
   }
   
   
