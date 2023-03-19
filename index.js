@@ -171,7 +171,7 @@ app.get("/expos", (req, res) => {
   res.render("expos", { expos: expo });
 });
 
-app.get("/expo", (req, res) => {
+app.get("/expos/expo", (req, res) => {
   res.render("expo");
 });
 
