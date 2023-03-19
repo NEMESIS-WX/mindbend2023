@@ -65,6 +65,24 @@
           </defs>
         </svg>
       </div>
+      <div class="timer">
+        <div class="container" id="days">
+          <h3>Days</h3>
+          <p>--</p>
+        </div>
+        <div class="container" id="hours">
+          <h3>Hours</h3>
+          <p>--</p>
+        </div>
+        <div class="container" id="minutes">
+          <h3>Minutes</h3>
+          <p>--</p>
+        </div>
+        <div class="container" id="seconds">
+          <h3>Seconds</h3>
+          <p>--</p>
+        </div>
+      </div>
     </div>
     <img id="planes" src="/images/extras/group-of-planes.webp" alt="planes" />
     <div class="hero-texts">
@@ -170,11 +188,19 @@
           </div>
         </div>
         <div>
-          <div class="button" style="text-align: center; margin: 20px; padding: 20px;">
-            <button id="accomodation" style="padding: 20px; border-radius: 10px; cursor: pointer;">
-                <a href="/accomodation" style="color: black; ">Accomodation Registration</a>
+          <div
+            class="button"
+            style="text-align: center; margin: 20px; padding: 20px"
+          >
+            <button
+              id="accomodation"
+              style="padding: 20px; border-radius: 10px; cursor: pointer"
+            >
+              <a href="/accomodation" style="color: black"
+                >Accomodation Registration</a
+              >
             </button>
-        </div>
+          </div>
         </div>
         <div class="container map-container">
           <div class="cover"></div>
@@ -201,5 +227,44 @@
     <script src="js/index.js"></script>
     <script src="/js/countTo.js"></script>
     <script src="/js/global.js"></script>
+    <script>
+      // Set the date we're counting down to
+      var countDownDate = new Date("Mar 31, 2023 09:00:00").getTime();
+
+      // Update the count down every 1 second
+      var x = setInterval(function () {
+        // Get the current date and time
+        var now = new Date().getTime();
+
+        // Find the distance between now and the count down date
+        var distance = countDownDate - now;
+
+        // Calculate days, hours, minutes, and seconds left
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor(
+          (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+        );
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+        // Display the result in the relevant containers
+        document.getElementById("days").getElementsByTagName("p")[0].innerHTML =
+          days;
+        document
+          .getElementById("hours")
+          .getElementsByTagName("p")[0].innerHTML = hours;
+        document
+          .getElementById("minutes")
+          .getElementsByTagName("p")[0].innerHTML = minutes;
+        document
+          .getElementById("seconds")
+          .getElementsByTagName("p")[0].innerHTML = seconds;
+
+        // If the count down is finished, display a message
+        if (distance < 0) {
+          clearInterval(x);
+          document.getElementById("countdown").innerHTML = "STARTED";
+        }
+      }, 1000);
+    </script>
   </body>
 </html>

@@ -34,6 +34,14 @@
                 </li>
               </ul>
             </div>
+            <%if(event.rulebook != "NA"){%>
+            <a
+              id="rulebook"
+              href="<%= event.rulebook %>"
+              target="_blank"
+              >Detailed rulebook &#8595;</a
+            >
+            <%}%>
             <a onclick="form_toggle();" style="cursor: pointer"
               >Register Here</a
             >
@@ -96,11 +104,7 @@
               <%- event.details %> <% event.timeline.forEach((ev) => {%>
               <p><%= ev %></p>
 
-              <%})%> <%if(event.rulebook != "NA"){%>
-              <a id="rulebook" href="<%= event.rulebook %>" target="_blank"
-                >Detailed rulebook &#8595;</a
-              >
-              <%}%>
+              <%})%>
             </div>
           </label>
         </div>

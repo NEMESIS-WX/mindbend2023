@@ -18,8 +18,8 @@
         <p>EVENTS</p>
         <p>EVENTS</p>
       </div>
-      <h1 class="catagory">Technical</h1>
-      <div class="events-container">
+      <h1 class="catagory" id="technical_h">Technical ↓</h1>
+      <div class="events-container dissapear" id="technical">
         <% events.forEach(function(e){ %> <%if(e.catagory === "technical"){%>
         <div class="card">
           <div class="img-container">
@@ -34,8 +34,9 @@
 
         <%}});%>
       </div>
-      <h1 class="catagory">Managerial</h1>
-      <div class="events-container">
+
+      <h1 class="catagory" id="managerial_h">Managerial ↓</h1>
+      <div class="events-container dissapear" id="managerial">
         <% events.forEach(function(e){ %> <%if(e.catagory === "managerial"){%>
         <div class="card">
           <div class="img-container">
@@ -53,5 +54,13 @@
     </main>
     <%- include(`partials/footer`)%>
     <script src="/js/global.js"></script>
+    <script>
+      document.querySelector("#managerial_h").addEventListener("click", () => {
+        document.querySelector("#managerial").classList.toggle("dissapear");
+      });
+      document.querySelector("#technical_h").addEventListener("click", () => {
+        document.querySelector("#technical").classList.toggle("dissapear");
+      });
+    </script>
   </body>
 </html>
