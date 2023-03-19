@@ -446,7 +446,7 @@ main {
 .timer {
   color: #fff;
   height: 6rem;
-  width: 20rem;
+  width: 25rem;
   background: #000;
   font-family: Ethnocentric;
   position: absolute;
@@ -464,7 +464,7 @@ main {
 }
 
 .timer p {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #33d8f4;
   animation: breathe 1s ease-in-out alternate infinite;
 }
