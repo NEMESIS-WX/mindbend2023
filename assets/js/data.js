@@ -332,7 +332,7 @@ const events = [
           Team Specification
         </h3>
         <p>
-          Upto 3 members.
+          Only 1 member.
         </p>
         <h3>
           Registration Details
@@ -3855,7 +3855,7 @@ investments and how you apply and get good returns.
   },
   //DRONE ZONE
   {
-    name: "DONE ZONE",
+    name: "DRONE ZONE",
     image: "/images/events/DRONE _ JYOTI.png",
     image_hq: "/images/events/hq/DRONE _ JYOTI.png",
     prize: ["1st Prize: Rs 45000", "2nd Prize: Rs 30000"],
@@ -3996,68 +3996,47 @@ competition's stipulated limits.
 
 const workshops = [
   {
-    name: "Web 3.0",
+    name: "Auto Cad",
     fee: "FREE",
-    image_hq: "/images/workshops/hq/Web_3.png",
-    image: "/images/workshops/Web_3.png",
+    image_hq: "/images/workshops/hq/AutoCAD.png",
+    image: "/images/workshops/New folder/AutoCAD.png",
 
-    details: `What is Web 3.0? and all the recent advancements made in web 3.0. 
-    Web 3.0 is the new and upcoming iteration of the world wide web, a public network built on distributed ledger technology and a semantic architecture to enable decentralization, personalization, immersiveness, and a token-driven economy`,
+    details: `Auto Cad workshop aims to provide hands-on experience and practical skills in using AutoCAD, a popular computer-aided design software. Whether you're a student, professional, or simply interested in learning more about this powerful tool, this workshop is the perfect opportunity to enhance your skills and knowledge.`,
   },
   {
-    name: "Rocket Building",
-    fee: "Rs 100",
-    image_hq: "/images/workshops/hq/Rocket Building.png",
-    image: "/images/workshops/Rocket Building.png",
-    details: `A hands-on workshop on how to build basic rocket models. 
-      The workshop will provide students with an opportunity to develop engineering design skills through direct application in high-powered rocketry.`,
-  },
-  {
-    name: "Xtended Reality",
-    fee: "Rs 30",
-    image_hq: "/images/workshops/hq/Xtended Reality.png",
-    image: "/images/workshops/Xtended Reality.png",
-    details: `A workshop on exploring Metaverse through VR headsets.
-      Metaverse is a virtual space that allows users to work , interact and connect with each other outside real world. Metaverse uses blockchain, virtual reality and augmented reality to give life to virtual environment.`,
-  },
-  {
-    name: "Data Science",
-    fee: "Rs 150",
-    image_hq: "/images/workshops/hq/Data Science.png",
-    image: "/images/workshops/Data Science.png",
-    details: `Introduction to Data Science and Data analytics.
-      Data science combines math and statistics, specialized programming, advanced analytics, artificial intelligence (AI), and machine learning . These insights can be used to guide decision making and strategic planning.`,
-  },
-  {
-    name: "3d printing",
-    fee: "Rs 60",
-    image_hq: "/images/workshops/hq/3d printing.png",
-    image: "/images/workshops/3d printing.png",
-    details: `A hands-on 3d printing workshop.
-      3D printing or additive manufacturing is the construction of a three-dimensional object from a CAD model or a digital 3D model.
-      `,
-  },
-  {
-    name: "Gesture Robotics",
-    fee: "Rs 150",
-    image_hq: "/images/workshops/hq/Gesture Robotics.png",
-    image: "/images/workshops/Gesture Robotics.png",
-    details: `Introduction to gesture robotics and a hands-on workshop on it.
-      In this workshop, we learn about gesture controlled robots which can be controlled by your normal hand gesture. The accelerometer controls the movement of robot.`,
-  },
-  {
-    name: "Web development",
-    fee: "Rs 100",
-    image_hq: "/images/workshops/hq/Web development.png",
-    image: "/images/workshops/Web development.png",
-    details: `Web development is the building and maintenance of websites; it's the work that happens behind the scenes to make a website look great, work fast and perform well with a seamless user experience. It requires the knowledge of HTML, CSS, JavaScript etc`,
-  },
-  {
-    name: "Machine Learning",
+    name: "Cyber Security",
     fee: "FREE",
-    image_hq: "/images/workshops/hq/Machine Learning.png",
-    image: "/images/workshops/Machine Learning.png",
-    details: `Machine learning is a branch of artificial intelligence (AI) and computer science which focuses on the use of data and algorithms to imitate the way that humans learn, gradually improving its accuracy.`,
+    image_hq: "/images/workshops/hq/Cyber Security.png",
+    image: "/images/workshops/New folder/Cyber Security.png",
+    details: ``,
+  },
+  {
+    name: "3D printing",
+    fee: "FREE",
+    image_hq: "/images/workshops/hq/3D.png",
+    image: "/images/workshops/New folder/3D.png",
+    details: `A hands-on 3d printing workshop. 3D printing or additive manufacturing is the construction of a three-dimensional object from a CAD model or a digital 3D model.`,
+  },
+  {
+    name: "Metaverse",
+    fee: "FREE",
+    image_hq: "/images/workshops/hq/Metaverse.png",
+    image: "/images/workshops/New folder/Metaverse.png",
+    details: `A workshop on exploring Metaverse through VR headsets. Metaverse is a virtual space that allows users to work, interact and connect with each other outside the real world. Metaverse uses blockchain, virtual reality, and augmented reality to give life to the virtual environment.`,
+  },
+  {
+    name: "RocketX",
+    fee: "FREE",
+    image_hq: "/images/workshops/hq/Rocketx.png",
+    image: "/images/workshops/New folder/Rocketx.png",
+    details: `A hands-on workshop on how to build basic rocket models. The workshop will provide students with an opportunity to develop engineering design skills through direct application in high-powered rocketry.`,
+  },
+  {
+    name: "Web 3.0",
+    fee: "Rs 60",
+    image_hq: "/images/workshops/hq/WEB 3.0.png",
+    image: "/images/workshops/New folder/WEB 3.0.png",
+    details: `What is Web 3.0? and all the recent advancements made in web 3.0. Web 3.0 is the new and upcoming iteration of the world wide web, a public network built on distributed ledger technology and a semantic architecture to enable decentralization, personalization, immersiveness, and a token-driven economy`,
   },
 ];
 
@@ -4484,7 +4463,7 @@ const guest = [
 ];
 
 const expo = [
-  // robowars
+  // AERO EXPO
   {
     name: "AERO EXPO",
     image_hq: "/images/expo/aero-expo-hq.png",
