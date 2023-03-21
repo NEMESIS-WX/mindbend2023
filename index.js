@@ -7,21 +7,27 @@ const middle = require("./multer.js");
 const PORT = process.env.PORT || 8080;
 
 // import events from data.js
-const { events, workshops, team } = require("./assets/js/data.js");
+const { events, workshops, team, guest, expo } = require("./assets/js/data.js");
 const formData = require("./schemas/formData.js");
+const ExpoData = require("./schemas/expo.js");
+const { addRefCode, createDb2Connection } = require("./schemas/referral.js");
 
 app.set("view engine", "ejs");
 app.use(express.urlencoded({ extended: true }));
 app.use(cp("secret"));
+
 // const router = express.Router();
 
 // Connect to db
 mongoose
-  .connect("mongodb://localhost/MindBend", { useNewURLParser: true })
+  .connect("mongodb://localhost:27017/MindBend")
   .then(() => {
     console.log("db connected");
   })
   .catch((err) => console.log(err));
+
+// second db for referrals
+createDb2Connection();
 
 // Static files
 app.use(express.static("assets"));
@@ -34,8 +40,15 @@ app.get("/", (req, res) => {
   res.render("index");
 });
 
+app.get("/guest", (req, res) => {
+  res.render("guest", { guest: guest });
+});
+
 app.get("/events", (req, res) => {
   res.render("events", { events: events });
+});
+app.post("/guest_registration_page", (req, res, next) => {
+  res.redirect("/guest_registration");
 });
 
 app.get("/events/:ename", (req, res) => {
@@ -77,6 +90,8 @@ app.post("/events/register", async (req, res) => {
     year: req.body.year,
   });
 
+  addRefCode(req.body.referralCode);
+
   data.save((err, result) => {
     if (err) throw err;
     console.log(result);
@@ -90,7 +105,7 @@ app.get("/camAmb", (req, res) => {
 });
 
 app.get("/dashboard", (req, res) => {
-  res.render("dashboard");
+  res.render("dashboard", { user: req.cookies.user });
 });
 
 app.get("/team", (req, res) => {
@@ -100,6 +115,12 @@ app.get("/team", (req, res) => {
 app.get("/sponsors", (req, res) => {
   res.render("sponsors");
 });
+
+app.get("/accomodation", (req, res) => {
+  res.render("accomodation");
+});
+
+app.get("/accomodation/register", (req, res) => {});
 
 app.get("/test", (req, res) => {
   res.render("test");
@@ -121,7 +142,8 @@ app
     data.exec((err, result) => {
       if (err) console.log(err);
       if (result == null) {
-        res.redirect("/success");
+        res.redirect("/");
+        window.reload();
       }
       console.log(result);
       result.paid = true;
@@ -133,6 +155,62 @@ app
       });
     });
   });
+
+app.get("/guest_registration", (req, res, next) => {
+  const data = {
+    name: "Guests Register",
+    fee: "50 rs",
+  };
+  res.render("guest-register", { event: data });
+});
+
+// exppo route
+
+app.get("/expos", (req, res) => {
+  // res.render("expos");
+  res.render("expos", { expos: expo });
+});
+
+app.get("/expos/expo", (req, res) => {
+  res.render("expo");
+});
+
+app.post("/expo/register", async (req, res) => {
+  const data = new ExpoData({
+    expo: req.body.expo,
+    companyname: req.body.companyname,
+    name: req.body.name,
+    email: req.body.email,
+    phone: req.body.phone,
+    website: req.body.website,
+    industry: req.body.industry,
+    stage: req.body.stage,
+    description: req.body.description,
+    market: req.body.market,
+    fundstatus: req.body.fundstatus,
+    teamsize: req.body.teamsize,
+  }
+  
+  
+  
+  
+  
+  )
+  .save(
+    (err, result) => {
+      if (err) throw err;
+      console.log(result);
+      res.redirect("/success");
+    }
+  )
+  ;
+});
+
+//accomodation route
+
+app.get("/accomodation", (req, res) => {
+res.render("accomodation");
+});
 
 // Campus ambassador router
 app.use("/campusAmbassador/", require("./routes/campusAmbassadorRoutes"));

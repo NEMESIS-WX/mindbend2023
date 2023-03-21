@@ -11,8 +11,8 @@ const FormDataSchema = new mongoose.Schema({
   college: { type: String, trim: true },
   upiId: { type: String, trim: true },
   branch: { type: String, required: true, trim: true },
-  year: { type: Number, required: true, trim: true },
-  // uid:{type:mongoose.Schema.Types.ObjectId},
+  year: { type: String, required: true, trim: true },
+  uid:{type:mongoose.Types.ObjectId},
   paid: { type: Boolean, default: false },
   img: {
     type: String,

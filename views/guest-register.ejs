@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('partials/head', {description:`MINDBEND is Gujarat's largest
+  Techno-Managerial Fest, which is entirely organized by the SVNIT student body
+  and serves as the perfect rocket launch-pad for all the tech-enthusiasts out
+  there!`, keywords: `MINDBEND, TECHNO-FEST, SVNIT, NIT-SURAT, NATIONAL-EVENT`,
+  style: `accomodation`, title: `MINDBEND 2023 | CAMPUS AMBASSADOR`, });%>
+
+  <body>
+    <%- include(`partials/stars`)%> <%- include(`partials/loading`)%> <%-
+    include(`partials/nav`, {appear:"appear"})%>
+    <main>
+      <div class="registration-form-container form-dissappear">
+        <div class="mbimg-container">
+          <img src="/images/mbLogo.png" alt="" />
+        </div>
+        <div class="registration-form">
+          <div title="CLose Form" class="close-button" onclick="form_toggle();">
+            <svg
+              clip-rule="evenodd"
+              fill-rule="evenodd"
+              stroke-linejoin="round"
+              stroke-miterlimit="2"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="m12 10.93 5.719-5.72c.146-.146.339-.219.531-.219.404 0 .75.324.75.749 0 .193-.073.385-.219.532l-5.72 5.719 5.719 5.719c.147.147.22.339.22.531 0 .427-.349.75-.75.75-.192 0-.385-.073-.531-.219l-5.719-5.719-5.719 5.719c-.146.146-.339.219-.531.219-.401 0-.75-.323-.75-.75 0-.192.073-.384.22-.531l5.719-5.719-5.72-5.719c-.146-.147-.219-.339-.219-.532 0-.425.346-.749.75-.749.192 0 .385.073.531.219z"
+              />
+            </svg>
+          </div>
+
+          <form action="/events/register" method="post">
+            <div class="left-form">
+              <div class="input-container">
+                <label for="event">Event</label>
+                <input
+                  type="text"
+                  name="event"
+                  value="<%= event.name %>"
+                  style="pointer-events: none"
+                  id=""
+                  required
+                />
+              </div>
+
+              <div class="input-container">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="" required />
+              </div>
+
+              <div class="input-container">
+                <label for="email">E-Mail</label>
+                <input type="email" name="email" id="" required />
+              </div>
+
+              <div class="input-container">
+                <label for="phoneNo">Phone</label>
+                <input
+                  type="tel"
+                  id="phone"
+                  name="phoneNo"
+                  pattern="[0-9]{10}"
+                  placeholder="1234567890"
+                  required
+                />
+              </div>
+
+              <div class="is-svnitian">
+                <div class="input-container">
+                  <label for="svnitian">SVNITIAN</label>
+                  <input
+                    type="radio"
+                    name="svnitian"
+                    id="true"
+                    value="true"
+                    onclick="itssvnitian();"
+                    checked
+                  />
+                </div>
+
+                <div class="input-container">
+                  <label for="svnitian">Other</label>
+                  <input
+                    type="radio"
+                    name="svnitian"
+                    id="false"
+                    value="false"
+                    onclick="other()"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="right-form">
+              <div class="svnitian" style="display: none">
+                <label for="rollNo">Roll No.</label>
+                <input
+                  type="text"
+                  name="rollNo"
+                  id=""
+                  value="A12AB123"
+                  pattern="[A-Za-z]{1}[0-9]{2}[A-Za-z]{2}[0-9]{3}"
+                  required
+                />
+              </div>
+
+              <div class="other">
+                <div class="input-container">
+                  <label for="college">College</label>
+                  <input
+                    type="text"
+                    name="college"
+                    value="SVNIT"
+                    class="college_name"
+                    required
+                  />
+                </div>
+                <div class="input-container">
+                  <label for="fee">Fee</label>
+                  <textarea
+                    name="fee"
+                    id="fee"
+                    cols="1"
+                    rows="2"
+                    style="pointer-events: none"
+                  >
+                              <%= event.fee %></textarea
+                  >
+                </div>
+              </div>
+
+              <div class="input-container">
+                <label for="branch">Branch</label>
+                <input type="text" name="branch" id="" required />
+              </div>
+
+              <div class="input-container">
+                <label for="year">Year</label>
+
+                <select name="year" id="year" required>
+                  <option value="1">1st</option>
+                  <option value="2">2nd</option>
+                  <option value="3">3rd</option>
+                  <option value="4">4th</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="buttons">
+              <!-- <input type="button" value="button"> -->
+              <button id="submit">
+                <a onclick="frmValidate()" style="color: black"> Register</a>
+              </button>
+              <!-- <input type="submit" name="Submit" id="submit" /> -->
+              <input type="reset" name="Reset" id="reset" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+    <!-- <%- include(`partials/footer`)%> -->
+    <!-- <img id="snow-mountain" src="/images/extras/snow-mountain.png" alt="" /> -->
+    <script src="/js/global.js"></script>
+    <script>
+      const form_container = document.querySelector(
+        ".registration-form-container"
+      );
+      const isSvnitian = document.querySelector(".svnitian");
+      const notSvnitian = document.querySelector(".other");
+      const btns = document.querySelectorAll(".acc-btn");
+
+      function frmValidate() {
+        const frm = document.querySelector("form");
+        let len = frm.length;
+        while (len--) {
+          if (!frm.elements[frm.length - len].checkValidity()) {
+            return false;
+          }
+        }
+      }
+
+      function accordion() {
+        this.classList.toggle("is-open");
+        const content = this.nextElementSibling;
+        if (content.style.maxHeight) content.style.maxHeight = null;
+        else content.style.maxHeight = content.scrollHeight + "px";
+      }
+
+      btns.forEach((el) => el.addEventListener("click", accordion));
+
+      function form_toggle() {
+        form_container.classList.toggle("form-dissappear");
+      }
+
+      function itssvnitian() {
+        isSvnitian.style.display = "flex";
+        notSvnitian.style.display = "none";
+      }
+
+      function other() {
+        isSvnitian.style.display = "none";
+        notSvnitian.style.display = "flex";
+      }
+    </script>
+  </body>
+</html>

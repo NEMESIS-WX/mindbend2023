@@ -152,7 +152,7 @@ main {
 .hero-texts b,
 .hero-texts h2,
 .hero-texts h3 {
-  font-size: min(10rem, 30vw);
+  font-size: min(10rem, 15vw);
   font-family: Ethnocentric, sans-serif;
   color: #fff;
   z-index: 15;
@@ -441,6 +441,43 @@ main {
   width: 100%;
 }
 
+/* timer */
+
+.timer {
+  color: #fff;
+  height: 6rem;
+  width: 25rem;
+  background: #000;
+  font-family: Ethnocentric;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 2rem 2rem;
+  z-index: 2;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: 400;
+  /* scale: 0.6; */
+}
+
+.timer p {
+  font-size: 1.5rem;
+  color: #33d8f4;
+  animation: breathe 1s ease-in-out alternate infinite;
+}
+
+@keyframes breathe {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+
 @media screen and (max-width: 860px) {
   #planes {
     left: -13%;
@@ -512,6 +549,18 @@ main {
   }
   #fg {
     transform: translateX(-25%);
+  }
+  .timer {
+    /* position: absolute; */
+    bottom: 1rem;
+    left: 0;
+    height: 4rem;
+    /* transform: translateX(25%); */
+  }
+
+  .timer p,
+  .timer h3 {
+    font-size: 1rem;
   }
 }
 

@@ -47,6 +47,11 @@ main {
   color: #33d8f4;
   font-size: 2rem;
   font-family: Ethnocentric;
+  cursor: pointer;
+}
+
+.catagory:hover {
+  background: #fff;
 }
 
 .events-container {
@@ -60,6 +65,7 @@ main {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  transition: all 0.5s ease-in-out;
 }
 
 .card {
@@ -76,7 +82,7 @@ main {
 
 .card:hover {
   z-index: 1111;
-  transform: perspective(2000px) rotate(-10deg);
+  transform: perspective(2000px);
   box-shadow: inset 20px 0 50px rgba(0, 0, 0, 0.5);
 }
 
@@ -172,4 +178,8 @@ main {
   #workshop-heading p {
     font-size: 2rem;
   }
+}
+
+.dissapear {
+  display: none;
 }

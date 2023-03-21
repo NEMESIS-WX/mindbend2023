@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('partials/head', {description:`MINDBEND is Gujarat's largest
+  Techno-Managerial Fest, which is entirely organized by the SVNIT student body
+  and serves as the perfect rocket launch-pad for all the tech-enthusiasts out
+  there!`, keywords: `MINDBEND, TECHNO-FEST, SVNIT, NIT-SURAT, NATIONAL-EVENT`,
+  style: `expo`, title: `MINDBEND 2023 | EXPO`, });%>
+  <body>
+    <%- include(`partials/stars`)%> <%- include(`partials/loading`)%> <%-
+    include(`partials/nav`, {appear:"appear"})%>6353168005
+    <main>
+    
+        <div class="registration-form-container">
+        
+            <div class="mbimg-container">
+                <img src="/images/mbLogo.png" alt="" />
+            </div>
+        
+            <div class="registration-form">
+
+                <form action="/expo/register" method="post">
+                  
+                    <div class="left-form">
+                      <div class="input-container">
+                          <label for="expo">Expo</label>
+                          <input type="text" name="expo" id="" value="Start-up Expo" readonly />
+                      </div>
+
+                        <div class="input-container">
+                            <label for="companyname">Company Name</label>
+                            <input type="text" name="companyname" id="" required />
+                        </div>
+
+                        <div class="input-container">
+                            <label for="name">Name</label>
+                            <input type="text" name="name" id="" required />
+                        </div>
+
+                        <div class="input-container">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="" required />
+                        </div>
+
+                        <div class="input-container">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" name="phone" id="" required />
+                        </div>
+
+                        <div class="input-container">
+                            <label for="website">Website Url</label>
+                            <input type="url" name="website" id="" />
+                        </div>
+                        
+        
+
+                        <div class="input-container">
+                          <label for="industry">Industry/Field</label>
+                          <input type="text" name="industry" id="" />
+                        </div>
+
+                        <div class="input-container">
+                          <label for="stage">Stage of Development</label>
+                          <input type="text" name="stage" id="" required />
+                      </div>
+
+                      <div class="input-container">
+                          <label for="description">Description</label>
+                          <input type="text" name="description" id="" required />
+                      </div>
+      
+                      <div class="input-container">
+                          <label for="market">Target Market</label>
+                          <input type="text" name="market" id="" required/>
+                      </div>
+
+                      <div class="input-container">
+                          <label for="fundstatus">Funding Status</label>
+                          <input type="text" name="fundstatus" id="" required/>
+                      </div>
+
+                      <div class="input-container">
+                          <label for="teamsize">Team Size</label>
+                          <input type="number" name="teamsize" id="" required/>
+                      </div>
+                      </div>
+                    
+                    <div class="buttons">
+                        <button id="submit">
+                            <a onclick="frmValidate()" style="color: black">Register</a>
+                        </button>
+                        <input type="reset" name="Reset" id="reset" />
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </main>
+    <%- include(`partials/footer`)%>
+    <img id="snow-mountain" src="/images/extras/snow-mountain.png" alt="" />
+    <script src="/js/global.js"></script>
+    <script>
+        const form_container = document.querySelector(
+        ".registration-form-container"
+      );
+
+
+        function frmValidate() {
+        const frm = document.querySelector("form");
+        let len = frm.length;
+        while (len--) {
+          if (!frm.elements[frm.length - len].checkValidity()) {
+            return false;
+          }
+        }
+      }
+
+    //   btns.forEach((el) => el.addEventListener("click", accordion));
+
+    </script>
+  </body>
+</html>

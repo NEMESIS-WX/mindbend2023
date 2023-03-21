@@ -18,8 +18,8 @@
         <p>EVENTS</p>
         <p>EVENTS</p>
       </div>
-      <h1 class="catagory">Technical</h1>
-      <div class="events-container">
+      <h1 class="catagory" id="technical_h">Technical ↓</h1>
+      <div class="events-container dissapear" id="technical">
         <% events.forEach(function(e){ %> <%if(e.catagory === "technical"){%>
         <div class="card">
           <div class="img-container">
@@ -34,16 +34,9 @@
 
         <%}});%>
       </div>
-      <div class="download-file">
-        <a
-          href="/docs/Mindbend Technical Rulebook 2023.pdf"
-          download="Mindbend Technical Rulebook 2023"
-          >Technical Rulebook &#8595;</a
-        >
-      </div>
 
-      <h1 class="catagory">Managerial</h1>
-      <div class="events-container">
+      <h1 class="catagory" id="managerial_h">Managerial ↓</h1>
+      <div class="events-container dissapear" id="managerial">
         <% events.forEach(function(e){ %> <%if(e.catagory === "managerial"){%>
         <div class="card">
           <div class="img-container">
@@ -58,15 +51,16 @@
 
         <%}});%>
       </div>
-      <div class="download-file">
-        <a
-          href="/docs/Mindbend Managerial Rulebook 2023.pdf"
-          download="Mindbend Managerial Rulebook 2023"
-          >Managerial Rulebookl &#8595;</a
-        >
-      </div>
     </main>
     <%- include(`partials/footer`)%>
     <script src="/js/global.js"></script>
+    <script>
+      document.querySelector("#managerial_h").addEventListener("click", () => {
+        document.querySelector("#managerial").classList.toggle("dissapear");
+      });
+      document.querySelector("#technical_h").addEventListener("click", () => {
+        document.querySelector("#technical").classList.toggle("dissapear");
+      });
+    </script>
   </body>
 </html>
