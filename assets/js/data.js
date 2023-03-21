@@ -229,7 +229,7 @@ const events = [
         Registration Details
       </h3>
       <p>
-        Registration Fee: Rs 500 <br>
+        Registration Fee: Catagory - 1 : 200; Catagory - 2 : 400 <br>
       </p>`,
     timeline: [""],
     rulebook: "NA",
@@ -281,7 +281,7 @@ const events = [
   // model united nations
   {
     name: "MODEL UNITED NATIONS (MUN)",
-    image_hq: "/images/events/hq/MUN_ TANMAY.png",
+    image_hq: "/images/events/hq/mun.png",
     image: "/images/events/MUN_ TANMAY.png",
     prize: ["1st Prize: Rs 8000", "2nd Prize: Rs 6000"],
     fee: "Rs 30",
@@ -332,7 +332,7 @@ const events = [
           Team Specification
         </h3>
         <p>
-          Upto 3 members.
+          Only 1 member.
         </p>
         <h3>
           Registration Details
@@ -346,7 +346,7 @@ const events = [
       </ul>`,
 
     timeline: ["DATE : 01/04/2023  ", "TIME : 2:30PM ONWARDS"],
-    rulebook: "NA",
+    rulebook: "/docs/rulebooks/Model_United_ Nations_Rulebook",
     rules: [
       `
       All participants are supposed to follow the rules and game flow as decided by Mindbend'23 team
@@ -502,7 +502,7 @@ const events = [
         Registration Details
       </h3>
       <p>
-        Registration Fee: Rs 500 <br>
+        Registration Fee: Rs 300 <br>
       </p>`,
     timeline: [""],
     rulebook: "/docs/rulebooks/mode overdrive.pdf",
@@ -692,7 +692,7 @@ const events = [
           REGISTRATION DETAILS
         </h2>
         <p>
-          Fee: Rs 400 <br>
+          Fee: Rs 80 <br>
         </p>
       </ul>
     `,
@@ -827,7 +827,7 @@ const events = [
             REGISTRATION DETAILS
           </h2>
           <p>
-            Fee: Rs 200 <br>
+            Fee: Rs 100 <br>
           </p>
         </ul>
       `,
@@ -1131,7 +1131,7 @@ const events = [
             REGISTRATION DETAILS
           </h2>
           <p>
-            Fee: Rs 200 <br>
+            Fee: Rs 100 <br>
           </p>
         </ul>
       `,
@@ -1241,7 +1241,7 @@ const events = [
             REGISTRATION DETAILS
           </h2>
           <p>
-            Fee: Rs 150 <br>
+            Fee: Rs 50 <br>
           </p>
         </ul>
       `,
@@ -1351,7 +1351,7 @@ const events = [
       </ul>`,
 
     timeline: ["DATE : 31/03/2023  ", "TIME : 2:30PM ONWARDS"],
-    rulebook: "/docs/rulebooks/datal street.pdf",
+    rulebook: "/docs/rulebooks/Dalal_Street-1992_Rulebook.pdf",
     rules: [
       `
       All participants are supposed to follow the rules and game flow as decided by Mindbend'23 team members. 
@@ -1395,7 +1395,7 @@ const events = [
   // vending masters
   {
     name: "VENDING MASTERS",
-    image_hq: "/images/events/hq/VENDING MASTERS.png",
+    image_hq: "/images/events/hq/VENDING MASTERS.jpg",
     image: "/images/events/VENDING MASTERS.png",
     prize: ["1st Prize: Rs 4500", "2nd Prize: Rs 3500", "3rd Prize: Rs 2000"],
     fee: "Rs 30",
@@ -1446,7 +1446,7 @@ const events = [
       </ul>`,
 
     timeline: ["DATE : 0  1/04/2023  ", "TIME : 2:30PM - 6:00PM"],
-    rulebook: "/docs/rulebooks/Vending Master.pdf",
+    rulebook: "/docs/rulebooks/Vending_Masters_Rulebook.pdf",
     rules: [
       `
       All participants are supposed to follow the rules and game flow as decided by Mindbend'23 team members. 
@@ -1490,7 +1490,7 @@ const events = [
   // hustle trade
   {
     name: "HUSTLE TRADE",
-    image_hq: "/images/events/hq/hustle trade.png",
+    image_hq: "/images/events/hq/hustle trade.jpg",
     image: "/images/events/hustle trade.png",
     prize: ["1st Prize: Rs 6000", "2nd Prize: Rs 4000"],
     fee: "Rs 30",
@@ -1545,7 +1545,7 @@ const events = [
       </ul>`,
 
     timeline: ["DATE : 31/03/2023  ", "TIME : 2:30PM - 6:00PM"],
-    rulebook: "/docs/rulebooks/Hustle trade.pdf",
+    rulebook: "/docs/rulebooks/Hustle_Trade_Rulebook.pdf",
     rules: [
       `
       All participants are supposed to follow the rules and game flow as decided by Mindbend'23 team members. 
@@ -1589,7 +1589,7 @@ const events = [
   // create your identity
   {
     name: "CREATE YOUR IDENTITY",
-    image_hq: "/images/events/hq/create your identity.png",
+    image_hq: "/images/events/hq/create your identity.jpg",
     image: "/images/events/create your identity.png",
     prize: ["1st Prize: Rs 5000", "2nd Prize: Rs 3000"],
     fee: "Rs 20",
@@ -1646,7 +1646,7 @@ const events = [
       </ul>`,
 
     timeline: ["DATE : 02/04/2023  ", "TIME : 2:30PM - 6:00PM"],
-    rulebook: "/docs/rulebooks/Create Your Indentity.pdf",
+    rulebook: "/docs/rulebooks/Create_Your_Indentity_Rulebook.pdf",
     rules: [
       `
       All participants are supposed to follow the rules and game flow as decided by Mindbend'23 team members. 
@@ -1690,7 +1690,7 @@ const events = [
   // bluffs and bargains
   {
     name: "BLUFFS AND BARGAINS",
-    image_hq: "/images/events/hq/Bluffs and Bargains.png",
+    image_hq: "/images/events/hq/bluffs and bargain.jpg",
     image: "/images/events/Bluffs and Bargains.png",
     prize: ["1st Prize: Rs 4000", "2nd Prize: Rs 3000", "3rd Prize Rs 2000"],
     fee: "Rs 30",
@@ -1738,7 +1738,7 @@ const events = [
           Team Specification
         </h3>
         <p>
-          Upto 3 members.
+        Upto 3 members.
         </p>
         <h3>
           Registration Details
@@ -1750,7 +1750,7 @@ const events = [
       </ul>
     `,
     timeline: ["DATE : 02/04/2023  ", "TIME : 10:00AM - 2:00PM"],
-    rulebook: "/docs/rulebooks/Bluffs and Bargains.pdf",
+    rulebook: "/docs/rulebooks/Bluffs_And_Bargains_Rulebook.pdf",
     rules: [
       `
     All participants are supposed to follow the rules and game flow as decided by Mindbend'23 team members. 
@@ -1794,7 +1794,7 @@ const events = [
   // trend your brand
   {
     name: "TREND YOUR BRAND",
-    image_hq: "/images/events/hq/Trend Your Brand.png",
+    image_hq: "/images/events/hq/Trend Your Brand.jpg",
     image: "/images/events/Trend Your Brand.png",
     prize: ["1st Prize: Rs 5500", "2nd Prize: Rs 3500"],
     fee: "Rs 30",
@@ -1847,7 +1847,7 @@ const events = [
 
   </ul>`,
     timeline: ["DATE : 31/03/2023  ", "TIME : 09:00AM - 2:00PM"],
-    rulebook: "/docs/rulebooks/Trend your brand.pdf",
+    rulebook: "/docs/rulebooks/Trend_Your_Brand_Rulebook.pdf",
     rules: [
       `
     All participants are supposed to follow the rules and game flow as decided by Mindbend'23 team members. 
@@ -1891,7 +1891,7 @@ const events = [
   // investomania
   {
     name: "INVESTOMANIA",
-    image_hq: "/images/events/hq/INVESTOMANIA.png",
+    image_hq: "/images/events/hq/INVESTOMANIA.jpg",
     image: "/images/events/INVESTOMANIA.png",
     prize: ["1st Prize: Rs 5000", "2nd Prize: Rs 3000"],
     fee: "Rs 30",
@@ -1949,7 +1949,7 @@ investments and how you apply and get good returns.
 
   </ul>`,
     timeline: ["DATE : 31/03/2023  ", "TIME : 11:00AM - 2:30PM"],
-    rulebook: "/docs/rulebooks/Investomania.pdf",
+    rulebook: "/docs/rulebooks/Investomania_Rulebook.pdf",
     rules: [
       `
     All participants are supposed to follow the rules and game flow as decided by Mindbend'23 team members. 
@@ -1993,7 +1993,7 @@ investments and how you apply and get good returns.
   // the jewels of jumanji
   {
     name: "THE JEWEL OF JUMANJI",
-    image_hq: "/images/events/hq/the jewel of jumanji.png",
+    image_hq: "/images/events/hq/the jewel of jumanji.jpg",
     image: "/images/events/the jewel of jumanji.png",
     prize: ["1st Prize: Rs 4500", "2nd Prize: Rs 3500", "3rd Prize: Rs 2000"],
     fee: "Rs 30",
@@ -2043,7 +2043,7 @@ investments and how you apply and get good returns.
 
   </ul>`,
     timeline: ["DATE : 01/04/2023  ", "TIME : 10:00AM - 2:00PM"],
-    rulebook: "/docs/rulebooks/The Jewel of jumanji.pdf",
+    rulebook: "/docs/rulebooks/Jewel_Of_Jumanji_Rulebook.pdf",
     rules: [
       `
     All participants are supposed to follow the rules and game flow as decided by Mindbend'23 team members. 
@@ -2087,7 +2087,7 @@ investments and how you apply and get good returns.
   // can you beat the president
   {
     name: "CAN YOU BE THE PRESIDENT",
-    image_hq: "/images/events/hq/CAN YOU BE THE PRESIDENT.png",
+    image_hq: "/images/events/hq/CAN YOU BE THE PRESIDENT.jpg",
     image: "/images/events/CAN YOU BE THE PRESIDENT.png",
     prize: ["1st Prize: Rs 4500", "2nd Prize: Rs 3500", "3rd Prize: Rs 2000"],
     fee: "Rs 20",
@@ -2149,7 +2149,7 @@ investments and how you apply and get good returns.
 
   </ul>`,
     timeline: ["DATE : 01/04/2023  ", "TIME : 09:00AM - 1:00PM"],
-    rulebook: "/docs/rulebooks/Can you be the president.pdf",
+    rulebook: "/docs/rulebooks/Can_You_Be_The_President_Rulebook.pdf",
     rules: [
       `
     All participants are supposed to follow the rules and game flow as decided by Mindbend'23 team members. 
@@ -2438,7 +2438,7 @@ investments and how you apply and get good returns.
         Registration Details
       </h3>
       <p>
-        Registration Fee: Rs 50 <br>
+        Registration Fee: Rs 70 <br>
       </p>`,
     timeline: [""],
     rulebook: "NA",
@@ -2566,7 +2566,7 @@ investments and how you apply and get good returns.
             REGISTRATION DETAILS
           </h2>
           <p>
-            Fee: Rs 50 <br>
+            Fee: Rs 80 <br>
           </p>
         </ul>
       `,
@@ -2675,7 +2675,7 @@ investments and how you apply and get good returns.
             REGISTRATION DETAILS
           </h2>
           <p>
-            Fee: Rs 100 <br>
+            Fee: Rs 200 <br>
           </p>
         </ul>
       `,
@@ -2799,7 +2799,7 @@ investments and how you apply and get good returns.
             Registration Details
           </h3>
           <p>
-            Registration Fee: Rs 30
+            Registration Fee: Rs 70
           </p>
           <p>
             Registration details will be announced soon.
@@ -2929,7 +2929,7 @@ investments and how you apply and get good returns.
           REGISTRATION DETAILS
         </h2>
         <p>
-          Fee: Rs 30 <br>
+          Fee: Rs 80 <br>
         </p>
       </ul>
     `,
@@ -3373,7 +3373,7 @@ investments and how you apply and get good returns.
         REGISTRATION DETAILS
       </h2>
       <p>
-        Fee: Rs 50 <br>
+        Fee: Rs 30 <br>
       </p>
     </ul>
   `,
@@ -3422,7 +3422,7 @@ investments and how you apply and get good returns.
   {
     name: "BUG-N-FEATURE",
     image: "/images/events/bug-n-feature.png",
-    image_hq: "/images/events/hq/bug-n-feature.png",
+    image_hq: "/images/events/hq/bug-n-feature2.png",
     prize: ["1st Prize: Rs 3500", "2nd Prize: Rs 2500", "3rd Prize: Rs 1500"],
     fee: "Rs 50",
     // about: ``,
@@ -3524,7 +3524,7 @@ investments and how you apply and get good returns.
         REGISTRATION DETAILS
       </h2>
       <p>
-        Fee: Rs 30 <br>
+        Fee: Rs 50 <br>
       </p>
     </ul>
   `,
@@ -3806,7 +3806,7 @@ investments and how you apply and get good returns.
         REGISTRATION DETAILS
       </h2>
       <p>
-        Fee: Rs 50 <br>
+        Fee: Rs 100 <br>
       </p>
     </ul>
   `,
@@ -3855,7 +3855,7 @@ investments and how you apply and get good returns.
   },
   //DRONE ZONE
   {
-    name: "DONE ZONE",
+    name: "DRONE ZONE",
     image: "/images/events/DRONE _ JYOTI.png",
     image_hq: "/images/events/hq/DRONE _ JYOTI.png",
     prize: ["1st Prize: Rs 45000", "2nd Prize: Rs 30000"],
@@ -3996,68 +3996,47 @@ competition's stipulated limits.
 
 const workshops = [
   {
-    name: "Web 3.0",
+    name: "Auto Cad",
     fee: "FREE",
-    image_hq: "/images/workshops/hq/Web_3.png",
-    image: "/images/workshops/Web_3.png",
+    image_hq: "/images/workshops/hq/AutoCAD.png",
+    image: "/images/workshops/New folder/AutoCAD.png",
 
-    details: `What is Web 3.0? and all the recent advancements made in web 3.0. 
-    Web 3.0 is the new and upcoming iteration of the world wide web, a public network built on distributed ledger technology and a semantic architecture to enable decentralization, personalization, immersiveness, and a token-driven economy`,
+    details: `Auto Cad workshop aims to provide hands-on experience and practical skills in using AutoCAD, a popular computer-aided design software. Whether you're a student, professional, or simply interested in learning more about this powerful tool, this workshop is the perfect opportunity to enhance your skills and knowledge.`,
   },
   {
-    name: "Rocket Building",
-    fee: "Rs 100",
-    image_hq: "/images/workshops/hq/Rocket Building.png",
-    image: "/images/workshops/Rocket Building.png",
-    details: `A hands-on workshop on how to build basic rocket models. 
-      The workshop will provide students with an opportunity to develop engineering design skills through direct application in high-powered rocketry.`,
-  },
-  {
-    name: "Xtended Reality",
-    fee: "Rs 30",
-    image_hq: "/images/workshops/hq/Xtended Reality.png",
-    image: "/images/workshops/Xtended Reality.png",
-    details: `A workshop on exploring Metaverse through VR headsets.
-      Metaverse is a virtual space that allows users to work , interact and connect with each other outside real world. Metaverse uses blockchain, virtual reality and augmented reality to give life to virtual environment.`,
-  },
-  {
-    name: "Data Science",
-    fee: "Rs 150",
-    image_hq: "/images/workshops/hq/Data Science.png",
-    image: "/images/workshops/Data Science.png",
-    details: `Introduction to Data Science and Data analytics.
-      Data science combines math and statistics, specialized programming, advanced analytics, artificial intelligence (AI), and machine learning . These insights can be used to guide decision making and strategic planning.`,
-  },
-  {
-    name: "3d printing",
-    fee: "Rs 60",
-    image_hq: "/images/workshops/hq/3d printing.png",
-    image: "/images/workshops/3d printing.png",
-    details: `A hands-on 3d printing workshop.
-      3D printing or additive manufacturing is the construction of a three-dimensional object from a CAD model or a digital 3D model.
-      `,
-  },
-  {
-    name: "Gesture Robotics",
-    fee: "Rs 150",
-    image_hq: "/images/workshops/hq/Gesture Robotics.png",
-    image: "/images/workshops/Gesture Robotics.png",
-    details: `Introduction to gesture robotics and a hands-on workshop on it.
-      In this workshop, we learn about gesture controlled robots which can be controlled by your normal hand gesture. The accelerometer controls the movement of robot.`,
-  },
-  {
-    name: "Web development",
-    fee: "Rs 100",
-    image_hq: "/images/workshops/hq/Web development.png",
-    image: "/images/workshops/Web development.png",
-    details: `Web development is the building and maintenance of websites; it's the work that happens behind the scenes to make a website look great, work fast and perform well with a seamless user experience. It requires the knowledge of HTML, CSS, JavaScript etc`,
-  },
-  {
-    name: "Machine Learning",
+    name: "Cyber Security",
     fee: "FREE",
-    image_hq: "/images/workshops/hq/Machine Learning.png",
-    image: "/images/workshops/Machine Learning.png",
-    details: `Machine learning is a branch of artificial intelligence (AI) and computer science which focuses on the use of data and algorithms to imitate the way that humans learn, gradually improving its accuracy.`,
+    image_hq: "/images/workshops/hq/Cyber Security.png",
+    image: "/images/workshops/New folder/Cyber Security.png",
+    details: ``,
+  },
+  {
+    name: "3D printing",
+    fee: "FREE",
+    image_hq: "/images/workshops/hq/3D.png",
+    image: "/images/workshops/New folder/3D.png",
+    details: `A hands-on 3d printing workshop. 3D printing or additive manufacturing is the construction of a three-dimensional object from a CAD model or a digital 3D model.`,
+  },
+  {
+    name: "Metaverse",
+    fee: "FREE",
+    image_hq: "/images/workshops/hq/Metaverse.png",
+    image: "/images/workshops/New folder/Metaverse.png",
+    details: `A workshop on exploring Metaverse through VR headsets. Metaverse is a virtual space that allows users to work, interact and connect with each other outside the real world. Metaverse uses blockchain, virtual reality, and augmented reality to give life to the virtual environment.`,
+  },
+  {
+    name: "RocketX",
+    fee: "FREE",
+    image_hq: "/images/workshops/hq/Rocketx.png",
+    image: "/images/workshops/New folder/Rocketx.png",
+    details: `A hands-on workshop on how to build basic rocket models. The workshop will provide students with an opportunity to develop engineering design skills through direct application in high-powered rocketry.`,
+  },
+  {
+    name: "Web 3.0",
+    fee: "Rs 60",
+    image_hq: "/images/workshops/hq/WEB 3.0.png",
+    image: "/images/workshops/New folder/WEB 3.0.png",
+    details: `What is Web 3.0? and all the recent advancements made in web 3.0. Web 3.0 is the new and upcoming iteration of the world wide web, a public network built on distributed ledger technology and a semantic architecture to enable decentralization, personalization, immersiveness, and a token-driven economy`,
   },
 ];
 
@@ -4483,4 +4462,38 @@ const guest = [
   },
 ];
 
-module.exports = { events, workshops, team, guest };
+const expo = [
+  // AERO EXPO
+  {
+    name: "AERO EXPO",
+    image_hq: "/images/expo/aero-expo-hq.png",
+    image: "/images/expo/aero-expo.png",
+    // about: "Beat, Defeat, Win, Repeat  ",
+    // ----------------------------------------------------------------
+    details: ``,
+    timeline: [""],
+    catagory: "expo",
+  },
+  {
+    name: "AUTO EXPO",
+    image_hq: "/images/expo/auto-expo-hq.png",
+    image: "/images/expo/auto-expo.png",
+    // about: "Beat, Defeat, Win, Repeat  ",
+    // ----------------------------------------------------------------
+    details: ``,
+    timeline: [""],
+    catagory: "expo",
+  },
+  {
+    name: "START-UP EXPO",
+    image_hq: "/images/expo/auto-expo-hq.png",
+    image: "/images/expo/auto-expo.png",
+    // about: "Beat, Defeat, Win, Repeat  ",
+    // ----------------------------------------------------------------
+    details: ``,
+    timeline: [""],
+    catagory: "expo",
+  },
+];
+
+module.exports = { events, workshops, team, guest, expo };

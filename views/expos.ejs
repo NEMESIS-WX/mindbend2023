@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('partials/head', {description:`MINDBEND is Gujarat's largest
+  Techno-Managerial Fest, which is entirely organized by the SVNIT student body
+  and serves as the perfect rocket launch-pad for all the tech-enthusiasts out
+  there!`, keywords: `MINDBEND, TECHNO-FEST, SVNIT, NIT-SURAT, NATIONAL-EVENT`,
+  style: `expos`, title: `MINDBEND 2023 | EXPO`, });%>
+  <body>
+    <img id="bg" src="/images/bgs/filewall.webp" alt="" />
+    <%- include(`partials/loading`)%> <%- include(`partials/nav`,
+    {appear:`appear`})%>
+
+    <main>
+      <div class="heading">
+        <p>EXPO</p>
+        <p>EXPO</p>
+        EXPO
+        <p>EXPO</p>
+        <p>EXPO</p>
+      </div>
+      <!-- <h1s class="catagory">Technical</h1s> -->
+      <div class="events-container">
+        <% expos.forEach(function(e){ %> <%if(e.catagory === "expo"){%>
+        <div class="card">
+          <div class="img-container">
+            <img src="<%= e.image%> " alt="" />
+          </div>
+          <div class="card-details">
+            <h2><%= e.name %></h2>
+            <p><%= e.about %></p>
+          </div>
+          <!-- <a href="/events/<%=e.name%>" class="read-more">Read more...</a> -->
+        </div>
+
+        <%}});%>
+      </div>
+      <div class="expos-btn" >
+        <button ><a href="/expos/expo"> Start-up Registration</a></button>
+      </div>
+    </main>
+    <%- include(`partials/footer`)%>
+    <script src="/js/global.js"></script>
+  </body>
+</html>
