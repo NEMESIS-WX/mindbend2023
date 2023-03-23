@@ -27,16 +27,19 @@
           </div>
           <div class="card-details">
             <h2><%= e.name %></h2>
-            <p><%= e.about %></p>
+            <p><%= e.details %></p>
           </div>
-          <!-- <a href="/events/<%=e.name%>" class="read-more">Read more...</a> -->
+          <a href="/expos/<%=e.name%>" class="read-more">Read more...</a>
         </div>
 
         <%}});%>
       </div>
-      <div class="expos-btn" >
-        <button ><a href="/expos/expo"> Start-up Registration</a></button>
-      </div>
+
+      <!-- button for startup registration  -->
+
+      <!-- <div class="expos-btn" > -->
+        <!-- <button ><a href="/startup"> Start-up Registration</a></button> -->
+      <!-- </div> -->
     </main>
     <%- include(`partials/footer`)%>
     <script src="/js/global.js"></script>

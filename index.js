@@ -39,9 +39,20 @@ app.use(express.static("assets"));
 app.get("/", (req, res) => {
   res.render("index");
 });
+// guest detail fetch from data.js and send it to guests.ejs 
 
 app.get("/guest", (req, res) => {
   res.render("guest", { guest: guest });
+});
+
+app.get("/guest/:ename", (req, res) => {
+  res.render("guests", {
+    guests: guest.filter(function (e) {
+      if (e.name === req.params.ename) {
+        return e;
+      }
+    })[0],
+  });
 });
 
 app.get("/events", (req, res) => {
@@ -171,11 +182,22 @@ app.get("/expos", (req, res) => {
   res.render("expos", { expos: expo });
 });
 
-app.get("/expos/expo", (req, res) => {
+app.get("/startup", (req, res) => {//
   res.render("expo");
 });
 
-app.post("/expo/register", async (req, res) => {
+app.get("/expos/:ename", (req, res) => {
+  res.render("expodetails", {
+    
+    expodetails: expo.filter(function (e) {
+      if (e.name === req.params.ename) {
+        return e;
+      }
+    })[0],
+  });
+});
+
+app.post("/startup/register", async (req, res) => {
   const data = new ExpoData({
     expo: req.body.expo,
     companyname: req.body.companyname,
