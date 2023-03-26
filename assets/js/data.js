@@ -229,10 +229,10 @@ const events = [
         Registration Details
       </h3>
       <p>
-        Registration Fee: Rs 500 <br>
+        Registration Fee: Catagory - 1 : 200; Catagory - 2 : 400 <br>
       </p>`,
     timeline: [""],
-    rulebook: "NA",
+    rulebook: "/docs/rulebooks/RoboWars_Rulebook.pdf",
     rules: [
       "Any  damage  caused  to  the  arena  at  any  point  of  time  will  lead  to  disqualification/penalty.",
       "A team member can’t be a part of more than one team.    ",
@@ -281,7 +281,7 @@ const events = [
   // model united nations
   {
     name: "MODEL UNITED NATIONS (MUN)",
-    image_hq: "/images/events/hq/MUN_ TANMAY.png",
+    image_hq: "/images/events/hq/mun.png",
     image: "/images/events/MUN_ TANMAY.png",
     prize: ["1st Prize: Rs 8000", "2nd Prize: Rs 6000"],
     fee: "Rs 30",
@@ -332,7 +332,7 @@ const events = [
           Team Specification
         </h3>
         <p>
-          Upto 3 members.
+          Only 1 member.
         </p>
         <h3>
           Registration Details
@@ -346,7 +346,7 @@ const events = [
       </ul>`,
 
     timeline: ["DATE : 01/04/2023  ", "TIME : 2:30PM ONWARDS"],
-    rulebook: "NA",
+    rulebook: "/docs/rulebooks/Model_United_ Nations_Rulebook",
     rules: [
       `
       All participants are supposed to follow the rules and game flow as decided by Mindbend'23 team
@@ -399,9 +399,9 @@ const events = [
     image_hq: "/images/events/hq/MODE_ OVERDRIVE.png",
     image: "/images/events/MODE_ OVERDRIVE.png",
     prize: [
-      "1st Prize: Rs 55,000",
-      "2nd Prize: Rs 40,000",
-      "3rd Prize: Rs 25,000",
+      "1st Prize: Rs 40,000",
+      "2nd Prize: Rs 30,000",
+      "3rd Prize: Rs 20,000",
     ],
     fee: "Rs 300",
     // about: "The fun begins where the pavement ends",
@@ -502,10 +502,10 @@ const events = [
         Registration Details
       </h3>
       <p>
-        Registration Fee: Rs 500 <br>
+        Registration Fee: Rs 300 <br>
       </p>`,
     timeline: [""],
-    rulebook: "/docs/rulebooks/mode overdrive.pdf",
+    rulebook: "/docs/rulebooks/MODE Overdrive_Rulebook.pdf",
     rules: [
       "Teams are not permitted to damage other team's car during race intentionally.",
       "Any damage to track due to car will not be tolerated. ",
@@ -692,7 +692,7 @@ const events = [
           REGISTRATION DETAILS
         </h2>
         <p>
-          Fee: Rs 400 <br>
+          Fee: Rs 80 <br>
         </p>
       </ul>
     `,
@@ -737,8 +737,8 @@ const events = [
       },
       {
         name: "Megh Modi",
-        phone: "6354742209"
-      }
+        phone: "6354742209",
+      },
     ],
   },
 
@@ -747,7 +747,7 @@ const events = [
     name: "MAZE RUNNER",
     image_hq: "/images/events/hq/MAZE RUNNER.png",
     image: "/images/events/MAZE RUNNER.png",
-    prize: ["1st Prize: Rs 13000", "2nd Prize: Rs 10000", "3rd Prize: Rs 7000"],
+    prize: ["1st Prize: Rs 15000", "2nd Prize: Rs 10000", "3rd Prize: Rs 5000"],
     fee: "Rs 100",
     // about: ``,
     // ----------------------------------------------------------------
@@ -827,12 +827,12 @@ const events = [
             REGISTRATION DETAILS
           </h2>
           <p>
-            Fee: Rs 200 <br>
+            Fee: Rs 100 <br>
           </p>
         </ul>
       `,
     timeline: [""],
-    rulebook: "NA",
+    rulebook: "/docs/rulebooks/MazeRnner_Rulebook.pdf",
     rules: [
       "Any misbehavior will lead you to disqualification from the competition.",
       "Decision Taken by Judges will be final and binding for all.",
@@ -883,7 +883,7 @@ const events = [
     name: "SKY HIGH",
     image_hq: "/images/events/hq/sky high.png",
     image: "/images/events/sky high.png",
-    prize: ["1st Prize: Rs 7000", "2nd Prize: Rs 5000", "3rd Prize: Rs 3000"],
+    prize: ["1st Prize: Rs 7500", "2nd Prize: Rs 5000", "3rd Prize: Rs 2500"],
     fee: "Rs 80",
     // about: ``,
     // ----------------------------------------------------------------
@@ -1016,7 +1016,7 @@ const events = [
         </ul>
       `,
     timeline: [""],
-    rulebook: "/docs/rulebooks/SKY HIGH.pdf",
+    rulebook: "/docs/rulebooks/SkyHigh_Rulebook.pdf",
     rules: [
       "Any misbehavior will lead you to disqualification from the competition.",
       "Decision Taken by Judges will be final and binding for all",
@@ -1068,7 +1068,7 @@ const events = [
     name: "HUNT THE LINE",
     image_hq: "/images/events/hq/HUNT THE LINE.png",
     image: "/images/events/HUNT THE LINE.png",
-    prize: ["1st Prize: Rs 13000", "2nd Prize: Rs 10000", "3rd Prize: Rs 7000"],
+    prize: ["1st Prize: Rs 15000", "2nd Prize: Rs 10000", "3rd Prize: Rs 5000"],
     fee: "Rs 100",
     // about: `A Chase for All!!`,
     // ----------------------------------------------------------------
@@ -1131,12 +1131,12 @@ const events = [
             REGISTRATION DETAILS
           </h2>
           <p>
-            Fee: Rs 200 <br>
+            Fee: Rs 100 <br>
           </p>
         </ul>
       `,
     timeline: [""],
-    rulebook: "NA",
+    rulebook: "/docs/rulebooks/Hunt_The_Line_Rulebook.pdf",
     rules: [
       "Any damage caused to the arena at any point in time will lead to disqualification /penalty.",
       "The robot has to travel only on the prescribed arena, and if the bot completely leaves the arena it will have to start from the previous checkpoint.",
@@ -1241,12 +1241,12 @@ const events = [
             REGISTRATION DETAILS
           </h2>
           <p>
-            Fee: Rs 150 <br>
+            Fee: Rs 50 <br>
           </p>
         </ul>
       `,
     timeline: [""],
-    rulebook: "/docs/rulebooks/Chem-E-Car.pdf",
+    rulebook: "/docs/rulebooks/CODEWARS.pdf",
     rules: [
       "The contest will be conducted on CodeForces",
       "Each team will get one computer to submit their solutions to the problem statements(ICPC Style)",
@@ -1307,7 +1307,7 @@ const events = [
         Introduction
       </h2>
       <p>
-        CCAC and MINDBEND 2023 bring to you the "DALAL STREET-1992", an Indian Stock Market competition as part of MINDBEND 2023. Presenting an opportunity to test their expertise in the stock market, participants will have to use their buy and sell qualities to keep moving ahead in the dynamic market.
+        MINDBEND 2023 bring to you the "DALAL STREET-1992", an Indian Stock Market competition as part of MINDBEND 2023. Presenting an opportunity to test their expertise in the stock market, participants will have to use their buy and sell qualities to keep moving ahead in the dynamic market.
       </p>
       <p>
         Dalal Street-1992 is set in the year 1992 where Shareholders(Teams) can buy, sell, and trade their stock portfolio in an offline physical market. The goal is to increase the respective portfolios. The one with the maximum value of the portfolio wins the event.
@@ -1351,7 +1351,7 @@ const events = [
       </ul>`,
 
     timeline: ["DATE : 31/03/2023  ", "TIME : 2:30PM ONWARDS"],
-    rulebook: "/docs/rulebooks/datal street.pdf",
+    rulebook: "/docs/rulebooks/Dalal_Street-1992_Rulebook.pdf",
     rules: [
       `
       All participants are supposed to follow the rules and game flow as decided by Mindbend'23 team members. 
@@ -1395,7 +1395,7 @@ const events = [
   // vending masters
   {
     name: "VENDING MASTERS",
-    image_hq: "/images/events/hq/VENDING MASTERS.png",
+    image_hq: "/images/events/hq/VENDING MASTERS.jpg",
     image: "/images/events/VENDING MASTERS.png",
     prize: ["1st Prize: Rs 4500", "2nd Prize: Rs 3500", "3rd Prize: Rs 2000"],
     fee: "Rs 30",
@@ -1446,7 +1446,7 @@ const events = [
       </ul>`,
 
     timeline: ["DATE : 0  1/04/2023  ", "TIME : 2:30PM - 6:00PM"],
-    rulebook: "/docs/rulebooks/Vending Master.pdf",
+    rulebook: "/docs/rulebooks/Vending_Masters_Rulebook.pdf",
     rules: [
       `
       All participants are supposed to follow the rules and game flow as decided by Mindbend'23 team members. 
@@ -1490,7 +1490,7 @@ const events = [
   // hustle trade
   {
     name: "HUSTLE TRADE",
-    image_hq: "/images/events/hq/hustle trade.png",
+    image_hq: "/images/events/hq/hustle trade.jpg",
     image: "/images/events/hustle trade.png",
     prize: ["1st Prize: Rs 6000", "2nd Prize: Rs 4000"],
     fee: "Rs 30",
@@ -1545,7 +1545,7 @@ const events = [
       </ul>`,
 
     timeline: ["DATE : 31/03/2023  ", "TIME : 2:30PM - 6:00PM"],
-    rulebook: "/docs/rulebooks/Hustle trade.pdf",
+    rulebook: "/docs/rulebooks/Hustle_Trade_Rulebook.pdf",
     rules: [
       `
       All participants are supposed to follow the rules and game flow as decided by Mindbend'23 team members. 
@@ -1589,7 +1589,7 @@ const events = [
   // create your identity
   {
     name: "CREATE YOUR IDENTITY",
-    image_hq: "/images/events/hq/create your identity.png",
+    image_hq: "/images/events/hq/create your identity.jpg",
     image: "/images/events/create your identity.png",
     prize: ["1st Prize: Rs 5000", "2nd Prize: Rs 3000"],
     fee: "Rs 20",
@@ -1646,7 +1646,7 @@ const events = [
       </ul>`,
 
     timeline: ["DATE : 02/04/2023  ", "TIME : 2:30PM - 6:00PM"],
-    rulebook: "/docs/rulebooks/Create Your Indentity.pdf",
+    rulebook: "/docs/rulebooks/Create_Your_Indentity_Rulebook.pdf",
     rules: [
       `
       All participants are supposed to follow the rules and game flow as decided by Mindbend'23 team members. 
@@ -1690,7 +1690,7 @@ const events = [
   // bluffs and bargains
   {
     name: "BLUFFS AND BARGAINS",
-    image_hq: "/images/events/hq/Bluffs and Bargains.png",
+    image_hq: "/images/events/hq/bluffs and bargain.jpg",
     image: "/images/events/Bluffs and Bargains.png",
     prize: ["1st Prize: Rs 4000", "2nd Prize: Rs 3000", "3rd Prize Rs 2000"],
     fee: "Rs 30",
@@ -1738,7 +1738,7 @@ const events = [
           Team Specification
         </h3>
         <p>
-          Upto 2 members.
+        Upto 3 members.
         </p>
         <h3>
           Registration Details
@@ -1750,7 +1750,7 @@ const events = [
       </ul>
     `,
     timeline: ["DATE : 02/04/2023  ", "TIME : 10:00AM - 2:00PM"],
-    rulebook: "/docs/rulebooks/Bluffs and Bargains.pdf",
+    rulebook: "/docs/rulebooks/Bluffs_And_Bargains_Rulebook.pdf",
     rules: [
       `
     All participants are supposed to follow the rules and game flow as decided by Mindbend'23 team members. 
@@ -1794,7 +1794,7 @@ const events = [
   // trend your brand
   {
     name: "TREND YOUR BRAND",
-    image_hq: "/images/events/hq/Trend Your Brand.png",
+    image_hq: "/images/events/hq/Trend Your Brand.jpg",
     image: "/images/events/Trend Your Brand.png",
     prize: ["1st Prize: Rs 5500", "2nd Prize: Rs 3500"],
     fee: "Rs 30",
@@ -1847,7 +1847,7 @@ const events = [
 
   </ul>`,
     timeline: ["DATE : 31/03/2023  ", "TIME : 09:00AM - 2:00PM"],
-    rulebook: "/docs/rulebooks/Trend your brand.pdf",
+    rulebook: "/docs/rulebooks/Trend_Your_Brand_Rulebook.pdf",
     rules: [
       `
     All participants are supposed to follow the rules and game flow as decided by Mindbend'23 team members. 
@@ -1891,7 +1891,7 @@ const events = [
   // investomania
   {
     name: "INVESTOMANIA",
-    image_hq: "/images/events/hq/INVESTOMANIA.png",
+    image_hq: "/images/events/hq/INVESTOMANIA.jpg",
     image: "/images/events/INVESTOMANIA.png",
     prize: ["1st Prize: Rs 5000", "2nd Prize: Rs 3000"],
     fee: "Rs 30",
@@ -1903,7 +1903,7 @@ const events = [
   </h2>
   
   <p>
-  "How well you invest" will be a fun event in which you have to showcase your knowledge about
+  "INVESTOMANIA" will be a fun event in which you have to showcase your knowledge about
 investments and how you apply and get good returns.
 
   
@@ -1949,7 +1949,7 @@ investments and how you apply and get good returns.
 
   </ul>`,
     timeline: ["DATE : 31/03/2023  ", "TIME : 11:00AM - 2:30PM"],
-    rulebook: "/docs/rulebooks/Investomania.pdf",
+    rulebook: "/docs/rulebooks/Investomania_Rulebook.pdf",
     rules: [
       `
     All participants are supposed to follow the rules and game flow as decided by Mindbend'23 team members. 
@@ -1993,7 +1993,7 @@ investments and how you apply and get good returns.
   // the jewels of jumanji
   {
     name: "THE JEWEL OF JUMANJI",
-    image_hq: "/images/events/hq/the jewel of jumanji.png",
+    image_hq: "/images/events/hq/the jewel of jumanji.jpg",
     image: "/images/events/the jewel of jumanji.png",
     prize: ["1st Prize: Rs 4500", "2nd Prize: Rs 3500", "3rd Prize: Rs 2000"],
     fee: "Rs 30",
@@ -2043,7 +2043,7 @@ investments and how you apply and get good returns.
 
   </ul>`,
     timeline: ["DATE : 01/04/2023  ", "TIME : 10:00AM - 2:00PM"],
-    rulebook: "/docs/rulebooks/The Jewel of jumanji.pdf",
+    rulebook: "/docs/rulebooks/Jewel_Of_Jumanji_Rulebook.pdf",
     rules: [
       `
     All participants are supposed to follow the rules and game flow as decided by Mindbend'23 team members. 
@@ -2087,7 +2087,7 @@ investments and how you apply and get good returns.
   // can you beat the president
   {
     name: "CAN YOU BE THE PRESIDENT",
-    image_hq: "/images/events/hq/CAN YOU BE THE PRESIDENT.png",
+    image_hq: "/images/events/hq/CAN YOU BE THE PRESIDENT.jpg",
     image: "/images/events/CAN YOU BE THE PRESIDENT.png",
     prize: ["1st Prize: Rs 4500", "2nd Prize: Rs 3500", "3rd Prize: Rs 2000"],
     fee: "Rs 20",
@@ -2149,7 +2149,7 @@ investments and how you apply and get good returns.
 
   </ul>`,
     timeline: ["DATE : 01/04/2023  ", "TIME : 09:00AM - 1:00PM"],
-    rulebook: "/docs/rulebooks/Can you be the president.pdf",
+    rulebook: "/docs/rulebooks/Can_You_Be_The_President_Rulebook.pdf",
     rules: [
       `
     All participants are supposed to follow the rules and game flow as decided by Mindbend'23 team members. 
@@ -2274,7 +2274,7 @@ investments and how you apply and get good returns.
       <h3> Event Platform</h3>
       <p> Online </p>`,
     timeline: [""],
-    rulebook: "/docs/rulebooks/CAD-CRACKERS.pdf",
+    rulebook: "/docs/rulebooks/CAD_Crackers_Rulebook.pdf",
     rules: [
       "For designing the models, SOLIDWORKS software is mandatory.",
       " The design must be completed in the given time restriction.",
@@ -2438,10 +2438,10 @@ investments and how you apply and get good returns.
         Registration Details
       </h3>
       <p>
-        Registration Fee: Rs 50 <br>
+        Registration Fee: Rs 70 <br>
       </p>`,
     timeline: [""],
-    rulebook: "NA",
+    rulebook: "/docs/rulebooks/Structure_For_Future_Rulebook.pdf",
     rules: [
       "Bring your college/student I-Card at the time of the competition.",
       "Decisions taken by Judges will be final and binding for all. ",
@@ -2566,12 +2566,12 @@ investments and how you apply and get good returns.
             REGISTRATION DETAILS
           </h2>
           <p>
-            Fee: Rs 50 <br>
+            Fee: Rs 80 <br>
           </p>
         </ul>
       `,
     timeline: [""],
-    rulebook: "/docs/rulebooks/CAT-A-PULT.pdf",
+    rulebook: "/docs/rulebooks/Cat-A-Pult_Rulebook.pdf",
     rules: [
       "Flammable substances like gunpowder, etc., cannot be used.",
       "Size of the object to be thrown: Lightweight ball of table-tennis ball’s size",
@@ -2625,7 +2625,7 @@ investments and how you apply and get good returns.
     image_hq: "/images/events/hq/chem-e-car.png",
     image: "/images/events/chem-e-car.png",
     prize: ["1st Prize: Rs 8000", "2nd Prize: Rs 5000", "3rd Prize: Rs 3000"],
-    fee: "Rs 100",
+    fee: "Rs 200",
     // about: `Voraciously Chem-E-Engineered Car`,
     // ----------------------------------------------------------------
     details: `
@@ -2675,12 +2675,12 @@ investments and how you apply and get good returns.
             REGISTRATION DETAILS
           </h2>
           <p>
-            Fee: Rs 100 <br>
+            Fee: Rs 200 <br>
           </p>
         </ul>
       `,
     timeline: [""],
-    rulebook: "/docs/rulebooks/Chem-E-Car.pdf",
+    rulebook: "/docs/rulebooks/Chem-E-Car_Rulebook.pdf",
     rules: [
       "Bring your college/student I-Card at the time of competition.",
       "Decision Taken by Judges will be final and binding for all.",
@@ -2799,7 +2799,7 @@ investments and how you apply and get good returns.
             Registration Details
           </h3>
           <p>
-            Registration Fee: Rs 30
+            Registration Fee: Rs 70
           </p>
           <p>
             Registration details will be announced soon.
@@ -2807,7 +2807,7 @@ investments and how you apply and get good returns.
         </ul>`,
 
     timeline: [""],
-    rulebook: "/docs/rulebooks/game of bots.pdf",
+    rulebook: "/docs/rulebooks/GameOfBots_RULEBOOK.pdf",
     rules: [
       "Decision Taken by Judges will be final and binding for all",
       "All decisions taken by the organizing team will be deemed final, and no more changes will be encouraged.",
@@ -2929,7 +2929,7 @@ investments and how you apply and get good returns.
           REGISTRATION DETAILS
         </h2>
         <p>
-          Fee: Rs 30 <br>
+          Fee: Rs 80 <br>
         </p>
       </ul>
     `,
@@ -3323,7 +3323,7 @@ investments and how you apply and get good returns.
     image: "/images/events/chem-e-jeopardy.png",
     image_hq: "/images/events/hq/chem-e-jeopardy.png",
     prize: ["1st Prize: Rs 4000", "2nd Prize: Rs 2000", "3rd Prize: Rs 1000"],
-    fee: "Rs 50",
+    fee: "Rs 30",
     // about: ``,
     details: `
     <h2>
@@ -3373,12 +3373,12 @@ investments and how you apply and get good returns.
         REGISTRATION DETAILS
       </h2>
       <p>
-        Fee: Rs 50 <br>
+        Fee: Rs 30 <br>
       </p>
     </ul>
   `,
     timeline: [],
-    rulebook: "/docs/rulebooks/chem-e-jeopardy.pdf",
+    rulebook: "/docs/rulebooks/Chem-E-Jeopardy_Rulebook.pdf",
     rules: [
       "The team should respond to the clue in the question format. For example, the clue is “Where is Taj Mahal?”. The answer should not be given Agra directly rather than this it should be given in the format “Where is Agra?” ",
       "Negative marking for response not submitted in question format along with deduction of clue’s value. ",
@@ -3422,7 +3422,7 @@ investments and how you apply and get good returns.
   {
     name: "BUG-N-FEATURE",
     image: "/images/events/bug-n-feature.png",
-    image_hq: "/images/events/hq/bug-n-feature.png",
+    image_hq: "/images/events/hq/bug-n-feature2.png",
     prize: ["1st Prize: Rs 3500", "2nd Prize: Rs 2500", "3rd Prize: Rs 1500"],
     fee: "Rs 50",
     // about: ``,
@@ -3524,7 +3524,7 @@ investments and how you apply and get good returns.
         REGISTRATION DETAILS
       </h2>
       <p>
-        Fee: Rs 30 <br>
+        Fee: Rs 50 <br>
       </p>
     </ul>
   `,
@@ -3657,7 +3657,7 @@ investments and how you apply and get good returns.
     </ul>
   `,
     timeline: [],
-    rulebook: "NA",
+    rulebook: "/docs/rulebooks/Connectify_Rulebook.pdf",
     rules: [
       "Bring your college/student I-Card at the time of the competition. ",
       "Decisions taken by Judges will be final and binding for all. ",
@@ -3806,7 +3806,7 @@ investments and how you apply and get good returns.
         REGISTRATION DETAILS
       </h2>
       <p>
-        Fee: Rs 50 <br>
+        Fee: Rs 100 <br>
       </p>
     </ul>
   `,
@@ -3855,7 +3855,7 @@ investments and how you apply and get good returns.
   },
   //DRONE ZONE
   {
-    name: "DONE ZONE",
+    name: "DRONE ZONE",
     image: "/images/events/DRONE _ JYOTI.png",
     image_hq: "/images/events/hq/DRONE _ JYOTI.png",
     prize: ["1st Prize: Rs 45000", "2nd Prize: Rs 30000"],
@@ -3951,7 +3951,7 @@ competition's stipulated limits.
       </ul>
     `,
     timeline: [],
-    rulebook: "/docs/rulebooks/Drone Zone.pdf",
+    rulebook: "/docs/rulebooks/Drone_Zone_Rulebook.pdf",
     rules: [
       "Any violation of constraints will result in disqualification of the team.",
       "Decisions Taken by Judges will be final and binding for all.",
@@ -3996,75 +3996,47 @@ competition's stipulated limits.
 
 const workshops = [
   {
-    name: "Web 3.0",
+    name: "Auto Cad",
     fee: "FREE",
-    image_hq: "/images/workshops/hq/Web_3.png",
-    image: "/images/workshops/Web_3.png",
+    image_hq: "/images/workshops/hq/AutoCAD.png",
+    image: "/images/workshops/New folder/AutoCAD.png",
 
-    details: `What is Web 3.0? and all the recent advancements made in web 3.0. 
-    Web 3.0 is the new and upcoming iteration of the world wide web, a public network built on distributed ledger technology and a semantic architecture to enable decentralization, personalization, immersiveness, and a token-driven economy`,
+    details: `Auto Cad workshop aims to provide hands-on experience and practical skills in using AutoCAD, a popular computer-aided design software. Whether you're a student, professional, or simply interested in learning more about this powerful tool, this workshop is the perfect opportunity to enhance your skills and knowledge.`,
   },
   {
-    name: "Rocket Building",
-    fee: "Rs 100",
-    image_hq: "/images/workshops/hq/Rocket Building.png",
-    image: "/images/workshops/Rocket Building.png",
-    details: `A hands-on workshop on how to build basic rocket models. 
-      The workshop will provide students with an opportunity to develop engineering design skills through direct application in high-powered rocketry.`,
-  },
-  {
-    name: "Xtended Reality",
-    fee: "Rs 30",
-    image_hq: "/images/workshops/hq/Xtended Reality.png",
-    image: "/images/workshops/Xtended Reality.png",
-    details: `A workshop on exploring Metaverse through VR headsets.
-      Metaverse is a virtual space that allows users to work , interact and connect with each other outside real world. Metaverse uses blockchain, virtual reality and augmented reality to give life to virtual environment.`,
-  },
-  {
-    name: "Blockchain Development",
+    name: "Cyber Security",
     fee: "FREE",
-    image_hq: "/images/workshops/hq/Blockchain Development.png",
-    image: "/images/workshops/Blockchain Development.png",
-    details: `Blockchain technology is an advanced database mechanism that allows transparent information sharing within a business network. It stores data in blocks that are linked together in chains. These developers also help businesses understand how cryptocurrency works.`,
+    image_hq: "/images/workshops/hq/Cyber Security.png",
+    image: "/images/workshops/New folder/Cyber Security.png",
+    details: ``,
   },
   {
-    name: "Data Science",
-    fee: "Rs 150",
-    image_hq: "/images/workshops/hq/Data Science.png",
-    image: "/images/workshops/Data Science.png",
-    details: `Introduction to Data Science and Data analytics.
-      Data science combines math and statistics, specialized programming, advanced analytics, artificial intelligence (AI), and machine learning . These insights can be used to guide decision making and strategic planning.`,
+    name: "3D printing",
+    fee: "FREE",
+    image_hq: "/images/workshops/hq/3D.png",
+    image: "/images/workshops/New folder/3D.png",
+    details: `A hands-on 3d printing workshop. 3D printing or additive manufacturing is the construction of a three-dimensional object from a CAD model or a digital 3D model.`,
   },
   {
-    name: "3d printing",
+    name: "Metaverse",
+    fee: "FREE",
+    image_hq: "/images/workshops/hq/Metaverse.png",
+    image: "/images/workshops/New folder/Metaverse.png",
+    details: `A workshop on exploring Metaverse through VR headsets. Metaverse is a virtual space that allows users to work, interact and connect with each other outside the real world. Metaverse uses blockchain, virtual reality, and augmented reality to give life to the virtual environment.`,
+  },
+  {
+    name: "RocketX",
+    fee: "FREE",
+    image_hq: "/images/workshops/hq/Rocketx.png",
+    image: "/images/workshops/New folder/Rocketx.png",
+    details: `A hands-on workshop on how to build basic rocket models. The workshop will provide students with an opportunity to develop engineering design skills through direct application in high-powered rocketry.`,
+  },
+  {
+    name: "Web 3.0",
     fee: "Rs 60",
-    image_hq: "/images/workshops/hq/3d printing.png",
-    image: "/images/workshops/3d printing.png",
-    details: `A hands-on 3d printing workshop.
-      3D printing or additive manufacturing is the construction of a three-dimensional object from a CAD model or a digital 3D model.
-      `,
-  },
-  {
-    name: "Gesture Robotics",
-    fee: "Rs 150",
-    image_hq: "/images/workshops/hq/Gesture Robotics.png",
-    image: "/images/workshops/Gesture Robotics.png",
-    details: `Introduction to gesture robotics and a hands-on workshop on it.
-      In this workshop, we learn about gesture controlled robots which can be controlled by your normal hand gesture. The accelerometer controls the movement of robot.`,
-  },
-  {
-    name: "Web development",
-    fee: "Rs 100",
-    image_hq: "/images/workshops/hq/Web development.png",
-    image: "/images/workshops/Web development.png",
-    details: `Web development is the building and maintenance of websites; it's the work that happens behind the scenes to make a website look great, work fast and perform well with a seamless user experience. It requires the knowledge of HTML, CSS, JavaScript etc`,
-  },
-  {
-    name: "Machine Learning",
-    fee: "FREE",
-    image_hq: "/images/workshops/hq/Machine Learning.png",
-    image: "/images/workshops/Machine Learning.png",
-    details: `Machine learning is a branch of artificial intelligence (AI) and computer science which focuses on the use of data and algorithms to imitate the way that humans learn, gradually improving its accuracy.`,
+    image_hq: "/images/workshops/hq/WEB 3.0.png",
+    image: "/images/workshops/New folder/WEB 3.0.png",
+    details: `What is Web 3.0? and all the recent advancements made in web 3.0. Web 3.0 is the new and upcoming iteration of the world wide web, a public network built on distributed ledger technology and a semantic architecture to enable decentralization, personalization, immersiveness, and a token-driven economy`,
   },
 ];
 
@@ -4476,18 +4448,105 @@ const guest = [
   {
     name: "Jatin Dalal",
     position: "CFO Wipro",
-    photo: "/images/guest/dalal2.png",
+    image_hq: "/images/guest/2.jpeg",
+    image: "/images/guest/jatin.jpeg",
+
+    details: `Jatin Dalal is a prominent Indian business executive who is widely known for his role as the President and Chief Financial Officer (CFO) of Wipro Limited, one of the leading IT services companies in India. He was born and raised in India and received his education from the Sardar Vallabhbhai National Institute of Technology (SVNIT), where he obtained his Bachelor's degree in Mechanical Engineering.
+
+    After completing his undergraduate studies, Jatin Dalal began his career at General Electric (GE), one of the world's largest multinational conglomerates. He was selected for GE's prestigious Financial Management Program (FMP), which is designed to groom young professionals for leadership roles in finance and accounting. During his time at GE, he was recognized with the 'Global Corporate Honors' award for his outstanding performance and leadership skills.
+    
+    Jatin Dalal later joined Wipro Limited, where he has held several positions within the company's finance department over the years. He was instrumental in establishing the company's Investor Relations (IR) department, which has been recognized as the best in India by institutional investors. Under his leadership, Wipro's finance department has grown in stature and has been recognized as a key contributor to the company's success.
+    
+    As the President and CFO of Wipro, Jatin Dalal is responsible for managing the company's financial strategy and operations, including accounting, financial reporting, tax, treasury, investor relations, and M&A activities. He has played a key role in driving the company's growth and profitability and has been recognized for his contributions to the company's success.
+    
+    In addition to his role at Wipro, Jatin Dalal is also a member of the New York Stock Exchange's Listed Company Advisory Board, where he provides strategic guidance and insights to other companies listed on the exchange. He is widely regarded as one of the most influential and respected business leaders in India, and is known for his strategic thinking, financial acumen, and leadership skills. His inspiring journey from an engineering graduate to a top executive in the Indian IT industry serves as a testament to his hard work, dedication, and commitment to excellence.
+    `,
   },
   {
     name: "Himesh Madaan",
     position: "Famous Youtuber",
-    photo: "/images/guest/madaan2.png",
+    image_hq: "/images/guest/3.jpeg",
+    image: "/images/guest/himesh.jpeg",
+    details: `Himeesh Madaan is a motivational speaker, entrepreneur, performance coach, and writer. He is on a mission to help people unleash their true potential.
+
+    He founded Seekhega India in 2019, intending to empower people with skills that the world requires, values, and returns handsomely and build their dream life.
+    
+    He have been rewarded with Nelson Mandela Noble Peace Award 2021 and Honorary Doctorate Degree.
+    
+    More than 100 million people have been able to improve their lives through his videos, training programs, and books.
+    
+    There are 6 million people who found his videos either valuable or entertaining. We hope you are one of them. His YouTube channel hits 15 million monthly views and getting watched in more than 165+ countries.
+    `,
   },
   {
-    name: "Rashmi Robot",
-    position: "Humanoid Robot",
-    photo: "/images/guest/rashmi2.png",
+    name: "Gaurav Thakur",
+    position: "Famous Youtuber",
+    image_hq: "/images/guest/4.jpeg",
+    image: "/images/guest/gaurav_thakur.jpeg",
+    details: `Gaurav Thakur, an accomplished entrepreneur and prominent YouTuber, is the guest speaker for a technical event. He is the owner of two YouTube channels, GetsetflySCIENCE and GetsetflyFACT, and is known for his creative content creation skills. Gaurav is highly passionate about Science, Space, and technology, and despite not having an educational degree in the science stream, he has made significant contributions in the field of online education. He has established himself as a leading content creator in the industry through his dedication, hard work, and deep research. Gaurav's ability to simplify complex ideas and make them accessible to the masses has made him a trusted source of information and inspiration for millions of people around the world.`,
+  },
+  {
+    name: "Lt. Gen. (Dr.) V.K. Saxena",
+    position: "Lieutenant",
+    image_hq: "/images/guest/1.jpeg",
+    image: "/images/guest/saxena.jpeg",
+    details: `Lt. Gen. (Dr.) V.K. Saxena is a highly decorated and accomplished military officer in India, with a distinguished career spanning over four decades. He served as the Director General of the Corps of Army Air Defence, which is responsible for defending Indian airspace against enemy threats, including missiles, aircraft, and drones.
+
+    Throughout his career, General Saxena has been recognized for his exemplary service and contributions to national defense. He has been decorated three times by the President of India, receiving the Param Vishisht Seva Medal, the Ati Vishisht Seva Medal, and the Vishisht Seva Medal.
+    
+    In addition to his military career, General Saxena has also made significant contributions to defense research and policy. He is a Distinguished Fellow at the Vivekananda International Foundation, a leading Indian think tank, and a Visiting Fellow at the Centre for Land Warfare Studies. He has also held a Chair of Excellence at the United Services Institution of India.
+    
+    General Saxena is a highly educated and accomplished scholar. He holds an MPhil and PhD from the United Nations Institute for Training and Research, as well as a law degree from the National Law School of India University. He has also been recognized for his contributions to the field of electrical and telecommunications engineering, receiving an award from the Institution of Electrical and Telecommunication Engineers for his work on Low Level Light Weight Radar.
+    
+    General Saxena is a prolific writer, with five books and hundreds of articles to his name. He writes extensively on topics related to defense, including air defense, aerospace, military communication, cyber security, nuclear security, and defense procurement. He is a frequent commentator on defense issues in the Indian media, appearing regularly on television and other platforms.
+    
+    Beyond his military and academic achievements, General Saxena is also known for his commitment to the welfare of soldiers and their families. He has spearheaded a project to support the families of martyrs and disabled soldiers, providing them with financial assistance and other forms of support. This work reflects General Saxena's deep commitment to serving his country and his fellow citizens
+    `,
   },
 ];
 
-module.exports = { events, workshops, team, guest };
+const expo = [
+  // AERO EXPO
+  {
+    name: "AERO EXPO",
+    image_hq: "/images/expo/aero-expo-hq.png",
+    image: "/images/expo/aero-expo.png",
+    // about: "Beat, Defeat, Win, Repeat  ",
+    // ----------------------------------------------------------------
+    details: `Experience the Future of Flight at Aero Expo, where Aviation Technology Takes Off!
+
+The dynamic display 'Aero Expo' highlights the most recent developments in aerospace technology, including modern aircrafts, drones, helicopters and it's design & control. The expo brings together specialists from the sector, aviation enthusiasts, and the general public to explore the cutting-edge innovations that are driving the future of flight. Leading manufacturers, suppliers, and service providers in the aviation sector will be demonstrating their products and make presentations at the show.
+`,
+    timeline: [""],
+    catagory: "expo",
+  },
+  {
+    name: "AUTO EXPO",
+    image_hq: "/images/expo/auto-expo-hq.png",
+    image: "/images/expo/auto-expo.png",
+    // about: "Beat, Defeat, Win, Repeat  ",
+    // ----------------------------------------------------------------
+    details: `"Rev up your engines and join us for an exhilarating ride at the MINDBEND Automobile Expo! With 20 top-of-the-line cars and 15 sleek bikes on display, get ready to experience the future of mobility on 31st March, 1st April, and 2nd April. Don't miss this opportunity to witness the latest technology and design in the automotive industry!"`,
+    timeline: [""],
+    catagory: "expo",
+  },
+  {
+    name: "DEFENCE EXPO",
+    image_hq: "/images/expo/defence-expo-hq.png",
+    image: "/images/expo/defence-expo.png",
+    // about: "Beat, Defeat, Win, Repeat  ",
+    // ----------------------------------------------------------------
+    details: `Indian Army Motto: "Sewa Paramo Dharma"
+
+The Defense Expo 🪖has been put forward by Mindbend,
+It provides a look into the field's future. The Defense Expo is a vital forum for nations to exchange ideas, form new alliances, and create a more secure world with an emphasis on✈️ innovation, collaboration, and strategic partnerships.🫂🌍
+
+
+We will feature displays from the army, navy, and air force as well as other members of the defense industry about the newest cutting-edge tools 💣and technology.🚀
+`,
+    timeline: [""],
+    catagory: "expo",
+  },
+];
+
+module.exports = { events, workshops, team, guest, expo };

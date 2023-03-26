@@ -1,43 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-    <%- include(
-        'partials/head', 
-        {description: "MINDBEND is Gujarat's largest Techno-Managerial Fest, which is entirely organized by the SVNIT student body and serves as the perfect rocket launch-pad for all the tech-enthusiasts out there!", keywords: "MINDBEND, TECHNO-FEST, SVNIT, NIT-SURAT, NATIONAL-EVENT", 
-        style: "guest", 
-        title: "MINDBEND 2023 | guest"}); 
-    %>
-    <link rel="stylesheet" href="css/team.css">
-
+  <%- include('partials/head', {description:`MINDBEND is Gujarat's largest
+  Techno-Managerial Fest, which is entirely organized by the SVNIT student body
+  and serves as the perfect rocket launch-pad for all the tech-enthusiasts out
+  there!`, keywords: `MINDBEND, TECHNO-FEST, SVNIT, NIT-SURAT, NATIONAL-EVENT`,
+  style: `guest`, title: `MINDBEND 2023 | GUEST`, });%>
   <body>
-    <img id="bg" src="/images/bgs/team.webp" alt="" />
+    <img id="bg" src="/images/bgs/guest.jpg" alt="" />
+    <%- include(`partials/loading`)%> <%- include(`partials/nav`,
+    {appear:`appear`})%>
 
-    <%- include('partials/loading'); %>
-    <%- include('partials/nav', {appear: "appear"}); %>
-    <div class="bg-cover"></div>
     <main>
-      <div class="heading">
-        <p>guests</p>
-        <p>guests</p>
-        <p>guests</p>
-        <p>guests</p>
+      <div class="heading" id="workshop-heading">
+        <p>GUEST</p>
+        <p>GUEST</p>
+        GUEST
+        <p>GUEST</p>
+        <p>GUEST</p>
       </div>
-
-      <!-- these are guests, but using the same css and css attributes as team -->
-      <div class="commitee">
-        <h1>Guests</h1>
-        <div class="team-cards-container">
-          <% guest.forEach(function(e) { %>
-          <div class="card-container">
-            <div class="card">
-              <div class="cardBg" style="background-image: url('<%= e.photo %>')"></div>
-            </div>
+      <div class="events-container">
+        <% guest.forEach(function(e){ %>
+        <div class="card">
+          <div class="img-container">
+            <img src="<%= e.image%> " alt="" />
           </div>
-          <% }); %>
+          <div class="card-details">
+            <h2><%= e.name %></h2>
+            <p><%= e.details %></p>
+          </div>
+          <a href="/guest/<%=e.name%>" class="read-more">Read more...</a>
         </div>
+
+        <%});%>
       </div>
     </main>
-
-    <%- include('partials/footer'); %>
+    <%- include(`partials/footer`)%>
     <script src="/js/global.js"></script>
   </body>
 </html>
