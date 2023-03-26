@@ -44,6 +44,15 @@ app.get("/guest", (req, res) => {
   res.render("guest", { guest: guest });
 });
 
+app.get("/guest/:ename", (req, res) => {
+  res.render("guests", {
+    guests: guest.filter(function (e) {
+      if (e.name === req.params.ename) {
+        return e;
+      }
+    })[0],
+  });
+});
 app.get("/events", (req, res) => {
   res.render("events", { events: events });
 });
