@@ -104,8 +104,12 @@ app.post("/workshop/register", async (req, res) => {
   addRefCode(req.body.referralCode);
   data.save((err, result) => {
     if (err) throw err;
-    console.log(result);
-    if (result.fee === "FREE") {
+    console.log(result.fee);
+    if (
+      result.fee === "FREE" ||
+      result.fee === "free" ||
+      result.fee === { $regex: "FREE" }
+    ) {
       res.render("success");
     } else res.render("payment", { data: data });
   });
@@ -131,9 +135,16 @@ app.post("/events/register", async (req, res) => {
   data.save((err, result) => {
     if (err) throw err;
     console.log(result);
+    if (
+      result.fee === "FREE" ||
+      result.fee === "free" ||
+      result.fee === { $regex: "FREE" }
+    ) {
+      res.render("success");
+    } else res.render("payment", { data: data });
   });
-
-  res.render("payment", { data: data });
+  
+  // res.render("payment", { data: data });
 });
 
 app.get("/camAmb", (req, res) => {
