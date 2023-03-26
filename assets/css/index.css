@@ -568,4 +568,8 @@ main {
   .cover {
     background-size: auto !important;
   }
+  .timer {
+    width: 19rem;
+  }
+
 }

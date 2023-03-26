@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('partials/head', {description:`MINDBEND is Gujarat's largest
+  Techno-Managerial Fest, which is entirely organized by the SVNIT student body
+  and serves as the perfect rocket launch-pad for all the tech-enthusiasts out
+  there!`, keywords: `MINDBEND, TECHNO-FEST, SVNIT, NIT-SURAT, NATIONAL-EVENT`,
+  style: `workshop`, title: `MINDBEND 2023 | ${expodetails.name.toUpperCase()}`, });%>
+  <body>
+    <%- include(`partials/stars`)%> <%- include(`partials/loading`)%> <%-
+    include(`partials/nav`, {appear:"appear"})%>
+    
+    
+    <main class="workshop-main">
+        <div class="img-container">
+            <img src="<%= expodetails.image_hq%>" alt="" />
+          </div>
+          <div class="details">
+            <h1><%=expodetails.name%></h1>
+            <p class="about">ABOUT :</p>
+            <p><%=expodetails.details%></p>
+    
+            <!-- <p class="register">Registrations will start soon . . .</p> -->
+          </div>
+    </main>
+    <%- include(`partials/footer`)%>
+    <!-- <img id="snow-mountain" src="/images/extras/snow-mountain.png" alt="" /> -->
+    <script src="/js/global.js"></script>
+  </body>
+</html>

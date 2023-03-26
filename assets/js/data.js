@@ -232,7 +232,7 @@ const events = [
         Registration Fee: Catagory - 1 : 200; Catagory - 2 : 400 <br>
       </p>`,
     timeline: [""],
-    rulebook: "NA",
+    rulebook: "/docs/rulebooks/RoboWars_Rulebook.pdf",
     rules: [
       "Any  damage  caused  to  the  arena  at  any  point  of  time  will  lead  to  disqualification/penalty.",
       "A team member can’t be a part of more than one team.    ",
@@ -505,7 +505,7 @@ const events = [
         Registration Fee: Rs 300 <br>
       </p>`,
     timeline: [""],
-    rulebook: "/docs/rulebooks/mode overdrive.pdf",
+    rulebook: "/docs/rulebooks/MODE Overdrive_Rulebook.pdf",
     rules: [
       "Teams are not permitted to damage other team's car during race intentionally.",
       "Any damage to track due to car will not be tolerated. ",
@@ -832,7 +832,7 @@ const events = [
         </ul>
       `,
     timeline: [""],
-    rulebook: "NA",
+    rulebook: "/docs/rulebooks/MazeRnner_Rulebook.pdf",
     rules: [
       "Any misbehavior will lead you to disqualification from the competition.",
       "Decision Taken by Judges will be final and binding for all.",
@@ -1016,7 +1016,7 @@ const events = [
         </ul>
       `,
     timeline: [""],
-    rulebook: "/docs/rulebooks/SKY HIGH.pdf",
+    rulebook: "/docs/rulebooks/SkyHigh_Rulebook.pdf",
     rules: [
       "Any misbehavior will lead you to disqualification from the competition.",
       "Decision Taken by Judges will be final and binding for all",
@@ -1136,7 +1136,7 @@ const events = [
         </ul>
       `,
     timeline: [""],
-    rulebook: "NA",
+    rulebook: "/docs/rulebooks/Hunt_The_Line_Rulebook.pdf",
     rules: [
       "Any damage caused to the arena at any point in time will lead to disqualification /penalty.",
       "The robot has to travel only on the prescribed arena, and if the bot completely leaves the arena it will have to start from the previous checkpoint.",
@@ -2274,7 +2274,7 @@ investments and how you apply and get good returns.
       <h3> Event Platform</h3>
       <p> Online </p>`,
     timeline: [""],
-    rulebook: "/docs/rulebooks/CAD-CRACKERS.pdf",
+    rulebook: "/docs/rulebooks/CAD_Crackers_Rulebook.pdf",
     rules: [
       "For designing the models, SOLIDWORKS software is mandatory.",
       " The design must be completed in the given time restriction.",
@@ -2441,7 +2441,7 @@ investments and how you apply and get good returns.
         Registration Fee: Rs 70 <br>
       </p>`,
     timeline: [""],
-    rulebook: "NA",
+    rulebook: "/docs/rulebooks/Structure_For_Future_Rulebook.pdf",
     rules: [
       "Bring your college/student I-Card at the time of the competition.",
       "Decisions taken by Judges will be final and binding for all. ",
@@ -2571,7 +2571,7 @@ investments and how you apply and get good returns.
         </ul>
       `,
     timeline: [""],
-    rulebook: "/docs/rulebooks/CAT-A-PULT.pdf",
+    rulebook: "/docs/rulebooks/Cat-A-Pult_Rulebook.pdf",
     rules: [
       "Flammable substances like gunpowder, etc., cannot be used.",
       "Size of the object to be thrown: Lightweight ball of table-tennis ball’s size",
@@ -2680,7 +2680,7 @@ investments and how you apply and get good returns.
         </ul>
       `,
     timeline: [""],
-    rulebook: "/docs/rulebooks/Chem-E-Car.pdf",
+    rulebook: "/docs/rulebooks/Chem-E-Car_Rulebook.pdf",
     rules: [
       "Bring your college/student I-Card at the time of competition.",
       "Decision Taken by Judges will be final and binding for all.",
@@ -2807,7 +2807,7 @@ investments and how you apply and get good returns.
         </ul>`,
 
     timeline: [""],
-    rulebook: "/docs/rulebooks/game of bots.pdf",
+    rulebook: "/docs/rulebooks/GameOfBots_RULEBOOK.pdf",
     rules: [
       "Decision Taken by Judges will be final and binding for all",
       "All decisions taken by the organizing team will be deemed final, and no more changes will be encouraged.",
@@ -3378,7 +3378,7 @@ investments and how you apply and get good returns.
     </ul>
   `,
     timeline: [],
-    rulebook: "/docs/rulebooks/chem-e-jeopardy.pdf",
+    rulebook: "/docs/rulebooks/Chem-E-Jeopardy_Rulebook.pdf",
     rules: [
       "The team should respond to the clue in the question format. For example, the clue is “Where is Taj Mahal?”. The answer should not be given Agra directly rather than this it should be given in the format “Where is Agra?” ",
       "Negative marking for response not submitted in question format along with deduction of clue’s value. ",
@@ -3657,7 +3657,7 @@ investments and how you apply and get good returns.
     </ul>
   `,
     timeline: [],
-    rulebook: "NA",
+    rulebook: "/docs/rulebooks/Connectify_Rulebook.pdf",
     rules: [
       "Bring your college/student I-Card at the time of the competition. ",
       "Decisions taken by Judges will be final and binding for all. ",
@@ -3951,7 +3951,7 @@ competition's stipulated limits.
       </ul>
     `,
     timeline: [],
-    rulebook: "/docs/rulebooks/Drone Zone.pdf",
+    rulebook: "/docs/rulebooks/Drone_Zone_Rulebook.pdf",
     rules: [
       "Any violation of constraints will result in disqualification of the team.",
       "Decisions Taken by Judges will be final and binding for all.",
@@ -4448,17 +4448,60 @@ const guest = [
   {
     name: "Jatin Dalal",
     position: "CFO Wipro",
-    photo: "/images/guest/dalal2.png",
+    image_hq: "/images/guest/2.jpeg",
+    image: "/images/guest/jatin.jpeg",
+
+    details: `Jatin Dalal is a prominent Indian business executive who is widely known for his role as the President and Chief Financial Officer (CFO) of Wipro Limited, one of the leading IT services companies in India. He was born and raised in India and received his education from the Sardar Vallabhbhai National Institute of Technology (SVNIT), where he obtained his Bachelor's degree in Mechanical Engineering.
+
+    After completing his undergraduate studies, Jatin Dalal began his career at General Electric (GE), one of the world's largest multinational conglomerates. He was selected for GE's prestigious Financial Management Program (FMP), which is designed to groom young professionals for leadership roles in finance and accounting. During his time at GE, he was recognized with the 'Global Corporate Honors' award for his outstanding performance and leadership skills.
+    
+    Jatin Dalal later joined Wipro Limited, where he has held several positions within the company's finance department over the years. He was instrumental in establishing the company's Investor Relations (IR) department, which has been recognized as the best in India by institutional investors. Under his leadership, Wipro's finance department has grown in stature and has been recognized as a key contributor to the company's success.
+    
+    As the President and CFO of Wipro, Jatin Dalal is responsible for managing the company's financial strategy and operations, including accounting, financial reporting, tax, treasury, investor relations, and M&A activities. He has played a key role in driving the company's growth and profitability and has been recognized for his contributions to the company's success.
+    
+    In addition to his role at Wipro, Jatin Dalal is also a member of the New York Stock Exchange's Listed Company Advisory Board, where he provides strategic guidance and insights to other companies listed on the exchange. He is widely regarded as one of the most influential and respected business leaders in India, and is known for his strategic thinking, financial acumen, and leadership skills. His inspiring journey from an engineering graduate to a top executive in the Indian IT industry serves as a testament to his hard work, dedication, and commitment to excellence.
+    `,
   },
   {
     name: "Himesh Madaan",
     position: "Famous Youtuber",
-    photo: "/images/guest/madaan2.png",
+    image_hq: "/images/guest/3.jpeg",
+    image: "/images/guest/himesh.jpeg",
+    details: `Himeesh Madaan is a motivational speaker, entrepreneur, performance coach, and writer. He is on a mission to help people unleash their true potential.
+
+    He founded Seekhega India in 2019, intending to empower people with skills that the world requires, values, and returns handsomely and build their dream life.
+    
+    He have been rewarded with Nelson Mandela Noble Peace Award 2021 and Honorary Doctorate Degree.
+    
+    More than 100 million people have been able to improve their lives through his videos, training programs, and books.
+    
+    There are 6 million people who found his videos either valuable or entertaining. We hope you are one of them. His YouTube channel hits 15 million monthly views and getting watched in more than 165+ countries.
+    `,
   },
   {
-    name: "Rashmi Robot",
-    position: "Humanoid Robot",
-    photo: "/images/guest/rashmi2.png",
+    name: "Gaurav Thakur",
+    position: "Famous Youtuber",
+    image_hq: "/images/guest/4.jpeg",
+    image: "/images/guest/gaurav_thakur.jpeg",
+    details: `Gaurav Thakur, an accomplished entrepreneur and prominent YouTuber, is the guest speaker for a technical event. He is the owner of two YouTube channels, GetsetflySCIENCE and GetsetflyFACT, and is known for his creative content creation skills. Gaurav is highly passionate about Science, Space, and technology, and despite not having an educational degree in the science stream, he has made significant contributions in the field of online education. He has established himself as a leading content creator in the industry through his dedication, hard work, and deep research. Gaurav's ability to simplify complex ideas and make them accessible to the masses has made him a trusted source of information and inspiration for millions of people around the world.`,
+  },
+  {
+    name: "Lt. Gen. (Dr.) V.K. Saxena",
+    position: "Lieutenant",
+    image_hq: "/images/guest/1.jpeg",
+    image: "/images/guest/saxena.jpeg",
+    details: `Lt. Gen. (Dr.) V.K. Saxena is a highly decorated and accomplished military officer in India, with a distinguished career spanning over four decades. He served as the Director General of the Corps of Army Air Defence, which is responsible for defending Indian airspace against enemy threats, including missiles, aircraft, and drones.
+
+    Throughout his career, General Saxena has been recognized for his exemplary service and contributions to national defense. He has been decorated three times by the President of India, receiving the Param Vishisht Seva Medal, the Ati Vishisht Seva Medal, and the Vishisht Seva Medal.
+    
+    In addition to his military career, General Saxena has also made significant contributions to defense research and policy. He is a Distinguished Fellow at the Vivekananda International Foundation, a leading Indian think tank, and a Visiting Fellow at the Centre for Land Warfare Studies. He has also held a Chair of Excellence at the United Services Institution of India.
+    
+    General Saxena is a highly educated and accomplished scholar. He holds an MPhil and PhD from the United Nations Institute for Training and Research, as well as a law degree from the National Law School of India University. He has also been recognized for his contributions to the field of electrical and telecommunications engineering, receiving an award from the Institution of Electrical and Telecommunication Engineers for his work on Low Level Light Weight Radar.
+    
+    General Saxena is a prolific writer, with five books and hundreds of articles to his name. He writes extensively on topics related to defense, including air defense, aerospace, military communication, cyber security, nuclear security, and defense procurement. He is a frequent commentator on defense issues in the Indian media, appearing regularly on television and other platforms.
+    
+    Beyond his military and academic achievements, General Saxena is also known for his commitment to the welfare of soldiers and their families. He has spearheaded a project to support the families of martyrs and disabled soldiers, providing them with financial assistance and other forms of support. This work reflects General Saxena's deep commitment to serving his country and his fellow citizens
+    `,
   },
 ];
 
@@ -4470,7 +4513,10 @@ const expo = [
     image: "/images/expo/aero-expo.png",
     // about: "Beat, Defeat, Win, Repeat  ",
     // ----------------------------------------------------------------
-    details: ``,
+    details: `Experience the Future of Flight at Aero Expo, where Aviation Technology Takes Off!
+
+The dynamic display 'Aero Expo' highlights the most recent developments in aerospace technology, including modern aircrafts, drones, helicopters and it's design & control. The expo brings together specialists from the sector, aviation enthusiasts, and the general public to explore the cutting-edge innovations that are driving the future of flight. Leading manufacturers, suppliers, and service providers in the aviation sector will be demonstrating their products and make presentations at the show.
+`,
     timeline: [""],
     catagory: "expo",
   },
@@ -4480,17 +4526,24 @@ const expo = [
     image: "/images/expo/auto-expo.png",
     // about: "Beat, Defeat, Win, Repeat  ",
     // ----------------------------------------------------------------
-    details: ``,
+    details: `"Rev up your engines and join us for an exhilarating ride at the MINDBEND Automobile Expo! With 20 top-of-the-line cars and 15 sleek bikes on display, get ready to experience the future of mobility on 31st March, 1st April, and 2nd April. Don't miss this opportunity to witness the latest technology and design in the automotive industry!"`,
     timeline: [""],
     catagory: "expo",
   },
   {
-    name: "START-UP EXPO",
-    image_hq: "/images/expo/auto-expo-hq.png",
-    image: "/images/expo/auto-expo.png",
+    name: "DEFENCE EXPO",
+    image_hq: "/images/expo/defence-expo-hq.png",
+    image: "/images/expo/defence-expo.png",
     // about: "Beat, Defeat, Win, Repeat  ",
     // ----------------------------------------------------------------
-    details: ``,
+    details: `Indian Army Motto: "Sewa Paramo Dharma"
+
+The Defense Expo 🪖has been put forward by Mindbend,
+It provides a look into the field's future. The Defense Expo is a vital forum for nations to exchange ideas, form new alliances, and create a more secure world with an emphasis on✈️ innovation, collaboration, and strategic partnerships.🫂🌍
+
+
+We will feature displays from the army, navy, and air force as well as other members of the defense industry about the newest cutting-edge tools 💣and technology.🚀
+`,
     timeline: [""],
     catagory: "expo",
   },
