@@ -39,7 +39,7 @@ app.use(express.static("assets"));
 app.get("/", (req, res) => {
   res.render("index");
 });
-// guest detail fetch from data.js and send it to guests.ejs 
+// guest detail fetch from data.js and send it to guests.ejs
 
 app.get("/guest", (req, res) => {
   res.render("guest", { guest: guest });
@@ -83,6 +83,31 @@ app.get("/workshops/:wname", (req, res) => {
         return e;
       }
     })[0],
+  });
+});
+app.post("/workshop/register", async (req, res) => {
+  console.log("evenet registration route");
+  console.log(req.body);
+  const data = new formData({
+    eventName: req.body.event,
+    name: req.body.name,
+    email: req.body.email,
+    phoneNo: req.body.phoneNo,
+    svnitian: req.body.svnitian === "true" ? true : false,
+    rollNo: req.body.rollNo,
+    college: req.body.college,
+    fee: req.body.fee,
+    upiId: req.body.upi,
+    branch: req.body.branch,
+    year: req.body.year,
+  });
+  addRefCode(req.body.referralCode);
+  data.save((err, result) => {
+    if (err) throw err;
+    console.log(result);
+    if (result.fee === "FREE") {
+      res.render("success");
+    } else res.render("payment", { data: data });
   });
 });
 
@@ -182,13 +207,13 @@ app.get("/expos", (req, res) => {
   res.render("expos", { expos: expo });
 });
 
-app.get("/startup", (req, res) => {//
+app.get("/startup", (req, res) => {
+  //
   res.render("expo");
 });
 
 app.get("/expos/:ename", (req, res) => {
   res.render("expodetails", {
-    
     expodetails: expo.filter(function (e) {
       if (e.name === req.params.ename) {
         return e;
@@ -211,27 +236,17 @@ app.post("/startup/register", async (req, res) => {
     market: req.body.market,
     fundstatus: req.body.fundstatus,
     teamsize: req.body.teamsize,
-  }
-  
-  
-  
-  
-  
-  )
-  .save(
-    (err, result) => {
-      if (err) throw err;
-      console.log(result);
-      res.redirect("/success");
-    }
-  )
-  ;
+  }).save((err, result) => {
+    if (err) throw err;
+    console.log(result);
+    res.redirect("/success");
+  });
 });
 
 //accomodation route
 
 app.get("/accomodation", (req, res) => {
-res.render("accomodation");
+  res.render("accomodation");
 });
 
 // Campus ambassador router
