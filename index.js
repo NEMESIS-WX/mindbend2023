@@ -134,7 +134,7 @@ app.post("/events/register", async (req, res) => {
 
   data.save((err, result) => {
     if (err) throw err;
-    console.log(result);
+    console.log(result.fee);
     if (
       result.fee === "FREE" ||
       result.fee === "free" ||
@@ -143,7 +143,7 @@ app.post("/events/register", async (req, res) => {
       res.render("success");
     } else res.render("payment", { data: data });
   });
-  
+
   // res.render("payment", { data: data });
 });
 
