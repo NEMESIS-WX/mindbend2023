@@ -1,5 +1,6 @@
 const express = require("express");
 const app = express();
+const bodyparser = require("body-parser");
 const mongoose = require("mongoose");
 const cp = require("cookie-parser");
 const multer = require("multer");
@@ -13,8 +14,9 @@ const ExpoData = require("./schemas/expo.js");
 const { addRefCode, createDb2Connection } = require("./schemas/referral.js");
 
 app.set("view engine", "ejs");
+app.use(bodyparser.json({ limit: "50mb" }));
 app.use(
-  express.urlencoded({
+  bodyparser.urlencoded({
     extended: true,
     parameterLimit: 1000000,
     limit: "500mb",
