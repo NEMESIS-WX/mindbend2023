@@ -230,10 +230,10 @@ const events = [
         Registration Details
       </h3>
       <p>
-        Registration Fee: Rs 500 <br>
+        Registration Fee: Catagory - 1 : 200; Catagory - 2 : 400 <br>
       </p>`,
     timeline: [""],
-    rulebook: "NA",
+    rulebook: "/docs/rulebooks/RoboWars_Rulebook.pdf",
     rules: [
       "Any  damage  caused  to  the  arena  at  any  point  of  time  will  lead  to  disqualification/penalty.",
       "A team member can’t be a part of more than one team.    ",
@@ -334,7 +334,7 @@ const events = [
           Team Specification
         </h3>
         <p>
-          Upto 3 members.
+          Only 1 member.
         </p>
         <h3>
           Registration Details
@@ -348,7 +348,7 @@ const events = [
       </ul>`,
 
     timeline: ["DATE : 01/04/2023  ", "TIME : 2:30PM ONWARDS"],
-    rulebook: "NA",
+    rulebook: "/docs/rulebooks/Model_United_ Nations_Rulebook",
     rules: [
       `
       All participants are supposed to follow the rules and game flow as decided by Mindbend'23 team
@@ -505,10 +505,10 @@ const events = [
         Registration Details
       </h3>
       <p>
-        Registration Fee: Rs 500 <br>
+        Registration Fee: Rs 300 <br>
       </p>`,
     timeline: [""],
-    rulebook: "/docs/rulebooks/mode overdrive.pdf",
+    rulebook: "/docs/rulebooks/MODE Overdrive_Rulebook.pdf",
     rules: [
       "Teams are not permitted to damage other team's car during race intentionally.",
       "Any damage to track due to car will not be tolerated. ",
@@ -696,7 +696,7 @@ const events = [
           REGISTRATION DETAILS
         </h2>
         <p>
-          Fee: Rs 400 <br>
+          Fee: Rs 80 <br>
         </p>
       </ul>
     `,
@@ -832,12 +832,12 @@ const events = [
             REGISTRATION DETAILS
           </h2>
           <p>
-            Fee: Rs 200 <br>
+            Fee: Rs 100 <br>
           </p>
         </ul>
       `,
     timeline: [""],
-    rulebook: "NA",
+    rulebook: "/docs/rulebooks/MazeRnner_Rulebook.pdf",
     rules: [
       "Any misbehavior will lead you to disqualification from the competition.",
       "Decision Taken by Judges will be final and binding for all.",
@@ -1022,7 +1022,7 @@ const events = [
         </ul>
       `,
     timeline: [""],
-    rulebook: "/docs/rulebooks/SKY HIGH.pdf",
+    rulebook: "/docs/rulebooks/SkyHigh_Rulebook.pdf",
     rules: [
       "Any misbehavior will lead you to disqualification from the competition.",
       "Decision Taken by Judges will be final and binding for all",
@@ -1138,12 +1138,12 @@ const events = [
             REGISTRATION DETAILS
           </h2>
           <p>
-            Fee: Rs 200 <br>
+            Fee: Rs 100 <br>
           </p>
         </ul>
       `,
     timeline: [""],
-    rulebook: "NA",
+    rulebook: "/docs/rulebooks/Hunt_The_Line_Rulebook.pdf",
     rules: [
       "Any damage caused to the arena at any point in time will lead to disqualification /penalty.",
       "The robot has to travel only on the prescribed arena, and if the bot completely leaves the arena it will have to start from the previous checkpoint.",
@@ -1249,7 +1249,7 @@ const events = [
             REGISTRATION DETAILS
           </h2>
           <p>
-            Fee: Rs 150 <br>
+            Fee: Rs 50 <br>
           </p>
         </ul>
       `,
@@ -1360,7 +1360,7 @@ const events = [
       </ul>`,
 
     timeline: ["DATE : 31/03/2023  ", "TIME : 2:30PM ONWARDS"],
-    rulebook: "/docs/rulebooks/datal street.pdf",
+    rulebook: "/docs/rulebooks/Dalal_Street-1992_Rulebook.pdf",
     rules: [
       `
       All participants are supposed to follow the rules and game flow as decided by Mindbend'23 team members. 
@@ -1456,7 +1456,7 @@ const events = [
       </ul>`,
 
     timeline: ["DATE : 0  1/04/2023  ", "TIME : 2:30PM - 6:00PM"],
-    rulebook: "/docs/rulebooks/Vending Master.pdf",
+    rulebook: "/docs/rulebooks/Vending_Masters_Rulebook.pdf",
     rules: [
       `
       All participants are supposed to follow the rules and game flow as decided by Mindbend'23 team members. 
@@ -1556,7 +1556,7 @@ const events = [
       </ul>`,
 
     timeline: ["DATE : 31/03/2023  ", "TIME : 2:30PM - 6:00PM"],
-    rulebook: "/docs/rulebooks/Hustle trade.pdf",
+    rulebook: "/docs/rulebooks/Hustle_Trade_Rulebook.pdf",
     rules: [
       `
       All participants are supposed to follow the rules and game flow as decided by Mindbend'23 team members. 
@@ -1658,7 +1658,7 @@ const events = [
       </ul>`,
 
     timeline: ["DATE : 02/04/2023  ", "TIME : 2:30PM - 6:00PM"],
-    rulebook: "/docs/rulebooks/Create Your Indentity.pdf",
+    rulebook: "/docs/rulebooks/Create_Your_Indentity_Rulebook.pdf",
     rules: [
       `
       All participants are supposed to follow the rules and game flow as decided by Mindbend'23 team members. 
@@ -1751,7 +1751,7 @@ const events = [
           Team Specification
         </h3>
         <p>
-          Upto 3 members.
+        Upto 3 members.
         </p>
         <h3>
           Registration Details
@@ -1763,7 +1763,7 @@ const events = [
       </ul>
     `,
     timeline: ["DATE : 02/04/2023  ", "TIME : 10:00AM - 2:00PM"],
-    rulebook: "/docs/rulebooks/Bluffs and Bargains.pdf",
+    rulebook: "/docs/rulebooks/Bluffs_And_Bargains_Rulebook.pdf",
     rules: [
       `
     All participants are supposed to follow the rules and game flow as decided by Mindbend'23 team members. 
@@ -1861,7 +1861,7 @@ const events = [
 
   </ul>`,
     timeline: ["DATE : 31/03/2023  ", "TIME : 09:00AM - 2:00PM"],
-    rulebook: "/docs/rulebooks/Trend your brand.pdf",
+    rulebook: "/docs/rulebooks/Trend_Your_Brand_Rulebook.pdf",
     rules: [
       `
     All participants are supposed to follow the rules and game flow as decided by Mindbend'23 team members. 
@@ -1964,7 +1964,7 @@ investments and how you apply and get good returns.
 
   </ul>`,
     timeline: ["DATE : 31/03/2023  ", "TIME : 11:00AM - 2:30PM"],
-    rulebook: "/docs/rulebooks/Investomania.pdf",
+    rulebook: "/docs/rulebooks/Investomania_Rulebook.pdf",
     rules: [
       `
     All participants are supposed to follow the rules and game flow as decided by Mindbend'23 team members. 
@@ -2059,7 +2059,7 @@ investments and how you apply and get good returns.
 
   </ul>`,
     timeline: ["DATE : 01/04/2023  ", "TIME : 10:00AM - 2:00PM"],
-    rulebook: "/docs/rulebooks/The Jewel of jumanji.pdf",
+    rulebook: "/docs/rulebooks/Jewel_Of_Jumanji_Rulebook.pdf",
     rules: [
       `
     All participants are supposed to follow the rules and game flow as decided by Mindbend'23 team members. 
@@ -2166,7 +2166,7 @@ investments and how you apply and get good returns.
 
   </ul>`,
     timeline: ["DATE : 01/04/2023  ", "TIME : 09:00AM - 1:00PM"],
-    rulebook: "/docs/rulebooks/Can you be the president.pdf",
+    rulebook: "/docs/rulebooks/Can_You_Be_The_President_Rulebook.pdf",
     rules: [
       `
     All participants are supposed to follow the rules and game flow as decided by Mindbend'23 team members. 
@@ -2292,7 +2292,7 @@ investments and how you apply and get good returns.
       <h3> Event Platform</h3>
       <p> Online </p>`,
     timeline: [""],
-    rulebook: "/docs/rulebooks/CAD-CRACKERS.pdf",
+    rulebook: "/docs/rulebooks/CAD_Crackers_Rulebook.pdf",
     rules: [
       "For designing the models, SOLIDWORKS software is mandatory.",
       " The design must be completed in the given time restriction.",
@@ -2457,10 +2457,10 @@ investments and how you apply and get good returns.
         Registration Details
       </h3>
       <p>
-        Registration Fee: Rs 50 <br>
+        Registration Fee: Rs 70 <br>
       </p>`,
     timeline: [""],
-    rulebook: "NA",
+    rulebook: "/docs/rulebooks/Structure_For_Future_Rulebook.pdf",
     rules: [
       "Bring your college/student I-Card at the time of the competition.",
       "Decisions taken by Judges will be final and binding for all. ",
@@ -2586,12 +2586,12 @@ investments and how you apply and get good returns.
             REGISTRATION DETAILS
           </h2>
           <p>
-            Fee: Rs 50 <br>
+            Fee: Rs 80 <br>
           </p>
         </ul>
       `,
     timeline: [""],
-    rulebook: "/docs/rulebooks/CAT-A-PULT.pdf",
+    rulebook: "/docs/rulebooks/Cat-A-Pult_Rulebook.pdf",
     rules: [
       "Flammable substances like gunpowder, etc., cannot be used.",
       "Size of the object to be thrown: Lightweight ball of table-tennis ball’s size",
@@ -2696,12 +2696,12 @@ investments and how you apply and get good returns.
             REGISTRATION DETAILS
           </h2>
           <p>
-            Fee: Rs 100 <br>
+            Fee: Rs 200 <br>
           </p>
         </ul>
       `,
     timeline: [""],
-    rulebook: "/docs/rulebooks/Chem-E-Car.pdf",
+    rulebook: "/docs/rulebooks/Chem-E-Car_Rulebook.pdf",
     rules: [
       "Bring your college/student I-Card at the time of competition.",
       "Decision Taken by Judges will be final and binding for all.",
@@ -2821,7 +2821,7 @@ investments and how you apply and get good returns.
             Registration Details
           </h3>
           <p>
-            Registration Fee: Rs 30
+            Registration Fee: Rs 70
           </p>
           <p>
             Registration details will be announced soon.
@@ -2829,7 +2829,7 @@ investments and how you apply and get good returns.
         </ul>`,
 
     timeline: [""],
-    rulebook: "/docs/rulebooks/game of bots.pdf",
+    rulebook: "/docs/rulebooks/GameOfBots_RULEBOOK.pdf",
     rules: [
       "Decision Taken by Judges will be final and binding for all",
       "All decisions taken by the organizing team will be deemed final, and no more changes will be encouraged.",
@@ -2952,7 +2952,7 @@ investments and how you apply and get good returns.
           REGISTRATION DETAILS
         </h2>
         <p>
-          Fee: Rs 30 <br>
+          Fee: Rs 80 <br>
         </p>
       </ul>
     `,
@@ -3098,7 +3098,7 @@ investments and how you apply and get good returns.
       </ul>
     `,
     timeline: [],
-    rulebook: "NA",
+    rulebook: "/docs/rulebooks/BALANCE IT Rulebook 2023.pdf",
     rules: [
       "Bot must be autonomous detecting the white and black track. ",
       "Width of bot should be around 60-70 cm (as width of track = 80-90 cm",
@@ -3399,12 +3399,12 @@ investments and how you apply and get good returns.
         REGISTRATION DETAILS
       </h2>
       <p>
-        Fee: Rs 50 <br>
+        Fee: Rs 30 <br>
       </p>
     </ul>
   `,
     timeline: [],
-    rulebook: "/docs/rulebooks/chem-e-jeopardy.pdf",
+    rulebook: "/docs/rulebooks/Chem-E-Jeopardy_Rulebook.pdf",
     rules: [
       "The team should respond to the clue in the question format. For example, the clue is “Where is Taj Mahal?”. The answer should not be given Agra directly rather than this it should be given in the format “Where is Agra?” ",
       "Negative marking for response not submitted in question format along with deduction of clue’s value. ",
@@ -3551,7 +3551,7 @@ investments and how you apply and get good returns.
         REGISTRATION DETAILS
       </h2>
       <p>
-        Fee: Rs 30 <br>
+        Fee: Rs 50 <br>
       </p>
     </ul>
   `,
@@ -3685,7 +3685,7 @@ investments and how you apply and get good returns.
     </ul>
   `,
     timeline: [],
-    rulebook: "NA",
+    rulebook: "/docs/rulebooks/Connectify_Rulebook.pdf",
     rules: [
       "Bring your college/student I-Card at the time of the competition. ",
       "Decisions taken by Judges will be final and binding for all. ",
@@ -3835,7 +3835,7 @@ investments and how you apply and get good returns.
         REGISTRATION DETAILS
       </h2>
       <p>
-        Fee: Rs 50 <br>
+        Fee: Rs 100 <br>
       </p>
     </ul>
   `,
@@ -3884,7 +3884,7 @@ investments and how you apply and get good returns.
   },
   //DRONE ZONE
   {
-    name: "DONE ZONE",
+    name: "DRONE ZONE",
     image: "/images/events/DRONE _ JYOTI.png",
     image_hq: "/images/events/hq/DRONE _ JYOTI.png",
     status: "open",
@@ -3981,7 +3981,7 @@ competition's stipulated limits.
       </ul>
     `,
     timeline: [],
-    rulebook: "/docs/rulebooks/Drone Zone.pdf",
+    rulebook: "/docs/rulebooks/Drone_Zone_Rulebook.pdf",
     rules: [
       "Any violation of constraints will result in disqualification of the team.",
       "Decisions Taken by Judges will be final and binding for all.",
@@ -4026,14 +4026,13 @@ competition's stipulated limits.
 
 const workshops = [
   {
-    name: "Web 3.0",
+    name: "Auto Cad",
     fee: "FREE",
     image_hq: "/images/workshops/hq/Web_3.png",
     status: "open",
     image: "/images/workshops/Web_3.png",
 
-    details: `What is Web 3.0? and all the recent advancements made in web 3.0. 
-    Web 3.0 is the new and upcoming iteration of the world wide web, a public network built on distributed ledger technology and a semantic architecture to enable decentralization, personalization, immersiveness, and a token-driven economy`,
+    details: `Auto Cad workshop aims to provide hands-on experience and practical skills in using AutoCAD, a popular computer-aided design software. Whether you're a student, professional, or simply interested in learning more about this powerful tool, this workshop is the perfect opportunity to enhance your skills and knowledge.`,
   },
   {
     name: "Rocket Building",
@@ -4045,45 +4044,13 @@ const workshops = [
       The workshop will provide students with an opportunity to develop engineering design skills through direct application in high-powered rocketry.`,
   },
   {
-    name: "Xtended Reality Workshop",
+    name: "Xtended Reality",
     fee: "Rs 30",
     image_hq: "/images/workshops/hq/Xtended Reality.png",
     status: "open",
     image: "/images/workshops/Xtended Reality.png",
-    details: `Are you interested in learning about the exciting worlds of augmented reality (AR), virtual reality (VR), mixed reality (MR), and extended reality (XR)? With the Metaverse coming, would you like to learn how this cutting-edge technology has the huge potential to alter the reality that we live in or you still believe that these technologies are merely for game development ? Would you like to unleash its true power and understand that how these can be integrated with the current industries and even using these to address wider problems of climate change or sustainable development ! Want to know what developments and efforts are taking place to create, build and scale the same? If you want to become the part of this revolution, the " Xtended Reality " workshop is the perfect venue for you!
-
-    Cutting Edge Visionaries in collaboration with TechXR, brings the first ever Extended reality workshop at SVNIT, in one of the largest technical fest of Gujarat, Mindbend! 
-    
-    TechXR is an award-winning startup based out of Bhopal and Gurugram, working on providing hardware and software solutions in AR-VR learning and content generation field. They have also been awarded " All India Top 12 innovations " by the Department of Telecom, Govt of India in the 5G hackathon, for designing their own unique SenseXR 6 DoF Controller. 
-     
-    This workshop has been designed to provide a comprehensive introduction to this technology and equip you with an arsenal of skills and knowledge needed to be future ready.
-    <br>
-    <br>
-    Phase I : Introduction to eXtended Reality and live projects demonstration.
-    <br>
-    Phase II : Creating your own VR World and              AR experience, using the SenseXR 6 DoF Controller.
-    <br>
-    Phase III : Visiting the VR Defence Museum.
-    <br>
-    <br>
-    
-    The Xtended Reality Workshop is the perfect opportunity for individuals interested in XR technologies and how can you roll them into the current industry to change and scale the way the world works! This workshop will provide you with the knowledge and skills required to excel in the world of XR development and using this knowledge to keep up with the tech for future. Don't miss out on this incredible opportunity and register for the Xtended Reality Workshop today!
-    <br>
-    <br>
-    
-    Registration link : <a href="https://mindbendsvnit.in/workshops/Metaverse">https://mindbendsvnit.in/workshops/Metaverse </a>
-    <br>
-    
-    Date : 1st April, 2023
-    <br>
-    
-    Time : 4pm
-    <br>
-    
-    Venue : CS Department, Seminar hall, 4th floor
-    <br>
-    
-    Requirements : Fully charged laptop. And bring your chargers as well.`,
+    details: `A workshop on exploring Metaverse through VR headsets.
+      Metaverse is a virtual space that allows users to work , interact and connect with each other outside real world. Metaverse uses blockchain, virtual reality and augmented reality to give life to virtual environment.`,
   },
   {
     name: "Data Science",
@@ -4539,18 +4506,112 @@ const guest = [
   {
     name: "Jatin Dalal",
     position: "CFO Wipro",
-    photo: "/images/guest/dalal2.png",
+    image_hq: "/images/guest/2.jpeg",
+    status: "open",
+    image: "/images/guest/jatin.jpeg",
+
+    details: `Jatin Dalal is a prominent Indian business executive who is widely known for his role as the President and Chief Financial Officer (CFO) of Wipro Limited, one of the leading IT services companies in India. He was born and raised in India and received his education from the Sardar Vallabhbhai National Institute of Technology (SVNIT), where he obtained his Bachelor's degree in Mechanical Engineering.
+
+    After completing his undergraduate studies, Jatin Dalal began his career at General Electric (GE), one of the world's largest multinational conglomerates. He was selected for GE's prestigious Financial Management Program (FMP), which is designed to groom young professionals for leadership roles in finance and accounting. During his time at GE, he was recognized with the 'Global Corporate Honors' award for his outstanding performance and leadership skills.
+    
+    Jatin Dalal later joined Wipro Limited, where he has held several positions within the company's finance department over the years. He was instrumental in establishing the company's Investor Relations (IR) department, which has been recognized as the best in India by institutional investors. Under his leadership, Wipro's finance department has grown in stature and has been recognized as a key contributor to the company's success.
+    
+    As the President and CFO of Wipro, Jatin Dalal is responsible for managing the company's financial strategy and operations, including accounting, financial reporting, tax, treasury, investor relations, and M&A activities. He has played a key role in driving the company's growth and profitability and has been recognized for his contributions to the company's success.
+    
+    In addition to his role at Wipro, Jatin Dalal is also a member of the New York Stock Exchange's Listed Company Advisory Board, where he provides strategic guidance and insights to other companies listed on the exchange. He is widely regarded as one of the most influential and respected business leaders in India, and is known for his strategic thinking, financial acumen, and leadership skills. His inspiring journey from an engineering graduate to a top executive in the Indian IT industry serves as a testament to his hard work, dedication, and commitment to excellence.
+    `,
   },
   {
     name: "Himesh Madaan",
     position: "Famous Youtuber",
-    photo: "/images/guest/madaan2.png",
+    image_hq: "/images/guest/3.jpeg",
+    status: "open",
+    image: "/images/guest/himesh.jpeg",
+    details: `Himeesh Madaan is a motivational speaker, entrepreneur, performance coach, and writer. He is on a mission to help people unleash their true potential.
+
+    He founded Seekhega India in 2019, intending to empower people with skills that the world requires, values, and returns handsomely and build their dream life.
+    
+    He have been rewarded with Nelson Mandela Noble Peace Award 2021 and Honorary Doctorate Degree.
+    
+    More than 100 million people have been able to improve their lives through his videos, training programs, and books.
+    
+    There are 6 million people who found his videos either valuable or entertaining. We hope you are one of them. His YouTube channel hits 15 million monthly views and getting watched in more than 165+ countries.
+    `,
   },
   {
-    name: "Rashmi Robot",
-    position: "Humanoid Robot",
-    photo: "/images/guest/rashmi2.png",
+    name: "Gaurav Thakur",
+    position: "Famous Youtuber",
+    image_hq: "/images/guest/4.jpeg",
+    status: "open",
+    image: "/images/guest/gaurav_thakur.jpeg",
+    details: `Gaurav Thakur, an accomplished entrepreneur and prominent YouTuber, is the guest speaker for a technical event. He is the owner of two YouTube channels, GetsetflySCIENCE and GetsetflyFACT, and is known for his creative content creation skills. Gaurav is highly passionate about Science, Space, and technology, and despite not having an educational degree in the science stream, he has made significant contributions in the field of online education. He has established himself as a leading content creator in the industry through his dedication, hard work, and deep research. Gaurav's ability to simplify complex ideas and make them accessible to the masses has made him a trusted source of information and inspiration for millions of people around the world.`,
+  },
+  {
+    name: "Lt. Gen. (Dr.) V.K. Saxena",
+    position: "Lieutenant",
+    image_hq: "/images/guest/1.jpeg",
+    status: "open",
+    image: "/images/guest/saxena.jpeg",
+    details: `Lt. Gen. (Dr.) V.K. Saxena is a highly decorated and accomplished military officer in India, with a distinguished career spanning over four decades. He served as the Director General of the Corps of Army Air Defence, which is responsible for defending Indian airspace against enemy threats, including missiles, aircraft, and drones.
+
+    Throughout his career, General Saxena has been recognized for his exemplary service and contributions to national defense. He has been decorated three times by the President of India, receiving the Param Vishisht Seva Medal, the Ati Vishisht Seva Medal, and the Vishisht Seva Medal.
+    
+    In addition to his military career, General Saxena has also made significant contributions to defense research and policy. He is a Distinguished Fellow at the Vivekananda International Foundation, a leading Indian think tank, and a Visiting Fellow at the Centre for Land Warfare Studies. He has also held a Chair of Excellence at the United Services Institution of India.
+    
+    General Saxena is a highly educated and accomplished scholar. He holds an MPhil and PhD from the United Nations Institute for Training and Research, as well as a law degree from the National Law School of India University. He has also been recognized for his contributions to the field of electrical and telecommunications engineering, receiving an award from the Institution of Electrical and Telecommunication Engineers for his work on Low Level Light Weight Radar.
+    
+    General Saxena is a prolific writer, with five books and hundreds of articles to his name. He writes extensively on topics related to defense, including air defense, aerospace, military communication, cyber security, nuclear security, and defense procurement. He is a frequent commentator on defense issues in the Indian media, appearing regularly on television and other platforms.
+    
+    Beyond his military and academic achievements, General Saxena is also known for his commitment to the welfare of soldiers and their families. He has spearheaded a project to support the families of martyrs and disabled soldiers, providing them with financial assistance and other forms of support. This work reflects General Saxena's deep commitment to serving his country and his fellow citizens
+    `,
   },
 ];
 
-module.exports = { events, workshops, team, guest };
+const expo = [
+  // AERO EXPO
+  {
+    name: "AERO EXPO",
+    image_hq: "/images/expo/aero-expo-hq.png",
+    status: "open",
+    image: "/images/expo/aero-expo.png",
+    // about: "Beat, Defeat, Win, Repeat  ",
+    // ----------------------------------------------------------------
+    details: `Experience the Future of Flight at Aero Expo, where Aviation Technology Takes Off!
+
+The dynamic display 'Aero Expo' highlights the most recent developments in aerospace technology, including modern aircrafts, drones, helicopters and it's design & control. The expo brings together specialists from the sector, aviation enthusiasts, and the general public to explore the cutting-edge innovations that are driving the future of flight. Leading manufacturers, suppliers, and service providers in the aviation sector will be demonstrating their products and make presentations at the show.
+`,
+    timeline: [""],
+    catagory: "expo",
+  },
+  {
+    name: "AUTO EXPO",
+    image_hq: "/images/expo/auto-expo-hq.png",
+    status: "open",
+    image: "/images/expo/auto-expo.png",
+    // about: "Beat, Defeat, Win, Repeat  ",
+    // ----------------------------------------------------------------
+    details: `"Rev up your engines and join us for an exhilarating ride at the MINDBEND Automobile Expo! With 20 top-of-the-line cars and 15 sleek bikes on display, get ready to experience the future of mobility on 31st March, 1st April, and 2nd April. Don't miss this opportunity to witness the latest technology and design in the automotive industry!"`,
+    timeline: [""],
+    catagory: "expo",
+  },
+  {
+    name: "DEFENCE EXPO",
+    image_hq: "/images/expo/defence-expo-hq.png",
+    status: "open",
+    image: "/images/expo/defence-expo.png",
+    // about: "Beat, Defeat, Win, Repeat  ",
+    // ----------------------------------------------------------------
+    details: `Indian Army Motto: "Sewa Paramo Dharma"
+
+The Defense Expo 🪖has been put forward by Mindbend,
+It provides a look into the field's future. The Defense Expo is a vital forum for nations to exchange ideas, form new alliances, and create a more secure world with an emphasis on✈️ innovation, collaboration, and strategic partnerships.🫂🌍
+
+
+We will feature displays from the army, navy, and air force as well as other members of the defense industry about the newest cutting-edge tools 💣and technology.🚀
+`,
+    timeline: [""],
+    catagory: "expo",
+  },
+];
+
+module.exports = { events, workshops, team, guest, expo };

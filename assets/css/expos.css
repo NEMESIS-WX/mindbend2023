@@ -1,0 +1,216 @@
+main {
+    min-width: 100vw;
+    min-height: 100vh;
+    height: auto;
+    padding: 5rem 0;
+    padding-top: 5rem;
+    margin-bottom: 5rem;
+    height: auto;
+  }
+  
+  #bg {
+    position: fixed;
+    height: 100%;
+    top: 0;
+    filter: blur(6px);
+  }
+
+  .expos-btn{
+    text-align: center; 
+    margin-top: -250px; 
+    margin-bottom: 40px;
+  }
+
+  .expos-btn button{
+    padding: 25px; 
+    border-radius: 10px;
+
+  }
+  .expos-btn button:hover{
+    border-color: #33d8f4;
+    background-color: transparent;
+  }
+
+  .expos-btn a{
+    text-decoration: none; 
+    padding: 25px; color: black;
+  }
+  .expos-btn a:hover{
+    color: #33d8f4;
+  }
+  
+  .heading,
+  .heading p {
+    font-size: 3.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    font-family: Ethnocentric;
+    color: #fff;
+  }
+  
+  .heading {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5rem;
+  }
+  .heading p {
+    margin: 0 1rem;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(255, 255, 255, 0.753);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+  
+  .catagory {
+    margin: 1rem 0;
+    width: 100vw;
+    text-align: center;
+    color: #33d8f4;
+    font-size: 2rem;
+    font-family: Ethnocentric;
+    cursor: pointer;
+  }
+  
+  .catagory:hover {
+    background: #fff;
+  }
+  
+  .events-container {
+    width: 90vw;
+    width: auto;
+    min-height: 100vh;
+    height: auto;
+    margin: 0 auto;
+    padding: 5rem;
+    padding-top: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .card {
+    position: relative;
+    margin: 20px 0.8rem;
+    width: 15rem;
+    height: 15rem;
+    background: rgb(57, 57, 57);
+    transform-style: preserve-3d;
+    transform: perspective(2000px);
+    transition: 1s;
+    box-shadow: inset 100px 0 50px rgba(0, 0, 0, 0.5);
+  }
+  
+  .card:hover {
+    z-index: 1111;
+    transform: perspective(2000px);
+    box-shadow: inset 20px 0 50px rgba(0, 0, 0, 0.5);
+  }
+  
+  .card .img-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    transform-origin: left;
+    z-index: 1;
+    transition: 1s;
+  }
+  
+  .card .img-container img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .card:hover .img-container {
+    transform: rotateY(-135deg);
+  }
+  
+  .card .card-details {
+    position: absolute;
+    left: 0;
+    top: 0;
+    box-sizing: border-box;
+    padding: 20px;
+    color: #fff;
+  }
+  
+  .card .card-details h2 {
+    margin: 0;
+    padding: 0.5em 0;
+    text-transform: uppercase;
+    font-size: 1.2em;
+  }
+  
+  .card .card-details p {
+    margin: 0;
+    padding: 0;
+    line-height: 15px;
+    font-size: 0.8em;
+    max-height: 8ch;
+    overflow: hidden;
+  }
+  
+  .card a {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 2rem;
+    width: auto;
+    margin: 1rem;
+    transition: all 0.2s ease-in-out;
+    font-size: 0.8rem;
+    background: rgb(102, 102, 102);
+    padding: 0.6rem 0.6rem;
+    border-radius: 100px;
+  }
+  
+  .card a:hover {
+    background: #fff;
+    color: #000;
+  }
+  
+  .download-file {
+    width: 100%;
+    padding: 0 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 5rem;
+  }
+  
+  .download-file a {
+    color: #33d8f4;
+  }
+  .download-file a:hover {
+    color: #fff;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .events-container {
+      padding: 2rem;
+    }
+    #workshop-heading,
+    #workshop-heading p {
+      font-size: 2rem;
+    }
+
+      .expos-btn{
+    text-align: center; 
+    margin-top: 0px; 
+    margin-bottom: 40px;
+  }
+  }
+  
+  .dissapear {
+    display: none;
+  }
+  

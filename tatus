@@ -1,0 +1,208 @@
+[33mcommit fa59c8244d0c7b3cb26f154df174c06503b4ac32[m[33m ([m[1;36mHEAD -> [m[1;32mserver[m[33m, [m[1;31morigin/server[m[33m)[m
+Author: Ubuntu <ubuntu@ip-172-31-9-218.ap-northeast-1.compute.internal>
+Date:   Fri Feb 24 04:14:30 2023 +0000
+
+    new responses were added
+
+[33mcommit 7556320bb9a6e8795ccde98e8aa4652ba5a3f680[m
+Author: Ubuntu <ubuntu@ip-172-31-9-218.ap-northeast-1.compute.internal>
+Date:   Tue Feb 14 17:01:39 2023 +0000
+
+    New ss are uploaded
+
+[33mcommit 232855ba3ac941ff687430ce2ed2ec881c664e90[m
+Author: Ubuntu <ubuntu@ip-172-31-9-218.ap-northeast-1.compute.internal>
+Date:   Sun Feb 12 19:05:46 2023 +0000
+
+    New ss are added
+
+[33mcommit d764453ea09044088fb91902033d9f83b1e0abf8[m
+Author: Ubuntu <ubuntu@ip-172-31-9-218.ap-northeast-1.compute.internal>
+Date:   Fri Feb 10 16:16:29 2023 +0000
+
+    New registartions added
+
+[33mcommit 0be5562c65115ffa2e75d06ce649dd674a82a343[m
+Author: Ubuntu <ubuntu@ip-172-31-9-218.ap-northeast-1.compute.internal>
+Date:   Tue Feb 7 16:04:36 2023 +0000
+
+    Responses - 1
+
+[33mcommit 062d65309ee9286242970e958c74ba24be637362[m
+Merge: 2b3e5b7 56d5a2d
+Author: Aniket Rana <76243585+Aniumbott@users.noreply.github.com>
+Date:   Tue Jan 31 23:17:29 2023 +0530
+
+    Merge pull request #8 from Aniumbott/development
+    
+    all required changes done - 4 ss folder added
+
+[33mcommit 56d5a2d33327893ac9f1b9393935bf93693ebd27[m
+Author: Aniumbott <aniketnareshkumarrana@gmail.com>
+Date:   Tue Jan 31 23:16:38 2023 +0530
+
+    all required changes done - 4 ss folder added
+
+[33mcommit 2b3e5b71ca7950435a27656ee6c6224fd0bd5c8e[m
+Merge: c5c94ac 359471d
+Author: Aniket Rana <76243585+Aniumbott@users.noreply.github.com>
+Date:   Tue Jan 31 23:07:54 2023 +0530
+
+    Merge pull request #7 from Aniumbott/development
+    
+    all required changes done - 3 updated mongo url
+
+[33mcommit 359471d679f91b86ce0916f9aeb1f3a19ca354ea[m
+Author: Aniumbott <aniketnareshkumarrana@gmail.com>
+Date:   Tue Jan 31 23:07:18 2023 +0530
+
+    all required changes done - 3 updated mongo url
+
+[33mcommit c5c94ac0f1c22b7202e97b5976bed1af6dc18d8c[m
+Merge: 50e510f cf37898
+Author: Aniket Rana <76243585+Aniumbott@users.noreply.github.com>
+Date:   Tue Jan 31 23:03:34 2023 +0530
+
+    Merge pull request #6 from Aniumbott/development
+    
+    Registration portal open
+
+[33mcommit cf37898d76a78eb69011edb0abe207825ce8c371[m
+Author: Aniumbott <aniketnareshkumarrana@gmail.com>
+Date:   Tue Jan 31 22:58:36 2023 +0530
+
+    all required changes done - 2
+
+[33mcommit 0a2288544a6164073db1ffd47d48c03a1537756e[m
+Merge: a3db5f3 50e510f
+Author: Aniumbott <aniketnareshkumarrana@gmail.com>
+Date:   Tue Jan 31 22:36:32 2023 +0530
+
+    Merge branch 'development' of https://github.com/Aniumbott/mindbend2023 into development
+
+[33mcommit a3db5f37a90d820dbba1825e4fbe6b3284f81e31[m
+Author: Aniumbott <aniketnareshkumarrana@gmail.com>
+Date:   Tue Jan 31 22:35:11 2023 +0530
+
+    all required changes done - 1
+
+[33mcommit 50e510fc19a73d9453c19168e33ca43b78e5c50a[m[33m ([m[1;32mmain[m[33m)[m
+Merge: 019fe74 c4676cf
+Author: Aniket Rana <76243585+Aniumbott@users.noreply.github.com>
+Date:   Mon Jan 30 21:10:52 2023 +0530
+
+    Merge pull request #4 from Aniumbott/development
+    
+    Form setup done
+
+[33mcommit c4676cf24ab1bfd04e42011575cc5e3a4a4a8803[m
+Author: Aniumbott <aniketnareshkumarrana@gmail.com>
+Date:   Mon Jan 30 01:29:38 2023 +0530
+
+    Form setup done
+
+[33mcommit 019fe74e7d394d31139d820d90a196d8e95b0fc4[m
+Author: pawanmkr <iampawanmkr@gmail.com>
+Date:   Sun Jan 29 01:03:29 2023 +0530
+
+    events can be registered now
+
+[33mcommit d8418e3b311db14c3de48d4bbbc722787cb6b48c[m
+Merge: 7334c1d 5bff200
+Author: Aniket Rana <76243585+Aniumbott@users.noreply.github.com>
+Date:   Sat Jan 28 13:54:48 2023 +0530
+
+    Merge pull request #3 from Aniumbott/main
+    
+    final up to date
+
+[33mcommit 5bff20041483ef6c3492bad9c4bd3812b1d31df6[m
+Author: Aniumbott <aniketnareshkumarrana@gmail.com>
+Date:   Tue Jan 24 16:16:37 2023 +0530
+
+    Final for presentation - 1
+
+[33mcommit 0efd33b082a54b45be8e40cf979b130b3179903b[m
+Author: Aniumbott <aniketnareshkumarrana@gmail.com>
+Date:   Tue Jan 24 00:56:16 2023 +0530
+
+    Critical completion - 3 (robowars prize contetn)
+
+[33mcommit e9d6eb79aacdfb4b1c1b9147e45ebb6041389cc0[m
+Author: Aniumbott <aniketnareshkumarrana@gmail.com>
+Date:   Tue Jan 24 00:51:17 2023 +0530
+
+    Critical completion - 2
+
+[33mcommit 84a70f3fa27fe82a7be3b3b00b873682c59bd881[m
+Author: Aniumbott <aniketnareshkumarrana@gmail.com>
+Date:   Tue Jan 24 00:36:39 2023 +0530
+
+    Critical complition - 1
+
+[33mcommit 7334c1d7c0097301b6887558f439209781cb8bc0[m
+Merge: 751e623 07301bb
+Author: Aniket Rana <76243585+Aniumbott@users.noreply.github.com>
+Date:   Sat Jan 21 19:03:04 2023 +0530
+
+    Merge pull request #2 from Aniumbott/main
+    
+    All demanded changes updated
+
+[33mcommit 07301bb6a40e8ca4fa27355c2976b3a0d12ff3a5[m
+Author: Aniumbott <122911319+NEMESIS-WX@users.noreply.github.com>
+Date:   Sat Jan 21 18:37:56 2023 +0530
+
+    defence was spelled wrong, lol
+
+[33mcommit 6f5788156a4b7d5c9290a20e42bcc2419ed97399[m
+Author: NEMESIS WX <122911319+NEMESIS-WX@users.noreply.github.com>
+Date:   Sat Jan 21 14:09:00 2023 +0530
+
+    Shivam photo extenssion updated
+
+[33mcommit da530f7a53304b76916a6d51de50617fd8656ed0[m
+Merge: 9e0d6cd 751e623
+Author: Aniket Rana <76243585+Aniumbott@users.noreply.github.com>
+Date:   Sat Jan 21 14:05:25 2023 +0530
+
+    Merge branch 'NEMESIS-WX:main' into main
+
+[33mcommit 9e0d6cdb216bb8fea6c4180bfdcb657993ca84a7[m
+Author: NEMESIS WX <122911319+NEMESIS-WX@users.noreply.github.com>
+Date:   Sat Jan 21 14:03:47 2023 +0530
+
+    the extension is in caps .JPG
+
+[33mcommit 751e623acc913e3805e67a19cceec50f7948f589[m
+Merge: a20c4a6 5a9f3ba
+Author: Aniket Rana <76243585+Aniumbott@users.noreply.github.com>
+Date:   Sat Jan 21 12:42:52 2023 +0530
+
+    Merge pull request #1 from Aniumbott/main
+    
+    team images size reduced, wictronix logo updated, defentse text updated
+
+[33mcommit 5a9f3baf49e387104e8f9b83ac9da79993274a55[m
+Author: NEMESIS WX <122911319+NEMESIS-WX@users.noreply.github.com>
+Date:   Sat Jan 21 12:38:04 2023 +0530
+
+    team images size reduced, wictronix logo updated, defentse text updated
+
+[33mcommit a20c4a68d543bc085d634057737a685788b1b6f4[m
+Author: NEMESIS WX <122911319+NEMESIS-WX@users.noreply.github.com>
+Date:   Sat Jan 21 11:53:13 2023 +0530
+
+    All files uploaded - 2 (due to 100)
+
+[33mcommit ae9859cadb2f4c52afcaceaccd5bf19b8f5b3202[m
+Author: NEMESIS WX <122911319+NEMESIS-WX@users.noreply.github.com>
+Date:   Sat Jan 21 11:50:49 2023 +0530
+
+    All files uploaded - 1 (due to 100)
+
+[33mcommit f6f92fc318189f2df0787c868e67f1b3f6e43f29[m
+Author: NEMESIS WX <122911319+NEMESIS-WX@users.noreply.github.com>
+Date:   Sat Jan 21 11:46:17 2023 +0530
+
+    Initial commit
