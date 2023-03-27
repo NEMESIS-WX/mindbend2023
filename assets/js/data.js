@@ -4008,7 +4008,7 @@ const workshops = [
     fee: "FREE",
     image_hq: "/images/workshops/hq/Cyber Security.png",
     image: "/images/workshops/New folder/Cyber Security.png",
-    details: ``,
+    details: `"Protecting Your Digital Assets: Practical Strategies for Cyber Security" - In this workshop, you'll learn essential cyber security techniques to safeguard your personal and professional data. From password management to threat detection, we'll explore the latest tools and best practices to stay secure in the digital age. Join us and take control of your online safety!`,
   },
   {
     name: "3D printing",
