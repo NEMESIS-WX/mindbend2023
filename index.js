@@ -13,7 +13,13 @@ const ExpoData = require("./schemas/expo.js");
 const { addRefCode, createDb2Connection } = require("./schemas/referral.js");
 
 app.set("view engine", "ejs");
-app.use(express.urlencoded({ extended: true }));
+app.use(
+  express.urlencoded({
+    extended: true,
+    parameterLimit: 1000000,
+    limit: "500mb",
+  })
+);
 app.use(cp("secret"));
 
 // const router = express.Router();
