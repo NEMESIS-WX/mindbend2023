@@ -4049,8 +4049,34 @@ const workshops = [
     image_hq: "/images/workshops/hq/Xtended Reality.png",
     status: "open",
     image: "/images/workshops/Xtended Reality.png",
-    details: `A workshop on exploring Metaverse through VR headsets.
-      Metaverse is a virtual space that allows users to work , interact and connect with each other outside real world. Metaverse uses blockchain, virtual reality and augmented reality to give life to virtual environment.`,
+    details: `Are you interested in learning about the exciting worlds of augmented reality (AR), virtual reality (VR), mixed reality (MR), and extended reality (XR)? With the Metaverse coming, would you like to learn how this cutting-edge technology has the huge potential to alter the reality that we live in or you still believe that these technologies are merely for game development ? Would you like to unleash its true power and understand that how these can be integrated with the current industries and even using these to address wider problems of climate change or sustainable development ! Want to know what developments and efforts are taking place to create, build and scale the same? If you want to become the part of this revolution, the " Xtended Reality " workshop is the perfect venue for you!
+
+    Cutting Edge Visionaries in collaboration with TechXR, brings the first ever Extended reality workshop at SVNIT, in one of the largest technical fest of Gujarat, Mindbend! 
+    
+    TechXR is an award-winning startup based out of Bhopal and Gurugram, working on providing hardware and software solutions in AR-VR learning and content generation field. They have also been awarded " All India Top 12 innovations " by the Department of Telecom, Govt of India in the 5G hackathon, for designing their own unique SenseXR 6 DoF Controller. 
+     
+    This workshop has been designed to provide a comprehensive introduction to this technology and equip you with an arsenal of skills and knowledge needed to be future ready.
+    <br>
+    <br>
+    Phase I : Introduction to eXtended Reality and live projects demonstration.
+    <br>
+    Phase II : Creating your own VR World and              AR experience, using the SenseXR 6 DoF Controller.
+    <br>
+    Phase III : Visiting the VR Defence Museum.
+    <br>
+    <br>
+    
+    
+    The Xtended Reality Workshop is the perfect opportunity for individuals interested in XR technologies and how can you roll them into the current industry to change and scale the way the world works! This workshop will provide you with the knowledge and skills required to excel in the world of XR development and using this knowledge to keep up with the tech for future. Don't miss out on this incredible opportunity and register for the Xtended Reality Workshop today!
+    <br>
+    Date : 1st April, 2023
+    <br>
+    Time : 4pm
+    <br>
+    Venue : CS Department, Seminar hall, 4th floor
+    <br>
+    
+    Requirements : Fully charged laptop. And bring your chargers as well.`,
   },
   {
     name: "Data Science",
