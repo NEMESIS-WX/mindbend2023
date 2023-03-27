@@ -3,6 +3,7 @@ const events = [
   {
     name: "ROBOWARS",
     image_hq: "/images/events/hq/ROBOWARS.png",
+    status: "open",
     image: "/images/events/ROBOWARS.png",
     prize: [
       `15kg Category; 1st prize: Rs. 40,000, 2nd Prize: Rs 25,000, 3rd Prize: Rs. 15,000`,
@@ -281,7 +282,8 @@ const events = [
   // model united nations
   {
     name: "MODEL UNITED NATIONS (MUN)",
-    image_hq: "/images/events/hq/mun.png",
+    image_hq: "/images/events/hq/MUN_ TANMAY.png",
+    status: "open",
     image: "/images/events/MUN_ TANMAY.png",
     prize: ["1st Prize: Rs 8000", "2nd Prize: Rs 6000"],
     fee: "Rs 30",
@@ -397,6 +399,7 @@ const events = [
   {
     name: "OVERDRIVE",
     image_hq: "/images/events/hq/MODE_ OVERDRIVE.png",
+    status: "open",
     image: "/images/events/MODE_ OVERDRIVE.png",
     prize: [
       "1st Prize: Rs 40,000",
@@ -555,6 +558,7 @@ const events = [
     name: "CARRY THE CONSIGNMENT",
     image: "/images/events/Carry the Consignment.png",
     image_hq: "/images/events/hq/Carry the Consignment.png",
+    status: "open",
     prize: [
       "1st Prize: Rs 21000",
       "2nd Prize: Rs 17000",
@@ -746,6 +750,7 @@ const events = [
   {
     name: "MAZE RUNNER",
     image_hq: "/images/events/hq/MAZE RUNNER.png",
+    status: "open",
     image: "/images/events/MAZE RUNNER.png",
     prize: ["1st Prize: Rs 15000", "2nd Prize: Rs 10000", "3rd Prize: Rs 5000"],
     fee: "Rs 100",
@@ -882,6 +887,7 @@ const events = [
   {
     name: "SKY HIGH",
     image_hq: "/images/events/hq/sky high.png",
+    status: "open",
     image: "/images/events/sky high.png",
     prize: ["1st Prize: Rs 7500", "2nd Prize: Rs 5000", "3rd Prize: Rs 2500"],
     fee: "Rs 80",
@@ -1067,6 +1073,7 @@ const events = [
   {
     name: "HUNT THE LINE",
     image_hq: "/images/events/hq/HUNT THE LINE.png",
+    status: "open",
     image: "/images/events/HUNT THE LINE.png",
     prize: ["1st Prize: Rs 15000", "2nd Prize: Rs 10000", "3rd Prize: Rs 5000"],
     fee: "Rs 100",
@@ -1195,6 +1202,7 @@ const events = [
   {
     name: "Code Wars",
     image_hq: "/images/events/hq/CODEWARS.png",
+    status: "open",
     image: "/images/events/CODEWARS.png",
     prize: ["1st Prize: Rs 12000", "2nd Prize: Rs 8000", "3rd Prize: Rs 5000"],
     fee: "Rs 50",
@@ -1296,6 +1304,7 @@ const events = [
   {
     name: "DALAL STREET-1992",
     image_hq: "/images/events/hq/DALAL STREET 1992.png",
+    status: "close",
     image: "/images/events/DALAL STREET 1992.png",
     prize: ["1st Prize: Rs 8000", "2nd Prize: Rs 6000"],
     fee: "Rs 30",
@@ -1395,7 +1404,8 @@ const events = [
   // vending masters
   {
     name: "VENDING MASTERS",
-    image_hq: "/images/events/hq/VENDING MASTERS.jpg",
+    image_hq: "/images/events/hq/VENDING MASTERS.png",
+    status: "open",
     image: "/images/events/VENDING MASTERS.png",
     prize: ["1st Prize: Rs 4500", "2nd Prize: Rs 3500", "3rd Prize: Rs 2000"],
     fee: "Rs 30",
@@ -1490,7 +1500,8 @@ const events = [
   // hustle trade
   {
     name: "HUSTLE TRADE",
-    image_hq: "/images/events/hq/hustle trade.jpg",
+    image_hq: "/images/events/hq/hustle trade.png",
+    status: "open",
     image: "/images/events/hustle trade.png",
     prize: ["1st Prize: Rs 6000", "2nd Prize: Rs 4000"],
     fee: "Rs 30",
@@ -1589,7 +1600,8 @@ const events = [
   // create your identity
   {
     name: "CREATE YOUR IDENTITY",
-    image_hq: "/images/events/hq/create your identity.jpg",
+    image_hq: "/images/events/hq/create your identity.png",
+    status: "open",
     image: "/images/events/create your identity.png",
     prize: ["1st Prize: Rs 5000", "2nd Prize: Rs 3000"],
     fee: "Rs 20",
@@ -1690,7 +1702,8 @@ const events = [
   // bluffs and bargains
   {
     name: "BLUFFS AND BARGAINS",
-    image_hq: "/images/events/hq/bluffs and bargain.jpg",
+    image_hq: "/images/events/hq/Bluffs and Bargains.png",
+    status: "open",
     image: "/images/events/Bluffs and Bargains.png",
     prize: ["1st Prize: Rs 4000", "2nd Prize: Rs 3000", "3rd Prize Rs 2000"],
     fee: "Rs 30",
@@ -1794,7 +1807,8 @@ const events = [
   // trend your brand
   {
     name: "TREND YOUR BRAND",
-    image_hq: "/images/events/hq/Trend Your Brand.jpg",
+    image_hq: "/images/events/hq/Trend Your Brand.png",
+    status: "open",
     image: "/images/events/Trend Your Brand.png",
     prize: ["1st Prize: Rs 5500", "2nd Prize: Rs 3500"],
     fee: "Rs 30",
@@ -1891,7 +1905,8 @@ const events = [
   // investomania
   {
     name: "INVESTOMANIA",
-    image_hq: "/images/events/hq/INVESTOMANIA.jpg",
+    image_hq: "/images/events/hq/INVESTOMANIA.png",
+    status: "open",
     image: "/images/events/INVESTOMANIA.png",
     prize: ["1st Prize: Rs 5000", "2nd Prize: Rs 3000"],
     fee: "Rs 30",
@@ -1993,7 +2008,8 @@ investments and how you apply and get good returns.
   // the jewels of jumanji
   {
     name: "THE JEWEL OF JUMANJI",
-    image_hq: "/images/events/hq/the jewel of jumanji.jpg",
+    image_hq: "/images/events/hq/the jewel of jumanji.png",
+    status: "open",
     image: "/images/events/the jewel of jumanji.png",
     prize: ["1st Prize: Rs 4500", "2nd Prize: Rs 3500", "3rd Prize: Rs 2000"],
     fee: "Rs 30",
@@ -2087,7 +2103,8 @@ investments and how you apply and get good returns.
   // can you beat the president
   {
     name: "CAN YOU BE THE PRESIDENT",
-    image_hq: "/images/events/hq/CAN YOU BE THE PRESIDENT.jpg",
+    image_hq: "/images/events/hq/CAN YOU BE THE PRESIDENT.png",
+    status: "close",
     image: "/images/events/CAN YOU BE THE PRESIDENT.png",
     prize: ["1st Prize: Rs 4500", "2nd Prize: Rs 3500", "3rd Prize: Rs 2000"],
     fee: "Rs 20",
@@ -2194,6 +2211,7 @@ investments and how you apply and get good returns.
   {
     name: "CAD CRACKER",
     image_hq: "/images/events/hq/cad crackers.png",
+    status: "open",
     image: "/images/events/cad crackers.png",
     prize: ["1st Prize: Rs 3500", "2nd Prize: Rs 2500", "3rd Prize: Rs 1500"],
     fee: "Rs 30",
@@ -2324,6 +2342,7 @@ investments and how you apply and get good returns.
   {
     name: "STRUCTURE FOR FUTURE",
     image_hq: "/images/events/hq/structure for future.png",
+    status: "open",
     image: "/images/events/structure for future.png",
     prize: ["1st Prize: Rs 3500", "2nd Prize: Rs 2500", "3rd Prize: Rs 1500"],
     fee: "Rs 70",
@@ -2489,6 +2508,7 @@ investments and how you apply and get good returns.
   {
     name: "CAT-A-PULT",
     image_hq: "/images/events/hq/cat-a-pult.png",
+    status: "open",
     image: "/images/events/cat-a-pult.png",
     prize: ["1st Prize: Rs 7000", "2nd Prize: Rs 5000", "3rd Prize: Rs 3000"],
     fee: "Rs 80",
@@ -2623,6 +2643,7 @@ investments and how you apply and get good returns.
   {
     name: "CHEM E CAR",
     image_hq: "/images/events/hq/chem-e-car.png",
+    status: "open",
     image: "/images/events/chem-e-car.png",
     prize: ["1st Prize: Rs 8000", "2nd Prize: Rs 5000", "3rd Prize: Rs 3000"],
     fee: "Rs 200",
@@ -2722,6 +2743,7 @@ investments and how you apply and get good returns.
   {
     name: "GAME OF BOTS",
     image_hq: "/images/events/hq/GAME OF BOTS.png",
+    status: "open",
     image: "/images/events/GAME OF BOTS.png",
     prize: ["1st Prize: Rs 3500", "2nd Prize: Rs 2500", "3nd Prize: Rs 1500"],
     fee: "Rs 70",
@@ -2858,6 +2880,7 @@ investments and how you apply and get good returns.
     name: "KRYPTOS",
     image: "/images/events/kryptos.png",
     image_hq: "/images/events/hq/kryptos.png",
+    status: "open",
     prize: ["1st Prize: Rs 3000", "2nd Prize: Rs 2000", "3rd Prize: Rs 1000"],
     fee: "Rs 80",
     // about: ``,
@@ -2985,6 +3008,7 @@ investments and how you apply and get good returns.
     name: "BALANCE IT",
     image: "/images/events/balance it.png",
     image_hq: "/images/events/hq/balance it.png",
+    status: "open",
     prize: ["1st Prize: Rs 6000", "2nd Prize: Rs 4000", "3rd Prize: Rs 3000"],
     fee: "Rs 100",
     // about: ``,
@@ -3133,6 +3157,7 @@ investments and how you apply and get good returns.
     name: "Dr. Driving",
     image: "/images/events/dr driving.png",
     image_hq: "/images/events/hq/dr driving.png",
+    status: "open",
     prize: ["1st Prize: Rs 5000", "2nd Prize: Rs 3000", "3rd Prize: Rs 2000"],
     fee: "Rs 50",
     // about: ``,
@@ -3322,6 +3347,7 @@ investments and how you apply and get good returns.
     name: "CHEM-E-JEOPARDY",
     image: "/images/events/chem-e-jeopardy.png",
     image_hq: "/images/events/hq/chem-e-jeopardy.png",
+    status: "open",
     prize: ["1st Prize: Rs 4000", "2nd Prize: Rs 2000", "3rd Prize: Rs 1000"],
     fee: "Rs 30",
     // about: ``,
@@ -3422,7 +3448,8 @@ investments and how you apply and get good returns.
   {
     name: "BUG-N-FEATURE",
     image: "/images/events/bug-n-feature.png",
-    image_hq: "/images/events/hq/bug-n-feature2.png",
+    image_hq: "/images/events/hq/bug-n-feature.png",
+    status: "open",
     prize: ["1st Prize: Rs 3500", "2nd Prize: Rs 2500", "3rd Prize: Rs 1500"],
     fee: "Rs 50",
     // about: ``,
@@ -3580,6 +3607,7 @@ investments and how you apply and get good returns.
     name: "CONNECTIFY",
     image: "/images/events/CONNECTIFY.png",
     image_hq: "/images/events/hq/CONNECTIFY.png",
+    status: "open",
     prize: ["1st Prize: Rs 3500", "2nd Prize: Rs 2500", "3rd Prize: Rs 1500"],
     fee: "Rs 50",
     // about: ``,
@@ -3705,6 +3733,7 @@ investments and how you apply and get good returns.
     name: "TECH CITY",
     image: "/images/events/tech city.png",
     image_hq: "/images/events/hq/tech city.png",
+    status: "open",
     prize: ["1st Prize: Rs 3000", "2nd Prize: Rs 2000", "3rd Prize: Rs 1000"],
     fee: "Rs 100",
     // about: ``,
@@ -3858,6 +3887,7 @@ investments and how you apply and get good returns.
     name: "DRONE ZONE",
     image: "/images/events/DRONE _ JYOTI.png",
     image_hq: "/images/events/hq/DRONE _ JYOTI.png",
+    status: "open",
     prize: ["1st Prize: Rs 45000", "2nd Prize: Rs 30000"],
     fee: "Rs 50",
     // about: ``,
@@ -3998,45 +4028,73 @@ const workshops = [
   {
     name: "Auto Cad",
     fee: "FREE",
-    image_hq: "/images/workshops/hq/AutoCAD.png",
-    image: "/images/workshops/New folder/AutoCAD.png",
+    image_hq: "/images/workshops/hq/Web_3.png",
+    status: "open",
+    image: "/images/workshops/Web_3.png",
 
     details: `Auto Cad workshop aims to provide hands-on experience and practical skills in using AutoCAD, a popular computer-aided design software. Whether you're a student, professional, or simply interested in learning more about this powerful tool, this workshop is the perfect opportunity to enhance your skills and knowledge.`,
   },
   {
-    name: "Cyber Security",
-    fee: "FREE",
-    image_hq: "/images/workshops/hq/Cyber Security.png",
-    image: "/images/workshops/New folder/Cyber Security.png",
-    details: `"Protecting Your Digital Assets: Practical Strategies for Cyber Security" - In this workshop, you'll learn essential cyber security techniques to safeguard your personal and professional data. From password management to threat detection, we'll explore the latest tools and best practices to stay secure in the digital age. Join us and take control of your online safety!`,
+    name: "Rocket Building",
+    fee: "Rs 100",
+    image_hq: "/images/workshops/hq/Rocket Building.png",
+    status: "open",
+    image: "/images/workshops/Rocket Building.png",
+    details: `A hands-on workshop on how to build basic rocket models. 
+      The workshop will provide students with an opportunity to develop engineering design skills through direct application in high-powered rocketry.`,
   },
   {
-    name: "3D printing",
-    fee: "FREE",
-    image_hq: "/images/workshops/hq/3D.png",
-    image: "/images/workshops/New folder/3D.png",
-    details: `A hands-on 3d printing workshop. 3D printing or additive manufacturing is the construction of a three-dimensional object from a CAD model or a digital 3D model.`,
+    name: "Xtended Reality",
+    fee: "Rs 30",
+    image_hq: "/images/workshops/hq/Xtended Reality.png",
+    status: "open",
+    image: "/images/workshops/Xtended Reality.png",
+    details: `A workshop on exploring Metaverse through VR headsets.
+      Metaverse is a virtual space that allows users to work , interact and connect with each other outside real world. Metaverse uses blockchain, virtual reality and augmented reality to give life to virtual environment.`,
   },
   {
-    name: "Metaverse",
-    fee: "FREE",
-    image_hq: "/images/workshops/hq/Metaverse.png",
-    image: "/images/workshops/New folder/Metaverse.png",
-    details: `A workshop on exploring Metaverse through VR headsets. Metaverse is a virtual space that allows users to work, interact and connect with each other outside the real world. Metaverse uses blockchain, virtual reality, and augmented reality to give life to the virtual environment.`,
+    name: "Data Science",
+    fee: "Rs 150",
+    image_hq: "/images/workshops/hq/Data Science.png",
+    status: "open",
+    image: "/images/workshops/Data Science.png",
+    details: `Introduction to Data Science and Data analytics.
+      Data science combines math and statistics, specialized programming, advanced analytics, artificial intelligence (AI), and machine learning . These insights can be used to guide decision making and strategic planning.`,
   },
   {
-    name: "RocketX",
-    fee: "FREE",
-    image_hq: "/images/workshops/hq/Rocketx.png",
-    image: "/images/workshops/New folder/Rocketx.png",
-    details: `A hands-on workshop on how to build basic rocket models. The workshop will provide students with an opportunity to develop engineering design skills through direct application in high-powered rocketry.`,
-  },
-  {
-    name: "Web 3.0",
+    name: "3d printing",
     fee: "Rs 60",
-    image_hq: "/images/workshops/hq/WEB 3.0.png",
-    image: "/images/workshops/New folder/WEB 3.0.png",
-    details: `What is Web 3.0? and all the recent advancements made in web 3.0. Web 3.0 is the new and upcoming iteration of the world wide web, a public network built on distributed ledger technology and a semantic architecture to enable decentralization, personalization, immersiveness, and a token-driven economy`,
+    image_hq: "/images/workshops/hq/3d printing.png",
+    status: "open",
+    image: "/images/workshops/3d printing.png",
+    details: `A hands-on 3d printing workshop.
+      3D printing or additive manufacturing is the construction of a three-dimensional object from a CAD model or a digital 3D model.
+      `,
+  },
+  {
+    name: "Gesture Robotics",
+    fee: "Rs 150",
+    image_hq: "/images/workshops/hq/Gesture Robotics.png",
+    status: "open",
+    image: "/images/workshops/Gesture Robotics.png",
+    details: `Introduction to gesture robotics and a hands-on workshop on it.
+      In this workshop, we learn about gesture controlled robots which can be controlled by your normal hand gesture. The accelerometer controls the movement of robot.`,
+  },
+  {
+    name: "Web development",
+    fee: "Rs 100",
+    image_hq: "/images/workshops/hq/Web development.png",
+    status: "open",
+    image: "/images/workshops/Web development.png",
+    details: `Web development is the building and maintenance of websites; it's the work that happens behind the scenes to make a website look great, work fast and perform well with a seamless user experience. It requires the knowledge of HTML, CSS, JavaScript etc`,
+  },
+  {
+    name: "Machine Learning",
+    fee: "FREE",
+    image_hq: "/images/workshops/hq/Machine Learning.png",
+    status: "open",
+    image: "/images/workshops/Machine Learning.png",
+    details: `Machine learning is a branch of artificial intelligence (AI) and computer science which focuses on the use of data and algorithms to imitate the way that humans learn, gradually improving its accuracy.`,
   },
 ];
 
@@ -4449,6 +4507,7 @@ const guest = [
     name: "Jatin Dalal",
     position: "CFO Wipro",
     image_hq: "/images/guest/2.jpeg",
+    status: "open",
     image: "/images/guest/jatin.jpeg",
 
     details: `Jatin Dalal is a prominent Indian business executive who is widely known for his role as the President and Chief Financial Officer (CFO) of Wipro Limited, one of the leading IT services companies in India. He was born and raised in India and received his education from the Sardar Vallabhbhai National Institute of Technology (SVNIT), where he obtained his Bachelor's degree in Mechanical Engineering.
@@ -4466,6 +4525,7 @@ const guest = [
     name: "Himesh Madaan",
     position: "Famous Youtuber",
     image_hq: "/images/guest/3.jpeg",
+    status: "open",
     image: "/images/guest/himesh.jpeg",
     details: `Himeesh Madaan is a motivational speaker, entrepreneur, performance coach, and writer. He is on a mission to help people unleash their true potential.
 
@@ -4482,6 +4542,7 @@ const guest = [
     name: "Gaurav Thakur",
     position: "Famous Youtuber",
     image_hq: "/images/guest/4.jpeg",
+    status: "open",
     image: "/images/guest/gaurav_thakur.jpeg",
     details: `Gaurav Thakur, an accomplished entrepreneur and prominent YouTuber, is the guest speaker for a technical event. He is the owner of two YouTube channels, GetsetflySCIENCE and GetsetflyFACT, and is known for his creative content creation skills. Gaurav is highly passionate about Science, Space, and technology, and despite not having an educational degree in the science stream, he has made significant contributions in the field of online education. He has established himself as a leading content creator in the industry through his dedication, hard work, and deep research. Gaurav's ability to simplify complex ideas and make them accessible to the masses has made him a trusted source of information and inspiration for millions of people around the world.`,
   },
@@ -4489,6 +4550,7 @@ const guest = [
     name: "Lt. Gen. (Dr.) V.K. Saxena",
     position: "Lieutenant",
     image_hq: "/images/guest/1.jpeg",
+    status: "open",
     image: "/images/guest/saxena.jpeg",
     details: `Lt. Gen. (Dr.) V.K. Saxena is a highly decorated and accomplished military officer in India, with a distinguished career spanning over four decades. He served as the Director General of the Corps of Army Air Defence, which is responsible for defending Indian airspace against enemy threats, including missiles, aircraft, and drones.
 
@@ -4510,6 +4572,7 @@ const expo = [
   {
     name: "AERO EXPO",
     image_hq: "/images/expo/aero-expo-hq.png",
+    status: "open",
     image: "/images/expo/aero-expo.png",
     // about: "Beat, Defeat, Win, Repeat  ",
     // ----------------------------------------------------------------
@@ -4523,6 +4586,7 @@ The dynamic display 'Aero Expo' highlights the most recent developments in aeros
   {
     name: "AUTO EXPO",
     image_hq: "/images/expo/auto-expo-hq.png",
+    status: "open",
     image: "/images/expo/auto-expo.png",
     // about: "Beat, Defeat, Win, Repeat  ",
     // ----------------------------------------------------------------
@@ -4533,6 +4597,7 @@ The dynamic display 'Aero Expo' highlights the most recent developments in aeros
   {
     name: "DEFENCE EXPO",
     image_hq: "/images/expo/defence-expo-hq.png",
+    status: "open",
     image: "/images/expo/defence-expo.png",
     // about: "Beat, Defeat, Win, Repeat  ",
     // ----------------------------------------------------------------

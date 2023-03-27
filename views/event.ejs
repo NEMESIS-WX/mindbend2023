@@ -35,16 +35,26 @@
               </ul>
             </div>
             <%if(event.rulebook != "NA"){%>
-            <a
-              id="rulebook"
-              href="<%= event.rulebook %>"
-              target="_blank"
+            <a id="rulebook" href="<%= event.rulebook %>" target="_blank"
               >Detailed rulebook &#8595;</a
             >
-            <%}%>
+            <%}%> <%if(event.status === "open"){%>
             <a onclick="form_toggle();" style="cursor: pointer"
               >Register Here</a
             >
+            <%}else {%>
+            <a
+              style="
+                cursor: default;
+                color: red;
+                background: transparent;
+                font-size: 0.8rem;
+                border: 2px solid red;
+                font-weight: 600;
+              "
+              >Registration over</a
+            >
+            <%}%>
           </div>
         </div>
         <div class="sub-container-2">
