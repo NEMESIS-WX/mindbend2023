@@ -46,6 +46,9 @@ main {
   margin: 1rem 0;
 }
 
+.details a {
+  color: #33d8f4;
+}
 .details .about {
   color: #33d8f4;
   font-weight: 600;

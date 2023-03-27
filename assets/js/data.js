@@ -3,6 +3,7 @@ const events = [
   {
     name: "ROBOWARS",
     image_hq: "/images/events/hq/ROBOWARS.png",
+    status: "open",
     image: "/images/events/ROBOWARS.png",
     prize: [
       `15kg Category; 1st prize: Rs. 40,000, 2nd Prize: Rs 25,000, 3rd Prize: Rs. 15,000`,
@@ -282,6 +283,7 @@ const events = [
   {
     name: "MODEL UNITED NATIONS (MUN)",
     image_hq: "/images/events/hq/MUN_ TANMAY.png",
+    status: "open",
     image: "/images/events/MUN_ TANMAY.png",
     prize: ["1st Prize: Rs 8000", "2nd Prize: Rs 6000"],
     fee: "Rs 30",
@@ -397,6 +399,7 @@ const events = [
   {
     name: "OVERDRIVE",
     image_hq: "/images/events/hq/MODE_ OVERDRIVE.png",
+    status: "open",
     image: "/images/events/MODE_ OVERDRIVE.png",
     prize: [
       "1st Prize: Rs 40,000",
@@ -555,6 +558,7 @@ const events = [
     name: "CARRY THE CONSIGNMENT",
     image: "/images/events/Carry the Consignment.png",
     image_hq: "/images/events/hq/Carry the Consignment.png",
+    status: "open",
     prize: [
       "1st Prize: Rs 21000",
       "2nd Prize: Rs 17000",
@@ -746,6 +750,7 @@ const events = [
   {
     name: "MAZE RUNNER",
     image_hq: "/images/events/hq/MAZE RUNNER.png",
+    status: "open",
     image: "/images/events/MAZE RUNNER.png",
     prize: ["1st Prize: Rs 15000", "2nd Prize: Rs 10000", "3rd Prize: Rs 5000"],
     fee: "Rs 100",
@@ -882,6 +887,7 @@ const events = [
   {
     name: "SKY HIGH",
     image_hq: "/images/events/hq/sky high.png",
+    status: "open",
     image: "/images/events/sky high.png",
     prize: ["1st Prize: Rs 7500", "2nd Prize: Rs 5000", "3rd Prize: Rs 2500"],
     fee: "Rs 80",
@@ -1067,6 +1073,7 @@ const events = [
   {
     name: "HUNT THE LINE",
     image_hq: "/images/events/hq/HUNT THE LINE.png",
+    status: "open",
     image: "/images/events/HUNT THE LINE.png",
     prize: ["1st Prize: Rs 15000", "2nd Prize: Rs 10000", "3rd Prize: Rs 5000"],
     fee: "Rs 100",
@@ -1195,6 +1202,7 @@ const events = [
   {
     name: "Code Wars",
     image_hq: "/images/events/hq/CODEWARS.png",
+    status: "open",
     image: "/images/events/CODEWARS.png",
     prize: ["1st Prize: Rs 12000", "2nd Prize: Rs 8000", "3rd Prize: Rs 5000"],
     fee: "Rs 50",
@@ -1296,6 +1304,7 @@ const events = [
   {
     name: "DALAL STREET-1992",
     image_hq: "/images/events/hq/DALAL STREET 1992.png",
+    status: "close",
     image: "/images/events/DALAL STREET 1992.png",
     prize: ["1st Prize: Rs 8000", "2nd Prize: Rs 6000"],
     fee: "Rs 30",
@@ -1396,6 +1405,7 @@ const events = [
   {
     name: "VENDING MASTERS",
     image_hq: "/images/events/hq/VENDING MASTERS.png",
+    status: "open",
     image: "/images/events/VENDING MASTERS.png",
     prize: ["1st Prize: Rs 4500", "2nd Prize: Rs 3500", "3rd Prize: Rs 2000"],
     fee: "Rs 30",
@@ -1491,6 +1501,7 @@ const events = [
   {
     name: "HUSTLE TRADE",
     image_hq: "/images/events/hq/hustle trade.png",
+    status: "open",
     image: "/images/events/hustle trade.png",
     prize: ["1st Prize: Rs 6000", "2nd Prize: Rs 4000"],
     fee: "Rs 30",
@@ -1590,6 +1601,7 @@ const events = [
   {
     name: "CREATE YOUR IDENTITY",
     image_hq: "/images/events/hq/create your identity.png",
+    status: "open",
     image: "/images/events/create your identity.png",
     prize: ["1st Prize: Rs 5000", "2nd Prize: Rs 3000"],
     fee: "Rs 20",
@@ -1691,6 +1703,7 @@ const events = [
   {
     name: "BLUFFS AND BARGAINS",
     image_hq: "/images/events/hq/Bluffs and Bargains.png",
+    status: "open",
     image: "/images/events/Bluffs and Bargains.png",
     prize: ["1st Prize: Rs 4000", "2nd Prize: Rs 3000", "3rd Prize Rs 2000"],
     fee: "Rs 30",
@@ -1795,6 +1808,7 @@ const events = [
   {
     name: "TREND YOUR BRAND",
     image_hq: "/images/events/hq/Trend Your Brand.png",
+    status: "open",
     image: "/images/events/Trend Your Brand.png",
     prize: ["1st Prize: Rs 5500", "2nd Prize: Rs 3500"],
     fee: "Rs 30",
@@ -1892,6 +1906,7 @@ const events = [
   {
     name: "INVESTOMANIA",
     image_hq: "/images/events/hq/INVESTOMANIA.png",
+    status: "open",
     image: "/images/events/INVESTOMANIA.png",
     prize: ["1st Prize: Rs 5000", "2nd Prize: Rs 3000"],
     fee: "Rs 30",
@@ -1994,6 +2009,7 @@ investments and how you apply and get good returns.
   {
     name: "THE JEWEL OF JUMANJI",
     image_hq: "/images/events/hq/the jewel of jumanji.png",
+    status: "open",
     image: "/images/events/the jewel of jumanji.png",
     prize: ["1st Prize: Rs 4500", "2nd Prize: Rs 3500", "3rd Prize: Rs 2000"],
     fee: "Rs 30",
@@ -2088,6 +2104,7 @@ investments and how you apply and get good returns.
   {
     name: "CAN YOU BE THE PRESIDENT",
     image_hq: "/images/events/hq/CAN YOU BE THE PRESIDENT.png",
+    status: "close",
     image: "/images/events/CAN YOU BE THE PRESIDENT.png",
     prize: ["1st Prize: Rs 4500", "2nd Prize: Rs 3500", "3rd Prize: Rs 2000"],
     fee: "Rs 20",
@@ -2194,6 +2211,7 @@ investments and how you apply and get good returns.
   {
     name: "CAD CRACKER",
     image_hq: "/images/events/hq/cad crackers.png",
+    status: "open",
     image: "/images/events/cad crackers.png",
     prize: ["1st Prize: Rs 3500", "2nd Prize: Rs 2500", "3rd Prize: Rs 1500"],
     fee: "Rs 30",
@@ -2324,6 +2342,7 @@ investments and how you apply and get good returns.
   {
     name: "STRUCTURE FOR FUTURE",
     image_hq: "/images/events/hq/structure for future.png",
+    status: "open",
     image: "/images/events/structure for future.png",
     prize: ["1st Prize: Rs 3500", "2nd Prize: Rs 2500", "3rd Prize: Rs 1500"],
     fee: "Rs 70",
@@ -2489,6 +2508,7 @@ investments and how you apply and get good returns.
   {
     name: "CAT-A-PULT",
     image_hq: "/images/events/hq/cat-a-pult.png",
+    status: "open",
     image: "/images/events/cat-a-pult.png",
     prize: ["1st Prize: Rs 7000", "2nd Prize: Rs 5000", "3rd Prize: Rs 3000"],
     fee: "Rs 80",
@@ -2623,6 +2643,7 @@ investments and how you apply and get good returns.
   {
     name: "CHEM E CAR",
     image_hq: "/images/events/hq/chem-e-car.png",
+    status: "open",
     image: "/images/events/chem-e-car.png",
     prize: ["1st Prize: Rs 8000", "2nd Prize: Rs 5000", "3rd Prize: Rs 3000"],
     fee: "Rs 200",
@@ -2722,6 +2743,7 @@ investments and how you apply and get good returns.
   {
     name: "GAME OF BOTS",
     image_hq: "/images/events/hq/GAME OF BOTS.png",
+    status: "open",
     image: "/images/events/GAME OF BOTS.png",
     prize: ["1st Prize: Rs 3500", "2nd Prize: Rs 2500", "3nd Prize: Rs 1500"],
     fee: "Rs 70",
@@ -2858,6 +2880,7 @@ investments and how you apply and get good returns.
     name: "KRYPTOS",
     image: "/images/events/kryptos.png",
     image_hq: "/images/events/hq/kryptos.png",
+    status: "open",
     prize: ["1st Prize: Rs 3000", "2nd Prize: Rs 2000", "3rd Prize: Rs 1000"],
     fee: "Rs 80",
     // about: ``,
@@ -2985,6 +3008,7 @@ investments and how you apply and get good returns.
     name: "BALANCE IT",
     image: "/images/events/balance it.png",
     image_hq: "/images/events/hq/balance it.png",
+    status: "open",
     prize: ["1st Prize: Rs 6000", "2nd Prize: Rs 4000", "3rd Prize: Rs 3000"],
     fee: "Rs 100",
     // about: ``,
@@ -3133,6 +3157,7 @@ investments and how you apply and get good returns.
     name: "Dr. Driving",
     image: "/images/events/dr driving.png",
     image_hq: "/images/events/hq/dr driving.png",
+    status: "open",
     prize: ["1st Prize: Rs 5000", "2nd Prize: Rs 3000", "3rd Prize: Rs 2000"],
     fee: "Rs 50",
     // about: ``,
@@ -3322,6 +3347,7 @@ investments and how you apply and get good returns.
     name: "CHEM-E-JEOPARDY",
     image: "/images/events/chem-e-jeopardy.png",
     image_hq: "/images/events/hq/chem-e-jeopardy.png",
+    status: "open",
     prize: ["1st Prize: Rs 4000", "2nd Prize: Rs 2000", "3rd Prize: Rs 1000"],
     fee: "Rs 30",
     // about: ``,
@@ -3423,6 +3449,7 @@ investments and how you apply and get good returns.
     name: "BUG-N-FEATURE",
     image: "/images/events/bug-n-feature.png",
     image_hq: "/images/events/hq/bug-n-feature.png",
+    status: "open",
     prize: ["1st Prize: Rs 3500", "2nd Prize: Rs 2500", "3rd Prize: Rs 1500"],
     fee: "Rs 50",
     // about: ``,
@@ -3580,6 +3607,7 @@ investments and how you apply and get good returns.
     name: "CONNECTIFY",
     image: "/images/events/CONNECTIFY.png",
     image_hq: "/images/events/hq/CONNECTIFY.png",
+    status: "open",
     prize: ["1st Prize: Rs 3500", "2nd Prize: Rs 2500", "3rd Prize: Rs 1500"],
     fee: "Rs 50",
     // about: ``,
@@ -3705,6 +3733,7 @@ investments and how you apply and get good returns.
     name: "TECH CITY",
     image: "/images/events/tech city.png",
     image_hq: "/images/events/hq/tech city.png",
+    status: "open",
     prize: ["1st Prize: Rs 3000", "2nd Prize: Rs 2000", "3rd Prize: Rs 1000"],
     fee: "Rs 100",
     // about: ``,
@@ -3858,6 +3887,7 @@ investments and how you apply and get good returns.
     name: "DONE ZONE",
     image: "/images/events/DRONE _ JYOTI.png",
     image_hq: "/images/events/hq/DRONE _ JYOTI.png",
+    status: "open",
     prize: ["1st Prize: Rs 45000", "2nd Prize: Rs 30000"],
     fee: "Rs 50",
     // about: ``,
@@ -3999,6 +4029,7 @@ const workshops = [
     name: "Web 3.0",
     fee: "FREE",
     image_hq: "/images/workshops/hq/Web_3.png",
+    status: "open",
     image: "/images/workshops/Web_3.png",
 
     details: `What is Web 3.0? and all the recent advancements made in web 3.0. 
@@ -4008,22 +4039,57 @@ const workshops = [
     name: "Rocket Building",
     fee: "Rs 100",
     image_hq: "/images/workshops/hq/Rocket Building.png",
+    status: "open",
     image: "/images/workshops/Rocket Building.png",
     details: `A hands-on workshop on how to build basic rocket models. 
       The workshop will provide students with an opportunity to develop engineering design skills through direct application in high-powered rocketry.`,
   },
   {
-    name: "Xtended Reality",
+    name: "Xtended Reality Workshop",
     fee: "Rs 30",
     image_hq: "/images/workshops/hq/Xtended Reality.png",
+    status: "open",
     image: "/images/workshops/Xtended Reality.png",
-    details: `A workshop on exploring Metaverse through VR headsets.
-      Metaverse is a virtual space that allows users to work , interact and connect with each other outside real world. Metaverse uses blockchain, virtual reality and augmented reality to give life to virtual environment.`,
+    details: `Are you interested in learning about the exciting worlds of augmented reality (AR), virtual reality (VR), mixed reality (MR), and extended reality (XR)? With the Metaverse coming, would you like to learn how this cutting-edge technology has the huge potential to alter the reality that we live in or you still believe that these technologies are merely for game development ? Would you like to unleash its true power and understand that how these can be integrated with the current industries and even using these to address wider problems of climate change or sustainable development ! Want to know what developments and efforts are taking place to create, build and scale the same? If you want to become the part of this revolution, the " Xtended Reality " workshop is the perfect venue for you!
+
+    Cutting Edge Visionaries in collaboration with TechXR, brings the first ever Extended reality workshop at SVNIT, in one of the largest technical fest of Gujarat, Mindbend! 
+    
+    TechXR is an award-winning startup based out of Bhopal and Gurugram, working on providing hardware and software solutions in AR-VR learning and content generation field. They have also been awarded " All India Top 12 innovations " by the Department of Telecom, Govt of India in the 5G hackathon, for designing their own unique SenseXR 6 DoF Controller. 
+     
+    This workshop has been designed to provide a comprehensive introduction to this technology and equip you with an arsenal of skills and knowledge needed to be future ready.
+    <br>
+    <br>
+    Phase I : Introduction to eXtended Reality and live projects demonstration.
+    <br>
+    Phase II : Creating your own VR World and              AR experience, using the SenseXR 6 DoF Controller.
+    <br>
+    Phase III : Visiting the VR Defence Museum.
+    <br>
+    <br>
+    
+    The Xtended Reality Workshop is the perfect opportunity for individuals interested in XR technologies and how can you roll them into the current industry to change and scale the way the world works! This workshop will provide you with the knowledge and skills required to excel in the world of XR development and using this knowledge to keep up with the tech for future. Don't miss out on this incredible opportunity and register for the Xtended Reality Workshop today!
+    <br>
+    <br>
+    
+    Registration link : <a href="https://mindbendsvnit.in/workshops/Metaverse">https://mindbendsvnit.in/workshops/Metaverse </a>
+    <br>
+    
+    Date : 1st April, 2023
+    <br>
+    
+    Time : 4pm
+    <br>
+    
+    Venue : CS Department, Seminar hall, 4th floor
+    <br>
+    
+    Requirements : Fully charged laptop. And bring your chargers as well.`,
   },
   {
     name: "Data Science",
     fee: "Rs 150",
     image_hq: "/images/workshops/hq/Data Science.png",
+    status: "open",
     image: "/images/workshops/Data Science.png",
     details: `Introduction to Data Science and Data analytics.
       Data science combines math and statistics, specialized programming, advanced analytics, artificial intelligence (AI), and machine learning . These insights can be used to guide decision making and strategic planning.`,
@@ -4032,6 +4098,7 @@ const workshops = [
     name: "3d printing",
     fee: "Rs 60",
     image_hq: "/images/workshops/hq/3d printing.png",
+    status: "open",
     image: "/images/workshops/3d printing.png",
     details: `A hands-on 3d printing workshop.
       3D printing or additive manufacturing is the construction of a three-dimensional object from a CAD model or a digital 3D model.
@@ -4041,6 +4108,7 @@ const workshops = [
     name: "Gesture Robotics",
     fee: "Rs 150",
     image_hq: "/images/workshops/hq/Gesture Robotics.png",
+    status: "open",
     image: "/images/workshops/Gesture Robotics.png",
     details: `Introduction to gesture robotics and a hands-on workshop on it.
       In this workshop, we learn about gesture controlled robots which can be controlled by your normal hand gesture. The accelerometer controls the movement of robot.`,
@@ -4049,6 +4117,7 @@ const workshops = [
     name: "Web development",
     fee: "Rs 100",
     image_hq: "/images/workshops/hq/Web development.png",
+    status: "open",
     image: "/images/workshops/Web development.png",
     details: `Web development is the building and maintenance of websites; it's the work that happens behind the scenes to make a website look great, work fast and perform well with a seamless user experience. It requires the knowledge of HTML, CSS, JavaScript etc`,
   },
@@ -4056,6 +4125,7 @@ const workshops = [
     name: "Machine Learning",
     fee: "FREE",
     image_hq: "/images/workshops/hq/Machine Learning.png",
+    status: "open",
     image: "/images/workshops/Machine Learning.png",
     details: `Machine learning is a branch of artificial intelligence (AI) and computer science which focuses on the use of data and algorithms to imitate the way that humans learn, gradually improving its accuracy.`,
   },
