@@ -3074,7 +3074,7 @@ investments and how you apply and get good returns.
       </ul>
     `,
     timeline: [],
-    rulebook: "NA",
+    rulebook: "/docs/rulebooks/BALANCE IT Rulebook 2023.pdf",
     rules: [
       "Bot must be autonomous detecting the white and black track. ",
       "Width of bot should be around 60-70 cm (as width of track = 80-90 cm",
