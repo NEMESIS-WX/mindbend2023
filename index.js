@@ -82,6 +82,16 @@ app.get("/workshops", (req, res) => {
   res.render("workshops", { workshops: workshops });
 });
 
+app.get("/workshops/Metaverse", (req, res) => {
+  res.render("workshop", {
+    workshop: workshops.filter(function (e) {
+      if (e.name === "Xtended Reality") {
+        return e;
+      }
+    })[0],
+  });
+});
+
 app.get("/workshops/:wname", (req, res) => {
   res.render("workshop", {
     workshop: workshops.filter(function (e) {
