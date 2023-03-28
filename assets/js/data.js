@@ -2211,7 +2211,7 @@ investments and how you apply and get good returns.
   {
     name: "CAD CRACKER",
     image_hq: "/images/events/hq/cad crackers.png",
-    status: "open",
+    status: "close",
     image: "/images/events/cad crackers.png",
     prize: ["1st Prize: Rs 3500", "2nd Prize: Rs 2500", "3rd Prize: Rs 1500"],
     fee: "Rs 30",
@@ -2880,7 +2880,7 @@ investments and how you apply and get good returns.
     name: "KRYPTOS",
     image: "/images/events/kryptos.png",
     image_hq: "/images/events/hq/kryptos.png",
-    status: "open",
+    status: "close",
     prize: ["1st Prize: Rs 3000", "2nd Prize: Rs 2000", "3rd Prize: Rs 1000"],
     fee: "Rs 80",
     // about: ``,
