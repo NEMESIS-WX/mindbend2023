@@ -1501,7 +1501,7 @@ const events = [
   {
     name: "HUSTLE TRADE",
     image_hq: "/images/events/hq/hustle trade.png",
-    status: "open",
+    status: "close",
     image: "/images/events/hustle trade.png",
     prize: ["1st Prize: Rs 6000", "2nd Prize: Rs 4000"],
     fee: "Rs 30",
@@ -1601,7 +1601,7 @@ const events = [
   {
     name: "CREATE YOUR IDENTITY",
     image_hq: "/images/events/hq/create your identity.png",
-    status: "open",
+    status: "close",
     image: "/images/events/create your identity.png",
     prize: ["1st Prize: Rs 5000", "2nd Prize: Rs 3000"],
     fee: "Rs 20",
