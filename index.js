@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 8080;
 const { events, workshops, team, guest, expo } = require("./assets/js/data.js");
 const formData = require("./schemas/formData.js");
 const ExpoData = require("./schemas/expo.js");
-const { addRefCode, createDb2Connection } = require("./schemas/referral.js");
+// const { addRefCode, createDb2Connection } = require("./schemas/referral.js");
 
 app.set("view engine", "ejs");
 app.use(
@@ -25,15 +25,15 @@ app.use(cp("secret"));
 // const router = express.Router();
 
 // Connect to db
-mongoose
-  .connect("mongodb://localhost:27017/MindBend")
-  .then(() => {
-    console.log("db connected");
-  })
-  .catch((err) => console.log(err));
+// mongoose
+//   .connect("mongodb://localhost:27017/MindBend")
+//   .then(() => {
+//     console.log("db connected");
+//   })
+//   .catch((err) => console.log(err));
 
 // second db for referrals
-createDb2Connection();
+// createDb2Connection();
 
 // Static files
 app.use(express.static("assets"));
